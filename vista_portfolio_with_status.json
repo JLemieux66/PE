@@ -1,0 +1,1178 @@
+{
+  "pe_firm": "Vista Equity Partners",
+  "extraction_date": "2025-10-22 13:52:30",
+  "total_companies": 145,
+  "current_portfolio": 92,
+  "former_portfolio": 53,
+  "extraction_time_seconds": 7.4,
+  "companies": [
+    {
+      "name": "Accelya",
+      "status": "current",
+      "industry": "supply-chain-transportation",
+      "headquarters": "international-spain",
+      "fund": "perennial",
+      "website": "http://www.accelya.com/"
+    },
+    {
+      "name": "Accruent",
+      "status": "former",
+      "industry": "real-estate",
+      "headquarters": "south",
+      "fund": "foundation",
+      "website": "http://www.accruent.com/"
+    },
+    {
+      "name": "Acquia",
+      "status": "current",
+      "industry": "sales-marketing",
+      "headquarters": "northeast",
+      "fund": "flagship",
+      "website": "https://www.acquia.com/"
+    },
+    {
+      "name": "Active Network",
+      "status": "former",
+      "industry": "sports-entertainment-recreation",
+      "headquarters": "south",
+      "fund": "flagship foundation",
+      "website": "http://www.activenetwork.com/"
+    },
+    {
+      "name": "Acumatica",
+      "status": "current",
+      "industry": "industrials",
+      "headquarters": "west",
+      "fund": "flagship",
+      "website": "https://www.acumatica.com/"
+    },
+    {
+      "name": "Aderant",
+      "status": "former",
+      "industry": "legal-risk-compliance",
+      "headquarters": "south",
+      "fund": "flagship",
+      "website": "http://www.aderant.com/"
+    },
+    {
+      "name": "Advicent Solutions",
+      "status": "former",
+      "industry": "financial-services",
+      "headquarters": "midwest",
+      "fund": "flagship",
+      "website": "http://www.advicentsolutions.com/"
+    },
+    {
+      "name": "AGDATA",
+      "status": "former",
+      "industry": "data-analytics",
+      "headquarters": "south",
+      "fund": "foundation",
+      "website": "http://www.agdata.com/"
+    },
+    {
+      "name": "Alegeus",
+      "status": "current",
+      "industry": "healthcare",
+      "headquarters": "northeast",
+      "fund": "flagship",
+      "website": "http://www.alegeus.com/"
+    },
+    {
+      "name": "AlertMedia",
+      "status": "current",
+      "industry": "legal-risk-compliance",
+      "headquarters": "south",
+      "fund": "foundation",
+      "website": "https://www.alertmedia.com/"
+    },
+    {
+      "name": "Allocate Software",
+      "status": "former",
+      "industry": "healthcare",
+      "headquarters": "international-uk",
+      "fund": "foundation",
+      "website": "http://www.allocatesoftware.com/"
+    },
+    {
+      "name": "Allvue Systems",
+      "status": "current",
+      "industry": "financial-services",
+      "headquarters": "south",
+      "fund": "flagship",
+      "website": "https://www.allvuesystems.com/"
+    },
+    {
+      "name": "Amtech",
+      "status": "current",
+      "industry": "industrials",
+      "headquarters": "northeast",
+      "fund": "foundation",
+      "website": "https://www.amtechsoftware.com/"
+    },
+    {
+      "name": "Applause",
+      "status": "current",
+      "industry": "application-development",
+      "headquarters": "northeast",
+      "fund": "flagship",
+      "website": "https://www.applause.com/"
+    },
+    {
+      "name": "Applied Systems",
+      "status": "former",
+      "industry": "insurance",
+      "headquarters": "midwest",
+      "fund": "flagship",
+      "website": "http://www.appliedsystems.com/"
+    },
+    {
+      "name": "Apptio",
+      "status": "former",
+      "industry": "it-operations",
+      "headquarters": "west",
+      "fund": "flagship",
+      "website": "http://www.apptio.com/"
+    },
+    {
+      "name": "Aptean",
+      "status": "former",
+      "industry": "industrials",
+      "headquarters": "south",
+      "fund": "foundation",
+      "website": "http://www.aptean.com/"
+    },
+    {
+      "name": "ARCOS",
+      "status": "current",
+      "industry": "enterprise-resource-planning",
+      "headquarters": "midwest",
+      "fund": "foundation",
+      "website": "https://www.arcos-inc.com/"
+    },
+    {
+      "name": "Aspect",
+      "status": "former",
+      "industry": "sales-marketing",
+      "headquarters": "west",
+      "fund": "flagship",
+      "website": "http://www.aspect.com/"
+    },
+    {
+      "name": "Aspira",
+      "status": "former",
+      "industry": "government",
+      "headquarters": "south",
+      "fund": "flagship",
+      "website": "https://aspiraconnect.com/"
+    },
+    {
+      "name": "Assent Compliance",
+      "status": "current",
+      "industry": "legal-risk-compliance",
+      "headquarters": "international-canada",
+      "fund": "foundation",
+      "website": "https://www.assentcompliance.com/"
+    },
+    {
+      "name": "Avalara",
+      "status": "current",
+      "industry": "legal-risk-compliance",
+      "headquarters": "west",
+      "fund": "flagship",
+      "website": "https://www.avalara.com/us/en/index.html"
+    },
+    {
+      "name": "Benchmark Gensuite",
+      "status": "current",
+      "industry": "legal-risk-compliance",
+      "headquarters": "midwest",
+      "fund": "endeavor",
+      "website": "https://www.benchmarkgensuite.com/"
+    },
+    {
+      "name": "BetterCloud",
+      "status": "current",
+      "industry": "it-operations",
+      "headquarters": "northeast",
+      "fund": "foundation",
+      "website": "https://www.bettercloud.com/"
+    },
+    {
+      "name": "BigMachines",
+      "status": "former",
+      "industry": "sales-marketing",
+      "headquarters": "midwest",
+      "fund": "foundation",
+      "website": "http://www.bigmachines.com/"
+    },
+    {
+      "name": "BigTime Software",
+      "status": "current",
+      "industry": "enterprise-resource-planning",
+      "headquarters": "midwest",
+      "fund": "endeavor",
+      "website": "https://www.bigtime.net/"
+    },
+    {
+      "name": "BlueConic",
+      "status": "current",
+      "industry": "data-analytics",
+      "headquarters": "northeast",
+      "fund": "endeavor",
+      "website": "https://www.blueconic.com/"
+    },
+    {
+      "name": "Bonterra",
+      "status": "current",
+      "industry": "nonprofit",
+      "headquarters": "south",
+      "fund": "foundation",
+      "website": "https://www.bonterratech.com/"
+    },
+    {
+      "name": "Brainware",
+      "status": "former",
+      "industry": "data-analytics",
+      "headquarters": "south",
+      "fund": "flagship",
+      "website": "http://www.brainware.com/"
+    },
+    {
+      "name": "Bullhorn",
+      "status": "former",
+      "industry": "hr-recruiting",
+      "headquarters": "northeast",
+      "fund": "flagship foundation",
+      "website": "http://www.bullhorn.com/"
+    },
+    {
+      "name": "CentralSquare Technologies",
+      "status": "current",
+      "industry": "government",
+      "headquarters": "south",
+      "fund": "flagship",
+      "website": "https://www.centralsquare.com/"
+    },
+    {
+      "name": "Cloud Software Group",
+      "status": "current",
+      "industry": "it-operations",
+      "headquarters": "south",
+      "fund": "flagship",
+      "website": "https://www.cloud.com/"
+    },
+    {
+      "name": "COMPLY",
+      "status": "current",
+      "industry": "legal-risk-compliance",
+      "headquarters": "northeast",
+      "fund": "endeavor",
+      "website": "https://www.comply.com/"
+    },
+    {
+      "name": "Critical Start",
+      "status": "current",
+      "industry": "security",
+      "headquarters": "south",
+      "fund": "foundation",
+      "website": "https://www.criticalstart.com/"
+    },
+    {
+      "name": "Cvent",
+      "status": "former",
+      "industry": "hospitality",
+      "headquarters": "south",
+      "fund": "flagship",
+      "website": "http://www.cvent.com/"
+    },
+    {
+      "name": "Datto",
+      "status": "former",
+      "industry": "it-operations",
+      "headquarters": "northeast",
+      "fund": "flagship foundation",
+      "website": "https://www.datto.com/"
+    },
+    {
+      "name": "Dispatch",
+      "status": "current",
+      "industry": "enterprise-resource-planning",
+      "headquarters": "northeast",
+      "fund": "endeavor",
+      "website": "http://www.dispatch.me/"
+    },
+    {
+      "name": "Duck Creek Technologies",
+      "status": "current",
+      "industry": "insurance",
+      "headquarters": "northeast",
+      "fund": "flagship",
+      "website": "https://www.duckcreek.com/"
+    },
+    {
+      "name": "EAB",
+      "status": "current",
+      "industry": "education",
+      "headquarters": "south",
+      "fund": "flagship",
+      "website": "https://www.eab.com/"
+    },
+    {
+      "name": "Eagleview",
+      "status": "current",
+      "industry": "insurance",
+      "headquarters": "northeast",
+      "fund": "flagship",
+      "website": "http://www.eagleview.com/"
+    },
+    {
+      "name": "Ellucian",
+      "status": "current",
+      "industry": "education",
+      "headquarters": "south",
+      "fund": "perennial",
+      "website": "https://www.ellucian.com/"
+    },
+    {
+      "name": "Energy Exemplar",
+      "status": "current",
+      "industry": "energy",
+      "headquarters": "international-au",
+      "fund": "foundation",
+      "website": "https://www.energyexemplar.com/"
+    },
+    {
+      "name": "ESO Solutions",
+      "status": "current",
+      "industry": "healthcare",
+      "headquarters": "south",
+      "fund": "foundation",
+      "website": "https://www.eso.com/"
+    },
+    {
+      "name": "Finastra",
+      "status": "current",
+      "industry": "financial-services",
+      "headquarters": "international-uk",
+      "fund": "flagship",
+      "website": "http://www.finastra.com/"
+    },
+    {
+      "name": "Flash",
+      "status": "current",
+      "industry": "automotive",
+      "headquarters": "south",
+      "fund": "foundation",
+      "website": "https://www.flashparking.com/"
+    },
+    {
+      "name": "Forcepoint",
+      "status": "former",
+      "industry": "security",
+      "headquarters": "south",
+      "fund": "flagship",
+      "website": "http://www.forcepoint.com/"
+    },
+    {
+      "name": "Fusion Risk Management",
+      "status": "current",
+      "industry": "legal-risk-compliance",
+      "headquarters": "midwest",
+      "fund": "endeavor",
+      "website": "http://www.fusionrm.com/"
+    },
+    {
+      "name": "Gainsight",
+      "status": "current",
+      "industry": "sales-marketing",
+      "headquarters": "west",
+      "fund": "flagship",
+      "website": "https://www.gainsight.com/"
+    },
+    {
+      "name": "Gatekeeper",
+      "status": "current",
+      "industry": "legal-risk-compliance",
+      "headquarters": "international-uk",
+      "fund": "endeavor",
+      "website": "https://www.gatekeeperhq.com/"
+    },
+    {
+      "name": "Gnosis Freight",
+      "status": "current",
+      "industry": "supply-chain-transportation",
+      "headquarters": "south",
+      "fund": "endeavor",
+      "website": "https://www.gnosisfreight.com/"
+    },
+    {
+      "name": "Granicus",
+      "status": "current",
+      "industry": "government",
+      "headquarters": "west",
+      "fund": "foundation",
+      "website": "https://granicus.com/"
+    },
+    {
+      "name": "Greenway Health",
+      "status": "current",
+      "industry": "healthcare",
+      "headquarters": "south",
+      "fund": "flagship",
+      "website": "http://www.greenwayhealth.com/"
+    },
+    {
+      "name": "iCIMS",
+      "status": "current",
+      "industry": "hr-recruiting",
+      "headquarters": "northeast",
+      "fund": "flagship",
+      "website": "http://www.icims.com/"
+    },
+    {
+      "name": "Infoblox",
+      "status": "current",
+      "industry": "security",
+      "headquarters": "west",
+      "fund": "flagship",
+      "website": "http://www.infoblox.com/"
+    },
+    {
+      "name": "Innovapptive",
+      "status": "current",
+      "industry": "industrials",
+      "headquarters": "south",
+      "fund": "endeavor",
+      "website": "https://www.innovapptive.com/"
+    },
+    {
+      "name": "Integral Ad Science",
+      "status": "current",
+      "industry": "media-publishing-advertising",
+      "headquarters": "northeast",
+      "fund": "flagship",
+      "website": "http://www.integralads.com/"
+    },
+    {
+      "name": "InvoiceCloud",
+      "status": "current",
+      "industry": "government",
+      "headquarters": "northeast",
+      "fund": "flagship",
+      "website": "https://invoicecloud.net/"
+    },
+    {
+      "name": "JAGGAER",
+      "status": "current",
+      "industry": "enterprise-resource-planning",
+      "headquarters": "south",
+      "fund": "flagship",
+      "website": "https://www.jaggaer.com/"
+    },
+    {
+      "name": "Jamf",
+      "status": "current",
+      "industry": "it-operations",
+      "headquarters": "midwest",
+      "fund": "flagship",
+      "website": "https://www.jamf.com/"
+    },
+    {
+      "name": "Jio",
+      "status": "current",
+      "industry": "telecom",
+      "headquarters": "international-india",
+      "fund": "flagship",
+      "website": "https://www.jio.com/"
+    },
+    {
+      "name": "Khoros",
+      "status": "former",
+      "industry": "sales-marketing",
+      "headquarters": "south",
+      "fund": "foundation",
+      "website": "https://khoros.com/"
+    },
+    {
+      "name": "KIBO Software",
+      "status": "current",
+      "industry": "retail",
+      "headquarters": "south",
+      "fund": "foundation",
+      "website": "http://kibocommerce.com/"
+    },
+    {
+      "name": "Klarna",
+      "status": "current",
+      "industry": "retail",
+      "headquarters": "international-spain",
+      "fund": "flagship",
+      "website": "https://www.klarna.com/us/"
+    },
+    {
+      "name": "KnowBe4",
+      "status": "current",
+      "industry": "security",
+      "headquarters": "south",
+      "fund": "flagship",
+      "website": "https://www.knowbe4.com/"
+    },
+    {
+      "name": "LifeLoop",
+      "status": "current",
+      "industry": "healthcare",
+      "headquarters": "west",
+      "fund": "endeavor",
+      "website": "https://lifeloop.com/"
+    },
+    {
+      "name": "LogicMonitor",
+      "status": "current",
+      "industry": "it-operations",
+      "headquarters": "west",
+      "fund": "foundation",
+      "website": "http://www.logicmonitor.com/"
+    },
+    {
+      "name": "Lone Wolf Real Estate Technologies Inc.",
+      "status": "former",
+      "industry": "real-estate",
+      "headquarters": "international-canada",
+      "fund": "foundation",
+      "website": "http://www.lwolf.com/"
+    },
+    {
+      "name": "Lucid",
+      "status": "current",
+      "industry": "collaboration",
+      "headquarters": "west",
+      "fund": "flagship",
+      "website": "https://lucid.co/"
+    },
+    {
+      "name": "mabl",
+      "status": "current",
+      "industry": "application-development",
+      "headquarters": "northeast",
+      "fund": "endeavor",
+      "website": "https://www.mabl.com/"
+    },
+    {
+      "name": "Main Street Hub",
+      "status": "former",
+      "industry": "sales-marketing",
+      "headquarters": "south",
+      "fund": "foundation",
+      "website": "http://www.mainstreethub.com/"
+    },
+    {
+      "name": "Marketo",
+      "status": "former",
+      "industry": "sales-marketing",
+      "headquarters": "west",
+      "fund": "flagship",
+      "website": "https://www.marketo.com/"
+    },
+    {
+      "name": "Mediaocean",
+      "status": "former",
+      "industry": "media-publishing-advertising",
+      "headquarters": "northeast",
+      "fund": "flagship",
+      "website": "http://www.mediaocean.com/"
+    },
+    {
+      "name": "MedTrainer",
+      "status": "current",
+      "industry": "healthcare",
+      "headquarters": "west",
+      "fund": "endeavor",
+      "website": "https://medtrainer.com/"
+    },
+    {
+      "name": "Menlo Security",
+      "status": "current",
+      "industry": "security",
+      "headquarters": "west",
+      "fund": "foundation",
+      "website": "https://www.menlosecurity.com/"
+    },
+    {
+      "name": "MicroEdge",
+      "status": "former",
+      "industry": "nonprofit",
+      "headquarters": "northeast",
+      "fund": "foundation",
+      "website": "http://www.microedge.com/"
+    },
+    {
+      "name": "Mitratech",
+      "status": "former",
+      "industry": "legal-risk-compliance",
+      "headquarters": "south",
+      "fund": "foundation",
+      "website": "http://www.mitratech.com/"
+    },
+    {
+      "name": "Model N",
+      "status": "current",
+      "industry": "healthcare",
+      "headquarters": "west",
+      "fund": "flagship",
+      "website": "https://www.modeln.com/"
+    },
+    {
+      "name": "MRI Software",
+      "status": "former",
+      "industry": "real-estate",
+      "headquarters": "midwest",
+      "fund": "flagship",
+      "website": "http://www.mrisoftware.com/"
+    },
+    {
+      "name": "Nasuni",
+      "status": "current",
+      "industry": "it-operations",
+      "headquarters": "northeast",
+      "fund": "foundation",
+      "website": "https://www.nasuni.com/"
+    },
+    {
+      "name": "NAVEX",
+      "status": "current",
+      "industry": "legal-risk-compliance",
+      "headquarters": "west",
+      "fund": "flagship",
+      "website": "https://www.navex.com/"
+    },
+    {
+      "name": "Naviga",
+      "status": "current",
+      "industry": "media-publishing-advertising",
+      "headquarters": "midwest",
+      "fund": "foundation",
+      "website": "http://www.navigaglobal.com/"
+    },
+    {
+      "name": "Numerator",
+      "status": "former",
+      "industry": "media-publishing-advertising",
+      "headquarters": "midwest",
+      "fund": "flagship",
+      "website": "https://numerator.com/"
+    },
+    {
+      "name": "OfficeSpace",
+      "status": "current",
+      "industry": "real-estate",
+      "headquarters": "south",
+      "fund": "endeavor",
+      "website": "https://www.officespacesoftware.com/"
+    },
+    {
+      "name": "Olive.AI",
+      "status": "former",
+      "industry": "healthcare",
+      "headquarters": "northeast",
+      "fund": "flagship",
+      "website": "https://oliveai.com/"
+    },
+    {
+      "name": "OneAdvanced",
+      "status": "current",
+      "industry": "enterprise-resource-planning",
+      "headquarters": "international-uk",
+      "fund": "flagship",
+      "website": "https://www.oneadvanced.com/en-us/"
+    },
+    {
+      "name": "P2 Energy Solutions",
+      "status": "former",
+      "industry": "energy",
+      "headquarters": "west",
+      "fund": "flagship",
+      "website": "http://www.p2energysolutions.com/"
+    },
+    {
+      "name": "Ping Identity",
+      "status": "former",
+      "industry": "security",
+      "headquarters": "west",
+      "fund": "flagship",
+      "website": "http://www.pingidentity.com/"
+    },
+    {
+      "name": "Pipedrive",
+      "status": "current",
+      "industry": "sales-marketing",
+      "headquarters": "international-spain",
+      "fund": "flagship",
+      "website": "https://www.pipedrive.com/"
+    },
+    {
+      "name": "PlanSource",
+      "status": "current",
+      "industry": "hr-recruiting",
+      "headquarters": "south",
+      "fund": "flagship",
+      "website": "https://plansource.com/"
+    },
+    {
+      "name": "Playlist",
+      "status": "current",
+      "industry": "sports-entertainment-recreation",
+      "headquarters": "west",
+      "fund": "flagship",
+      "website": "https://www.playlist.com/"
+    },
+    {
+      "name": "Pluralsight",
+      "status": "former",
+      "industry": "education",
+      "headquarters": "west",
+      "fund": "flagship",
+      "website": "https://www.pluralsight.com/"
+    },
+    {
+      "name": "Poppulo",
+      "status": "current",
+      "industry": "hr-recruiting",
+      "headquarters": "west",
+      "fund": "foundation",
+      "website": "https://www.poppulo.com/"
+    },
+    {
+      "name": "Portside",
+      "status": "current",
+      "industry": "supply-chain-transportation",
+      "headquarters": "south",
+      "fund": "endeavor",
+      "website": "https://portside.co/"
+    },
+    {
+      "name": "Power Factors",
+      "status": "current",
+      "industry": "energy",
+      "headquarters": "west",
+      "fund": "foundation",
+      "website": "https://powerfactors.com/"
+    },
+    {
+      "name": "PowerSchool",
+      "status": "current",
+      "industry": "education",
+      "headquarters": "west",
+      "fund": "flagship",
+      "website": "http://www.powerschool.com/"
+    },
+    {
+      "name": "Quickbase",
+      "status": "current",
+      "industry": "collaboration",
+      "headquarters": "northeast",
+      "fund": "flagship",
+      "website": "https://quickbase.com/"
+    },
+    {
+      "name": "RadarFirst",
+      "status": "current",
+      "industry": "legal-risk-compliance",
+      "headquarters": "west",
+      "fund": "endeavor",
+      "website": "http://www.radarfirst.com/"
+    },
+    {
+      "name": "Redwood Software",
+      "status": "current",
+      "industry": "enterprise-resource-planning",
+      "headquarters": "south",
+      "fund": "flagship",
+      "website": "https://www.redwood.com/"
+    },
+    {
+      "name": "Regulatory DataCorp",
+      "status": "former",
+      "industry": "financial-services",
+      "headquarters": "northeast",
+      "fund": "foundation",
+      "website": "http://rdc.com/"
+    },
+    {
+      "name": "Relias Learning",
+      "status": "former",
+      "industry": "healthcare",
+      "headquarters": "south",
+      "fund": "foundation",
+      "website": "http://www.reliaslearning.com/"
+    },
+    {
+      "name": "Resilinc",
+      "status": "current",
+      "industry": "supply-chain-transportation",
+      "headquarters": "west",
+      "fund": "endeavor",
+      "website": "https://resilinc.ai/"
+    },
+    {
+      "name": "Return Path",
+      "status": "former",
+      "industry": "sales-marketing",
+      "headquarters": "northeast",
+      "fund": "foundation",
+      "website": "http://www.returnpath.com/"
+    },
+    {
+      "name": "Reynolds & Reynolds",
+      "status": "former",
+      "industry": "automotive",
+      "headquarters": "midwest",
+      "fund": "flagship",
+      "website": "http://www.reyrey.com/"
+    },
+    {
+      "name": "RiskExec",
+      "status": "current",
+      "industry": "legal-risk-compliance",
+      "headquarters": "south",
+      "fund": "endeavor",
+      "website": "https://riskexec.com/"
+    },
+    {
+      "name": "RollKall",
+      "status": "current",
+      "industry": "government",
+      "headquarters": "south",
+      "fund": "endeavor",
+      "website": "https://www.rollkall.com/"
+    },
+    {
+      "name": "Salesloft",
+      "status": "current",
+      "industry": "sales-marketing",
+      "headquarters": "south",
+      "fund": "flagship",
+      "website": "https://salesloft.com/"
+    },
+    {
+      "name": "Schoox",
+      "status": "current",
+      "industry": "education",
+      "headquarters": "south",
+      "fund": "endeavor",
+      "website": "https://www.schoox.com/"
+    },
+    {
+      "name": "SecureLink",
+      "status": "former",
+      "industry": "security",
+      "headquarters": "south",
+      "fund": "endeavor",
+      "website": "https://www.securelink.com/"
+    },
+    {
+      "name": "Securonix",
+      "status": "current",
+      "industry": "security",
+      "headquarters": "south",
+      "fund": "flagship",
+      "website": "https://www.securonix.com/"
+    },
+    {
+      "name": "SER Solutions",
+      "status": "former",
+      "industry": "sales-marketing",
+      "headquarters": "south",
+      "fund": "flagship",
+      "website": "http://www.ser-solutions.com/"
+    },
+    {
+      "name": "SimplePractice",
+      "status": "current",
+      "industry": "healthcare",
+      "headquarters": "west",
+      "fund": "flagship",
+      "website": "https://www.simplepractice.com/"
+    },
+    {
+      "name": "SirsiDynix",
+      "status": "former",
+      "industry": "education",
+      "headquarters": "west",
+      "fund": "flagship",
+      "website": "http://www.sirsidynix.com/"
+    },
+    {
+      "name": "SmartBear",
+      "status": "current",
+      "industry": "application-development",
+      "headquarters": "northeast",
+      "fund": "flagship",
+      "website": "https://smartbear.com/"
+    },
+    {
+      "name": "Smartsheet",
+      "status": "current",
+      "industry": "collaboration",
+      "headquarters": "west",
+      "fund": "flagship",
+      "website": "https://www.smartsheet.com/"
+    },
+    {
+      "name": "Solera",
+      "status": "current",
+      "industry": "automotive",
+      "headquarters": "south",
+      "fund": "flagship",
+      "website": "http://solera.com/"
+    },
+    {
+      "name": "Sonatype",
+      "status": "current",
+      "industry": "application-development",
+      "headquarters": "northeast",
+      "fund": "foundation",
+      "website": "http://www.sonatype.com/"
+    },
+    {
+      "name": "SourceNet Solutions",
+      "status": "former",
+      "industry": "enterprise-resource-planning",
+      "headquarters": "south",
+      "fund": "flagship",
+      "website": "http://www.sourcenetsolutions.com/"
+    },
+    {
+      "name": "Sovos Compliance",
+      "status": "former",
+      "industry": "legal-risk-compliance",
+      "headquarters": "northeast",
+      "fund": "flagship",
+      "website": "https://sovos.com/"
+    },
+    {
+      "name": "SRC Software",
+      "status": "former",
+      "industry": "enterprise-resource-planning",
+      "headquarters": "west",
+      "fund": "flagship",
+      "website": "http://www.srcsoftware.com/"
+    },
+    {
+      "name": "StarRez",
+      "status": "current",
+      "industry": "real-estate",
+      "headquarters": "international-au",
+      "fund": "foundation",
+      "website": "https://www.starrez.com/"
+    },
+    {
+      "name": "Stats Perform",
+      "status": "current",
+      "industry": "sports-entertainment-recreation",
+      "headquarters": "midwest",
+      "fund": "flagship",
+      "website": "http://www.stats.com/"
+    },
+    {
+      "name": "SumTotal Systems",
+      "status": "former",
+      "industry": "hr-recruiting",
+      "headquarters": "south",
+      "fund": "flagship",
+      "website": "http://www.sumtotalsystems.com/"
+    },
+    {
+      "name": "Sunquest Information Systems",
+      "status": "former",
+      "industry": "healthcare",
+      "headquarters": "west",
+      "fund": "flagship",
+      "website": "http://www.sunquestinfo.com/"
+    },
+    {
+      "name": "Surgical Information Systems",
+      "status": "former",
+      "industry": "healthcare",
+      "headquarters": "south",
+      "fund": "flagship",
+      "website": "http://www.sisfirst.com/"
+    },
+    {
+      "name": "TigerConnect",
+      "status": "current",
+      "industry": "healthcare",
+      "headquarters": "northeast",
+      "fund": "foundation",
+      "website": "https://tigerconnect.com/"
+    },
+    {
+      "name": "Tomia",
+      "status": "former",
+      "industry": "telecom",
+      "headquarters": "south",
+      "fund": "foundation",
+      "website": "http://www.tomiaglobal.com/"
+    },
+    {
+      "name": "TransFirst",
+      "status": "former",
+      "industry": "financial-services",
+      "headquarters": "northeast",
+      "fund": "flagship",
+      "website": "http://www.transfirst.com/"
+    },
+    {
+      "name": "TRG Screen",
+      "status": "current",
+      "industry": "financial-services",
+      "headquarters": "northeast",
+      "fund": "foundation",
+      "website": "https://www.trgscreen.com/"
+    },
+    {
+      "name": "Tribute Technology",
+      "status": "current",
+      "industry": "retail",
+      "headquarters": "midwest",
+      "fund": "foundation",
+      "website": "https://tributetech.com/"
+    },
+    {
+      "name": "Trintech",
+      "status": "current",
+      "industry": "enterprise-resource-planning",
+      "headquarters": "south",
+      "fund": "foundation",
+      "website": "http://www.trintech.com/"
+    },
+    {
+      "name": "TripleLift",
+      "status": "current",
+      "industry": "media-publishing-advertising",
+      "headquarters": "northeast",
+      "fund": "flagship",
+      "website": "https://triplelift.com/"
+    },
+    {
+      "name": "Tripleseat",
+      "status": "current",
+      "industry": "hospitality",
+      "headquarters": "northeast",
+      "fund": "endeavor",
+      "website": "https://www.tripleseat.com/"
+    },
+    {
+      "name": "Upserve",
+      "status": "former",
+      "industry": "hospitality",
+      "headquarters": "northeast",
+      "fund": "foundation",
+      "website": "https://upserve.com/"
+    },
+    {
+      "name": "Upside",
+      "status": "former",
+      "industry": "hospitality",
+      "headquarters": "south",
+      "fund": "flagship",
+      "website": ""
+    },
+    {
+      "name": "Vena Solutions",
+      "status": "current",
+      "industry": "enterprise-resource-planning",
+      "headquarters": "international-canada",
+      "fund": "foundation",
+      "website": "https://www.venasolutions.com/"
+    },
+    {
+      "name": "Ventyx",
+      "status": "former",
+      "industry": "energy",
+      "headquarters": "south",
+      "fund": "flagship",
+      "website": "http://www.ventyx.com/"
+    },
+    {
+      "name": "Vertafore",
+      "status": "former",
+      "industry": "insurance",
+      "headquarters": "west",
+      "fund": "flagship",
+      "website": "http://www.vertafore.com/"
+    },
+    {
+      "name": "Vivid Seats",
+      "status": "current",
+      "industry": "sports-entertainment-recreation",
+      "headquarters": "midwest",
+      "fund": "flagship",
+      "website": "http://www.vividseats.com/"
+    },
+    {
+      "name": "Websense",
+      "status": "former",
+      "industry": "security",
+      "headquarters": "south",
+      "fund": "flagship",
+      "website": "http://www.forcepoint.com/"
+    },
+    {
+      "name": "WorkTango",
+      "status": "current",
+      "industry": "hr-recruiting",
+      "headquarters": "south",
+      "fund": "endeavor",
+      "website": "https://www.worktango.com/"
+    },
+    {
+      "name": "Wrike",
+      "status": "former",
+      "industry": "collaboration",
+      "headquarters": "west",
+      "fund": "foundation",
+      "website": "http://www.wrike.com/"
+    },
+    {
+      "name": "Xactly",
+      "status": "current",
+      "industry": "sales-marketing",
+      "headquarters": "west",
+      "fund": "flagship",
+      "website": "https://www.xactlycorp.com/"
+    },
+    {
+      "name": "Zapproved",
+      "status": "current",
+      "industry": "legal-risk-compliance",
+      "headquarters": "west",
+      "fund": "endeavor",
+      "website": "https://www.zapproved.com/"
+    },
+    {
+      "name": "Zego",
+      "status": "former",
+      "industry": "real-estate",
+      "headquarters": "west",
+      "fund": "foundation",
+      "website": "https://www.gozego.com/"
+    },
+    {
+      "name": "Zywave",
+      "status": "former",
+      "industry": "insurance",
+      "headquarters": "midwest",
+      "fund": "flagship",
+      "website": "http://www.zywave.com/"
+    }
+  ],
+  "coverage_stats": {
+    "name": "145/145",
+    "status": "145/145",
+    "industry": "145/145",
+    "headquarters": "145/145",
+    "fund": "145/145",
+    "website": "144/145"
+  }
+}
