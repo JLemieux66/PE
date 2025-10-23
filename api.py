@@ -37,6 +37,23 @@ class CompanyResponse(BaseModel):
     website: Optional[str]
     description: Optional[str]
     exit_info: Optional[str]
+    # Swarm enrichment fields
+    swarm_industry: Optional[str]
+    size_class: Optional[str]
+    total_funding_usd: Optional[int]
+    last_round_type: Optional[str]
+    last_round_amount_usd: Optional[int]
+    market_cap: Optional[int]
+    ipo_date: Optional[str]
+    ipo_year: Optional[int]
+    ownership_status: Optional[str]
+    ownership_status_detailed: Optional[str]
+    is_public: Optional[bool]
+    is_acquired: Optional[bool]
+    is_exited_swarm: Optional[bool]
+    customer_types: Optional[str]
+    stock_exchange: Optional[str]
+    summary: Optional[str]
     
     class Config:
         from_attributes = True
@@ -123,6 +140,11 @@ def get_companies(
         # Format response
         result = []
         for company in companies:
+            # Handle empty string IPO year
+            ipo_year = company.ipo_year
+            if isinstance(ipo_year, str) and ipo_year.strip() == '':
+                ipo_year = None
+            
             result.append(CompanyResponse(
                 id=company.id,
                 name=company.name,
@@ -133,7 +155,23 @@ def get_companies(
                 headquarters=company.headquarters,
                 website=company.website,
                 description=company.description,
-                exit_info=company.exit_info
+                exit_info=company.exit_info,
+                swarm_industry=company.swarm_industry,
+                size_class=company.size_class,
+                total_funding_usd=company.total_funding_usd,
+                last_round_type=company.last_round_type,
+                last_round_amount_usd=company.last_round_amount_usd,
+                market_cap=company.market_cap,
+                ipo_date=company.ipo_date,
+                ipo_year=ipo_year,
+                ownership_status=company.ownership_status,
+                ownership_status_detailed=company.ownership_status_detailed,
+                is_public=company.is_public,
+                is_acquired=company.is_acquired,
+                is_exited_swarm=company.is_exited_swarm,
+                customer_types=company.customer_types,
+                stock_exchange=company.stock_exchange,
+                summary=company.summary
             ))
         
         return result
@@ -153,6 +191,11 @@ def get_company(company_id: int):
         if not company:
             raise HTTPException(status_code=404, detail="Company not found")
         
+        # Handle empty string IPO year
+        ipo_year = company.ipo_year
+        if isinstance(ipo_year, str) and ipo_year.strip() == '':
+            ipo_year = None
+        
         return CompanyResponse(
             id=company.id,
             name=company.name,
@@ -163,7 +206,23 @@ def get_company(company_id: int):
             headquarters=company.headquarters,
             website=company.website,
             description=company.description,
-            exit_info=company.exit_info
+            exit_info=company.exit_info,
+            swarm_industry=company.swarm_industry,
+            size_class=company.size_class,
+            total_funding_usd=company.total_funding_usd,
+            last_round_type=company.last_round_type,
+            last_round_amount_usd=company.last_round_amount_usd,
+            market_cap=company.market_cap,
+            ipo_date=company.ipo_date,
+            ipo_year=ipo_year,
+            ownership_status=company.ownership_status,
+            ownership_status_detailed=company.ownership_status_detailed,
+            is_public=company.is_public,
+            is_acquired=company.is_acquired,
+            is_exited_swarm=company.is_exited_swarm,
+            customer_types=company.customer_types,
+            stock_exchange=company.stock_exchange,
+            summary=company.summary
         )
     
     finally:
@@ -213,6 +272,11 @@ def get_firm_companies(
         
         result = []
         for company in companies:
+            # Handle empty string IPO year
+            ipo_year = company.ipo_year
+            if isinstance(ipo_year, str) and ipo_year.strip() == '':
+                ipo_year = None
+                
             result.append(CompanyResponse(
                 id=company.id,
                 name=company.name,
@@ -223,10 +287,43 @@ def get_firm_companies(
                 headquarters=company.headquarters,
                 website=company.website,
                 description=company.description,
-                exit_info=company.exit_info
+                exit_info=company.exit_info,
+                swarm_industry=company.swarm_industry,
+                size_class=company.size_class,
+                total_funding_usd=company.total_funding_usd,
+                last_round_type=company.last_round_type,
+                last_round_amount_usd=company.last_round_amount_usd,
+                market_cap=company.market_cap,
+                ipo_date=company.ipo_date,
+                ipo_year=ipo_year,
+                ownership_status=company.ownership_status,
+                ownership_status_detailed=company.ownership_status_detailed,
+                is_public=company.is_public,
+                is_acquired=company.is_acquired,
+                is_exited_swarm=company.is_exited_swarm,
+                customer_types=company.customer_types,
+                stock_exchange=company.stock_exchange,
+                summary=company.summary
             ))
         
         return result
+    
+    finally:
+        session.close()
+
+
+@app.get("/api/industries")
+def get_industries():
+    """Get all unique industries (from Swarm data)"""
+    session = get_session()
+    
+    try:
+        industries = session.query(PortfolioCompany.swarm_industry).distinct().filter(
+            PortfolioCompany.swarm_industry != None,
+            PortfolioCompany.swarm_industry != ""
+        ).all()
+        
+        return {"industries": sorted([i[0] for i in industries if i[0]])}
     
     finally:
         session.close()

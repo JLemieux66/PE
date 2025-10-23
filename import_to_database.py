@@ -84,6 +84,25 @@ def import_json_to_db(json_file_path: str):
                 existing_company.sector_page = company_data.get("sector_page", "")
                 existing_company.data_area = company_data.get("area", "")
                 existing_company.data_fund = company_data.get("fund", "")
+                
+                # Swarm API fields
+                existing_company.swarm_industry = company_data.get("swarm_industry", "")
+                existing_company.size_class = company_data.get("size_class", "")
+                existing_company.total_funding_usd = company_data.get("total_funding_usd", 0)
+                existing_company.last_round_type = company_data.get("last_round_type", "")
+                existing_company.last_round_amount_usd = company_data.get("last_round_amount_usd", 0)
+                existing_company.market_cap = company_data.get("market_cap", 0)
+                existing_company.ipo_date = company_data.get("ipo_date", "")
+                existing_company.ipo_year = company_data.get("ipo_year", "")
+                existing_company.ownership_status = company_data.get("ownership_status", "")
+                existing_company.ownership_status_detailed = company_data.get("ownership_status_detailed", "")
+                existing_company.is_public = company_data.get("is_public", False)
+                existing_company.is_acquired = company_data.get("is_acquired", False)
+                existing_company.is_exited_swarm = company_data.get("is_exited_swarm", False)
+                existing_company.customer_types = company_data.get("customer_types", "")
+                existing_company.stock_exchange = company_data.get("stock_exchange", "")
+                existing_company.summary = company_data.get("summary", "")
+                
                 existing_company.updated_at = datetime.utcnow()
                 companies_updated += 1
             else:
@@ -104,6 +123,24 @@ def import_json_to_db(json_file_path: str):
                     sector_page=company_data.get("sector_page", ""),
                     data_area=company_data.get("area", ""),
                     data_fund=company_data.get("fund", ""),
+                    
+                    # Swarm API fields
+                    swarm_industry=company_data.get("swarm_industry", ""),
+                    size_class=company_data.get("size_class", ""),
+                    total_funding_usd=company_data.get("total_funding_usd", 0),
+                    last_round_type=company_data.get("last_round_type", ""),
+                    last_round_amount_usd=company_data.get("last_round_amount_usd", 0),
+                    market_cap=company_data.get("market_cap", 0),
+                    ipo_date=company_data.get("ipo_date", ""),
+                    ipo_year=company_data.get("ipo_year", ""),
+                    ownership_status=company_data.get("ownership_status", ""),
+                    ownership_status_detailed=company_data.get("ownership_status_detailed", ""),
+                    is_public=company_data.get("is_public", False),
+                    is_acquired=company_data.get("is_acquired", False),
+                    is_exited_swarm=company_data.get("is_exited_swarm", False),
+                    customer_types=company_data.get("customer_types", ""),
+                    stock_exchange=company_data.get("stock_exchange", ""),
+                    summary=company_data.get("summary", ""),
                 )
                 session.add(company)
                 companies_added += 1
@@ -131,9 +168,9 @@ def import_json_to_db(json_file_path: str):
 def import_all_json_files():
     """Import all JSON files in the current directory"""
     json_files = [
-        "vista_portfolio_with_status.json",
-        "ta_portfolio_complete.json",
-        "a16z_portfolio_complete.json"
+        "vista_portfolio_full_enriched.json",
+        "ta_portfolio_full_enriched.json",
+        "a16z_portfolio_full_enriched.json"
     ]
     
     for json_file in json_files:

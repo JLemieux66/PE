@@ -8,6 +8,8 @@ from sqlalchemy import (
     Text,
     DateTime,
     ForeignKey,
+    Boolean,
+    BigInteger,
     create_engine,
     Index,
 )
@@ -57,6 +59,25 @@ class PortfolioCompany(Base):
     sector_page = Column(String(255))
     data_area = Column(String(255))  # Vista specific
     data_fund = Column(String(255))  # Vista specific
+    
+    # Swarm API enrichment fields
+    swarm_industry = Column(String(255), index=True)
+    size_class = Column(String(50))
+    total_funding_usd = Column(BigInteger)
+    last_round_type = Column(String(100))
+    last_round_amount_usd = Column(BigInteger)
+    market_cap = Column(BigInteger)
+    ipo_date = Column(String(50))
+    ipo_year = Column(String(10), index=True)
+    ownership_status = Column(String(100))
+    ownership_status_detailed = Column(String(255))
+    is_public = Column(Boolean, default=False, index=True)
+    is_acquired = Column(Boolean, default=False)
+    is_exited_swarm = Column(Boolean, default=False)
+    customer_types = Column(String(100))
+    stock_exchange = Column(String(50))
+    summary = Column(Text)
+    
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
