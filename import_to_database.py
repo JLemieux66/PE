@@ -125,7 +125,8 @@ def import_all_json_files():
     """Import all JSON files in the current directory"""
     json_files = [
         "vista_portfolio_with_status.json",
-        "ta_portfolio_complete.json"
+        "ta_portfolio_complete.json",
+        "a16z_portfolio.json"
     ]
     
     for json_file in json_files:

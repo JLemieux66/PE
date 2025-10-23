@@ -1,0 +1,6295 @@
+{
+  "pe_firm": "Andreessen Horowitz",
+  "extraction_date": "2025-10-23 10:42:46",
+  "total_companies": 786,
+  "companies": [
+    {
+      "name": "Accolade",
+      "sector": "Bio + Health",
+      "status": "Exit",
+      "exit_details": "Acquired By: Transcarent",
+      "stage": "Growth",
+      "company_id": "371459"
+    },
+    {
+      "name": "Actifio",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Google",
+      "stage": "Growth",
+      "company_id": "372247"
+    },
+    {
+      "name": "ActionIQ",
+      "sector": "Enterprise, Infra",
+      "status": "Exit",
+      "exit_details": "Acquired By: Uniphore",
+      "stage": "Venture, Growth",
+      "company_id": "15331"
+    },
+    {
+      "name": "Affirm",
+      "sector": "Fintech",
+      "status": "Exit",
+      "exit_details": "IPO: AFRM",
+      "stage": "Growth",
+      "company_id": "371966"
+    },
+    {
+      "name": "Airbnb",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "IPO: ABNB",
+      "stage": "Venture, Growth",
+      "company_id": "372153"
+    },
+    {
+      "name": "Akita Software",
+      "sector": "CLF, Infra",
+      "status": "Exit",
+      "exit_details": "Acquired By: Postman",
+      "stage": "Seed",
+      "company_id": "371942"
+    },
+    {
+      "name": "Allset",
+      "sector": "Consumer, Fintech, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: SoundHound",
+      "stage": "Seed, Venture",
+      "company_id": "371687"
+    },
+    {
+      "name": "Amiato",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Amazon.com",
+      "stage": "",
+      "company_id": "371123"
+    },
+    {
+      "name": "Apptio",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "IPO: APTI",
+      "stage": "Venture, Growth",
+      "company_id": "15009"
+    },
+    {
+      "name": "Arimo",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Panasonic Corporation",
+      "stage": "Venture",
+      "company_id": "372094"
+    },
+    {
+      "name": "Asana",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "DPO: ASAN",
+      "stage": "Venture, Growth",
+      "company_id": "15653"
+    },
+    {
+      "name": "Asserts",
+      "sector": "Enterprise, Seed, AI",
+      "status": "Exit",
+      "exit_details": "Acquired By: Grafana Labs",
+      "stage": "Seed",
+      "company_id": "370955"
+    },
+    {
+      "name": "Authy",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Twilio",
+      "stage": "",
+      "company_id": "370945"
+    },
+    {
+      "name": "Automatic Labs, Inc",
+      "sector": "Enterprise, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: Sirius XM Radio Inc",
+      "stage": "Seed, Venture",
+      "company_id": "371555"
+    },
+    {
+      "name": "Barefoot Networks",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Intel",
+      "stage": "Venture, Growth",
+      "company_id": "370975"
+    },
+    {
+      "name": "Bebop",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Google",
+      "stage": "Venture",
+      "company_id": "371539"
+    },
+    {
+      "name": "BeReal",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "Acquired By: Voodoo",
+      "stage": "Venture",
+      "company_id": "371657"
+    },
+    {
+      "name": "BioAge Labs",
+      "sector": "Bio + Health, AI",
+      "status": "Exit",
+      "exit_details": "IPO: BIOA",
+      "stage": "Seed, Venture, Growth",
+      "company_id": "15241"
+    },
+    {
+      "name": "Blockspring",
+      "sector": "Enterprise, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: Coinbase",
+      "stage": "Seed",
+      "company_id": "371053"
+    },
+    {
+      "name": "Boku",
+      "sector": "Fintech",
+      "status": "Exit",
+      "exit_details": "IPO: BOKU",
+      "stage": "Venture, Growth",
+      "company_id": "370999"
+    },
+    {
+      "name": "Box",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "IPO: BOX",
+      "stage": "Growth",
+      "company_id": "371567"
+    },
+    {
+      "name": "Bracket Computing",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: VMware",
+      "stage": "Venture, Growth",
+      "company_id": "371891"
+    },
+    {
+      "name": "Bromium",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Hewlett Packard",
+      "stage": "Venture, Growth",
+      "company_id": "15587"
+    },
+    {
+      "name": "Bump",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "Acquired By: Google",
+      "stage": "Venture",
+      "company_id": "371906"
+    },
+    {
+      "name": "BuzzFeed",
+      "sector": "Consumer, Seed",
+      "status": "Exit",
+      "exit_details": "SPAC: BZFD",
+      "stage": "Growth",
+      "company_id": "370913"
+    },
+    {
+      "name": "Camp4",
+      "sector": "Bio + Health",
+      "status": "Exit",
+      "exit_details": "IPO: CAMP",
+      "stage": "Venture",
+      "company_id": "15177"
+    },
+    {
+      "name": "Capital.xyz",
+      "sector": "Fintech, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: Rho",
+      "stage": "Seed",
+      "company_id": "371866"
+    },
+    {
+      "name": "Cardiogram",
+      "sector": "Bio + Health, AI",
+      "status": "Exit",
+      "exit_details": "Acquired By: ilumivu",
+      "stage": "Seed, Venture",
+      "company_id": "370947"
+    },
+    {
+      "name": "Caviar",
+      "sector": "Consumer, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: Block",
+      "stage": "Seed",
+      "company_id": "371731"
+    },
+    {
+      "name": "Cazena",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Cloudera",
+      "stage": "Venture",
+      "company_id": "371862"
+    },
+    {
+      "name": "Census",
+      "sector": "Enterprise, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: Fivetran",
+      "stage": "Seed, Venture",
+      "company_id": "370973"
+    },
+    {
+      "name": "Character.AI",
+      "sector": "Enterprise, Growth, AI",
+      "status": "Exit",
+      "exit_details": "EXIT",
+      "stage": "Venture",
+      "company_id": "14985"
+    },
+    {
+      "name": "Ciitizen",
+      "sector": "Bio + Health, AI",
+      "status": "Exit",
+      "exit_details": "Acquired By: Invitae",
+      "stage": "Seed, Venture",
+      "company_id": "371138"
+    },
+    {
+      "name": "CipherCloud",
+      "sector": "Enterprise, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: Lookout",
+      "stage": "Seed, Venture",
+      "company_id": "15571"
+    },
+    {
+      "name": "ClearStory Data",
+      "sector": "Enterprise, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: Alteryx",
+      "stage": "Venture",
+      "company_id": "370903"
+    },
+    {
+      "name": "Coinbase",
+      "sector": "Growth, Crypto",
+      "status": "Exit",
+      "exit_details": "IPO: COIN",
+      "stage": "Venture, Growth",
+      "company_id": "15381"
+    },
+    {
+      "name": "Cumulus Networks",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Nvidia",
+      "stage": "Seed, Venture, Growth",
+      "company_id": "371391"
+    },
+    {
+      "name": "DeepMap.ai",
+      "sector": "Enterprise, Seed, Infra",
+      "status": "Exit",
+      "exit_details": "Acquired By: Nvidia",
+      "stage": "Seed, Venture",
+      "company_id": "370857"
+    },
+    {
+      "name": "Delphix",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Perforce Software, Inc.",
+      "stage": "Venture, Growth",
+      "company_id": "371146"
+    },
+    {
+      "name": "DigitalOcean",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "IPO: DOCN",
+      "stage": "Venture, Growth",
+      "company_id": "371895"
+    },
+    {
+      "name": "Dishpatch",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "Acquired By: Waitrose Limited",
+      "stage": "Seed",
+      "company_id": "371212"
+    },
+    {
+      "name": "Dollar Shave Club",
+      "sector": "Consumer, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: Unilever",
+      "stage": "",
+      "company_id": "371079"
+    },
+    {
+      "name": "Earn.com",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "Acquired By: Coinbase",
+      "stage": "Venture, Growth",
+      "company_id": "372177"
+    },
+    {
+      "name": "EQRx",
+      "sector": "Bio + Health, Growth",
+      "status": "Exit",
+      "exit_details": "Acquired By: Revolution Medicines",
+      "stage": "Seed, Venture",
+      "company_id": "371463"
+    },
+    {
+      "name": "Erasca",
+      "sector": "Bio + Health, Growth, CLF",
+      "status": "Exit",
+      "exit_details": "IPO: ERAS",
+      "stage": "Venture, Growth",
+      "company_id": "372286"
+    },
+    {
+      "name": "Facebook",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "IPO: FB",
+      "stage": "Venture",
+      "company_id": "15007"
+    },
+    {
+      "name": "Factual",
+      "sector": "Enterprise, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: Yahoo!",
+      "stage": "Seed, Venture",
+      "company_id": "371727"
+    },
+    {
+      "name": "FiftyThree",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "Acquired By: WeTransfer",
+      "stage": "Venture",
+      "company_id": "15549"
+    },
+    {
+      "name": "Figma",
+      "sector": "Enterprise, Growth, CLF",
+      "status": "Active",
+      "exit_details": "IPO: FIG",
+      "stage": "Growth",
+      "company_id": "14997"
+    },
+    {
+      "name": "Firstbase",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: AppDirect",
+      "stage": "Venture",
+      "company_id": "14911"
+    },
+    {
+      "name": "Flutter",
+      "sector": "Consumer, Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Google",
+      "stage": "Seed",
+      "company_id": "371287"
+    },
+    {
+      "name": "Fusion I/O",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "IPO: FIO",
+      "stage": "Growth",
+      "company_id": "371743"
+    },
+    {
+      "name": "Gainspeed",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Nokia",
+      "stage": "Venture, Growth",
+      "company_id": "371230"
+    },
+    {
+      "name": "Genius",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "Acquired By: MediaLab.AI Inc",
+      "stage": "Venture",
+      "company_id": "371435"
+    },
+    {
+      "name": "GitHub",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Microsoft",
+      "stage": "Venture",
+      "company_id": "15603"
+    },
+    {
+      "name": "Gobble",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "Acquired By: Intelligent Foods",
+      "stage": "Venture",
+      "company_id": "372197"
+    },
+    {
+      "name": "Golden",
+      "sector": "Consumer, Crypto",
+      "status": "Exit",
+      "exit_details": "Acquired By: ComplyAdvantage",
+      "stage": "Venture",
+      "company_id": "15171"
+    },
+    {
+      "name": "Graft Concepts",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "Acquired By: Novatel",
+      "stage": "",
+      "company_id": "370833"
+    },
+    {
+      "name": "Granular",
+      "sector": "Enterprise, American Dynamism",
+      "status": "Exit",
+      "exit_details": "Acquired By: DuPont",
+      "stage": "Venture",
+      "company_id": "370859"
+    },
+    {
+      "name": "greply",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Box",
+      "stage": "",
+      "company_id": "370883"
+    },
+    {
+      "name": "Groupon, Inc.",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "IPO: GRPN",
+      "stage": "Growth",
+      "company_id": "15629"
+    },
+    {
+      "name": "Hatch Loyalty",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "Acquired By: Stuzo",
+      "stage": "Venture",
+      "company_id": "371039"
+    },
+    {
+      "name": "Hopin",
+      "sector": "Enterprise, Growth",
+      "status": "Active",
+      "exit_details": "EXIT",
+      "stage": "Growth",
+      "company_id": "371643"
+    },
+    {
+      "name": "HumanAPI",
+      "sector": "Bio + Health",
+      "status": "Exit",
+      "exit_details": "Acquired By: LexisNexis",
+      "stage": "Seed, Venture, Growth",
+      "company_id": "373512"
+    },
+    {
+      "name": "iCracked",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "Acquired By: Allstate",
+      "stage": "Venture",
+      "company_id": "371093"
+    },
+    {
+      "name": "IDRx",
+      "sector": "Bio + Health",
+      "status": "Active",
+      "exit_details": "Acquired By: GlaxoSmithKline",
+      "stage": "Seed, Venture",
+      "company_id": "24689"
+    },
+    {
+      "name": "Imgur",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "Acquired By: MediaLab.AI Inc",
+      "stage": "Venture",
+      "company_id": "372083"
+    },
+    {
+      "name": "Instacart",
+      "sector": "Consumer, Growth",
+      "status": "Exit",
+      "exit_details": "IPO: CART",
+      "stage": "Venture, Growth",
+      "company_id": "15487"
+    },
+    {
+      "name": "Instagram",
+      "sector": "Consumer, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: Facebook",
+      "stage": "Seed",
+      "company_id": "15499"
+    },
+    {
+      "name": "Intrinsic",
+      "sector": "Enterprise, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: VMware",
+      "stage": "Seed",
+      "company_id": "372207"
+    },
+    {
+      "name": "Isovalent",
+      "sector": "Enterprise, Infra",
+      "status": "Exit",
+      "exit_details": "Acquired By: Cisco Systems",
+      "stage": "Venture",
+      "company_id": "15223"
+    },
+    {
+      "name": "Jopwell",
+      "sector": "Consumer, American Dynamism",
+      "status": "Exit",
+      "exit_details": "Acquired By: True Talent Advisory",
+      "stage": "Seed, Venture",
+      "company_id": "371248"
+    },
+    {
+      "name": "Julep",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "Acquired By: Glanasol",
+      "stage": "Venture, Growth",
+      "company_id": "371285"
+    },
+    {
+      "name": "Jungla",
+      "sector": "Bio + Health, AI",
+      "status": "Exit",
+      "exit_details": "Acquired By: Invitae",
+      "stage": "Seed",
+      "company_id": "371172"
+    },
+    {
+      "name": "Keybase.io",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Zoom Video Communications",
+      "stage": "Venture",
+      "company_id": "371170"
+    },
+    {
+      "name": "Kno",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "Acquired By: Intel",
+      "stage": "Venture, Growth",
+      "company_id": "371168"
+    },
+    {
+      "name": "Knowable",
+      "sector": "Consumer, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: Medium",
+      "stage": "Seed",
+      "company_id": "372102"
+    },
+    {
+      "name": "Knowmia",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "Acquired By: TechSmith",
+      "stage": "",
+      "company_id": "371154"
+    },
+    {
+      "name": "Loom",
+      "sector": "Enterprise, Growth, AI",
+      "status": "Exit",
+      "exit_details": "Acquired By: Atlassian",
+      "stage": "Growth",
+      "company_id": "371715"
+    },
+    {
+      "name": "Lowkey.gg",
+      "sector": "Consumer, Games",
+      "status": "Exit",
+      "exit_details": "Acquired By: Niantic",
+      "stage": "Venture",
+      "company_id": "371855"
+    },
+    {
+      "name": "Luma",
+      "sector": "Consumer, Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: First Alert",
+      "stage": "Seed",
+      "company_id": "370907"
+    },
+    {
+      "name": "Lyft",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "IPO: LYFT",
+      "stage": "Growth",
+      "company_id": "371477"
+    },
+    {
+      "name": "Lyrebird.ai",
+      "sector": "Enterprise, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: Descript",
+      "stage": "Seed",
+      "company_id": "370835"
+    },
+    {
+      "name": "Lytro",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "Acquired By: Google",
+      "stage": "Venture, Growth",
+      "company_id": "15613"
+    },
+    {
+      "name": "Massive Health, Inc.",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "Acquired By: Jawbone",
+      "stage": "Seed",
+      "company_id": "371256"
+    },
+    {
+      "name": "Memora Health",
+      "sector": "Bio + Health, Growth, AI",
+      "status": "Active",
+      "exit_details": "Acquired By: Commure",
+      "stage": "Seed, Venture, Growth",
+      "company_id": "15175"
+    },
+    {
+      "name": "Morta Security",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Palo Alto Networks",
+      "stage": "Seed",
+      "company_id": "371791"
+    },
+    {
+      "name": "Nautilus Biotechnology",
+      "sector": "Bio + Health, Growth, AI",
+      "status": "Exit",
+      "exit_details": "SPAC: NAUT",
+      "stage": "Venture",
+      "company_id": "371013"
+    },
+    {
+      "name": "Nicira Networks",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: VMware",
+      "stage": "Venture, Growth",
+      "company_id": "371826"
+    },
+    {
+      "name": "Oculus VR",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "Acquired By: Facebook",
+      "stage": "Venture",
+      "company_id": "370825"
+    },
+    {
+      "name": "Okta",
+      "sector": "Enterprise, Seed",
+      "status": "Exit",
+      "exit_details": "IPO: OKTA",
+      "stage": "Seed, Venture, Growth",
+      "company_id": "15049"
+    },
+    {
+      "name": "Omada Health",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "IPO: OMDA",
+      "stage": "Venture, Growth",
+      "company_id": "15417"
+    },
+    {
+      "name": "Onshape",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: PTC",
+      "stage": "Growth",
+      "company_id": "372046"
+    },
+    {
+      "name": "Opendoor",
+      "sector": "Consumer, Fintech",
+      "status": "Exit",
+      "exit_details": "IPO: OPEN",
+      "stage": "Growth",
+      "company_id": "371918"
+    },
+    {
+      "name": "OpenGov",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Cox Enterprises",
+      "stage": "Venture, Growth",
+      "company_id": "371639"
+    },
+    {
+      "name": "OpenInvest",
+      "sector": "Fintech, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: JPMC Employee Pension",
+      "stage": "Seed, Venture",
+      "company_id": "370819"
+    },
+    {
+      "name": "Optimizely",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Epsilon Group New Holdings Ltd Inbox",
+      "stage": "Venture, Growth",
+      "company_id": "370831"
+    },
+    {
+      "name": "Optimyze",
+      "sector": "Enterprise, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: Elastic",
+      "stage": "Seed",
+      "company_id": "371095"
+    },
+    {
+      "name": "Orbital Therapeutics",
+      "sector": "Bio + Health",
+      "status": "Exit",
+      "exit_details": "Acquired By: Bristol Myers Squibb",
+      "stage": "Seed, Venture",
+      "company_id": "372006"
+    },
+    {
+      "name": "PagerDuty",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "IPO: PD",
+      "stage": "Venture, Growth",
+      "company_id": "371262"
+    },
+    {
+      "name": "Parsec Gaming",
+      "sector": "Consumer, Games",
+      "status": "Exit",
+      "exit_details": "Acquired By: Unity Technologies",
+      "stage": "Venture",
+      "company_id": "15127"
+    },
+    {
+      "name": "Patch Biosciences",
+      "sector": "Bio + Health, CLF",
+      "status": "Exit",
+      "exit_details": "Acquired By: Ginkgo Bioworks",
+      "stage": "Seed",
+      "company_id": "370923"
+    },
+    {
+      "name": "PatientPing",
+      "sector": "Bio + Health",
+      "status": "Exit",
+      "exit_details": "Acquired By: Appriss Health",
+      "stage": "Venture, Growth",
+      "company_id": "371859"
+    },
+    {
+      "name": "PiCloud",
+      "sector": "Enterprise, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: Dropbox",
+      "stage": "Seed",
+      "company_id": "371200"
+    },
+    {
+      "name": "Pinterest",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "IPO: PINS",
+      "stage": "Venture, Growth",
+      "company_id": "15375"
+    },
+    {
+      "name": "Pixate",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Google",
+      "stage": "Seed",
+      "company_id": "372169"
+    },
+    {
+      "name": "Platfora",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Workday",
+      "stage": "Venture, Growth",
+      "company_id": "371075"
+    },
+    {
+      "name": "Prepared",
+      "sector": "American Dynamism, AI",
+      "status": "Exit",
+      "exit_details": "Acquired By: Axon.com",
+      "stage": "Venture",
+      "company_id": "361228"
+    },
+    {
+      "name": "ProductHunt",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "Acquired By: AngelList",
+      "stage": "Venture",
+      "company_id": "372014"
+    },
+    {
+      "name": "Quantopian",
+      "sector": "Consumer, Fintech",
+      "status": "Exit",
+      "exit_details": "Acquired By: Robinhood",
+      "stage": "Growth",
+      "company_id": "372129"
+    },
+    {
+      "name": "Red Hot Labs",
+      "sector": "Consumer, Games",
+      "status": "Exit",
+      "exit_details": "Acquired By: Google",
+      "stage": "Seed",
+      "company_id": "370829"
+    },
+    {
+      "name": "Reddit",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "IPO: RDDT",
+      "stage": "Venture, Growth",
+      "company_id": "371559"
+    },
+    {
+      "name": "Reflektive",
+      "sector": "Enterprise, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: Learning Technologies Group",
+      "stage": "Seed, Venture, Growth",
+      "company_id": "371503"
+    },
+    {
+      "name": "Regrello",
+      "sector": "Enterprise, Infra",
+      "status": "Exit",
+      "exit_details": "Acquired By: Salesforce",
+      "stage": "Seed, Venture",
+      "company_id": "371107"
+    },
+    {
+      "name": "Ribbon Health",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "Acquired By: H1",
+      "stage": "Venture",
+      "company_id": "372159"
+    },
+    {
+      "name": "Rigetti Quantum Computing",
+      "sector": "Bio + Health",
+      "status": "Exit",
+      "exit_details": "SPAC: RGTI",
+      "stage": "Venture, Growth",
+      "company_id": "372125"
+    },
+    {
+      "name": "Rival",
+      "sector": "Consumer, Fintech",
+      "status": "Exit",
+      "exit_details": "Acquired By: Ticketmaster",
+      "stage": "Venture",
+      "company_id": "370821"
+    },
+    {
+      "name": "Robinhood",
+      "sector": "Fintech, Growth",
+      "status": "Exit",
+      "exit_details": "IPO: HOOD",
+      "stage": "Growth",
+      "company_id": "15431"
+    },
+    {
+      "name": "Roblox",
+      "sector": "Growth, Games",
+      "status": "Exit",
+      "exit_details": "IPO: RBLX",
+      "stage": "Growth",
+      "company_id": "371954"
+    },
+    {
+      "name": "Rockmelt",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "Acquired By: Yahoo!",
+      "stage": "Venture, Growth",
+      "company_id": "15651"
+    },
+    {
+      "name": "RTFKT",
+      "sector": "Consumer, Seed, Games",
+      "status": "Exit",
+      "exit_details": "Acquired By: Nike",
+      "stage": "Seed",
+      "company_id": "371019"
+    },
+    {
+      "name": "Samsara",
+      "sector": "Enterprise, American Dynamism, Growth",
+      "status": "Exit",
+      "exit_details": "IPO: IOT",
+      "stage": "Venture, Growth",
+      "company_id": "371663"
+    },
+    {
+      "name": "SeedFi",
+      "sector": "Fintech",
+      "status": "Exit",
+      "exit_details": "Acquired By: Intuit",
+      "stage": "Seed, Venture",
+      "company_id": "14953"
+    },
+    {
+      "name": "Shapeways",
+      "sector": "American Dynamism",
+      "status": "Exit",
+      "exit_details": "M&A: SHPW",
+      "stage": "Growth",
+      "company_id": "371158"
+    },
+    {
+      "name": "ShoeDazzle",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "Acquired By: JustFab",
+      "stage": "Growth",
+      "company_id": "372173"
+    },
+    {
+      "name": "SignalFx",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Splunk",
+      "stage": "Venture, Growth",
+      "company_id": "372175"
+    },
+    {
+      "name": "SigOpt",
+      "sector": "Enterprise, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: Intel",
+      "stage": "Seed, Venture",
+      "company_id": "371045"
+    },
+    {
+      "name": "Silver Tail Systems",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Dell EMC",
+      "stage": "Venture",
+      "company_id": "370927"
+    },
+    {
+      "name": "Skout",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "Acquired By: MeetMe",
+      "stage": "Venture",
+      "company_id": "371970"
+    },
+    {
+      "name": "Skype",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "Acquired By: Microsoft",
+      "stage": "Venture",
+      "company_id": "371990"
+    },
+    {
+      "name": "Slack",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "IPO: WORK",
+      "stage": "Venture, Growth",
+      "company_id": "371017"
+    },
+    {
+      "name": "SocialCam",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "Acquired By: Autodesk",
+      "stage": "Seed",
+      "company_id": "372157"
+    },
+    {
+      "name": "Soylent",
+      "sector": "Consumer, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: Starco Brands, INC",
+      "stage": "Seed, Venture",
+      "company_id": "371563"
+    },
+    {
+      "name": "Stack Overflow",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Prosus",
+      "stage": "Growth",
+      "company_id": "15395"
+    },
+    {
+      "name": "Standard Treasury",
+      "sector": "Fintech",
+      "status": "Exit",
+      "exit_details": "Acquired By: Silicon Valley Bank",
+      "stage": "",
+      "company_id": "371763"
+    },
+    {
+      "name": "Swell",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "Acquired By: Apple",
+      "stage": "Seed",
+      "company_id": "371962"
+    },
+    {
+      "name": "Swiftype",
+      "sector": "Enterprise, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: Elasticsearch Global B.V.",
+      "stage": "Seed",
+      "company_id": "370943"
+    },
+    {
+      "name": "Tabular",
+      "sector": "Enterprise, Infra",
+      "status": "Exit",
+      "exit_details": "Acquired By: Databricks",
+      "stage": "Venture",
+      "company_id": "370931"
+    },
+    {
+      "name": "Talaria",
+      "sector": "Enterprise, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: Google",
+      "stage": "Seed",
+      "company_id": "371575"
+    },
+    {
+      "name": "Tasty Labs",
+      "sector": "Consumer, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: Walmart",
+      "stage": "Venture",
+      "company_id": "371310"
+    },
+    {
+      "name": "Teleport",
+      "sector": "Consumer, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: MOVEGuides",
+      "stage": "Seed",
+      "company_id": "371152"
+    },
+    {
+      "name": "Tenfold",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Liveperson",
+      "stage": "Venture, Growth",
+      "company_id": "370885"
+    },
+    {
+      "name": "Tidemark",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Marlin Equity Partners",
+      "stage": "Venture, Growth",
+      "company_id": "15627"
+    },
+    {
+      "name": "Tilt",
+      "sector": "Fintech",
+      "status": "Exit",
+      "exit_details": "Acquired By: Airbnb",
+      "stage": "Seed, Venture",
+      "company_id": "371091"
+    },
+    {
+      "name": "TinyCo",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "Acquired By: SGN",
+      "stage": "Venture",
+      "company_id": "15591"
+    },
+    {
+      "name": "Tmunity Therapeutics",
+      "sector": "Bio + Health, CLF",
+      "status": "Exit",
+      "exit_details": "Acquired By: Kite Pharma",
+      "stage": "Venture, Growth",
+      "company_id": "371347"
+    },
+    {
+      "name": "Tomfoolery",
+      "sector": "Enterprise, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: Yahoo!",
+      "stage": "Seed",
+      "company_id": "371003"
+    },
+    {
+      "name": "TXN Solutions",
+      "sector": "Fintech, Enterprise, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: Envestnet",
+      "stage": "Seed, Venture",
+      "company_id": "371379"
+    },
+    {
+      "name": "Udacity",
+      "sector": "Consumer, American Dynamism",
+      "status": "Exit",
+      "exit_details": "Acquired By: Accenture",
+      "stage": "Venture, Growth",
+      "company_id": "372079"
+    },
+    {
+      "name": "Urban Engines",
+      "sector": "Enterprise, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: Google",
+      "stage": "Seed, Venture",
+      "company_id": "372127"
+    },
+    {
+      "name": "Usermind",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Qualtrics",
+      "stage": "Venture, Growth",
+      "company_id": "371419"
+    },
+    {
+      "name": "Viki",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "Acquired By: Rakuten",
+      "stage": "Venture",
+      "company_id": "371242"
+    },
+    {
+      "name": "Walker & Co",
+      "sector": "Consumer, Seed",
+      "status": "Exit",
+      "exit_details": "Acquired By: Procter & Gamble",
+      "stage": "Venture",
+      "company_id": "372187"
+    },
+    {
+      "name": "Wise",
+      "sector": "Fintech, Growth",
+      "status": "Exit",
+      "exit_details": "DPO: WPLCF",
+      "stage": "Growth",
+      "company_id": "15469"
+    },
+    {
+      "name": "Wit.AI",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "Acquired By: Facebook",
+      "stage": "Seed",
+      "company_id": "370865"
+    },
+    {
+      "name": "Within",
+      "sector": "Consumer, Seed, Games",
+      "status": "Exit",
+      "exit_details": "Acquired By: Meta",
+      "stage": "Seed, Venture",
+      "company_id": "371276"
+    },
+    {
+      "name": "Zynga",
+      "sector": "Games",
+      "status": "Exit",
+      "exit_details": "M&A: ZNGA",
+      "stage": "Venture",
+      "company_id": "370933"
+    },
+    {
+      "name": "11x",
+      "sector": "Enterprise, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "373009"
+    },
+    {
+      "name": "[untitled]",
+      "sector": "Consumer",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "372793"
+    },
+    {
+      "name": "Abridge",
+      "sector": "Growth",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "377894"
+    },
+    {
+      "name": "Adaptive",
+      "sector": "Fintech, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "29234"
+    },
+    {
+      "name": "Adaptive Security",
+      "sector": "Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "375677"
+    },
+    {
+      "name": "Addi",
+      "sector": "Fintech, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "370965"
+    },
+    {
+      "name": "Adim",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "37323"
+    },
+    {
+      "name": "Aerodome",
+      "sector": "American Dynamism, AI",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "361105"
+    },
+    {
+      "name": "Aetherflux",
+      "sector": "American Dynamism",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "378836"
+    },
+    {
+      "name": "Air Space Intelligence",
+      "sector": "American Dynamism, AI",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "362101"
+    },
+    {
+      "name": "AirGarage",
+      "sector": "Consumer",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "14925"
+    },
+    {
+      "name": "AKASA",
+      "sector": "Bio + Health, Growth, CLF, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture, Growth",
+      "company_id": "372122"
+    },
+    {
+      "name": "Alchemy",
+      "sector": "Growth, Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "372147"
+    },
+    {
+      "name": "Alchemy Health",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "372566"
+    },
+    {
+      "name": "Aleo",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15825"
+    },
+    {
+      "name": "All Day",
+      "sector": "Consumer",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "371206"
+    },
+    {
+      "name": "Alleviate Health",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "376914"
+    },
+    {
+      "name": "Alloy Automation",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "372026"
+    },
+    {
+      "name": "Alluxio",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "371659"
+    },
+    {
+      "name": "Alpha-9 Oncology",
+      "sector": "Bio + Health",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "377426"
+    },
+    {
+      "name": "Alpine Bio",
+      "sector": "Bio + Health, CLF",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371882"
+    },
+    {
+      "name": "Alta",
+      "sector": "Seed, Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "15723"
+    },
+    {
+      "name": "AltSchool",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "370937"
+    },
+    {
+      "name": "Amber",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371327"
+    },
+    {
+      "name": "Ambience Healthcare",
+      "sector": "Bio + Health, CLF, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371186"
+    },
+    {
+      "name": "Ambient.ai",
+      "sector": "Enterprise, American Dynamism, Growth, CLF, AI, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15077"
+    },
+    {
+      "name": "Amca",
+      "sector": "American Dynamism",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "378834"
+    },
+    {
+      "name": "AminoChain",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "373108"
+    },
+    {
+      "name": "Anchorage",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15201"
+    },
+    {
+      "name": "Anduril",
+      "sector": "Enterprise, American Dynamism, Growth, CLF, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15189"
+    },
+    {
+      "name": "Angle",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372300"
+    },
+    {
+      "name": "AnyRoad",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "372189"
+    },
+    {
+      "name": "Anyscale",
+      "sector": "Enterprise, Growth, CLF, AI, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "14921"
+    },
+    {
+      "name": "Apeel Sciences",
+      "sector": "Bio + Health",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "370805"
+    },
+    {
+      "name": "Apex Space",
+      "sector": "American Dynamism, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "15069"
+    },
+    {
+      "name": "Apollo",
+      "sector": "Enterprise, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "371447"
+    },
+    {
+      "name": "Applied Intuition",
+      "sector": "Enterprise, American Dynamism, Growth, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15173"
+    },
+    {
+      "name": "Aptos",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "37303"
+    },
+    {
+      "name": "Arc",
+      "sector": "Consumer, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "15805"
+    },
+    {
+      "name": "Arcjet",
+      "sector": "Enterprise, Seed, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371587"
+    },
+    {
+      "name": "Arda Therapeutics",
+      "sector": "Bio + Health",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371835"
+    },
+    {
+      "name": "Arpeggi Labs",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "37293"
+    },
+    {
+      "name": "Arweave",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "370893"
+    },
+    {
+      "name": "Asimov",
+      "sector": "Bio + Health, Growth, CLF",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture, Growth",
+      "company_id": "371073"
+    },
+    {
+      "name": "Astranis",
+      "sector": "American Dynamism, Growth, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "370845"
+    },
+    {
+      "name": "Astro Mechanica",
+      "sector": "American Dynamism",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372292"
+    },
+    {
+      "name": "Atlys",
+      "sector": "Consumer, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "372141"
+    },
+    {
+      "name": "Autograph.io",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "369585"
+    },
+    {
+      "name": "Avalanche",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15027"
+    },
+    {
+      "name": "Axoni",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371214"
+    },
+    {
+      "name": "Azra Games",
+      "sector": "Seed, Games, Crypto, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "15671"
+    },
+    {
+      "name": "Aztec",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "29034"
+    },
+    {
+      "name": "Backflip AI",
+      "sector": "Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "374166"
+    },
+    {
+      "name": "Base Power",
+      "sector": "American Dynamism",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "376243"
+    },
+    {
+      "name": "Bastion",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371254"
+    },
+    {
+      "name": "BattleBound",
+      "sector": "Seed, Games, Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371083"
+    },
+    {
+      "name": "Bayesian Health",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15119"
+    },
+    {
+      "name": "BBA Inc",
+      "sector": "",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "371035"
+    },
+    {
+      "name": "Beacons",
+      "sector": "Consumer, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "372268"
+    },
+    {
+      "name": "Beeps",
+      "sector": "Enterprise, Seed",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "374125"
+    },
+    {
+      "name": "Believer",
+      "sector": "Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371011"
+    },
+    {
+      "name": "Belong",
+      "sector": "Consumer, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371196"
+    },
+    {
+      "name": "Benchling",
+      "sector": "Bio + Health",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "15481"
+    },
+    {
+      "name": "Ber Sarai Labs",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "377834"
+    },
+    {
+      "name": "BigHat Biosciences",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "372227"
+    },
+    {
+      "name": "BigScreen",
+      "sector": "Consumer, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371125"
+    },
+    {
+      "name": "Biodock",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372155"
+    },
+    {
+      "name": "Bitski",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15907"
+    },
+    {
+      "name": "Black Forest Labs",
+      "sector": "Seed, AI, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "368730"
+    },
+    {
+      "name": "Black Ore Technologies",
+      "sector": "Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372274"
+    },
+    {
+      "name": "Blackbird.xyz",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371428"
+    },
+    {
+      "name": "Bold",
+      "sector": "Bio + Health",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371599"
+    },
+    {
+      "name": "Bonfire Studios",
+      "sector": "Growth, Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371611"
+    },
+    {
+      "name": "Border0",
+      "sector": "Enterprise, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371220"
+    },
+    {
+      "name": "Bounce",
+      "sector": "Consumer",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15117"
+    },
+    {
+      "name": "Braid.ai",
+      "sector": "Consumer, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372219"
+    },
+    {
+      "name": "Braintrust",
+      "sector": "AI, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "370779"
+    },
+    {
+      "name": "Branch.co",
+      "sector": "Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15293"
+    },
+    {
+      "name": "BreederDAO",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "37299"
+    },
+    {
+      "name": "Brightside",
+      "sector": "Consumer, Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371314"
+    },
+    {
+      "name": "Cadre",
+      "sector": "Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371655"
+    },
+    {
+      "name": "California Forever",
+      "sector": "American Dynamism, Growth",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "373190"
+    },
+    {
+      "name": "Camber",
+      "sector": "Bio + Health, Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "29562"
+    },
+    {
+      "name": "Camu",
+      "sector": "Fintech, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "15011"
+    },
+    {
+      "name": "Canal",
+      "sector": "Consumer, Seed",
+      "status": "Exit",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "372225"
+    },
+    {
+      "name": "Cape",
+      "sector": "American Dynamism",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "365534"
+    },
+    {
+      "name": "Capitolis",
+      "sector": "Fintech, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "371087"
+    },
+    {
+      "name": "Capriza",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "372213"
+    },
+    {
+      "name": "Carbonated",
+      "sector": "Seed, Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371130"
+    },
+    {
+      "name": "Carry1st",
+      "sector": "Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "370879"
+    },
+    {
+      "name": "Carta",
+      "sector": "Fintech, Growth, CLF",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "371591"
+    },
+    {
+      "name": "Cartography Biosciences",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371005"
+    },
+    {
+      "name": "Casai",
+      "sector": "Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "372137"
+    },
+    {
+      "name": "Castelion",
+      "sector": "American Dynamism, Seed",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "360411"
+    },
+    {
+      "name": "Catena Labs",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "377836"
+    },
+    {
+      "name": "CCP Games",
+      "sector": "Seed, Games, Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "36684"
+    },
+    {
+      "name": "Cedar",
+      "sector": "Bio + Health, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "15419"
+    },
+    {
+      "name": "Celo",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371222"
+    },
+    {
+      "name": "Charthop",
+      "sector": "Enterprise, Growth, CLF",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture, Growth",
+      "company_id": "371579"
+    },
+    {
+      "name": "Chestnut",
+      "sector": "Fintech, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "376871"
+    },
+    {
+      "name": "Chia",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture, Growth",
+      "company_id": "370807"
+    },
+    {
+      "name": "CHIP Professionals",
+      "sector": "TxO",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372332"
+    },
+    {
+      "name": "Cider",
+      "sector": "Consumer, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "370971"
+    },
+    {
+      "name": "Civitai",
+      "sector": "Consumer, AI",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "363386"
+    },
+    {
+      "name": "Clerk",
+      "sector": "Enterprise, Seed, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371571"
+    },
+    {
+      "name": "ClickUp",
+      "sector": "Enterprise, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "372290"
+    },
+    {
+      "name": "Clipboard",
+      "sector": "Consumer",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372030"
+    },
+    {
+      "name": "Clover Network",
+      "sector": "Fintech",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "372133"
+    },
+    {
+      "name": "Clubhouse",
+      "sector": "Consumer, Growth, CLF",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15141"
+    },
+    {
+      "name": "Cluely",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "377617"
+    },
+    {
+      "name": "Clutch",
+      "sector": "Consumer, Fintech, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "362429"
+    },
+    {
+      "name": "Co:Create",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372087"
+    },
+    {
+      "name": "Coactive",
+      "sector": "Enterprise, Seed, AI, Infra",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "29108"
+    },
+    {
+      "name": "CodeCombat",
+      "sector": "Consumer, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "370855"
+    },
+    {
+      "name": "Codi",
+      "sector": "Consumer",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "372211"
+    },
+    {
+      "name": "Comma.ai",
+      "sector": "Enterprise, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371487"
+    },
+    {
+      "name": "Command Zero",
+      "sector": "Enterprise, Seed, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371523"
+    },
+    {
+      "name": "Compound",
+      "sector": "CLF, Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371371"
+    },
+    {
+      "name": "Concourse",
+      "sector": "Fintech, Seed, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372583"
+    },
+    {
+      "name": "Convex",
+      "sector": "Enterprise, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371270"
+    },
+    {
+      "name": "Core Loop",
+      "sector": "Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371234"
+    },
+    {
+      "name": "Counsel Health",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "372707"
+    },
+    {
+      "name": "Createra",
+      "sector": "Consumer, Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371359"
+    },
+    {
+      "name": "CreatorDAO",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371274"
+    },
+    {
+      "name": "Cresta",
+      "sector": "Enterprise, Seed, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture, Growth",
+      "company_id": "15151"
+    },
+    {
+      "name": "Cross River Bank",
+      "sector": "Fintech, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "370941"
+    },
+    {
+      "name": "Crossbeam",
+      "sector": "Enterprise, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "371351"
+    },
+    {
+      "name": "Crux",
+      "sector": "Fintech, American Dynamism",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "363573"
+    },
+    {
+      "name": "Cryptoys",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371194"
+    },
+    {
+      "name": "Cuenca",
+      "sector": "Consumer, Fintech, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371819"
+    },
+    {
+      "name": "Cult of the North",
+      "sector": "Seed, Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371795"
+    },
+    {
+      "name": "Culture Wireless",
+      "sector": "TxO",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372324"
+    },
+    {
+      "name": "Current",
+      "sector": "Fintech, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "371208"
+    },
+    {
+      "name": "Cursor",
+      "sector": "Growth, AI, Infra",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "369925"
+    },
+    {
+      "name": "CX2",
+      "sector": "",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "378814"
+    },
+    {
+      "name": "CYGNVS",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "372018"
+    },
+    {
+      "name": "Cyngn",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "371507"
+    },
+    {
+      "name": "D2iQ",
+      "sector": "Enterprise, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture, Growth",
+      "company_id": "371635"
+    },
+    {
+      "name": "Dapper Labs",
+      "sector": "Growth, CLF, Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "14995"
+    },
+    {
+      "name": "Databricks",
+      "sector": "Enterprise, Growth, CLF, AI, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15047"
+    },
+    {
+      "name": "Datanomik",
+      "sector": "Fintech, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371519"
+    },
+    {
+      "name": "Daylight",
+      "sector": "Crypto",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "372316"
+    },
+    {
+      "name": "Daze",
+      "sector": "Consumer, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372705"
+    },
+    {
+      "name": "dbt Labs",
+      "sector": "Enterprise, Growth, CLF, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "14917"
+    },
+    {
+      "name": "Decagon",
+      "sector": "Enterprise, Growth, Seed, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "367723"
+    },
+    {
+      "name": "Deel",
+      "sector": "Fintech, Growth, CLF",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "371043"
+    },
+    {
+      "name": "Deepcell",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "370839"
+    },
+    {
+      "name": "Deepr",
+      "sector": "TxO",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371811"
+    },
+    {
+      "name": "DELV",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "15819"
+    },
+    {
+      "name": "Descript",
+      "sector": "Consumer, Seed, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "15035"
+    },
+    {
+      "name": "DeSO",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "372163"
+    },
+    {
+      "name": "Destruction Labz",
+      "sector": "TxO",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "374791"
+    },
+    {
+      "name": "Devoted Health",
+      "sector": "Bio + Health, Growth, CLF, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "370889"
+    },
+    {
+      "name": "Dfinity",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "15159"
+    },
+    {
+      "name": "Dialpad",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "371260"
+    },
+    {
+      "name": "Diode",
+      "sector": "",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "377790"
+    },
+    {
+      "name": "Dispatch",
+      "sector": "Consumer, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371415"
+    },
+    {
+      "name": "Distributional",
+      "sector": "Enterprise, Seed, Infra",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "362098"
+    },
+    {
+      "name": "Divvy Homes",
+      "sector": "Consumer, Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15105"
+    },
+    {
+      "name": "DoNotPay",
+      "sector": "Consumer, Fintech, Seed, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371367"
+    },
+    {
+      "name": "Doppel",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "362998"
+    },
+    {
+      "name": "Doxel",
+      "sector": "Enterprise, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371432"
+    },
+    {
+      "name": "Dwolla",
+      "sector": "Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "372067"
+    },
+    {
+      "name": "dYdX",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture, Growth",
+      "company_id": "370861"
+    },
+    {
+      "name": "Dynamic Labs, Inc.",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "15685"
+    },
+    {
+      "name": "Dyno Therapeutics",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371974"
+    },
+    {
+      "name": "E-3 Tech",
+      "sector": "Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "368367"
+    },
+    {
+      "name": "Earli",
+      "sector": "Bio + Health",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371627"
+    },
+    {
+      "name": "EarnBetter",
+      "sector": "Consumer, Fintech, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371279"
+    },
+    {
+      "name": "Earnin",
+      "sector": "Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15457"
+    },
+    {
+      "name": "Eclypsium",
+      "sector": "Enterprise, Seed, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "15179"
+    },
+    {
+      "name": "Eco",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "15831"
+    },
+    {
+      "name": "EigenLayer",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "371059"
+    },
+    {
+      "name": "Elegen",
+      "sector": "Bio + Health",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "15169"
+    },
+    {
+      "name": "ElevenLabs",
+      "sector": "Consumer, Enterprise, AI, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "324130"
+    },
+    {
+      "name": "EliseAI",
+      "sector": "Growth",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "378348"
+    },
+    {
+      "name": "Elodie",
+      "sector": "Consumer, Seed, Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371535"
+    },
+    {
+      "name": "End Game",
+      "sector": "Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371291"
+    },
+    {
+      "name": "EngFlow",
+      "sector": "Enterprise, Seed, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371843"
+    },
+    {
+      "name": "Entropy",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372312"
+    },
+    {
+      "name": "Envoy",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15321"
+    },
+    {
+      "name": "EPAL, INC.",
+      "sector": "Consumer, Seed, Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371164"
+    },
+    {
+      "name": "Equal IQ",
+      "sector": "TxO",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "374789"
+    },
+    {
+      "name": "Equals",
+      "sector": "Enterprise, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "370873"
+    },
+    {
+      "name": "Espresso (Translucence Research Inc)",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "371264"
+    },
+    {
+      "name": "Eve",
+      "sector": "Enterprise, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "374024"
+    },
+    {
+      "name": "Everlaw",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "370851"
+    },
+    {
+      "name": "EveryRealm",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "37305"
+    },
+    {
+      "name": "Exowatt",
+      "sector": "American Dynamism, Seed",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "379499"
+    },
+    {
+      "name": "fal",
+      "sector": "Enterprise, Seed, AI, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "372205"
+    },
+    {
+      "name": "Fanatics",
+      "sector": "Consumer",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371144"
+    },
+    {
+      "name": "Faraway",
+      "sector": "Seed, Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371914"
+    },
+    {
+      "name": "Fashivly",
+      "sector": "TxO",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "372294"
+    },
+    {
+      "name": "favorited",
+      "sector": "Games",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371182"
+    },
+    {
+      "name": "Feedplan",
+      "sector": "TxO",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "371266"
+    },
+    {
+      "name": "Fei Protocol",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371246"
+    },
+    {
+      "name": "FidoCure",
+      "sector": "Bio + Health, CLF",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "370817"
+    },
+    {
+      "name": "Filmhub",
+      "sector": "Consumer, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371695"
+    },
+    {
+      "name": "FingerprintsDAO",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "372253"
+    },
+    {
+      "name": "Firefly Health",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371527"
+    },
+    {
+      "name": "Fivetran",
+      "sector": "Enterprise, Growth, CLF, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15445"
+    },
+    {
+      "name": "Flash Hoops",
+      "sector": "TxO",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372151"
+    },
+    {
+      "name": "Flexport",
+      "sector": "Enterprise, American Dynamism, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "15403"
+    },
+    {
+      "name": "Flock Homes",
+      "sector": "Consumer, Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371283"
+    },
+    {
+      "name": "Flock Safety",
+      "sector": "Enterprise, American Dynamism, Growth, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "14881"
+    },
+    {
+      "name": "Flow",
+      "sector": "Consumer, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "372330"
+    },
+    {
+      "name": "Flowcarbon",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "32569"
+    },
+    {
+      "name": "Fly.io",
+      "sector": "Enterprise, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "371318"
+    },
+    {
+      "name": "FlyHomes",
+      "sector": "Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "370985"
+    },
+    {
+      "name": "Foodology",
+      "sector": "Consumer",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "372223"
+    },
+    {
+      "name": "Formation",
+      "sector": "Consumer, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371827"
+    },
+    {
+      "name": "Formation Bio",
+      "sector": "Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "370803"
+    },
+    {
+      "name": "Forta Network",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "15733"
+    },
+    {
+      "name": "Forte Labs, Inc.",
+      "sector": "Consumer, Games, Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371099"
+    },
+    {
+      "name": "Fortuna Health",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "371910"
+    },
+    {
+      "name": "Forward Networks",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15367"
+    },
+    {
+      "name": "Foundation",
+      "sector": "CLF, Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "14861"
+    },
+    {
+      "name": "Foursquare",
+      "sector": "Consumer",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "371298"
+    },
+    {
+      "name": "Freatic",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "373171"
+    },
+    {
+      "name": "Freenome",
+      "sector": "Bio + Health, Growth, CLF, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture, Growth",
+      "company_id": "15291"
+    },
+    {
+      "name": "Fudo",
+      "sector": "Consumer, Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "370881"
+    },
+    {
+      "name": "Function Health",
+      "sector": "Bio + Health",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "367938"
+    },
+    {
+      "name": "Further AI",
+      "sector": "Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "379391"
+    },
+    {
+      "name": "FWB",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "371831"
+    },
+    {
+      "name": "GamerXSociety",
+      "sector": "TxO",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "371719"
+    },
+    {
+      "name": "Gate Bio",
+      "sector": "Bio + Health",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "372278"
+    },
+    {
+      "name": "GC Therapeutics",
+      "sector": "Bio + Health",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "371121"
+    },
+    {
+      "name": "Genesis Therapeutics",
+      "sector": "Bio + Health, CLF, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "14955"
+    },
+    {
+      "name": "Gensyn",
+      "sector": "Crypto, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "370901"
+    },
+    {
+      "name": "Glorify",
+      "sector": "Consumer",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371982"
+    },
+    {
+      "name": "Glossbird",
+      "sector": "TxO",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372217"
+    },
+    {
+      "name": "Glow",
+      "sector": "Consumer",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "370841"
+    },
+    {
+      "name": "GoodData",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture, Growth",
+      "company_id": "15649"
+    },
+    {
+      "name": "Graphite",
+      "sector": "Enterprise, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15675"
+    },
+    {
+      "name": "Greenlight",
+      "sector": "Fintech, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "15851"
+    },
+    {
+      "name": "Greether",
+      "sector": "TxO",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "372262"
+    },
+    {
+      "name": "Grepr",
+      "sector": "Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "373874"
+    },
+    {
+      "name": "Gym Class VR",
+      "sector": "Consumer, Seed, Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "323672"
+    },
+    {
+      "name": "Hadrian",
+      "sector": "American Dynamism",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371055"
+    },
+    {
+      "name": "Halliday",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372124"
+    },
+    {
+      "name": "HappyRobot",
+      "sector": "Consumer, Enterprise, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "373251"
+    },
+    {
+      "name": "Harbor",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "371160"
+    },
+    {
+      "name": "Headway",
+      "sector": "Bio + Health, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15055"
+    },
+    {
+      "name": "Hebbia",
+      "sector": "Growth, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "368365"
+    },
+    {
+      "name": "Hedra",
+      "sector": "Consumer, Games, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "364469"
+    },
+    {
+      "name": "Here Not There, Inc.",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371870"
+    },
+    {
+      "name": "Hex",
+      "sector": "Enterprise, Growth, AI, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "14869"
+    },
+    {
+      "name": "Hipcamp",
+      "sector": "Consumer",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "372270"
+    },
+    {
+      "name": "Hippocratic AI",
+      "sector": "Bio + Health, AI",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "34529"
+    },
+    {
+      "name": "Honor",
+      "sector": "Bio + Health",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "371037"
+    },
+    {
+      "name": "hyperexponential",
+      "sector": "Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "372255"
+    },
+    {
+      "name": "Ideogram",
+      "sector": "Consumer, Enterprise, Seed, AI, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "334326"
+    },
+    {
+      "name": "IFTTT",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "371029"
+    },
+    {
+      "name": "Illumio",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15459"
+    },
+    {
+      "name": "Imply",
+      "sector": "Enterprise, Growth, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "370849"
+    },
+    {
+      "name": "Improbable",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "372034"
+    },
+    {
+      "name": "Inceptive",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "360278"
+    },
+    {
+      "name": "Incredible Health",
+      "sector": "Bio + Health, Consumer, CLF",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15209"
+    },
+    {
+      "name": "Inductive Bio",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371103"
+    },
+    {
+      "name": "Infinite Athlete",
+      "sector": "Consumer, CLF",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "350948"
+    },
+    {
+      "name": "Infinite Machine",
+      "sector": "American Dynamism, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372854"
+    },
+    {
+      "name": "Infinitus",
+      "sector": "Bio + Health, Growth, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "372678"
+    },
+    {
+      "name": "Inngest",
+      "sector": "Enterprise, Seed, Infra",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371399"
+    },
+    {
+      "name": "InSitro",
+      "sector": "Bio + Health, Growth, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture, Growth",
+      "company_id": "15137"
+    },
+    {
+      "name": "Instabase",
+      "sector": "Enterprise, AI, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15311"
+    },
+    {
+      "name": "Instart",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "371134"
+    },
+    {
+      "name": "Intro",
+      "sector": "Consumer, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "15827"
+    },
+    {
+      "name": "Inventa",
+      "sector": "Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15693"
+    },
+    {
+      "name": "Iron Fish",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15803"
+    },
+    {
+      "name": "Irreverent Labs",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371136"
+    },
+    {
+      "name": "IYK",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "360296"
+    },
+    {
+      "name": "Jeeves",
+      "sector": "Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "371063"
+    },
+    {
+      "name": "Journera",
+      "sector": "Consumer",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371190"
+    },
+    {
+      "name": "k-ID",
+      "sector": "Games",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "364477"
+    },
+    {
+      "name": "K12 Crypto",
+      "sector": "TxO",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372191"
+    },
+    {
+      "name": "Kadabra",
+      "sector": "Enterprise, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "370853"
+    },
+    {
+      "name": "Kaedim",
+      "sector": "Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "364332"
+    },
+    {
+      "name": "Kaizen Labs",
+      "sector": "American Dynamism",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "372233"
+    },
+    {
+      "name": "Kalshi",
+      "sector": "Growth",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "379389"
+    },
+    {
+      "name": "Keep",
+      "sector": "Fintech, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371839"
+    },
+    {
+      "name": "Keep Network",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371691"
+    },
+    {
+      "name": "KIKI",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "370887"
+    },
+    {
+      "name": "Kindred",
+      "sector": "Consumer, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "15695"
+    },
+    {
+      "name": "Knownwell",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "372106"
+    },
+    {
+      "name": "KoBold Metals",
+      "sector": "Enterprise, American Dynamism, Growth, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15093"
+    },
+    {
+      "name": "Kodex",
+      "sector": "American Dynamism, Seed",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372276"
+    },
+    {
+      "name": "Komodo Health",
+      "sector": "Bio + Health, Growth, CLF, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "15263"
+    },
+    {
+      "name": "Kong",
+      "sector": "Enterprise, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15567"
+    },
+    {
+      "name": "Kosen Labs",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372118"
+    },
+    {
+      "name": "Krea",
+      "sector": "Consumer, AI",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "375758"
+    },
+    {
+      "name": "kweliTV",
+      "sector": "TxO",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371051"
+    },
+    {
+      "name": "Labelbox",
+      "sector": "Enterprise, AI, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "371683"
+    },
+    {
+      "name": "Labster",
+      "sector": "Enterprise, American Dynamism, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "371938"
+    },
+    {
+      "name": "Larridin",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "375979"
+    },
+    {
+      "name": "LayerZero",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "32512"
+    },
+    {
+      "name": "Legend Labs",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "375435"
+    },
+    {
+      "name": "Levels Health",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "14855"
+    },
+    {
+      "name": "Lido Finance",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "370997"
+    },
+    {
+      "name": "Lighter",
+      "sector": "Consumer, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "15909"
+    },
+    {
+      "name": "Lightspark Group, Inc.",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "372179"
+    },
+    {
+      "name": "Lightup",
+      "sector": "Enterprise, CLF, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "14971"
+    },
+    {
+      "name": "Lime",
+      "sector": "Consumer",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15217"
+    },
+    {
+      "name": "Limitless",
+      "sector": "Enterprise, Seed, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371071"
+    },
+    {
+      "name": "LMArena",
+      "sector": "Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "376972"
+    },
+    {
+      "name": "Local Motion",
+      "sector": "Enterprise",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371383"
+    },
+    {
+      "name": "Locale",
+      "sector": "Consumer, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371176"
+    },
+    {
+      "name": "Loft",
+      "sector": "Consumer, Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "371803"
+    },
+    {
+      "name": "Lookout",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "371339"
+    },
+    {
+      "name": "Loop",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371015"
+    },
+    {
+      "name": "LootRush",
+      "sector": "Seed, Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371395"
+    },
+    {
+      "name": "LTSE Services, Inc.",
+      "sector": "Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15285"
+    },
+    {
+      "name": "Luma AI",
+      "sector": "Consumer, AI, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "362756"
+    },
+    {
+      "name": "Lumi Interactive",
+      "sector": "Seed, Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "323746"
+    },
+    {
+      "name": "Lumos",
+      "sector": "Enterprise, Seed, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "15883"
+    },
+    {
+      "name": "Macro",
+      "sector": "Enterprise, Seed, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "32499"
+    },
+    {
+      "name": "Magic Leap",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "370957"
+    },
+    {
+      "name": "Mainframe Industries",
+      "sector": "Consumer, Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371483"
+    },
+    {
+      "name": "Maker",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "371851"
+    },
+    {
+      "name": "Mana Bio",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "371202"
+    },
+    {
+      "name": "Manifold",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "15741"
+    },
+    {
+      "name": "Mariana Minerals",
+      "sector": "American Dynamism",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "377788"
+    },
+    {
+      "name": "Marker Learning",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15661"
+    },
+    {
+      "name": "Material Security",
+      "sector": "Enterprise, Growth, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "371119"
+    },
+    {
+      "name": "Matik",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "372090"
+    },
+    {
+      "name": "Matter Labs",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "14933"
+    },
+    {
+      "name": "Maven",
+      "sector": "Consumer, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "372298"
+    },
+    {
+      "name": "Mayvenn",
+      "sector": "Consumer",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15437"
+    },
+    {
+      "name": "Maze Therapeutics",
+      "sector": "Bio + Health, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "372002"
+    },
+    {
+      "name": "Mediachain",
+      "sector": "",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371607"
+    },
+    {
+      "name": "Medium",
+      "sector": "Consumer",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "371767"
+    },
+    {
+      "name": "Medley",
+      "sector": "Consumer, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371244"
+    },
+    {
+      "name": "MEGA",
+      "sector": "Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "370929"
+    },
+    {
+      "name": "Meitre",
+      "sector": "Enterprise, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371779"
+    },
+    {
+      "name": "Mem",
+      "sector": "Enterprise, Seed, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "14871"
+    },
+    {
+      "name": "Mem Protocol",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "372038"
+    },
+    {
+      "name": "Mercury",
+      "sector": "Fintech, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371057"
+    },
+    {
+      "name": "Merit Systems",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "375437"
+    },
+    {
+      "name": "Merkle Manufactory, Inc.",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "37662"
+    },
+    {
+      "name": "Meta4 Capital",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "372257"
+    },
+    {
+      "name": "Metatheory",
+      "sector": "Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371105"
+    },
+    {
+      "name": "Method",
+      "sector": "Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "27870"
+    },
+    {
+      "name": "Metronome",
+      "sector": "Enterprise, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "370995"
+    },
+    {
+      "name": "Milu Health",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "371101"
+    },
+    {
+      "name": "Mintlify",
+      "sector": "Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "370285"
+    },
+    {
+      "name": "Mirage",
+      "sector": "Consumer, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "370867"
+    },
+    {
+      "name": "Mirror",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "37240"
+    },
+    {
+      "name": "Mistral AI",
+      "sector": "Enterprise, Growth, AI, Infra",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "362223"
+    },
+    {
+      "name": "Mixpanel",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15581"
+    },
+    {
+      "name": "MLT",
+      "sector": "",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "372070"
+    },
+    {
+      "name": "ModernFi",
+      "sector": "Fintech, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "15663"
+    },
+    {
+      "name": "Moment",
+      "sector": "Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "350330"
+    },
+    {
+      "name": "Moov",
+      "sector": "Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15887"
+    },
+    {
+      "name": "Mora",
+      "sector": "Consumer, Fintech, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371651"
+    },
+    {
+      "name": "Morpho",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "37550"
+    },
+    {
+      "name": "Mosaic",
+      "sector": "Fintech, CLF",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "370909"
+    },
+    {
+      "name": "Mother Computer Inc.",
+      "sector": "",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "355779"
+    },
+    {
+      "name": "Motherduck",
+      "sector": "Enterprise, Seed, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "372050"
+    },
+    {
+      "name": "Mountaintop Studios",
+      "sector": "Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15837"
+    },
+    {
+      "name": "Muse App Inc",
+      "sector": "TxO",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "372260"
+    },
+    {
+      "name": "Mux",
+      "sector": "Enterprise, Growth, CLF",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "370991"
+    },
+    {
+      "name": "Mvmnt",
+      "sector": "Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "29226"
+    },
+    {
+      "name": "Mysten Labs",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371289"
+    },
+    {
+      "name": "Mythical Games",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "371699"
+    },
+    {
+      "name": "Nansen",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "37199"
+    },
+    {
+      "name": "Nash",
+      "sector": "Consumer, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "32532"
+    },
+    {
+      "name": "NationBuilder",
+      "sector": "Enterprise, American Dynamism",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "372161"
+    },
+    {
+      "name": "Navan",
+      "sector": "Enterprise, Growth, CLF, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "15039"
+    },
+    {
+      "name": "NEAR",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15911"
+    },
+    {
+      "name": "Neighbor",
+      "sector": "Consumer",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371150"
+    },
+    {
+      "name": "Netlify",
+      "sector": "Enterprise, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "371603"
+    },
+    {
+      "name": "Netography",
+      "sector": "Enterprise, Seed, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "15097"
+    },
+    {
+      "name": "Neural Magic",
+      "sector": "Enterprise, Infra",
+      "status": "Exit",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "370911"
+    },
+    {
+      "name": "NG.CASH",
+      "sector": "Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "29230"
+    },
+    {
+      "name": "Niftmint",
+      "sector": "TxO",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372143"
+    },
+    {
+      "name": "NOD Games",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372195"
+    },
+    {
+      "name": "North Pole Security",
+      "sector": "Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "377901"
+    },
+    {
+      "name": "Northwood Space",
+      "sector": "American Dynamism, Seed",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371250"
+    },
+    {
+      "name": "Nova Labs",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "32530"
+    },
+    {
+      "name": "Nx",
+      "sector": "Enterprise, Seed, Infra",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "360282"
+    },
+    {
+      "name": "Nym",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371142"
+    },
+    {
+      "name": "Oasis Labs",
+      "sector": "",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "15111"
+    },
+    {
+      "name": "Octant Bio",
+      "sector": "Bio + Health, CLF",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15147"
+    },
+    {
+      "name": "Odyssey",
+      "sector": "American Dynamism, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371021"
+    },
+    {
+      "name": "Odyssey Interactive",
+      "sector": "Seed, Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371411"
+    },
+    {
+      "name": "OfferUp",
+      "sector": "Consumer",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "372243"
+    },
+    {
+      "name": "One More Game",
+      "sector": "Seed, Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "372249"
+    },
+    {
+      "name": "OpenAI",
+      "sector": "Enterprise, Growth, AI, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "370827"
+    },
+    {
+      "name": "OpenBazaar",
+      "sector": "",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371874"
+    },
+    {
+      "name": "OpenRouter",
+      "sector": "Infra",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "377574"
+    },
+    {
+      "name": "OpenSea",
+      "sector": "Growth, Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15059"
+    },
+    {
+      "name": "Optimism",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371281"
+    },
+    {
+      "name": "Orbit",
+      "sector": "Enterprise, Seed, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "372120"
+    },
+    {
+      "name": "Orchestra Bio",
+      "sector": "Bio + Health",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371707"
+    },
+    {
+      "name": "Orchid Labs",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "371140"
+    },
+    {
+      "name": "Orderful",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "14977"
+    },
+    {
+      "name": "Original Games",
+      "sector": "",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "371471"
+    },
+    {
+      "name": "Otter",
+      "sector": "Consumer, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371595"
+    },
+    {
+      "name": "Outing",
+      "sector": "TxO",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "372064"
+    },
+    {
+      "name": "Overtime",
+      "sector": "Consumer",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "371675"
+    },
+    {
+      "name": "Overwolf",
+      "sector": "Growth, Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "371069"
+    },
+    {
+      "name": "Pahdo Labs",
+      "sector": "Seed, Games, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15771"
+    },
+    {
+      "name": "Palmstreet",
+      "sector": "Consumer",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "376985"
+    },
+    {
+      "name": "Paloma",
+      "sector": "Consumer, Seed",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "373150"
+    },
+    {
+      "name": "PartyDAO",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "37328"
+    },
+    {
+      "name": "Patch",
+      "sector": "Consumer, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "15847"
+    },
+    {
+      "name": "Patina",
+      "sector": "Bio + Health",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "14865"
+    },
+    {
+      "name": "Pave",
+      "sector": "Enterprise, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15879"
+    },
+    {
+      "name": "Payall",
+      "sector": "Fintech, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371166"
+    },
+    {
+      "name": "Payrails",
+      "sector": "Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371335"
+    },
+    {
+      "name": "Pearl Health",
+      "sector": "Bio + Health, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "371184"
+    },
+    {
+      "name": "Peepal.co",
+      "sector": "Growth, Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "371236"
+    },
+    {
+      "name": "People.ai",
+      "sector": "Enterprise, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "370813"
+    },
+    {
+      "name": "Periodic Labs",
+      "sector": "Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "379246"
+    },
+    {
+      "name": "Phantom",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15761"
+    },
+    {
+      "name": "Phota Labs",
+      "sector": "Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "378888"
+    },
+    {
+      "name": "Pietra",
+      "sector": "Consumer",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "372266"
+    },
+    {
+      "name": "Pimlico",
+      "sector": "Crypto",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371192"
+    },
+    {
+      "name": "Pindrop",
+      "sector": "Enterprise, Seed, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture, Growth",
+      "company_id": "15537"
+    },
+    {
+      "name": "Pinecone",
+      "sector": "Enterprise, AI, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "324141"
+    },
+    {
+      "name": "Plaid",
+      "sector": "Fintech, Growth, CLF",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "15429"
+    },
+    {
+      "name": "PlanetScale",
+      "sector": "Enterprise, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "14957"
+    },
+    {
+      "name": "PleasrDAO",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "377586"
+    },
+    {
+      "name": "Podium Automation",
+      "sector": "American Dynamism",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "378840"
+    },
+    {
+      "name": "Point",
+      "sector": "Fintech, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture, Growth",
+      "company_id": "15359"
+    },
+    {
+      "name": "Polychain",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "371902"
+    },
+    {
+      "name": "Polywork",
+      "sector": "Consumer",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "370939"
+    },
+    {
+      "name": "Pomelo Care",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "24636"
+    },
+    {
+      "name": "Practice",
+      "sector": "Consumer, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371162"
+    },
+    {
+      "name": "Preset",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "370977"
+    },
+    {
+      "name": "Prisms",
+      "sector": "Consumer",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371322"
+    },
+    {
+      "name": "Promise",
+      "sector": "Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "373152"
+    },
+    {
+      "name": "PromptFoo",
+      "sector": "Seed, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "368401"
+    },
+    {
+      "name": "Proof Holdings",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "372098"
+    },
+    {
+      "name": "Proof of Play",
+      "sector": "Games, Crypto",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371451"
+    },
+    {
+      "name": "Propel",
+      "sector": "Bio + Health, Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371511"
+    },
+    {
+      "name": "Protocol Labs",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "15351"
+    },
+    {
+      "name": "Proven",
+      "sector": "Enterprise, Seed",
+      "status": "Exit",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371272"
+    },
+    {
+      "name": "Pug.AI",
+      "sector": "TxO",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "371751"
+    },
+    {
+      "name": "Pylon",
+      "sector": "Enterprise",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "370101"
+    },
+    {
+      "name": "Pyn",
+      "sector": "Enterprise, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371898"
+    },
+    {
+      "name": "Q Bio, Inc.",
+      "sector": "Bio + Health, CLF, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "370815"
+    },
+    {
+      "name": "Quora",
+      "sector": "Growth",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "372245"
+    },
+    {
+      "name": "Rabbit",
+      "sector": "Consumer",
+      "status": "Exit",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371117"
+    },
+    {
+      "name": "RadEmploy",
+      "sector": "TxO",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "371711"
+    },
+    {
+      "name": "Radiant",
+      "sector": "American Dynamism",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "36757"
+    },
+    {
+      "name": "Raid Base",
+      "sector": "Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371583"
+    },
+    {
+      "name": "Rapid",
+      "sector": "Enterprise, Seed",
+      "status": "Exit",
+      "exit_details": "",
+      "stage": "Seed, Venture, Growth",
+      "company_id": "15257"
+    },
+    {
+      "name": "Rappi",
+      "sector": "Consumer, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture, Growth",
+      "company_id": "371188"
+    },
+    {
+      "name": "Rasa",
+      "sector": "Enterprise, AI, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "372185"
+    },
+    {
+      "name": "Raspberry AI",
+      "sector": "Consumer, Enterprise, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "373876"
+    },
+    {
+      "name": "Ready Player Me",
+      "sector": "Consumer, Games, Crypto, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "331348"
+    },
+    {
+      "name": "Reducto",
+      "sector": "Infra",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "379541"
+    },
+    {
+      "name": "Reface",
+      "sector": "Consumer, AI",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372167"
+    },
+    {
+      "name": "Reforge",
+      "sector": "Consumer, American Dynamism",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15231"
+    },
+    {
+      "name": "Relace",
+      "sector": "Infra",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "379444"
+    },
+    {
+      "name": "Relay",
+      "sector": "Enterprise, Seed",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "360478"
+    },
+    {
+      "name": "Replay",
+      "sector": "Enterprise, Seed, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371127"
+    },
+    {
+      "name": "Replicate",
+      "sector": "Enterprise, AI, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371210"
+    },
+    {
+      "name": "Replit",
+      "sector": "Consumer, Enterprise, Growth, Seed, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "15123"
+    },
+    {
+      "name": "Resend",
+      "sector": "Infra",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "373017"
+    },
+    {
+      "name": "Resourcely",
+      "sector": "Enterprise, Seed, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371240"
+    },
+    {
+      "name": "Rewatch",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15821"
+    },
+    {
+      "name": "Rezo Therapeutics",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15691"
+    },
+    {
+      "name": "Rigup",
+      "sector": "Enterprise, American Dynamism, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "370843"
+    },
+    {
+      "name": "Rillet",
+      "sector": "Fintech, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "377930"
+    },
+    {
+      "name": "Rive",
+      "sector": "Enterprise, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "14909"
+    },
+    {
+      "name": "RLY Network",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371946"
+    },
+    {
+      "name": "Roboto Games",
+      "sector": "Games",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "323754"
+    },
+    {
+      "name": "Rollup AI",
+      "sector": "American Dynamism",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "366968"
+    },
+    {
+      "name": "ROME Therapeutics",
+      "sector": "Bio + Health, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15779"
+    },
+    {
+      "name": "Royal",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "32539"
+    },
+    {
+      "name": "Run the World",
+      "sector": "Consumer, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371499"
+    },
+    {
+      "name": "Rune Technologies",
+      "sector": "American Dynamism, Seed",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "379501"
+    },
+    {
+      "name": "Runloop",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "370993"
+    },
+    {
+      "name": "Runway",
+      "sector": "Fintech, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371067"
+    },
+    {
+      "name": "Rutter",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "370981"
+    },
+    {
+      "name": "Rye",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "37337"
+    },
+    {
+      "name": "Safe Superintelligence",
+      "sector": "Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "370295"
+    },
+    {
+      "name": "Salient",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "377462"
+    },
+    {
+      "name": "Salt AI",
+      "sector": "Seed, Games, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "15073"
+    },
+    {
+      "name": "Sandbox VR",
+      "sector": "Growth, CLF, Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15103"
+    },
+    {
+      "name": "Santa Ana Bio",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "367631"
+    },
+    {
+      "name": "Sardine",
+      "sector": "Fintech, Growth, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15727"
+    },
+    {
+      "name": "Saronic",
+      "sector": "American Dynamism, AI",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "360413"
+    },
+    {
+      "name": "Scene Infrastructure Co",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "373115"
+    },
+    {
+      "name": "Scribe Therapeutics",
+      "sector": "Bio + Health",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371926"
+    },
+    {
+      "name": "Scribenote",
+      "sector": "Consumer, Enterprise, AI",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "370578"
+    },
+    {
+      "name": "Season Health",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371031"
+    },
+    {
+      "name": "Seismic Systems",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "376558"
+    },
+    {
+      "name": "Senra Systems",
+      "sector": "American Dynamism",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "379497"
+    },
+    {
+      "name": "SentiLink",
+      "sector": "Fintech, Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15167"
+    },
+    {
+      "name": "Sequence",
+      "sector": "Fintech, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371823"
+    },
+    {
+      "name": "Series Entertainment",
+      "sector": "Games, AI",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "350320"
+    },
+    {
+      "name": "Sesame",
+      "sector": "Consumer, AI",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "374762"
+    },
+    {
+      "name": "Setpoint.io",
+      "sector": "Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "29566"
+    },
+    {
+      "name": "Sharp Performance",
+      "sector": "American Dynamism",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "378838"
+    },
+    {
+      "name": "Shef",
+      "sector": "Consumer",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371252"
+    },
+    {
+      "name": "Shibuya",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371443"
+    },
+    {
+      "name": "Shield AI",
+      "sector": "Enterprise, American Dynamism, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15295"
+    },
+    {
+      "name": "Shop Rodeo",
+      "sector": "TxO",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "374795"
+    },
+    {
+      "name": "Singularity 6",
+      "sector": "Consumer, Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "14951"
+    },
+    {
+      "name": "Sky Mavis",
+      "sector": "Growth, Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15891"
+    },
+    {
+      "name": "Skydio",
+      "sector": "Enterprise, American Dynamism, Growth, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture, Growth",
+      "company_id": "15041"
+    },
+    {
+      "name": "SkySafe",
+      "sector": "Enterprise, American Dynamism, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "370809"
+    },
+    {
+      "name": "Sleeper",
+      "sector": "Growth, CLF, Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15087"
+    },
+    {
+      "name": "Slingshot AI",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "373878"
+    },
+    {
+      "name": "Sloyd",
+      "sector": "",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "372282"
+    },
+    {
+      "name": "Smartcar",
+      "sector": "Enterprise, American Dynamism, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "15339"
+    },
+    {
+      "name": "Snackpass",
+      "sector": "Consumer",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "370871"
+    },
+    {
+      "name": "SnapLogic",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15643"
+    },
+    {
+      "name": "Snapser",
+      "sector": "Seed, Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371467"
+    },
+    {
+      "name": "Socket",
+      "sector": "Enterprise, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "328714"
+    },
+    {
+      "name": "Sola",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "377671"
+    },
+    {
+      "name": "Solana",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "370925"
+    },
+    {
+      "name": "Sound.xyz",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371703"
+    },
+    {
+      "name": "Sourcegraph",
+      "sector": "Enterprise, Growth, AI, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "15399"
+    },
+    {
+      "name": "SpaceX",
+      "sector": "American Dynamism, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "14981"
+    },
+    {
+      "name": "Spade",
+      "sector": "Fintech, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "29232"
+    },
+    {
+      "name": "SpotOn",
+      "sector": "Enterprise, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "15763"
+    },
+    {
+      "name": "Sprig",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "370863"
+    },
+    {
+      "name": "Sprinter Health",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15725"
+    },
+    {
+      "name": "Spruce Systems",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371113"
+    },
+    {
+      "name": "Stacker",
+      "sector": "Enterprise, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371978"
+    },
+    {
+      "name": "Stainless",
+      "sector": "Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "373381"
+    },
+    {
+      "name": "Standard Nuclear",
+      "sector": "",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "378842"
+    },
+    {
+      "name": "Starburst",
+      "sector": "Enterprise, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "14929"
+    },
+    {
+      "name": "StarStock!",
+      "sector": "Consumer, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371228"
+    },
+    {
+      "name": "Stelo Labs, Inc.",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372304"
+    },
+    {
+      "name": "Stoik",
+      "sector": "Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "29201"
+    },
+    {
+      "name": "Story Protocol",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "369572"
+    },
+    {
+      "name": "Stripe",
+      "sector": "Fintech, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15619"
+    },
+    {
+      "name": "Substack",
+      "sector": "Consumer, Growth, CLF",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "14991"
+    },
+    {
+      "name": "Super Evil MegaCorp",
+      "sector": "Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371775"
+    },
+    {
+      "name": "Superhuman",
+      "sector": "Enterprise",
+      "status": "Exit",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "371799"
+    },
+    {
+      "name": "Supermove",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "14883"
+    },
+    {
+      "name": "Supersonik",
+      "sector": "Enterprise, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "378639"
+    },
+    {
+      "name": "Svix",
+      "sector": "Enterprise, Seed, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "370921"
+    },
+    {
+      "name": "Swan",
+      "sector": "American Dynamism, Seed",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "369753"
+    },
+    {
+      "name": "SwayBrand, Inc.",
+      "sector": "TxO",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371268"
+    },
+    {
+      "name": "Synapse",
+      "sector": "Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "14969"
+    },
+    {
+      "name": "Syndicate",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "15743"
+    },
+    {
+      "name": "Synonym",
+      "sector": "Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "15669"
+    },
+    {
+      "name": "Tackle.io",
+      "sector": "Enterprise, Growth, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "371423"
+    },
+    {
+      "name": "Tako",
+      "sector": "Fintech, Seed",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "373254"
+    },
+    {
+      "name": "Talkiatry",
+      "sector": "Bio + Health, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "367714"
+    },
+    {
+      "name": "Tally Labs, Inc.",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371363"
+    },
+    {
+      "name": "Talos",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15905"
+    },
+    {
+      "name": "Tanium",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "15389"
+    },
+    {
+      "name": "Tapi",
+      "sector": "Fintech, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "368794"
+    },
+    {
+      "name": "Tecton",
+      "sector": "Enterprise, Growth, AI, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture, Growth",
+      "company_id": "14983"
+    },
+    {
+      "name": "Teespring",
+      "sector": "",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371132"
+    },
+    {
+      "name": "Tellus",
+      "sector": "Fintech, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "370837"
+    },
+    {
+      "name": "Tenex AI",
+      "sector": "Infra",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "374026"
+    },
+    {
+      "name": "Tennr",
+      "sector": "Bio + Health, Enterprise, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "364705"
+    },
+    {
+      "name": "ternwheel",
+      "sector": "TxO",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "374796"
+    },
+    {
+      "name": "Testcode",
+      "sector": "Consumer, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371930"
+    },
+    {
+      "name": "Thatch Health",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "15683"
+    },
+    {
+      "name": "The Coterie",
+      "sector": "Fintech, Seed",
+      "status": "Exit",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371787"
+    },
+    {
+      "name": "Theorycraft Games",
+      "sector": "Games",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371847"
+    },
+    {
+      "name": "Thinking Machines Lab",
+      "sector": "Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "377765"
+    },
+    {
+      "name": "Thyme Care",
+      "sector": "Bio + Health",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "15799"
+    },
+    {
+      "name": "Tigris Data",
+      "sector": "Enterprise, Seed, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372010"
+    },
+    {
+      "name": "Timbucktoo",
+      "sector": "TxO",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "371049"
+    },
+    {
+      "name": "Titan",
+      "sector": "Fintech, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "371878"
+    },
+    {
+      "name": "Tlon",
+      "sector": "Enterprise, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371491"
+    },
+    {
+      "name": "Toka",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "370811"
+    },
+    {
+      "name": "Toma",
+      "sector": "Enterprise, AI",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "377023"
+    },
+    {
+      "name": "Tomorrow Health",
+      "sector": "Bio + Health, Growth, CLF",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture, Growth",
+      "company_id": "371007"
+    },
+    {
+      "name": "TopKey",
+      "sector": "Fintech, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372139"
+    },
+    {
+      "name": "Topography Health",
+      "sector": "Bio + Health, CLF, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371403"
+    },
+    {
+      "name": "Tradeblock",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372209"
+    },
+    {
+      "name": "TruckSmarter",
+      "sector": "American Dynamism",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371001"
+    },
+    {
+      "name": "Truffle Security",
+      "sector": "Enterprise, Seed, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "372149"
+    },
+    {
+      "name": "Trunk",
+      "sector": "Enterprise, Seed, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371295"
+    },
+    {
+      "name": "TrustToken",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "370823"
+    },
+    {
+      "name": "Turquoise Health",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371950"
+    },
+    {
+      "name": "Udio",
+      "sector": "Consumer, Infra",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "365361"
+    },
+    {
+      "name": "Ultima Genomics",
+      "sector": "Bio + Health, Growth, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "370891"
+    },
+    {
+      "name": "UnifyID",
+      "sector": "Enterprise, Seed",
+      "status": "Exit",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371958"
+    },
+    {
+      "name": "Unisound",
+      "sector": "TxO",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "374793"
+    },
+    {
+      "name": "Uniswap",
+      "sector": "Growth, Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "14937"
+    },
+    {
+      "name": "UnitedMasters",
+      "sector": "Consumer, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15305"
+    },
+    {
+      "name": "Universal",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "372171"
+    },
+    {
+      "name": "UpSmith",
+      "sector": "American Dynamism",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371033"
+    },
+    {
+      "name": "Upstash",
+      "sector": "Enterprise, Seed, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "363491"
+    },
+    {
+      "name": "Vaas",
+      "sector": "Fintech, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "370877"
+    },
+    {
+      "name": "Valar Labs",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371755"
+    },
+    {
+      "name": "Valon",
+      "sector": "Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "14887"
+    },
+    {
+      "name": "Valora",
+      "sector": "CLF, Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371306"
+    },
+    {
+      "name": "Vantage",
+      "sector": "Enterprise, Seed, Infra",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "15781"
+    },
+    {
+      "name": "VeeFriends",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "32560"
+    },
+    {
+      "name": "Ventrilo",
+      "sector": "Enterprise, Seed, AI, Infra",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371174"
+    },
+    {
+      "name": "Ventus Therapeutics",
+      "sector": "Bio + Health, Growth, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "371331"
+    },
+    {
+      "name": "Very Good Security",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "371455"
+    },
+    {
+      "name": "Vesta",
+      "sector": "Fintech",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15823"
+    },
+    {
+      "name": "Viggle",
+      "sector": "Consumer, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371027"
+    },
+    {
+      "name": "Virch Merch",
+      "sector": "TxO",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "371025"
+    },
+    {
+      "name": "Vitally",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "372264"
+    },
+    {
+      "name": "Voldex",
+      "sector": "Games",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371111"
+    },
+    {
+      "name": "Warbler Labs, Incorporated",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "15793"
+    },
+    {
+      "name": "WaveForms AI",
+      "sector": "",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "373426"
+    },
+    {
+      "name": "Waymark",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "15721"
+    },
+    {
+      "name": "Waymo",
+      "sector": "Enterprise, Growth, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15219"
+    },
+    {
+      "name": "Wealthmore",
+      "sector": "TxO",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "372221"
+    },
+    {
+      "name": "Whatnot",
+      "sector": "Consumer, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15829"
+    },
+    {
+      "name": "Wingspan",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "36642"
+    },
+    {
+      "name": "Wiz",
+      "sector": "Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "",
+      "company_id": "371387"
+    },
+    {
+      "name": "Wonderschool",
+      "sector": "Consumer, American Dynamism",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "371771"
+    },
+    {
+      "name": "WorkBoard",
+      "sector": "Enterprise, Growth",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "371735"
+    },
+    {
+      "name": "World Labs",
+      "sector": "Growth, AI, Infra",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "370417"
+    },
+    {
+      "name": "Worldcoin",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "370905"
+    },
+    {
+      "name": "Wrapbook",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "15885"
+    },
+    {
+      "name": "xAI",
+      "sector": "Growth",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "367267"
+    },
+    {
+      "name": "XBuild",
+      "sector": "Consumer, Fintech, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371023"
+    },
+    {
+      "name": "XMTP Labs",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture",
+      "company_id": "15023"
+    },
+    {
+      "name": "Yellow",
+      "sector": "Games, AI",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "366454"
+    },
+    {
+      "name": "Yield Guild Games",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "15777"
+    },
+    {
+      "name": "Yubico",
+      "sector": "Enterprise",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15421"
+    },
+    {
+      "name": "Yuga Labs (BAYC)",
+      "sector": "Growth, Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "15667"
+    },
+    {
+      "name": "Yuno",
+      "sector": "Fintech, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "323720"
+    },
+    {
+      "name": "Zed.run",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "372145"
+    },
+    {
+      "name": "Zefchain",
+      "sector": "Crypto",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "37310"
+    },
+    {
+      "name": "Zencoder",
+      "sector": "Enterprise, Seed",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "371375"
+    },
+    {
+      "name": "Zenefits",
+      "sector": "",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "371198"
+    },
+    {
+      "name": "ZeroMark",
+      "sector": "American Dynamism, Seed",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed",
+      "company_id": "324109"
+    },
+    {
+      "name": "Zipline",
+      "sector": "Consumer, American Dynamism, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Venture, Growth",
+      "company_id": "15251"
+    },
+    {
+      "name": "Zulily",
+      "sector": "Consumer",
+      "status": "Unknown",
+      "exit_details": "",
+      "stage": "Growth",
+      "company_id": "370989"
+    },
+    {
+      "name": "Zuma",
+      "sector": "Consumer, Seed, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "371667"
+    },
+    {
+      "name": "Zus Health",
+      "sector": "Bio + Health, AI",
+      "status": "Active",
+      "exit_details": "",
+      "stage": "Seed, Venture",
+      "company_id": "370969"
+    }
+  ]
+}
