@@ -23,6 +23,11 @@ def import_json_to_db(json_file_path: str):
     session = get_session()
     
     try:
+        # Calculate current/exited counts from company data
+        companies = data["companies"]
+        current_count = sum(1 for c in companies if c.get("status", "").lower() in ["active", "current"])
+        exited_count = sum(1 for c in companies if c.get("status", "").lower() in ["exit", "former", "past"] or "exit" in c.get("status", "").lower())
+        
         # Create or update PE Firm
         pe_firm_name = data["pe_firm"]
         pe_firm = session.query(PEFirm).filter_by(name=pe_firm_name).first()
@@ -31,8 +36,8 @@ def import_json_to_db(json_file_path: str):
             print(f"⚠️  PE Firm '{pe_firm_name}' already exists. Updating...")
             # Update existing firm
             pe_firm.total_companies = data["total_companies"]
-            pe_firm.current_portfolio_count = data.get("current_portfolio", 0)
-            pe_firm.exited_portfolio_count = data.get("exited_portfolio", 0)
+            pe_firm.current_portfolio_count = data.get("current_portfolio", current_count)
+            pe_firm.exited_portfolio_count = data.get("exited_portfolio", exited_count)
             pe_firm.last_scraped = datetime.fromisoformat(data["extraction_date"])
             pe_firm.extraction_time_minutes = data.get("extraction_time_minutes")
         else:
@@ -40,8 +45,8 @@ def import_json_to_db(json_file_path: str):
             pe_firm = PEFirm(
                 name=pe_firm_name,
                 total_companies=data["total_companies"],
-                current_portfolio_count=data.get("current_portfolio", 0),
-                exited_portfolio_count=data.get("exited_portfolio", 0),
+                current_portfolio_count=data.get("current_portfolio", current_count),
+                exited_portfolio_count=data.get("exited_portfolio", exited_count),
                 last_scraped=datetime.fromisoformat(data["extraction_date"]),
                 extraction_time_minutes=data.get("extraction_time_minutes"),
             )
@@ -68,12 +73,13 @@ def import_json_to_db(json_file_path: str):
                 # Update existing company
                 existing_company.description = company_data.get("description", "")
                 existing_company.website = company_data.get("website", "")
-                # Vista uses 'industry', TA uses 'sector'
+                # Vista uses 'industry', TA uses 'sector', a16z uses 'sector'
                 existing_company.sector = company_data.get("sector", company_data.get("industry", ""))
                 existing_company.headquarters = company_data.get("hq", company_data.get("headquarters", ""))
                 existing_company.status = company_data.get("status", "")
                 existing_company.investment_year = company_data.get("investment_year", "")
-                existing_company.exit_info = company_data.get("exit_info", "")
+                # a16z uses 'exit_details', TA uses 'exit_info'
+                existing_company.exit_info = company_data.get("exit_info", company_data.get("exit_details", ""))
                 existing_company.source_url = company_data.get("url", "")
                 existing_company.sector_page = company_data.get("sector_page", "")
                 existing_company.data_area = company_data.get("area", "")
@@ -87,12 +93,13 @@ def import_json_to_db(json_file_path: str):
                     name=company_data["name"],
                     description=company_data.get("description", ""),
                     website=company_data.get("website", ""),
-                    # Vista uses 'industry', TA uses 'sector'
+                    # Vista uses 'industry', TA uses 'sector', a16z uses 'sector'
                     sector=company_data.get("sector", company_data.get("industry", "")),
                     headquarters=company_data.get("hq", company_data.get("headquarters", "")),
                     status=company_data.get("status", ""),
                     investment_year=company_data.get("investment_year", ""),
-                    exit_info=company_data.get("exit_info", ""),
+                    # a16z uses 'exit_details', TA uses 'exit_info'
+                    exit_info=company_data.get("exit_info", company_data.get("exit_details", "")),
                     source_url=company_data.get("url", ""),
                     sector_page=company_data.get("sector_page", ""),
                     data_area=company_data.get("area", ""),
