@@ -60,6 +60,10 @@ class PortfolioCompany(Base):
     data_area = Column(String(255))  # Vista specific
     data_fund = Column(String(255))  # Vista specific
     
+    # Crunchbase enrichment fields
+    revenue_range = Column(String(50), index=True)  # Crunchbase revenue range code
+    employee_count = Column(String(50))  # Crunchbase employee range code
+    
     # Swarm API enrichment fields
     swarm_industry = Column(String(255), index=True)
     size_class = Column(String(50))

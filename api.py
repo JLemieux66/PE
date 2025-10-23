@@ -37,6 +37,9 @@ class CompanyResponse(BaseModel):
     website: Optional[str]
     description: Optional[str]
     exit_info: Optional[str]
+    # Crunchbase enrichment fields
+    revenue_range: Optional[str]
+    employee_count: Optional[str]
     # Swarm enrichment fields
     swarm_industry: Optional[str]
     size_class: Optional[str]

@@ -81,6 +81,9 @@ def load_all_companies():
             'Website': c.website or '',
             'Description': c.description or '',
             'Exit Info': c.exit_info or '',
+            # Crunchbase business metrics
+            'Revenue Range': c.revenue_range or '',
+            'Employee Count': c.employee_count or '',
             # Financial data
             'Market Cap': c.market_cap,
             'Total Funding': c.total_funding_usd,
@@ -592,10 +595,42 @@ def main():
                         st.markdown(f"**Website:** [{company['Website']}]({company['Website']})")
                 
                 with col2:
-                    st.markdown("#### 💼 Ownership & Status")
+                    st.markdown("#### 💼 Company Size & Revenue")
+                    # Decode revenue range for display
+                    revenue_display = "N/A"
+                    if company['Revenue Range']:
+                        revenue_codes = {
+                            "r_00000000": "< $1M",
+                            "r_00001000": "$1M - $10M",
+                            "r_00010000": "$10M - $50M",
+                            "r_00050000": "$50M - $100M",
+                            "r_00100000": "$100M - $500M",
+                            "r_00500000": "$500M - $1B",
+                            "r_01000000": "$1B - $10B",
+                            "r_10000000": "$10B+"
+                        }
+                        revenue_display = revenue_codes.get(company['Revenue Range'], company['Revenue Range'])
+                    
+                    # Decode employee count for display
+                    employee_display = "N/A"
+                    if company['Employee Count']:
+                        employee_codes = {
+                            "c_00001_00010": "1-10",
+                            "c_00011_00050": "11-50",
+                            "c_00051_00100": "51-100",
+                            "c_00101_00250": "101-250",
+                            "c_00251_00500": "251-500",
+                            "c_00501_01000": "501-1,000",
+                            "c_01001_05000": "1,001-5,000",
+                            "c_05001_10000": "5,001-10,000",
+                            "c_10001_max": "10,001+"
+                        }
+                        employee_display = employee_codes.get(company['Employee Count'], company['Employee Count'])
+                    
+                    st.markdown(f"**Revenue Range:** {revenue_display}")
+                    st.markdown(f"**Employee Count:** {employee_display}")
                     st.markdown(f"**Status:** {company['Status']}")
                     st.markdown(f"**Ownership Status:** {company['Ownership Status'] or 'N/A'}")
-                    st.markdown(f"**Size Class:** {company['Size Class'] or 'N/A'}")
                     st.markdown(f"**Customer Types:** {company['Customer Types'] or 'N/A'}")
                 
                 # Financial Information
