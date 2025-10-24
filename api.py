@@ -9,6 +9,13 @@ from pydantic import BaseModel
 from database_models import get_session, PEFirm, PortfolioCompany
 from sqlalchemy import func, or_
 
+# Run database migration on startup
+try:
+    from migrate_railway_db import migrate_database
+    migrate_database()
+except Exception as e:
+    print(f"Migration warning: {e}")
+
 # Initialize FastAPI
 app = FastAPI(
     title="PE Portfolio API",
