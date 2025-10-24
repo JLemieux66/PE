@@ -13,6 +13,16 @@ INDUSTRY_CATEGORIES = {
         "it system custom software", "application software", "system software",
         "productivity tools", "collaboration software", "project management",
         "cloud security", "devops", "api", "web development", "mobile",
+        "customer service", "crm", "service management", "helpdesk",
+        "cloud management", "cloud data services", "network hardware",
+        "hardware", "systems and information", "ios", "android", "web services",
+        "digital signage", "b2b", "vertical software", "server", "hosting",
+        "internet", "enterprise applications", "enterprise resource planning", "erp",
+        "application performance", "fleet management", "performance management",
+        "application", "tech", "it", "web", "online platform",
+        "skout", "dating", "automation", "a/b testing", "electronic equipment",
+        "machinery", "commercial", "bpo", "outsource services",
+        "opengov", "data visualization", "executive office",
     ],
     
     "Artificial Intelligence & Data": [
@@ -33,6 +43,7 @@ INDUSTRY_CATEGORIES = {
         "pharmaceuticals", "life sciences", "clinical trials", "medical devices",
         "health insurance", "telemedicine", "digital health", "wellness",
         "hospital", "diagnostics", "therapeutics", "genomics", "health tech",
+        "healthtech", "fertility", "department stores", "cedar",
     ],
     
     "Financial Services": [
@@ -40,6 +51,7 @@ INDUSTRY_CATEGORIES = {
         "payments", "lending", "wealth management", "asset management",
         "capital markets", "trading", "investment", "accounting", "tax",
         "billing", "financial technology", "regtech", "insurtech", "payment systems",
+        "wealth", "association",
     ],
     
     "E-commerce & Retail": [
@@ -47,19 +59,23 @@ INDUSTRY_CATEGORIES = {
         "consumer goods", "fashion", "apparel", "clothing", "footwear",
         "luxury goods", "beauty", "cosmetics", "jewelry", "food delivery",
         "grocery", "consumer", "direct-to-consumer", "d2c",
+        "commercial services", "business supplies", "equipment",
     ],
     
     "Marketing & Advertising": [
         "marketing", "advertising", "adtech", "marketing automation",
         "digital marketing", "social media marketing", "content marketing",
         "seo", "sem", "marketing analytics", "brand management", "public relations",
-        "crm", "customer relationship management", "sales enablement",
+        "customer relationship management", "sales enablement",
+        "ad server", "advertising platform", "digital advertising",
     ],
     
     "Media & Entertainment": [
         "media", "entertainment", "gaming", "video games", "streaming",
         "music", "video", "content", "publishing", "news", "social media",
         "social network", "creator economy", "influencer", "esports",
+        "film", "graphic design", "communities", "spectator sports",
+        "reddit", "sports", "leisure", "casual games", "recipes", "cooking",
     ],
     
     "Real Estate & Construction": [
@@ -72,25 +88,31 @@ INDUSTRY_CATEGORIES = {
         "manufacturing", "industrial", "supply chain", "logistics", "warehousing",
         "distribution", "procurement", "inventory management", "3d printing",
         "robotics", "automation", "iot", "internet of things", "smart manufacturing",
+        "electronics", "advanced materials", "bakery", "materials",
+        "synthetic textiles", "textiles",
     ],
     
     "Transportation & Automotive": [
         "transportation", "automotive", "mobility", "logistics", "shipping",
         "freight", "delivery", "ridesharing", "car sharing", "electric vehicles",
         "ev", "autonomous vehicles", "drone", "aerospace", "aviation",
+        "lyft", "road",
     ],
     
     "Energy & Sustainability": [
         "energy", "renewable energy", "clean energy", "solar", "wind",
         "sustainability", "cleantech", "climate tech", "carbon", "environmental",
         "green technology", "battery", "energy storage", "oil & gas", "utilities",
+        "oil and gas", "fal",
     ],
     
     "Education & HR": [
         "education", "edtech", "e-learning", "online learning", "training",
         "learning management", "human resources", "hr", "recruiting",
         "talent management", "workforce", "payroll", "employee engagement",
-        "professional development", "corporate training",
+        "professional development", "corporate training", "employee benefits",
+        "children", "assisted living", "child care", "non-profit",
+        "glossbird", "language learning", "employment", "career planning",
     ],
     
     "Communication & Collaboration": [
@@ -102,11 +124,13 @@ INDUSTRY_CATEGORIES = {
     "Agriculture & Food": [
         "agriculture", "agtech", "farming", "food", "food and beverage",
         "restaurant", "hospitality", "travel", "tourism", "hotel",
+        "animal feed", "catering", "brewing",
     ],
     
     "Legal & Compliance": [
         "legal", "legaltech", "compliance", "regulatory", "contract management",
         "intellectual property", "patent", "governance", "risk management",
+        "advice",
     ],
     
     "Blockchain & Crypto": [
@@ -122,6 +146,7 @@ INDUSTRY_CATEGORIES = {
     "Consulting & Services": [
         "consulting", "professional services", "business services",
         "advisory", "management consulting", "strategy", "outsourcing",
+        "information services", "holding companies",
     ],
     
     "Other": [
