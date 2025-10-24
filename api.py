@@ -42,6 +42,7 @@ class CompanyResponse(BaseModel):
     employee_count: Optional[str]
     # Swarm enrichment fields
     swarm_industry: Optional[str]
+    industry_category: Optional[str]
     size_class: Optional[str]
     total_funding_usd: Optional[int]
     last_round_type: Optional[str]
@@ -317,7 +318,7 @@ def get_firm_companies(
 
 @app.get("/api/industries")
 def get_industries():
-    """Get all unique industries (from Swarm data)"""
+    """Get all unique industries (from Swarm data) - detailed view"""
     session = get_session()
     
     try:
@@ -327,6 +328,31 @@ def get_industries():
         ).all()
         
         return {"industries": sorted([i[0] for i in industries if i[0]])}
+    
+    finally:
+        session.close()
+
+
+@app.get("/api/industry-categories")
+def get_industry_categories():
+    """Get standardized industry categories (20 broad categories)"""
+    session = get_session()
+    
+    try:
+        categories = session.query(
+            PortfolioCompany.industry_category,
+            func.count(PortfolioCompany.id).label('count')
+        ).filter(
+            PortfolioCompany.industry_category != None,
+            PortfolioCompany.industry_category != ""
+        ).group_by(PortfolioCompany.industry_category).all()
+        
+        return {
+            "categories": sorted([
+                {"name": cat[0], "count": cat[1]} 
+                for cat in categories if cat[0]
+            ], key=lambda x: x['count'], reverse=True)
+        }
     
     finally:
         session.close()

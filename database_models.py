@@ -65,7 +65,8 @@ class PortfolioCompany(Base):
     employee_count = Column(String(50))  # Crunchbase employee range code
     
     # Swarm API enrichment fields
-    swarm_industry = Column(String(255), index=True)
+    swarm_industry = Column(String(255), index=True)  # Original detailed industry
+    industry_category = Column(String(100), index=True)  # Standardized category
     size_class = Column(String(50))
     total_funding_usd = Column(BigInteger)
     last_round_type = Column(String(100))

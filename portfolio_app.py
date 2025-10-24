@@ -75,6 +75,7 @@ def load_all_companies():
             'PE Firm': c.pe_firm.name,
             'Sector': c.sector or '',
             'Industry': c.swarm_industry or '',
+            'Industry Category': c.industry_category or '',
             'Status': c.status,
             'Founded': c.investment_year or '',
             'Headquarters': c.headquarters or '',
@@ -141,7 +142,7 @@ def main():
     # Get unique values for filters
     all_firms = ['All'] + sorted(df['PE Firm'].unique().tolist())
     all_statuses = ['All'] + sorted(df['Status'].unique().tolist())
-    all_industries = ['All'] + sorted([i for i in df['Industry'].unique() if i])
+    all_categories = ['All'] + sorted([c for c in df['Industry Category'].unique() if c])
     all_sectors = ['All'] + sorted([s for s in df['Sector'].unique() if s])
     all_ownership = ['All'] + sorted([o for o in df['Ownership Status'].unique() if o])
     
@@ -161,12 +162,12 @@ def main():
         key="status_filter"
     )
     
-    # Industry filter (Swarm data) - Multi-select
-    selected_industries = st.sidebar.multiselect(
-        "Industry",
-        options=[i for i in all_industries if i != 'All'],
+    # Industry Category filter - Multi-select (20 categories instead of 288 industries)
+    selected_categories = st.sidebar.multiselect(
+        "Industry Category",
+        options=[c for c in all_categories if c != 'All'],
         default=None,
-        key="industry_filter"
+        key="category_filter"
     )
     
     # Sector filter - Multi-select
@@ -230,8 +231,8 @@ def main():
     if selected_statuses:
         df_filtered = df_filtered[df_filtered['Status'].isin(selected_statuses)]
     
-    if selected_industries:
-        df_filtered = df_filtered[df_filtered['Industry'].isin(selected_industries)]
+    if selected_categories:
+        df_filtered = df_filtered[df_filtered['Industry Category'].isin(selected_categories)]
     
     if selected_sectors:
         # For sectors, check if any selected sector is in the company's sector string
@@ -271,8 +272,8 @@ def main():
         active_filters.append(f"PE Firms: {len(selected_firms)}")
     if selected_statuses:
         active_filters.append(f"Status: {len(selected_statuses)}")
-    if selected_industries:
-        active_filters.append(f"Industries: {len(selected_industries)}")
+    if selected_categories:
+        active_filters.append(f"Categories: {len(selected_categories)}")
     if selected_sectors:
         active_filters.append(f"Sectors: {len(selected_sectors)}")
     if selected_ownership:
