@@ -29,7 +29,8 @@ def migrate_database():
         'city': 'VARCHAR(200)',
         'company_size_category': 'VARCHAR(50)',
         'revenue_tier': 'VARCHAR(50)',
-        'investment_stage': 'VARCHAR(50)'
+        'investment_stage': 'VARCHAR(50)',
+        'linkedin_url': 'VARCHAR(500)'
     }
     
     for col_name, col_type in columns_to_add.items():

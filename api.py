@@ -54,6 +54,7 @@ class CompanyResponse(BaseModel):
     investment_year: Optional[str]
     headquarters: Optional[str]
     website: Optional[str]
+    linkedin_url: Optional[str]
     description: Optional[str]
     exit_info: Optional[str]
     # Crunchbase enrichment fields
@@ -274,6 +275,7 @@ def get_companies(
                 investment_year=company.investment_year,
                 headquarters=company.headquarters,
                 website=company.website,
+                linkedin_url=getattr(company, 'linkedin_url', None),
                 description=company.description,
                 exit_info=company.exit_info,
                 revenue_range=decode_revenue_range(revenue_code) if revenue_code else None,
@@ -338,6 +340,7 @@ def get_company(company_id: int):
             investment_year=company.investment_year,
             headquarters=company.headquarters,
             website=company.website,
+            linkedin_url=getattr(company, 'linkedin_url', None),
             description=company.description,
             exit_info=company.exit_info,
             revenue_range=decode_revenue_range(revenue_code) if revenue_code else None,
@@ -428,6 +431,7 @@ def get_firm_companies(
                 investment_year=company.investment_year,
                 headquarters=company.headquarters,
                 website=company.website,
+                linkedin_url=getattr(company, 'linkedin_url', None),
                 description=company.description,
                 exit_info=company.exit_info,
                 swarm_industry=company.swarm_industry,

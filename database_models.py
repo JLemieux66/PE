@@ -50,6 +50,7 @@ class PortfolioCompany(Base):
     name = Column(String(500), nullable=False, index=True)
     description = Column(Text)
     website = Column(String(500))
+    linkedin_url = Column(String(500))  # LinkedIn company profile URL
     sector = Column(String(500), index=True)
     headquarters = Column(String(500))
     status = Column(String(500), index=True)  # 'current', 'former', 'past', etc.
