@@ -137,6 +137,8 @@ def get_companies(
     country: Optional[str] = Query(None, description="Filter by country (comma-separated)"),
     state_region: Optional[str] = Query(None, description="Filter by state/region (comma-separated)"),
     city: Optional[str] = Query(None, description="Filter by city (comma-separated)"),
+    employee_count: Optional[str] = Query(None, description="Filter by employee count (comma-separated: 1-10,11-50,51-100,101-250,251-500,501-1,000,1,001-5,000,5,001-10,000,10,001+)"),
+    revenue_range: Optional[str] = Query(None, description="Filter by revenue range (comma-separated: Less than $1M,$1M - $10M,$10M - $50M,$50M - $100M,$100M - $500M,$500M - $1B,$1B - $10B,$10B+)"),
     company_size_category: Optional[str] = Query(None, description="Filter by size (comma-separated: Startup,Small,Medium,Large,Enterprise)"),
     revenue_tier: Optional[str] = Query(None, description="Filter by revenue tier (comma-separated: Pre-Revenue,Early Stage,Growth Stage,Scale-up,Unicorn)"),
     investment_stage: Optional[str] = Query(None, description="Filter by investment stage (comma-separated: Recent,Mature,Legacy)"),
@@ -199,6 +201,28 @@ def get_companies(
             cities = parse_filter(city)
             if cities:
                 query = query.filter(or_(*[PortfolioCompany.city.ilike(f"%{c}%") for c in cities]))
+        
+        if employee_count:
+            # Need to convert human-readable format back to codes for filtering
+            from crunchbase_helpers import EMPLOYEE_RANGES
+            employee_ranges = parse_filter(employee_count)
+            if employee_ranges:
+                # Map human-readable to codes
+                code_map = {v: k for k, v in EMPLOYEE_RANGES.items()}
+                codes = [code_map.get(r) for r in employee_ranges if code_map.get(r)]
+                if codes:
+                    query = query.filter(PortfolioCompany.employee_count.in_(codes))
+        
+        if revenue_range:
+            # Need to convert human-readable format back to codes for filtering
+            from crunchbase_helpers import REVENUE_RANGES
+            revenue_ranges = parse_filter(revenue_range)
+            if revenue_ranges:
+                # Map human-readable to codes
+                code_map = {v: k for k, v in REVENUE_RANGES.items()}
+                codes = [code_map.get(r) for r in revenue_ranges if code_map.get(r)]
+                if codes:
+                    query = query.filter(PortfolioCompany.revenue_range.in_(codes))
         
         if company_size_category:
             sizes = parse_filter(company_size_category)
