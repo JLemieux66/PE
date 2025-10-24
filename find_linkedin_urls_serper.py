@@ -170,15 +170,18 @@ async def process_batch(companies, batch_size=10):
                 # Wait for all tasks in batch
                 results = await asyncio.gather(*tasks)
                 
-                # Update database
+                # Update database - refresh companies and update
                 for company, linkedin_url in zip(batch, results):
                     if linkedin_url:
-                        company.linkedin_url = linkedin_url
+                        # Merge company into this session and update
+                        merged_company = db_session.merge(company)
+                        merged_company.linkedin_url = linkedin_url
                         updated_count += 1
                         print(f"  💾 Updated database")
                 
                 # Commit batch
                 db_session.commit()
+                print(f"  ✅ Batch committed to database")
                 
                 # Small delay between batches to avoid rate limits
                 if i + batch_size < total:
@@ -191,6 +194,8 @@ async def process_batch(companies, batch_size=10):
         
     except Exception as e:
         print(f"\n❌ Error: {e}")
+        import traceback
+        traceback.print_exc()
         db_session.rollback()
         
     finally:
