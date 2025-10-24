@@ -64,6 +64,16 @@ class PortfolioCompany(Base):
     revenue_range = Column(String(50), index=True)  # Crunchbase revenue range code
     employee_count = Column(String(50))  # Crunchbase employee range code
     
+    # Geographic fields (parsed from headquarters)
+    country = Column(String(100), index=True)  # Clean country name
+    state_region = Column(String(100), index=True)  # State/province/region
+    city = Column(String(200), index=True)  # City name
+    
+    # Categorization fields
+    company_size_category = Column(String(50), index=True)  # Startup/Small/Medium/Large/Enterprise
+    revenue_tier = Column(String(50), index=True)  # Pre-Revenue/Early/Growth/Scale-up/Unicorn
+    investment_stage = Column(String(50), index=True)  # Recent/Mature/Legacy
+    
     # Swarm API enrichment fields
     swarm_industry = Column(String(255), index=True)  # Original detailed industry
     industry_category = Column(String(100), index=True)  # Standardized category
@@ -86,8 +96,9 @@ class PortfolioCompany(Base):
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
-    # Relationship
+    # Relationships
     pe_firm = relationship("PEFirm", back_populates="companies")
+    tags = relationship("CompanyTag", back_populates="company", cascade="all, delete-orphan")
 
     # Indexes for common queries
     __table_args__ = (
@@ -98,6 +109,31 @@ class PortfolioCompany(Base):
 
     def __repr__(self):
         return f"<PortfolioCompany(name='{self.name}', sector='{self.sector}', status='{self.status}')>"
+
+
+class CompanyTag(Base):
+    """Flexible tagging system for companies"""
+    
+    __tablename__ = "company_tags"
+    
+    id = Column(Integer, primary_key=True)
+    company_id = Column(Integer, ForeignKey("portfolio_companies.id"), nullable=False)
+    tag_category = Column(String(100), nullable=False, index=True)  # e.g., "technology", "business_model", "market"
+    tag_value = Column(String(200), nullable=False, index=True)  # e.g., "SaaS", "B2B", "Enterprise"
+    
+    created_at = Column(DateTime, default=datetime.utcnow)
+    
+    # Relationship
+    company = relationship("PortfolioCompany", back_populates="tags")
+    
+    # Indexes for common queries
+    __table_args__ = (
+        Index("idx_company_category", "company_id", "tag_category"),
+        Index("idx_category_value", "tag_category", "tag_value"),
+    )
+    
+    def __repr__(self):
+        return f"<CompanyTag(company_id={self.company_id}, category='{self.tag_category}', value='{self.tag_value}')>"
 
 
 # Database connection function
