@@ -48,6 +48,14 @@ class CompanyResponse(BaseModel):
     # Crunchbase enrichment fields
     revenue_range: Optional[str]
     employee_count: Optional[str]
+    # Geographic fields
+    country: Optional[str]
+    state_region: Optional[str]
+    city: Optional[str]
+    # Categorization fields
+    company_size_category: Optional[str]
+    revenue_tier: Optional[str]
+    investment_stage: Optional[str]
     # Swarm enrichment fields
     swarm_industry: Optional[str]
     industry_category: Optional[str]
@@ -111,32 +119,93 @@ def read_root():
 
 @app.get("/api/companies", response_model=List[CompanyResponse])
 def get_companies(
-    pe_firm: Optional[str] = Query(None, description="Filter by PE firm name"),
-    status: Optional[str] = Query(None, description="Filter by status (current, former, past)"),
-    sector: Optional[str] = Query(None, description="Filter by sector (partial match)"),
+    pe_firm: Optional[str] = Query(None, description="Filter by PE firm name (comma-separated for multiple)"),
+    status: Optional[str] = Query(None, description="Filter by status (comma-separated: Active,Exited)"),
+    sector: Optional[str] = Query(None, description="Filter by sector (comma-separated)"),
+    industry_category: Optional[str] = Query(None, description="Filter by industry category (comma-separated)"),
+    country: Optional[str] = Query(None, description="Filter by country (comma-separated)"),
+    state_region: Optional[str] = Query(None, description="Filter by state/region (comma-separated)"),
+    city: Optional[str] = Query(None, description="Filter by city (comma-separated)"),
+    company_size_category: Optional[str] = Query(None, description="Filter by size (comma-separated: Startup,Small,Medium,Large,Enterprise)"),
+    revenue_tier: Optional[str] = Query(None, description="Filter by revenue tier (comma-separated: Pre-Revenue,Early Stage,Growth Stage,Scale-up,Unicorn)"),
+    investment_stage: Optional[str] = Query(None, description="Filter by investment stage (comma-separated: Recent,Mature,Legacy)"),
+    is_public: Optional[bool] = Query(None, description="Filter by public status (true/false)"),
     search: Optional[str] = Query(None, description="Search in company name or description"),
     limit: int = Query(100, ge=1, le=1000, description="Maximum number of results"),
     offset: int = Query(0, ge=0, description="Offset for pagination")
 ):
     """
-    Get all companies with optional filters
+    Get all companies with optional filters. Multiple values can be comma-separated.
     
-    Example: /api/companies?pe_firm=Vista Equity Partners&status=current&limit=50
+    Examples:
+    - /api/companies?pe_firm=Vista Equity Partners&status=Active&limit=50
+    - /api/companies?country=United States,Canada&company_size_category=Large,Enterprise
+    - /api/companies?industry_category=Technology & Software,AI&revenue_tier=Unicorn,Scale-up
     """
     session = get_session()
     
     try:
         query = session.query(PortfolioCompany).join(PEFirm)
         
-        # Apply filters
+        # Helper function to split comma-separated values
+        def parse_filter(value):
+            if not value:
+                return None
+            return [v.strip() for v in value.split(',') if v.strip()]
+        
+        # Apply filters with multiple value support
         if pe_firm:
-            query = query.filter(PEFirm.name.ilike(f"%{pe_firm}%"))
+            firms = parse_filter(pe_firm)
+            if firms:
+                query = query.filter(or_(*[PEFirm.name.ilike(f"%{f}%") for f in firms]))
         
         if status:
-            query = query.filter(PortfolioCompany.status.ilike(f"%{status}%"))
+            statuses = parse_filter(status)
+            if statuses:
+                query = query.filter(or_(*[PortfolioCompany.status.ilike(f"%{s}%") for s in statuses]))
         
         if sector:
-            query = query.filter(PortfolioCompany.sector.ilike(f"%{sector}%"))
+            sectors = parse_filter(sector)
+            if sectors:
+                query = query.filter(or_(*[PortfolioCompany.sector.ilike(f"%{s}%") for s in sectors]))
+        
+        if industry_category:
+            categories = parse_filter(industry_category)
+            if categories:
+                query = query.filter(or_(*[PortfolioCompany.industry_category.ilike(f"%{c}%") for c in categories]))
+        
+        if country:
+            countries = parse_filter(country)
+            if countries:
+                query = query.filter(or_(*[PortfolioCompany.country.ilike(f"%{c}%") for c in countries]))
+        
+        if state_region:
+            states = parse_filter(state_region)
+            if states:
+                query = query.filter(or_(*[PortfolioCompany.state_region.ilike(f"%{s}%") for s in states]))
+        
+        if city:
+            cities = parse_filter(city)
+            if cities:
+                query = query.filter(or_(*[PortfolioCompany.city.ilike(f"%{c}%") for c in cities]))
+        
+        if company_size_category:
+            sizes = parse_filter(company_size_category)
+            if sizes:
+                query = query.filter(PortfolioCompany.company_size_category.in_(sizes))
+        
+        if revenue_tier:
+            tiers = parse_filter(revenue_tier)
+            if tiers:
+                query = query.filter(PortfolioCompany.revenue_tier.in_(tiers))
+        
+        if investment_stage:
+            stages = parse_filter(investment_stage)
+            if stages:
+                query = query.filter(PortfolioCompany.investment_stage.in_(stages))
+        
+        if is_public is not None:
+            query = query.filter(PortfolioCompany.is_public == is_public)
         
         if search:
             query = query.filter(
@@ -174,6 +243,12 @@ def get_companies(
                 exit_info=company.exit_info,
                 revenue_range=decode_revenue_range(revenue_code) if revenue_code else None,
                 employee_count=decode_employee_count(employee_code) if employee_code else None,
+                country=getattr(company, 'country', None),
+                state_region=getattr(company, 'state_region', None),
+                city=getattr(company, 'city', None),
+                company_size_category=getattr(company, 'company_size_category', None),
+                revenue_tier=getattr(company, 'revenue_tier', None),
+                investment_stage=getattr(company, 'investment_stage', None),
                 swarm_industry=company.swarm_industry,
                 industry_category=getattr(company, 'industry_category', None),
                 size_class=company.size_class,
@@ -232,6 +307,12 @@ def get_company(company_id: int):
             exit_info=company.exit_info,
             revenue_range=decode_revenue_range(revenue_code) if revenue_code else None,
             employee_count=decode_employee_count(employee_code) if employee_code else None,
+            country=getattr(company, 'country', None),
+            state_region=getattr(company, 'state_region', None),
+            city=getattr(company, 'city', None),
+            company_size_category=getattr(company, 'company_size_category', None),
+            revenue_tier=getattr(company, 'revenue_tier', None),
+            investment_stage=getattr(company, 'investment_stage', None),
             swarm_industry=company.swarm_industry,
             industry_category=getattr(company, 'industry_category', None),
             size_class=company.size_class,
@@ -432,6 +513,132 @@ def get_stats():
             current_companies=current,
             exited_companies=exited
         )
+    
+    finally:
+        session.close()
+
+
+@app.get("/api/filters")
+def get_filter_options():
+    """Get all available filter values for dropdown menus"""
+    session = get_session()
+    
+    try:
+        # Get all unique values for each filterable field
+        countries = session.query(PortfolioCompany.country, func.count(PortfolioCompany.id))\
+            .filter(PortfolioCompany.country != None)\
+            .group_by(PortfolioCompany.country)\
+            .order_by(func.count(PortfolioCompany.id).desc()).all()
+        
+        states = session.query(PortfolioCompany.state_region, func.count(PortfolioCompany.id))\
+            .filter(PortfolioCompany.state_region != None)\
+            .group_by(PortfolioCompany.state_region)\
+            .order_by(func.count(PortfolioCompany.id).desc()).all()
+        
+        cities = session.query(PortfolioCompany.city, func.count(PortfolioCompany.id))\
+            .filter(PortfolioCompany.city != None)\
+            .group_by(PortfolioCompany.city)\
+            .order_by(func.count(PortfolioCompany.id).desc()).limit(50).all()
+        
+        categories = session.query(PortfolioCompany.industry_category, func.count(PortfolioCompany.id))\
+            .filter(PortfolioCompany.industry_category != None)\
+            .group_by(PortfolioCompany.industry_category)\
+            .order_by(func.count(PortfolioCompany.id).desc()).all()
+        
+        sizes = session.query(PortfolioCompany.company_size_category, func.count(PortfolioCompany.id))\
+            .filter(PortfolioCompany.company_size_category != None)\
+            .group_by(PortfolioCompany.company_size_category).all()
+        
+        tiers = session.query(PortfolioCompany.revenue_tier, func.count(PortfolioCompany.id))\
+            .filter(PortfolioCompany.revenue_tier != None)\
+            .group_by(PortfolioCompany.revenue_tier).all()
+        
+        stages = session.query(PortfolioCompany.investment_stage, func.count(PortfolioCompany.id))\
+            .filter(PortfolioCompany.investment_stage != None)\
+            .group_by(PortfolioCompany.investment_stage).all()
+        
+        return {
+            "countries": [{"value": c[0], "count": c[1]} for c in countries],
+            "states": [{"value": s[0], "count": s[1]} for s in states],
+            "top_cities": [{"value": c[0], "count": c[1]} for c in cities],
+            "industry_categories": [{"value": c[0], "count": c[1]} for c in categories],
+            "company_sizes": [{"value": s[0], "count": s[1]} for s in sizes],
+            "revenue_tiers": [{"value": t[0], "count": t[1]} for t in tiers],
+            "investment_stages": [{"value": s[0], "count": s[1]} for s in stages]
+        }
+    
+    finally:
+        session.close()
+
+
+@app.get("/api/companies/{company_id}/tags")
+def get_company_tags(company_id: int):
+    """Get all tags for a specific company"""
+    from database_models import CompanyTag
+    
+    session = get_session()
+    
+    try:
+        # Check if company exists
+        company = session.query(PortfolioCompany).filter_by(id=company_id).first()
+        if not company:
+            raise HTTPException(status_code=404, detail="Company not found")
+        
+        tags = session.query(CompanyTag).filter_by(company_id=company_id).all()
+        
+        # Group by category
+        result = {}
+        for tag in tags:
+            if tag.tag_category not in result:
+                result[tag.tag_category] = []
+            result[tag.tag_category].append(tag.tag_value)
+        
+        return {
+            "company_id": company_id,
+            "company_name": company.name,
+            "tags": result,
+            "total_tags": len(tags)
+        }
+    
+    finally:
+        session.close()
+
+
+@app.get("/api/tags/{tag_category}")
+def get_companies_by_tag(
+    tag_category: str,
+    tag_value: Optional[str] = Query(None, description="Specific tag value (comma-separated for multiple)"),
+    limit: int = Query(100, ge=1, le=1000)
+):
+    """Get all companies with a specific tag category and optionally specific tag values"""
+    from database_models import CompanyTag
+    
+    session = get_session()
+    
+    try:
+        query = session.query(PortfolioCompany).join(
+            CompanyTag, PortfolioCompany.id == CompanyTag.company_id
+        ).filter(CompanyTag.tag_category == tag_category)
+        
+        if tag_value:
+            values = [v.strip() for v in tag_value.split(',') if v.strip()]
+            if values:
+                query = query.filter(CompanyTag.tag_value.in_(values))
+        
+        companies = query.distinct().limit(limit).all()
+        
+        # Get unique tag values for this category
+        tag_values = session.query(CompanyTag.tag_value, func.count(CompanyTag.id))\
+            .filter(CompanyTag.tag_category == tag_category)\
+            .group_by(CompanyTag.tag_value)\
+            .order_by(func.count(CompanyTag.id).desc()).all()
+        
+        return {
+            "tag_category": tag_category,
+            "available_values": [{"value": v[0], "count": v[1]} for v in tag_values],
+            "companies": [{"id": c.id, "name": c.name, "pe_firm": c.pe_firm.name} for c in companies],
+            "total": len(companies)
+        }
     
     finally:
         session.close()
