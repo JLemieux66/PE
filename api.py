@@ -2,7 +2,7 @@
 FastAPI Backend for PE Portfolio Companies
 REST API endpoints to access portfolio data
 """
-from fastapi import FastAPI, Query, HTTPException
+from fastapi import FastAPI, Query, HTTPException, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
 from typing import Optional, List
 from pydantic import BaseModel
@@ -16,6 +16,13 @@ try:
     migrate_database()
 except Exception as e:
     print(f"Migration warning: {e}")
+
+# Import setup endpoints
+try:
+    from setup_endpoints import router as setup_router
+except ImportError as e:
+    print(f"Setup endpoints not available: {e}")
+    setup_router = None
 
 # Initialize FastAPI
 app = FastAPI(
@@ -32,6 +39,10 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Include setup endpoints if available
+if setup_router:
+    app.include_router(setup_router)
 
 # Response Models
 class CompanyResponse(BaseModel):
