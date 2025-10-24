@@ -8,6 +8,7 @@ from typing import Optional, List
 from pydantic import BaseModel
 from database_models import get_session, PEFirm, PortfolioCompany
 from sqlalchemy import func, or_
+from crunchbase_helpers import decode_revenue_range, decode_employee_count
 
 # Run database migration on startup
 try:
@@ -156,6 +157,10 @@ def get_companies(
             if isinstance(ipo_year, str) and ipo_year.strip() == '':
                 ipo_year = None
             
+            # Decode Crunchbase codes to human-readable format
+            revenue_code = getattr(company, 'revenue_range', None)
+            employee_code = getattr(company, 'employee_count', None)
+            
             result.append(CompanyResponse(
                 id=company.id,
                 name=company.name,
@@ -167,8 +172,8 @@ def get_companies(
                 website=company.website,
                 description=company.description,
                 exit_info=company.exit_info,
-                revenue_range=getattr(company, 'revenue_range', None),
-                employee_count=getattr(company, 'employee_count', None),
+                revenue_range=decode_revenue_range(revenue_code) if revenue_code else None,
+                employee_count=decode_employee_count(employee_code) if employee_code else None,
                 swarm_industry=company.swarm_industry,
                 industry_category=getattr(company, 'industry_category', None),
                 size_class=company.size_class,
@@ -210,6 +215,10 @@ def get_company(company_id: int):
         if isinstance(ipo_year, str) and ipo_year.strip() == '':
             ipo_year = None
         
+        # Decode Crunchbase codes to human-readable format
+        revenue_code = getattr(company, 'revenue_range', None)
+        employee_code = getattr(company, 'employee_count', None)
+        
         return CompanyResponse(
             id=company.id,
             name=company.name,
@@ -221,8 +230,8 @@ def get_company(company_id: int):
             website=company.website,
             description=company.description,
             exit_info=company.exit_info,
-            revenue_range=getattr(company, 'revenue_range', None),
-            employee_count=getattr(company, 'employee_count', None),
+            revenue_range=decode_revenue_range(revenue_code) if revenue_code else None,
+            employee_count=decode_employee_count(employee_code) if employee_code else None,
             swarm_industry=company.swarm_industry,
             industry_category=getattr(company, 'industry_category', None),
             size_class=company.size_class,
