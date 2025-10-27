@@ -1,26 +1,36 @@
 import { useState } from 'react'
-import { Building2, TrendingUp, Users, Briefcase } from 'lucide-react'
-import { useStats, usePEFirms, useInvestments } from './hooks/useCompanies'
+import { Building2, TrendingUp, Users, Briefcase, Grid3X3, List, Download } from 'lucide-react'
+import { useStats, usePEFirms, useInvestments, useIndustries } from './hooks/useCompanies'
 import StatCard from './components/StatCard'
 import CompanyList from './components/CompanyList'
+import CompanyTable from './components/CompanyTable'
 import Filters from './components/Filters'
+import { exportToCSV } from './utils/csvExport'
 import type { CompanyFilters } from './types/company'
 
 function App() {
   const [filters, setFilters] = useState<CompanyFilters>({})
+  const [viewMode, setViewMode] = useState<'cards' | 'table'>('table')
   const { data: stats, isLoading: statsLoading } = useStats()
   const { data: peFirms } = usePEFirms()
+  const { data: industries } = useIndustries()
   const { data: investments, isLoading: investmentsLoading } = useInvestments(filters)
 
   const handleFilterChange = (newFilters: CompanyFilters) => {
     setFilters(newFilters)
   }
 
+  const handleExportCSV = () => {
+    if (investments && investments.length > 0) {
+      exportToCSV(investments, 'pe-portfolio')
+    }
+  }
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <header className="bg-white shadow-sm border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+        <div className="px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <Briefcase className="w-8 h-8 text-blue-600" />
@@ -34,7 +44,7 @@ function App() {
       </header>
 
       {/* Stats Cards */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className="px-4 sm:px-6 lg:px-8 py-8">
         {statsLoading ? (
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
             {[...Array(4)].map((_, i) => (
@@ -76,17 +86,69 @@ function App() {
           </div>
         )}
 
-        {/* Filters */}
-        <Filters
-          peFirms={peFirms || []}
-          onFilterChange={handleFilterChange}
-        />
+        {/* Main Content with Sidebar */}
+        <div className="flex gap-6">
+          {/* Left Sidebar - Filters */}
+          <div className="w-80 flex-shrink-0">
+            <Filters
+              peFirms={peFirms || []}
+              industries={industries || []}
+              onFilterChange={handleFilterChange}
+            />
+          </div>
 
-        {/* Company List */}
-        <CompanyList
-          investments={investments || []}
-          isLoading={investmentsLoading}
-        />
+          {/* Right Content - Companies */}
+          <div className="flex-1 min-w-0">
+            {/* View Controls */}
+            <div className="flex items-center justify-between mb-6">
+              <div className="flex items-center space-x-2">
+                <button
+                  onClick={() => setViewMode('table')}
+                  className={`px-4 py-2 rounded-lg font-medium transition-colors ${
+                    viewMode === 'table'
+                      ? 'bg-blue-600 text-white'
+                      : 'bg-white text-gray-700 hover:bg-gray-50 border border-gray-300'
+                  }`}
+                >
+                  <List className="w-4 h-4 inline mr-2" />
+                  Table
+                </button>
+                <button
+                  onClick={() => setViewMode('cards')}
+                  className={`px-4 py-2 rounded-lg font-medium transition-colors ${
+                    viewMode === 'cards'
+                      ? 'bg-blue-600 text-white'
+                      : 'bg-white text-gray-700 hover:bg-gray-50 border border-gray-300'
+                  }`}
+                >
+                  <Grid3X3 className="w-4 h-4 inline mr-2" />
+                  Cards
+                </button>
+              </div>
+              <button
+                onClick={handleExportCSV}
+                disabled={!investments || investments.length === 0}
+                className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors font-medium disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                <Download className="w-4 h-4 inline mr-2" />
+                Export CSV ({investments?.length || 0} companies)
+              </button>
+            </div>
+
+            {/* Company Display */}
+            {viewMode === 'cards' ? (
+              <CompanyList
+                investments={investments || []}
+                isLoading={investmentsLoading}
+              />
+            ) : (
+              <CompanyTable
+                investments={investments || []}
+                loading={investmentsLoading}
+              />
+            )}
+          </div>
+        </div>
       </div>
     </div>
   )

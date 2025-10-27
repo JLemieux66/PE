@@ -42,6 +42,7 @@ class CompanyResponse(BaseModel):
     # Enrichment data
     revenue_range: Optional[str] = None
     employee_count: Optional[str] = None
+    swarm_headcount: Optional[int] = None  # Actual headcount number from Swarm
     industry_category: Optional[str] = None
     total_funding_usd: Optional[int] = None
     # predicted_revenue: Optional[float] = None  # ML-predicted revenue (disabled)
@@ -65,6 +66,7 @@ class InvestmentResponse(BaseModel):
     # Company enrichment data
     revenue_range: Optional[str] = None
     employee_count: Optional[str] = None
+    swarm_headcount: Optional[int] = None  # Actual headcount number from Swarm
     industry_category: Optional[str] = None
     # predicted_revenue: Optional[float] = None  # ML-predicted revenue (disabled)
     headquarters: Optional[str] = None
@@ -180,7 +182,7 @@ def get_investments(
     exit_type: Optional[str] = Query(None, description="Filter by exit type (IPO/Acquisition)"),
     industry: Optional[str] = Query(None, description="Filter by industry category"),
     search: Optional[str] = Query(None, description="Search company names"),
-    limit: int = Query(100, ge=1, le=1000, description="Number of results to return"),
+    limit: int = Query(10000, ge=1, le=10000, description="Number of results to return"),
     offset: int = Query(0, ge=0, description="Number of results to skip")
 ):
     """Get all investments with filters"""
@@ -236,6 +238,7 @@ def get_investments(
                 sector=inv.sector_page,
                 revenue_range=decode_revenue_range(inv.company.revenue_range),
                 employee_count=decode_employee_count(inv.company.employee_count),
+                swarm_headcount=inv.company.swarm_headcount,
                 industry_category=inv.company.industry_category,
                 headquarters=headquarters,
                 website=inv.company.website,
@@ -250,9 +253,12 @@ def get_investments(
 @app.get("/api/companies", response_model=List[CompanyResponse])
 def get_companies(
     search: Optional[str] = Query(None, description="Search company names"),
-    industry: Optional[str] = Query(None, description="Filter by industry category"),
+    pe_firm: Optional[str] = Query(None, description="Filter by PE firm name(s), comma-separated for multiple"),
+    industry: Optional[str] = Query(None, description="Filter by industry category(ies), comma-separated for multiple"),
+    revenue_range: Optional[str] = Query(None, description="Filter by revenue range(s), comma-separated for multiple"),
+    employee_count: Optional[str] = Query(None, description="Filter by employee count range(s), comma-separated for multiple"),
     is_public: Optional[bool] = Query(None, description="Filter by public status"),
-    limit: int = Query(100, ge=1, le=1000, description="Number of results"),
+    limit: int = Query(10000, ge=1, le=10000, description="Number of results"),
     offset: int = Query(0, ge=0, description="Offset for pagination")
 ):
     """Get companies (deduplicated across PE firms)"""
@@ -263,12 +269,32 @@ def get_companies(
             joinedload(Company.investments).joinedload(CompanyPEInvestment.pe_firm)
         )
         
+        # Filter by PE firm(s) (requires join)
+        if pe_firm:
+            pe_firms = [f.strip() for f in pe_firm.split(',')]
+            firm_conditions = [PEFirm.name.ilike(f"%{firm}%") for firm in pe_firms]
+            query = query.join(Company.investments).join(CompanyPEInvestment.pe_firm).filter(
+                or_(*firm_conditions)
+            ).distinct()
+        
         # Apply filters
         if search:
             query = query.filter(Company.name.ilike(f"%{search}%"))
         
         if industry:
-            query = query.filter(Company.industry_category.ilike(f"%{industry}%"))
+            industries = [i.strip() for i in industry.split(',')]
+            industry_conditions = [Company.industry_category.ilike(f"%{ind}%") for ind in industries]
+            query = query.filter(or_(*industry_conditions))
+        
+        if revenue_range:
+            revenue_ranges = [r.strip() for r in revenue_range.split(',')]
+            revenue_conditions = [Company.revenue_range.ilike(f"%{rr}%") for rr in revenue_ranges]
+            query = query.filter(or_(*revenue_conditions))
+        
+        if employee_count:
+            employee_counts = [e.strip() for e in employee_count.split(',')]
+            employee_conditions = [Company.employee_count.ilike(f"%{ec}%") for ec in employee_counts]
+            query = query.filter(or_(*employee_conditions))
         
         if is_public is not None:
             query = query.filter(Company.is_public == is_public)
@@ -310,6 +336,7 @@ def get_companies(
                 description=company.description,
                 revenue_range=decode_revenue_range(company.revenue_range),
                 employee_count=decode_employee_count(company.employee_count),
+                swarm_headcount=company.swarm_headcount,
                 industry_category=company.industry_category,
                 total_funding_usd=None,  # Not in v2 schema
                 is_public=company.is_public,
@@ -362,6 +389,7 @@ def get_company(company_id: int):
             description=company.description,
             revenue_range=decode_revenue_range(company.revenue_range),
             employee_count=decode_employee_count(company.employee_count),
+            swarm_headcount=company.swarm_headcount,
             industry_category=company.industry_category,
             total_funding_usd=None,  # Not in v2 schema
             is_public=company.is_public,
