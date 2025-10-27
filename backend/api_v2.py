@@ -44,7 +44,7 @@ class CompanyResponse(BaseModel):
     employee_count: Optional[str] = None
     industry_category: Optional[str] = None
     total_funding_usd: Optional[int] = None
-    predicted_revenue: Optional[float] = None  # ML-predicted revenue
+    # predicted_revenue: Optional[float] = None  # ML-predicted revenue (disabled)
     is_public: Optional[bool] = False
     stock_exchange: Optional[str] = None
     
@@ -66,7 +66,7 @@ class InvestmentResponse(BaseModel):
     revenue_range: Optional[str] = None
     employee_count: Optional[str] = None
     industry_category: Optional[str] = None
-    predicted_revenue: Optional[float] = None  # ML-predicted revenue
+    # predicted_revenue: Optional[float] = None  # ML-predicted revenue (disabled)
     headquarters: Optional[str] = None
     website: Optional[str] = None
     linkedin_url: Optional[str] = None
@@ -237,7 +237,6 @@ def get_investments(
                 revenue_range=decode_revenue_range(inv.company.revenue_range),
                 employee_count=decode_employee_count(inv.company.employee_count),
                 industry_category=inv.company.industry_category,
-                predicted_revenue=inv.company.predicted_revenue,
                 headquarters=headquarters,
                 website=inv.company.website,
                 linkedin_url=inv.company.linkedin_url
@@ -313,7 +312,6 @@ def get_companies(
                 employee_count=decode_employee_count(company.employee_count),
                 industry_category=company.industry_category,
                 total_funding_usd=None,  # Not in v2 schema
-                predicted_revenue=company.predicted_revenue,
                 is_public=company.is_public,
                 stock_exchange=company.ipo_exchange
             ))
@@ -366,7 +364,6 @@ def get_company(company_id: int):
             employee_count=decode_employee_count(company.employee_count),
             industry_category=company.industry_category,
             total_funding_usd=None,  # Not in v2 schema
-            predicted_revenue=company.predicted_revenue,
             is_public=company.is_public,
             stock_exchange=company.ipo_exchange
         )
