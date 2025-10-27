@@ -58,9 +58,6 @@ class Company(Base):
     revenue_range = Column(String(50), index=True)
     employee_count = Column(String(50), index=True)
     
-    # Swarm API enrichment fields
-    swarm_headcount = Column(Integer, index=True)  # Actual employee headcount from Swarm
-    
     # ML prediction fields
     predicted_revenue = Column(Float, index=True)  # ML-predicted revenue in USD
     
