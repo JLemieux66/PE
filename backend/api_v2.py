@@ -8,6 +8,30 @@ from typing import Optional, List
 from pydantic import BaseModel
 from src.models.database_models_v2 import get_session, PEFirm, Company, CompanyPEInvestment
 from src.enrichment.crunchbase_helpers import decode_revenue_range, decode_employee_count
+
+# Reverse mappings for filtering
+REVENUE_RANGE_CODES = {
+    "Less than $1M": "r_00000000",
+    "$1M": "r_00001000",
+    "$10M": "r_00010000",
+    "$50M": "r_00050000",
+    "$100M": "r_00100000",
+    "$500M": "r_00500000",
+    "$1B": "r_01000000",
+    "$10B": "r_10000000"
+}
+
+EMPLOYEE_COUNT_CODES = {
+    "1-10": "c_00001_00010",
+    "11-50": "c_00011_00050",
+    "51-100": "c_00051_00100",
+    "101-250": "c_00101_00250",
+    "251-500": "c_00251_00500",
+    "501-1,000": "c_00501_01000",
+    "1,001-5,000": "c_01001_05000",
+    "5,001-10,000": "c_05001_10000",
+    "10,001+": "c_10001_max"
+}
 from sqlalchemy import func, or_, desc
 from sqlalchemy.orm import joinedload
 
@@ -276,12 +300,26 @@ def get_companies(
         
         if revenue_range:
             revenue_ranges = [r.strip() for r in revenue_range.split(',')]
-            revenue_conditions = [Company.revenue_range.ilike(f"%{rr}%") for rr in revenue_ranges]
+            revenue_conditions = []
+            for rr in revenue_ranges:
+                # Try to match against both human-readable format and database codes
+                revenue_conditions.append(Company.revenue_range.ilike(f"%{rr}%"))
+                # Also try matching partial values to codes (e.g., "$50M" -> "r_00050000")
+                for readable, code in REVENUE_RANGE_CODES.items():
+                    if rr in readable:
+                        revenue_conditions.append(Company.revenue_range == code)
             query = query.filter(or_(*revenue_conditions))
         
         if employee_count:
             employee_counts = [e.strip() for e in employee_count.split(',')]
-            employee_conditions = [Company.employee_count.ilike(f"%{ec}%") for ec in employee_counts]
+            employee_conditions = []
+            for ec in employee_counts:
+                # Try to match against both human-readable format and database codes
+                employee_conditions.append(Company.employee_count.ilike(f"%{ec}%"))
+                # Also try exact code matches
+                for readable, code in EMPLOYEE_COUNT_CODES.items():
+                    if ec in readable:
+                        employee_conditions.append(Company.employee_count == code)
             query = query.filter(or_(*employee_conditions))
         
         if is_public is not None:
