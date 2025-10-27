@@ -30,6 +30,7 @@ REVENUE_RANGE_CODES = {
 }
 
 EMPLOYEE_COUNT_CODES = {
+    # Exact decoded values (what users see in the API)
     "1-10": "c_00001_00010",
     "11-50": "c_00011_00050",
     "51-100": "c_00051_00100",
@@ -323,9 +324,26 @@ def get_companies(
             query = query.filter(or_(*revenue_conditions))
         
         if employee_count:
-            employee_counts = [e.strip() for e in employee_count.split(',')]
+            # Smart split: check for exact matches with commas first, then split
             employee_conditions = []
-            for ec in employee_counts:
+            remaining = employee_count
+            matched_values = []
+            
+            # First, extract exact matches that contain commas (like "501-1,000")
+            for key in EMPLOYEE_COUNT_CODES.keys():
+                if ',' in key and key in remaining:
+                    matched_values.append(key)
+                    remaining = remaining.replace(key, '')
+            
+            # Now split the remaining by comma and add them
+            if remaining.strip(','):
+                for ec in remaining.split(','):
+                    ec = ec.strip()
+                    if ec:
+                        matched_values.append(ec)
+            
+            # Build conditions for all matched values
+            for ec in matched_values:
                 # First check for exact match in our mapping
                 if ec in EMPLOYEE_COUNT_CODES:
                     employee_conditions.append(Company.employee_count == EMPLOYEE_COUNT_CODES[ec])
@@ -336,7 +354,9 @@ def get_companies(
                     for readable, code in EMPLOYEE_COUNT_CODES.items():
                         if ec in readable:
                             employee_conditions.append(Company.employee_count == code)
-            query = query.filter(or_(*employee_conditions))
+            
+            if employee_conditions:
+                query = query.filter(or_(*employee_conditions))
         
         if is_public is not None:
             query = query.filter(Company.is_public == is_public)
