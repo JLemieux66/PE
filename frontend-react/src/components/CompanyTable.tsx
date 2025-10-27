@@ -28,10 +28,10 @@ export default function CompanyTable({ investments, loading }: CompanyTableProps
   }
 
   const sortedInvestments = [...investments].sort((a, b) => {
-    // Handle numeric sorting for employee count (prioritize swarm_headcount)
+    // Handle numeric sorting for employee count
     if (sortField === 'employee_count') {
-      const aNum = a.swarm_headcount || parseInt(a.employee_count || '0')
-      const bNum = b.swarm_headcount || parseInt(b.employee_count || '0')
+      const aNum = parseInt(a.employee_count || '0')
+      const bNum = parseInt(b.employee_count || '0')
       return sortDirection === 'asc' ? aNum - bNum : bNum - aNum
     }
     
@@ -166,11 +166,7 @@ export default function CompanyTable({ investments, loading }: CompanyTableProps
                 <td className="px-3 py-3">
                   <div className="flex items-center text-sm text-gray-700">
                     <Users className="w-3 h-3 text-gray-400 mr-1 flex-shrink-0" />
-                    <span className="whitespace-nowrap">
-                      {investment.swarm_headcount 
-                        ? investment.swarm_headcount.toLocaleString() 
-                        : investment.employee_count || 'N/A'}
-                    </span>
+                    <span className="whitespace-nowrap">{investment.employee_count || 'N/A'}</span>
                   </div>
                 </td>
                 <td className="px-3 py-3">

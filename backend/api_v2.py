@@ -42,7 +42,6 @@ class CompanyResponse(BaseModel):
     # Enrichment data
     revenue_range: Optional[str] = None
     employee_count: Optional[str] = None
-    swarm_headcount: Optional[int] = None  # Actual headcount number from Swarm
     industry_category: Optional[str] = None
     total_funding_usd: Optional[int] = None
     # predicted_revenue: Optional[float] = None  # ML-predicted revenue (disabled)
@@ -66,7 +65,6 @@ class InvestmentResponse(BaseModel):
     # Company enrichment data
     revenue_range: Optional[str] = None
     employee_count: Optional[str] = None
-    swarm_headcount: Optional[int] = None  # Actual headcount number from Swarm
     industry_category: Optional[str] = None
     # predicted_revenue: Optional[float] = None  # ML-predicted revenue (disabled)
     headquarters: Optional[str] = None
@@ -238,7 +236,6 @@ def get_investments(
                 sector=inv.sector_page,
                 revenue_range=decode_revenue_range(inv.company.revenue_range),
                 employee_count=decode_employee_count(inv.company.employee_count),
-                swarm_headcount=inv.company.swarm_headcount,
                 industry_category=inv.company.industry_category,
                 headquarters=headquarters,
                 website=inv.company.website,
@@ -340,7 +337,6 @@ def get_companies(
                 description=company.description,
                 revenue_range=decode_revenue_range(company.revenue_range),
                 employee_count=decode_employee_count(company.employee_count),
-                swarm_headcount=company.swarm_headcount,
                 industry_category=company.industry_category,
                 total_funding_usd=None,  # Not in v2 schema
                 is_public=company.is_public,
@@ -393,7 +389,6 @@ def get_company(company_id: int):
             description=company.description,
             revenue_range=decode_revenue_range(company.revenue_range),
             employee_count=decode_employee_count(company.employee_count),
-            swarm_headcount=company.swarm_headcount,
             industry_category=company.industry_category,
             total_funding_usd=None,  # Not in v2 schema
             is_public=company.is_public,

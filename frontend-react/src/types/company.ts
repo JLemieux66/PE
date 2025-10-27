@@ -11,7 +11,6 @@ export interface Investment {
   revenue_range?: string
   predicted_revenue?: number
   employee_count?: string
-  swarm_headcount?: number  // Actual employee headcount from Swarm API
   industry_category?: string
   headquarters?: string
   website?: string
@@ -32,7 +31,6 @@ export interface Company {
   revenue_range?: string
   predicted_revenue?: number
   employee_count?: string
-  swarm_headcount?: number  // Actual employee headcount from Swarm API
   industry_category?: string
   total_funding_usd?: number
   is_public?: boolean

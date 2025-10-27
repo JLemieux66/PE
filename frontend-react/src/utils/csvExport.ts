@@ -10,7 +10,6 @@ export const exportToCSV = (investments: Investment[], filename: string = 'pe-po
     'Industry',
     'Headquarters',
     'Employees',
-    'Headcount',
     'Revenue Range',
     'Website',
     'LinkedIn'
@@ -25,7 +24,6 @@ export const exportToCSV = (investments: Investment[], filename: string = 'pe-po
     inv.industry_category || '',
     inv.headquarters || '',
     inv.employee_count?.toString() || '',
-    inv.swarm_headcount?.toString() || '',
     inv.revenue_range || '',
     inv.website || '',
     inv.linkedin_url || ''
