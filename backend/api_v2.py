@@ -9,9 +9,17 @@ from pydantic import BaseModel
 from src.models.database_models_v2 import get_session, PEFirm, Company, CompanyPEInvestment
 from src.enrichment.crunchbase_helpers import decode_revenue_range, decode_employee_count
 
-# Reverse mappings for filtering
+# Reverse mappings for filtering (both full ranges and partial values)
 REVENUE_RANGE_CODES = {
     "Less than $1M": "r_00000000",
+    "$1M - $10M": "r_00001000",
+    "$10M - $50M": "r_00010000",
+    "$50M - $100M": "r_00050000",
+    "$100M - $500M": "r_00100000",
+    "$500M - $1B": "r_00500000",
+    "$1B - $10B": "r_01000000",
+    "$10B+": "r_10000000",
+    # Partial matches for convenience
     "$1M": "r_00001000",
     "$10M": "r_00010000",
     "$50M": "r_00050000",
@@ -302,24 +310,32 @@ def get_companies(
             revenue_ranges = [r.strip() for r in revenue_range.split(',')]
             revenue_conditions = []
             for rr in revenue_ranges:
-                # Try to match against both human-readable format and database codes
-                revenue_conditions.append(Company.revenue_range.ilike(f"%{rr}%"))
-                # Also try matching partial values to codes (e.g., "$50M" -> "r_00050000")
-                for readable, code in REVENUE_RANGE_CODES.items():
-                    if rr in readable:
-                        revenue_conditions.append(Company.revenue_range == code)
+                # First check for exact match in our mapping
+                if rr in REVENUE_RANGE_CODES:
+                    revenue_conditions.append(Company.revenue_range == REVENUE_RANGE_CODES[rr])
+                else:
+                    # Fallback to fuzzy matching for partial values
+                    revenue_conditions.append(Company.revenue_range.ilike(f"%{rr}%"))
+                    # Also check if this partial value matches any key
+                    for readable, code in REVENUE_RANGE_CODES.items():
+                        if rr in readable:
+                            revenue_conditions.append(Company.revenue_range == code)
             query = query.filter(or_(*revenue_conditions))
         
         if employee_count:
             employee_counts = [e.strip() for e in employee_count.split(',')]
             employee_conditions = []
             for ec in employee_counts:
-                # Try to match against both human-readable format and database codes
-                employee_conditions.append(Company.employee_count.ilike(f"%{ec}%"))
-                # Also try exact code matches
-                for readable, code in EMPLOYEE_COUNT_CODES.items():
-                    if ec in readable:
-                        employee_conditions.append(Company.employee_count == code)
+                # First check for exact match in our mapping
+                if ec in EMPLOYEE_COUNT_CODES:
+                    employee_conditions.append(Company.employee_count == EMPLOYEE_COUNT_CODES[ec])
+                else:
+                    # Fallback to fuzzy matching
+                    employee_conditions.append(Company.employee_count.ilike(f"%{ec}%"))
+                    # Also check if this partial value matches any key
+                    for readable, code in EMPLOYEE_COUNT_CODES.items():
+                        if ec in readable:
+                            employee_conditions.append(Company.employee_count == code)
             query = query.filter(or_(*employee_conditions))
         
         if is_public is not None:
