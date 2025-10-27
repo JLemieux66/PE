@@ -265,9 +265,8 @@ def get_companies(
     session = get_session()
     
     try:
-        query = session.query(Company).options(
-            joinedload(Company.investments).joinedload(CompanyPEInvestment.pe_firm)
-        )
+        # Start with base query
+        query = session.query(Company)
         
         # Filter by PE firm(s) (requires join)
         if pe_firm:
@@ -276,6 +275,11 @@ def get_companies(
             query = query.join(Company.investments).join(CompanyPEInvestment.pe_firm).filter(
                 or_(*firm_conditions)
             ).distinct()
+        
+        # Add eager loading after all filters to avoid join conflicts
+        query = query.options(
+            joinedload(Company.investments).joinedload(CompanyPEInvestment.pe_firm)
+        )
         
         # Apply filters
         if search:
