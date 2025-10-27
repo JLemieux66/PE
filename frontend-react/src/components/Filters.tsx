@@ -19,9 +19,9 @@ export default function Filters({ peFirms, industries, onFilterChange }: Filters
   useEffect(() => {
     const filters: CompanyFilters = {}
     if (search) filters.search = search
-    if (selectedFirms.length > 0) filters.pe_firm = selectedFirms[0] // API supports single firm for now
+    if (selectedFirms.length > 0) filters.pe_firm = selectedFirms.join(',') // Multi-select: comma-separated
     if (selectedStatuses.length > 0) filters.status = selectedStatuses[0]
-    if (selectedIndustries.length > 0) filters.industry = selectedIndustries[0]
+    if (selectedIndustries.length > 0) filters.industry = selectedIndustries.join(',') // Multi-select: comma-separated
     if (selectedExitTypes.length > 0) filters.exit_type = selectedExitTypes[0]
     onFilterChange(filters)
   }, [search, selectedFirms, selectedStatuses, selectedIndustries, selectedExitTypes, onFilterChange])
