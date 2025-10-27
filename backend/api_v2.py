@@ -262,10 +262,10 @@ def get_companies(
     session = get_session()
     
     try:
-        # Start with base query
-        query = session.query(Company)
+        # Start with base query - always join to get PE firm data
+        query = session.query(Company).join(Company.investments).join(CompanyPEInvestment.pe_firm)
         
-        # Apply simple filters first (no joins needed)
+        # Apply all filters
         if search:
             query = query.filter(Company.name.ilike(f"%{search}%"))
         
@@ -287,16 +287,13 @@ def get_companies(
         if is_public is not None:
             query = query.filter(Company.is_public == is_public)
         
-        # Filter by PE firm(s) (requires join) - do this last
         if pe_firm:
             pe_firms = [f.strip() for f in pe_firm.split(',')]
             firm_conditions = [PEFirm.name.ilike(f"%{firm}%") for firm in pe_firms]
-            query = query.join(Company.investments).join(CompanyPEInvestment.pe_firm).filter(
-                or_(*firm_conditions)
-            ).distinct()
+            query = query.filter(or_(*firm_conditions))
         
-        # Add eager loading after all filters to avoid join conflicts
-        query = query.options(
+        # Use distinct to avoid duplicates from the join, then add eager loading
+        query = query.distinct().options(
             joinedload(Company.investments).joinedload(CompanyPEInvestment.pe_firm)
         )
         
