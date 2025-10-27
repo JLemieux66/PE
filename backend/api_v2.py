@@ -208,23 +208,25 @@ def get_pe_firms():
 
 @app.get("/api/investments", response_model=List[InvestmentResponse])
 def get_investments(
-    pe_firm: Optional[str] = Query(None, description="Filter by PE firm name"),
+    pe_firm: Optional[str] = Query(None, description="Filter by PE firm name(s), comma-separated for multiple"),
     status: Optional[str] = Query(None, description="Filter by status (Active/Exit)"),
     exit_type: Optional[str] = Query(None, description="Filter by exit type (IPO/Acquisition)"),
-    industry: Optional[str] = Query(None, description="Filter by industry category"),
+    industry: Optional[str] = Query(None, description="Filter by industry category(ies), comma-separated for multiple"),
     search: Optional[str] = Query(None, description="Search company names"),
     limit: int = Query(10000, ge=1, le=10000, description="Number of results to return"),
     offset: int = Query(0, ge=0, description="Number of results to skip")
 ):
-    """Get all investments with filters"""
+    """Get all investments with filters (supports multi-select with comma-separated values)"""
     session = get_session()
     
     try:
         query = session.query(CompanyPEInvestment).join(Company).join(PEFirm)
         
-        # Apply filters
+        # Apply filters with multi-select support
         if pe_firm:
-            query = query.filter(PEFirm.name.ilike(f"%{pe_firm}%"))
+            pe_firms = [f.strip() for f in pe_firm.split(',')]
+            firm_conditions = [PEFirm.name.ilike(f"%{firm}%") for firm in pe_firms]
+            query = query.filter(or_(*firm_conditions))
         
         if status:
             query = query.filter(CompanyPEInvestment.computed_status.ilike(f"%{status}%"))
@@ -233,7 +235,9 @@ def get_investments(
             query = query.filter(CompanyPEInvestment.exit_type.ilike(f"%{exit_type}%"))
         
         if industry:
-            query = query.filter(Company.industry_category.ilike(f"%{industry}%"))
+            industries = [i.strip() for i in industry.split(',')]
+            industry_conditions = [Company.industry_category.ilike(f"%{ind}%") for ind in industries]
+            query = query.filter(or_(*industry_conditions))
         
         if search:
             query = query.filter(Company.name.ilike(f"%{search}%"))
