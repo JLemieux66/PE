@@ -1,0 +1,16 @@
+nul
+.git
+__pycache__
+*.pyc
+.env
+.venv
+venv/
+node_modules/
+frontend-react/node_modules/
+.archive/
+.idea/
+.vscode/
+pe-portfolio-react/
+langchain-docs/
+data/backups/
+*.log

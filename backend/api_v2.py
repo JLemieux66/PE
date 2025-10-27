@@ -4,8 +4,11 @@ REST API endpoints using v2 database schema
 """
 from fastapi import FastAPI, Query, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from typing import Optional, List
 from pydantic import BaseModel
+from pathlib import Path
 from src.models.database_models_v2 import get_session, PEFirm, Company, CompanyPEInvestment
 from src.enrichment.crunchbase_helpers import decode_revenue_range, decode_employee_count
 from sqlalchemy import func, or_, desc
@@ -25,6 +28,11 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Serve React build files
+frontend_dist = Path(__file__).parent.parent / "frontend-react" / "dist"
+if frontend_dist.exists():
+    app.mount("/assets", StaticFiles(directory=str(frontend_dist / "assets")), name="assets")
 
 # Response Models
 class CompanyResponse(BaseModel):
@@ -367,6 +375,16 @@ def get_company(company_id: int):
         )
     finally:
         session.close()
+
+
+# Serve React frontend at root
+@app.get("/")
+async def serve_frontend():
+    """Serve the React frontend"""
+    index_file = frontend_dist / "index.html"
+    if index_file.exists():
+        return FileResponse(index_file)
+    return {"message": "PE Portfolio API V2", "docs": "/docs"}
 
 
 if __name__ == "__main__":
