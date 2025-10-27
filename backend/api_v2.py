@@ -280,10 +280,10 @@ def get_companies(
         # Format response with PE firms list
         result = []
         for company in companies:
-            pe_firms = [inv.pe_firm.name for inv in company.pe_investments]
-            status = company.pe_investments[0].computed_status if company.pe_investments else 'Unknown'
-            exit_type = company.pe_investments[0].exit_type if company.pe_investments else None
-            investment_year = company.pe_investments[0].investment_year if company.pe_investments else None
+            pe_firms = [inv.pe_firm.name for inv in company.investments]
+            status = company.investments[0].computed_status if company.investments else 'Unknown'
+            exit_type = company.investments[0].exit_type if company.investments else None
+            investment_year = company.investments[0].investment_year if company.investments else None
             
             # Build headquarters from geographic fields
             hq_parts = []
@@ -331,10 +331,10 @@ def get_company(company_id: int):
         if not company:
             raise HTTPException(status_code=404, detail="Company not found")
         
-        pe_firms = [inv.pe_firm.name for inv in company.pe_investments]
-        status = company.pe_investments[0].computed_status if company.pe_investments else 'Unknown'
-        exit_type = company.pe_investments[0].exit_type if company.pe_investments else None
-        investment_year = company.pe_investments[0].investment_year if company.pe_investments else None
+        pe_firms = [inv.pe_firm.name for inv in company.investments]
+        status = company.investments[0].computed_status if company.investments else 'Unknown'
+        exit_type = company.investments[0].exit_type if company.investments else None
+        investment_year = company.investments[0].investment_year if company.investments else None
         
         # Build headquarters from geographic fields
         hq_parts = []
