@@ -2,4 +2,10 @@
 nixPkgs = ["...", "nodejs"]
 
 [phases.install]
-cmds = ["cd frontend-react && npm install && npm run build && cd .."]
+cmds = [
+  "cd frontend-react && npm install && npm run build && cd ..",
+  "pip install -r requirements.txt"
+]
+
+[start]
+cmd = "uvicorn backend.api_v2:app --host 0.0.0.0 --port $PORT"
