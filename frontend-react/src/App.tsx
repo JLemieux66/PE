@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import { Building2, TrendingUp, Users, Briefcase, Grid3X3, List, Download } from 'lucide-react'
-import { useStats, usePEFirms, useInvestments, useIndustries } from './hooks/useCompanies'
+import { useStats, usePEFirms, useCompanies, useIndustries } from './hooks/useCompanies'
 import StatCard from './components/StatCard'
 import CompanyList from './components/CompanyList'
 import CompanyTable from './components/CompanyTable'
 import Filters from './components/Filters'
 import { exportToCSV } from './utils/csvExport'
-import type { CompanyFilters } from './types/company'
+import type { CompanyFilters, Investment } from './types/company'
 
 function App() {
   const [filters, setFilters] = useState<CompanyFilters>({})
@@ -14,7 +14,23 @@ function App() {
   const { data: stats, isLoading: statsLoading } = useStats()
   const { data: peFirms } = usePEFirms()
   const { data: industries } = useIndustries()
-  const { data: investments, isLoading: investmentsLoading } = useInvestments(filters)
+  const { data: companies, isLoading: companiesLoading } = useCompanies(filters)
+
+  // Convert Company format to Investment format for backwards compatibility
+  const investments: Investment[] = companies?.map(company => ({
+    company_id: company.id,
+    company_name: company.name,
+    pe_firm_name: company.pe_firms[0] || '', // Take first PE firm for display
+    status: company.status,
+    exit_type: company.exit_type,
+    investment_year: company.investment_year,
+    headquarters: company.headquarters,
+    website: company.website,
+    linkedin_url: company.linkedin_url,
+    revenue_range: company.revenue_range,
+    employee_count: company.employee_count,
+    industry_category: company.industry_category,
+  })) || []
 
   const handleFilterChange = (newFilters: CompanyFilters) => {
     setFilters(newFilters)
@@ -139,12 +155,12 @@ function App() {
             {viewMode === 'cards' ? (
               <CompanyList
                 investments={investments || []}
-                isLoading={investmentsLoading}
+                isLoading={companiesLoading}
               />
             ) : (
               <CompanyTable
                 investments={investments || []}
-                loading={investmentsLoading}
+                loading={companiesLoading}
               />
             )}
           </div>

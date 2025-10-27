@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query'
-import { fetchStats, fetchPEFirms, fetchInvestments, fetchIndustries } from '../api/client'
+import { fetchStats, fetchPEFirms, fetchCompanies, fetchIndustries } from '../api/client'
 import type { CompanyFilters } from '../types/company'
 
 export const useStats = () => {
@@ -16,10 +16,10 @@ export const usePEFirms = () => {
   })
 }
 
-export const useInvestments = (filters: CompanyFilters = {}) => {
+export const useCompanies = (filters: CompanyFilters = {}) => {
   return useQuery({
-    queryKey: ['investments', filters],
-    queryFn: () => fetchInvestments(filters),
+    queryKey: ['companies', filters],
+    queryFn: () => fetchCompanies(filters),
   })
 }
 

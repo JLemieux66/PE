@@ -1,5 +1,5 @@
 import axios from 'axios'
-import type { Investment, PEFirm, Stats, CompanyFilters } from '../types/company'
+import type { Company, PEFirm, Stats, CompanyFilters } from '../types/company'
 
 const API_BASE_URL = import.meta.env.VITE_API_URL || '/api'
 
@@ -20,13 +20,13 @@ export const fetchPEFirms = async (): Promise<PEFirm[]> => {
   return data
 }
 
-export const fetchInvestments = async (filters: CompanyFilters = {}): Promise<Investment[]> => {
-  const { data } = await api.get<Investment[]>('/investments', { params: filters })
+export const fetchCompanies = async (filters: CompanyFilters = {}): Promise<Company[]> => {
+  const { data } = await api.get<Company[]>('/companies', { params: filters })
   return data
 }
 
 export const fetchIndustries = async (): Promise<string[]> => {
-  const investments = await fetchInvestments({ limit: 1000 })
-  const industries = new Set(investments.map(inv => inv.industry_category).filter((ind): ind is string => Boolean(ind)))
+  const companies = await fetchCompanies({ limit: 10000 })
+  const industries = new Set(companies.map(company => company.industry_category).filter((ind): ind is string => Boolean(ind)))
   return Array.from(industries).sort()
 }
