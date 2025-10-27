@@ -1,8 +1,5 @@
 [phases.setup]
 nixPkgs = ["...", "nodejs"]
 
-[phases.build]
-cmds = [
-  "cd frontend-react && npm install && npm run build && cd ..",
-  "pip install -r requirements.txt"
-]
+[phases.install]
+cmds = ["cd frontend-react && npm install && npm run build && cd .."]
