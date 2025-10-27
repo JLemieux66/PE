@@ -265,20 +265,7 @@ def get_companies(
         # Start with base query
         query = session.query(Company)
         
-        # Filter by PE firm(s) (requires join)
-        if pe_firm:
-            pe_firms = [f.strip() for f in pe_firm.split(',')]
-            firm_conditions = [PEFirm.name.ilike(f"%{firm}%") for firm in pe_firms]
-            query = query.join(Company.investments).join(CompanyPEInvestment.pe_firm).filter(
-                or_(*firm_conditions)
-            ).distinct()
-        
-        # Add eager loading after all filters to avoid join conflicts
-        query = query.options(
-            joinedload(Company.investments).joinedload(CompanyPEInvestment.pe_firm)
-        )
-        
-        # Apply filters
+        # Apply simple filters first (no joins needed)
         if search:
             query = query.filter(Company.name.ilike(f"%{search}%"))
         
@@ -299,6 +286,19 @@ def get_companies(
         
         if is_public is not None:
             query = query.filter(Company.is_public == is_public)
+        
+        # Filter by PE firm(s) (requires join) - do this last
+        if pe_firm:
+            pe_firms = [f.strip() for f in pe_firm.split(',')]
+            firm_conditions = [PEFirm.name.ilike(f"%{firm}%") for firm in pe_firms]
+            query = query.join(Company.investments).join(CompanyPEInvestment.pe_firm).filter(
+                or_(*firm_conditions)
+            ).distinct()
+        
+        # Add eager loading after all filters to avoid join conflicts
+        query = query.options(
+            joinedload(Company.investments).joinedload(CompanyPEInvestment.pe_firm)
+        )
         
         # Order by name
         query = query.order_by(Company.name)
