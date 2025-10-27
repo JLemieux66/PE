@@ -9,6 +9,7 @@ from pydantic import BaseModel
 from src.models.database_models_v2 import get_session, PEFirm, Company, CompanyPEInvestment
 from src.enrichment.crunchbase_helpers import decode_revenue_range, decode_employee_count
 from sqlalchemy import func, or_, desc
+from sqlalchemy.orm import joinedload
 
 # Initialize FastAPI
 app = FastAPI(
@@ -259,7 +260,9 @@ def get_companies(
     session = get_session()
     
     try:
-        query = session.query(Company)
+        query = session.query(Company).options(
+            joinedload(Company.investments).joinedload(CompanyPEInvestment.pe_firm)
+        )
         
         # Apply filters
         if search:
@@ -326,7 +329,9 @@ def get_company(company_id: int):
     session = get_session()
     
     try:
-        company = session.query(Company).filter_by(id=company_id).first()
+        company = session.query(Company).options(
+            joinedload(Company.investments).joinedload(CompanyPEInvestment.pe_firm)
+        ).filter_by(id=company_id).first()
         
         if not company:
             raise HTTPException(status_code=404, detail="Company not found")
