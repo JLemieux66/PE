@@ -4,9 +4,10 @@ import type { Investment } from '../types/company'
 interface CompanyListProps {
   investments: Investment[]
   isLoading: boolean
+  onCompanyClick?: (companyId: number) => void
 }
 
-export default function CompanyList({ investments, isLoading }: CompanyListProps) {
+export default function CompanyList({ investments, isLoading, onCompanyClick }: CompanyListProps) {
   if (isLoading) {
     return (
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -40,7 +41,11 @@ export default function CompanyList({ investments, isLoading }: CompanyListProps
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {investments.map((investment) => (
-          <div key={`${investment.company_id}-${investment.pe_firm_name}`} className="bg-white rounded-lg shadow hover:shadow-lg transition-shadow p-6">
+          <div 
+            key={`${investment.company_id}-${investment.pe_firm_name}`} 
+            className="bg-white rounded-lg shadow hover:shadow-lg transition-shadow p-6 cursor-pointer"
+            onClick={() => onCompanyClick?.(investment.company_id)}
+          >
             {/* Header */}
             <div className="flex items-start justify-between mb-4">
               <div className="flex-1">

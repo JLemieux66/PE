@@ -31,6 +31,13 @@ playwright = "*"
 psycopg2-binary = "*"
 sqlalchemy = "*"
 plotly = "*"
+xgboost = "*"
+scikit-learn = "*"
+matplotlib = "*"
+seaborn = "*"
+yfinance = "*"
+pypdf2 = "*"
+pdfplumber = "*"
 
 [dev-packages]
 ipykernel = "*"

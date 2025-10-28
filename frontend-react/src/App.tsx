@@ -4,6 +4,7 @@ import { useStats, usePEFirms, useCompanies, useIndustries } from './hooks/useCo
 import StatCard from './components/StatCard'
 import CompanyList from './components/CompanyList'
 import CompanyTable from './components/CompanyTable'
+import CompanyModal from './components/CompanyModal'
 import Filters from './components/Filters'
 import { exportToCSV } from './utils/csvExport'
 import type { CompanyFilters, Investment } from './types/company'
@@ -11,6 +12,7 @@ import type { CompanyFilters, Investment } from './types/company'
 function App() {
   const [filters, setFilters] = useState<CompanyFilters>({})
   const [viewMode, setViewMode] = useState<'cards' | 'table'>('table')
+  const [selectedCompanyId, setSelectedCompanyId] = useState<number | null>(null)
   const { data: stats, isLoading: statsLoading } = useStats()
   const { data: peFirms } = usePEFirms()
   const { data: industries } = useIndustries()
@@ -156,16 +158,26 @@ function App() {
               <CompanyList
                 investments={investments || []}
                 isLoading={companiesLoading}
+                onCompanyClick={setSelectedCompanyId}
               />
             ) : (
               <CompanyTable
                 investments={investments || []}
                 loading={companiesLoading}
+                onCompanyClick={setSelectedCompanyId}
               />
             )}
           </div>
         </div>
       </div>
+
+      {/* Company Detail Modal */}
+      {selectedCompanyId && (
+        <CompanyModal
+          companyId={selectedCompanyId}
+          onClose={() => setSelectedCompanyId(null)}
+        />
+      )}
     </div>
   )
 }

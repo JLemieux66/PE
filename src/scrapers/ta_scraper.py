@@ -55,7 +55,6 @@ async def scrape_company_page(page, sector: str, url: str) -> dict:
                 const result = {
                     name: '',
                     description: '',
-                    website: '',
                     sector: '',
                     hq: '',
                     status: 'current',
@@ -117,10 +116,6 @@ async def scrape_company_page(page, sector: str, url: str) -> dict:
                     }
                 }
                 
-                // Get website link
-                const websiteLink = document.querySelector('a[href^="http"]:not([href*="ta.com"]):not([href*="altareturn"])');
-                if (websiteLink) result.website = websiteLink.href;
-                
                 // If no name found, extract from URL
                 if (!result.name) {
                     const urlParts = window.location.pathname.split('/');
@@ -131,6 +126,13 @@ async def scrape_company_page(page, sector: str, url: str) -> dict:
                 return result;
             }
         ''')
+        
+        # Get website link using Playwright selector (outside of JavaScript context)
+        website_link = await page.query_selector('a:has-text("Company Website")')
+        if website_link:
+            website = await website_link.get_attribute('href')
+            if website:
+                data['website'] = website
         
         data['url'] = url
         data['sector_page'] = sector

@@ -150,7 +150,7 @@ export default function Filters({ peFirms, industries, onFilterChange }: Filters
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-2">Industries</label>
           <div className="max-h-48 overflow-y-auto space-y-2 border border-gray-200 rounded p-2">
-              {industries.slice(0, 10).map((industry) => (
+              {industries.map((industry) => (
                 <label key={industry} className="flex items-center">
                   <input
                     type="checkbox"

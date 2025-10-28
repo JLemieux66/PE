@@ -1,0 +1,3858 @@
+[
+  {
+    "name": "2U",
+    "detail_url": "https://www.bvp.com/companies/2u",
+    "website": "https://2u.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:02:32.046953"
+  },
+  {
+    "name": "Abridge",
+    "detail_url": "https://www.bvp.com/companies/abridge",
+    "website": "https://www.abridge.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:02:33.381693"
+  },
+  {
+    "name": "Acceleron",
+    "detail_url": "https://www.bvp.com/companies/acceleron",
+    "website": "https://www.acceleronpharma.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:02:34.648883"
+  },
+  {
+    "name": "Acquire.com (fka MicroAcquire)",
+    "detail_url": "https://www.bvp.com/companies/acquire",
+    "website": "https://microacquire.com",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:02:35.938459"
+  },
+  {
+    "name": "ACTIV Financial Systems",
+    "detail_url": "https://www.bvp.com/companies/activ-financial-systems",
+    "website": "https://www.activfinancial.com",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:02:37.239943"
+  },
+  {
+    "name": "ACV Auctions",
+    "detail_url": "https://www.bvp.com/companies/acv-auctions",
+    "website": "https://www.acvauctions.com",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:02:38.650905"
+  },
+  {
+    "name": "Ada",
+    "detail_url": "https://www.bvp.com/companies/ada-support",
+    "website": "https://www.ada.cx/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:02:40.041124"
+  },
+  {
+    "name": "Adaptive Insights",
+    "detail_url": "https://www.bvp.com/companies/adaptive-insights",
+    "website": "https://www.adaptiveinsights.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:02:41.466699"
+  },
+  {
+    "name": "Affirmed Networks",
+    "detail_url": "https://www.bvp.com/companies/affirmed-networks",
+    "website": "https://www.affirmednetworks.com",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:02:42.824720"
+  },
+  {
+    "name": "AIMon",
+    "detail_url": "https://www.bvp.com/companies/aimon",
+    "website": "https://www.aimon.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:02:44.239645"
+  },
+  {
+    "name": "Aiwyn",
+    "detail_url": "https://www.bvp.com/companies/aiwyn",
+    "website": "https://www.aiwyn.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:02:45.736525"
+  },
+  {
+    "name": "Alcresta Therapeutics",
+    "detail_url": "https://www.bvp.com/companies/alcresta-therapeutics",
+    "website": "https://www.alcresta.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:02:47.155603"
+  },
+  {
+    "name": "AlgoX2",
+    "detail_url": "https://www.bvp.com/companies/algox2",
+    "website": "https://www.algox2.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:02:48.569707"
+  },
+  {
+    "name": "Allena Pharmaceuticals",
+    "detail_url": "https://www.bvp.com/companies/allena-pharmaceuticals",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:02:50.189785"
+  },
+  {
+    "name": "Alloy",
+    "detail_url": "https://www.bvp.com/companies/alloy",
+    "website": "https://alloy.co/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:02:51.687886"
+  },
+  {
+    "name": "Allscripts",
+    "detail_url": "https://www.bvp.com/companies/allscripts",
+    "website": "https://www.allscripts.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:02:53.089066"
+  },
+  {
+    "name": "Altair Semiconductor",
+    "detail_url": "https://www.bvp.com/companies/altair-semiconductor",
+    "website": "https://altair-semi.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:02:54.473673"
+  },
+  {
+    "name": "Anaqua",
+    "detail_url": "https://www.bvp.com/companies/anaqua",
+    "website": "https://www.anaqua.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:02:55.862468"
+  },
+  {
+    "name": "Ansible Health",
+    "detail_url": "https://www.bvp.com/companies/ansible-health",
+    "website": "http://www.ansiblehealth.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:02:57.250961"
+  },
+  {
+    "name": "Anthropic",
+    "detail_url": "https://www.bvp.com/companies/anthropic",
+    "website": "https://www.anthropic.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:02:58.569905"
+  },
+  {
+    "name": "Anunta",
+    "detail_url": "https://www.bvp.com/companies/anunta",
+    "website": "https://www.anuntatech.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:02:59.935720"
+  },
+  {
+    "name": "ANYbotics",
+    "detail_url": "https://www.bvp.com/companies/anybotics",
+    "website": "https://www.anybotics.com/anymal-autonomous-legged-robot/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:01.330327"
+  },
+  {
+    "name": "Appwrite",
+    "detail_url": "https://www.bvp.com/companies/appwrite",
+    "website": "https://appwrite.io/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:02.748441"
+  },
+  {
+    "name": "Apron",
+    "detail_url": "https://www.bvp.com/companies/apron",
+    "website": "https://getapron.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:04.149316"
+  },
+  {
+    "name": "Archy",
+    "detail_url": "https://www.bvp.com/companies/archy",
+    "website": "https://www.archy.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:05.527985"
+  },
+  {
+    "name": "Arcion Labs",
+    "detail_url": "https://www.bvp.com/companies/arcion-labs",
+    "website": "https://www.arcion.io/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:06.909532"
+  },
+  {
+    "name": "Artemis Health",
+    "detail_url": "https://www.bvp.com/companies/artemis-health",
+    "website": "https://www.artemishealth.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:08.331310"
+  },
+  {
+    "name": "Aspen RxHealth",
+    "detail_url": "https://www.bvp.com/companies/aspen-rxhealth",
+    "website": "https://aspenrxhealth.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:09.716870"
+  },
+  {
+    "name": "Astrix",
+    "detail_url": "https://www.bvp.com/companies/astrix",
+    "website": "https://astrix.security/terms-of-use/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:11.307774"
+  },
+  {
+    "name": "Atomo Coffee",
+    "detail_url": "https://www.bvp.com/companies/atomo-coffee",
+    "website": "https://atomocoffee.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:12.669032"
+  },
+  {
+    "name": "August",
+    "detail_url": "https://www.bvp.com/companies/august",
+    "website": "https://www.august.com",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:14.079101"
+  },
+  {
+    "name": "Auterion",
+    "detail_url": "https://www.bvp.com/companies/auterion",
+    "website": "https://auterion.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:15.522531"
+  },
+  {
+    "name": "Auth0",
+    "detail_url": "https://www.bvp.com/companies/auth0",
+    "website": "https://www.auth0.com",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:16.939270"
+  },
+  {
+    "name": "Avant Arte",
+    "detail_url": "https://www.bvp.com/companies/avant-arte",
+    "website": "https://avantarte.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:18.316570"
+  },
+  {
+    "name": "Axion Ray",
+    "detail_url": "https://www.bvp.com/companies/axion-ray",
+    "website": "https://www.axionray.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:19.822029"
+  },
+  {
+    "name": "Axis Network Technology",
+    "detail_url": "https://www.bvp.com/companies/axis-network-technology",
+    "website": "https://www.axisnet.asia/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:21.184851"
+  },
+  {
+    "name": "Axonius",
+    "detail_url": "https://www.bvp.com/companies/axonius",
+    "website": "https://www.axonius.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:22.558012"
+  },
+  {
+    "name": "Bankjoy",
+    "detail_url": "https://www.bvp.com/companies/bankjoy",
+    "website": "https://bankjoy.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:23.985780"
+  },
+  {
+    "name": "Basis Theory",
+    "detail_url": "https://www.bvp.com/companies/basis-theory",
+    "website": "https://basistheory.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:25.463799"
+  },
+  {
+    "name": "Bastille Networks",
+    "detail_url": "https://www.bvp.com/companies/bastille-networks",
+    "website": "https://www.bastille.net",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:26.845004"
+  },
+  {
+    "name": "Betterment",
+    "detail_url": "https://www.bvp.com/companies/betterment",
+    "website": "https://www.betterment.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:28.098594"
+  },
+  {
+    "name": "Bettermode",
+    "detail_url": "https://www.bvp.com/companies/bettermode",
+    "website": "https://bettermode.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:29.475191"
+  },
+  {
+    "name": "Bevi",
+    "detail_url": "https://www.bvp.com/companies/bevi",
+    "website": "https://www.bevi.co/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:30.965143"
+  },
+  {
+    "name": "Beyond",
+    "detail_url": "https://www.bvp.com/companies/beyond",
+    "website": "https://beyondpricing.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:32.418580"
+  },
+  {
+    "name": "Bharat Matrimony",
+    "detail_url": "https://www.bvp.com/companies/bharat-matrimony",
+    "website": "https://www.bharatmatrimony.in/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:33.838378"
+  },
+  {
+    "name": "bigbasket",
+    "detail_url": "https://www.bvp.com/companies/bigbasket",
+    "website": "https://www.bigbasket.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:35.195820"
+  },
+  {
+    "name": "BigID",
+    "detail_url": "https://www.bvp.com/companies/bigid",
+    "website": "https://bigid.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:36.591033"
+  },
+  {
+    "name": "BillGuard",
+    "detail_url": "https://www.bvp.com/companies/billguard",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:38.160445"
+  },
+  {
+    "name": "Black Sheep Foods",
+    "detail_url": "https://www.bvp.com/companies/black-sheep-foods",
+    "website": "https://blacksheepfoods.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:39.616749"
+  },
+  {
+    "name": "BladeLogic",
+    "detail_url": "https://www.bvp.com/companies/bladelogic",
+    "website": "http://www.bmc.com/it-solutions/truesight-server-automation.html ",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:41.013769"
+  },
+  {
+    "name": "Blue Apron",
+    "detail_url": "https://www.bvp.com/companies/blue-apron",
+    "website": "https://www.blueapron.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:42.388170"
+  },
+  {
+    "name": "Blue Nile",
+    "detail_url": "https://www.bvp.com/companies/blue-nile",
+    "website": "https://www.bluenile.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:43.748422"
+  },
+  {
+    "name": "Boards",
+    "detail_url": "https://www.bvp.com/companies/boards",
+    "website": "https://www.boards.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:45.122695"
+  },
+  {
+    "name": "Bold Metrics",
+    "detail_url": "https://www.bvp.com/companies/bold-metrics",
+    "website": "https://www.boldmetrics.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:46.504395"
+  },
+  {
+    "name": "Boldfit",
+    "detail_url": "https://www.bvp.com/companies/boldfit",
+    "website": "https://www.boldfit.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:47.989810"
+  },
+  {
+    "name": "Boom Supersonic",
+    "detail_url": "https://www.bvp.com/companies/boom-supersonic",
+    "website": "https://boomsupersonic.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:49.384131"
+  },
+  {
+    "name": "Box",
+    "detail_url": "https://www.bvp.com/companies/box",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:50.953900"
+  },
+  {
+    "name": "Brainbase",
+    "detail_url": "https://www.bvp.com/companies/brainbase",
+    "website": "https://www.brainbase.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:52.325450"
+  },
+  {
+    "name": "Bread Financial",
+    "detail_url": "https://www.bvp.com/companies/bread-finance",
+    "website": "https://www.getbread.com",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:53.725911"
+  },
+  {
+    "name": "BrightBytes",
+    "detail_url": "https://www.bvp.com/companies/brightbytes",
+    "website": "https://www.brightbytes.net",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:55.115451"
+  },
+  {
+    "name": "Brightwheel",
+    "detail_url": "https://www.bvp.com/companies/brightwheel",
+    "website": "https://mybrightwheel.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:56.517486"
+  },
+  {
+    "name": "Brisk Teaching",
+    "detail_url": "https://www.bvp.com/companies/brisk-teaching",
+    "website": "https://www.briskteaching.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:57.891669"
+  },
+  {
+    "name": "Broadsoft",
+    "detail_url": "https://www.bvp.com/companies/broadsoft",
+    "website": "https://www.broadsoft.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:03:59.294896"
+  },
+  {
+    "name": "Bumble",
+    "detail_url": "https://www.bvp.com/companies/bumble",
+    "website": "https://bumble.com/en/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:00.675434"
+  },
+  {
+    "name": "Cambly",
+    "detail_url": "https://www.bvp.com/companies/cambly",
+    "website": "https://www.cambly.com",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:02.085280"
+  },
+  {
+    "name": "Candid Co.",
+    "detail_url": "https://www.bvp.com/companies/candid-co",
+    "website": "https://www.candidco.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:03.463987"
+  },
+  {
+    "name": "Canva",
+    "detail_url": "https://www.bvp.com/companies/canva",
+    "website": "https://www.canva.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:04.890592"
+  },
+  {
+    "name": "Capmo",
+    "detail_url": "https://www.bvp.com/companies/campo",
+    "website": "https://www.capmo.com/en/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:06.269262"
+  },
+  {
+    "name": "Capsule8",
+    "detail_url": "https://www.bvp.com/companies/capsule8",
+    "website": "https://capsule8.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:07.680275"
+  },
+  {
+    "name": "CaptivateIQ",
+    "detail_url": "https://www.bvp.com/companies/captivateiq",
+    "website": "https://www.captivateiq.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:09.043865"
+  },
+  {
+    "name": "Carefull Corporation",
+    "detail_url": "https://www.bvp.com/companies/carefull-corporation",
+    "website": "https://getcarefull.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:10.456604"
+  },
+  {
+    "name": "cargo.one",
+    "detail_url": "https://www.bvp.com/companies/cargo-one",
+    "website": "https://www.cargo.one/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:11.839291"
+  },
+  {
+    "name": "Carwow",
+    "detail_url": "https://www.bvp.com/companies/carwow",
+    "website": "https://www.carwow.co.uk/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:13.216752"
+  },
+  {
+    "name": "Cashify",
+    "detail_url": "https://www.bvp.com/companies/cashify",
+    "website": "https://www.cashify.in/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:14.596426"
+  },
+  {
+    "name": "Cents",
+    "detail_url": "https://www.bvp.com/companies/cents",
+    "website": "https://www.trycents.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:16.012182"
+  },
+  {
+    "name": "ChipAgents",
+    "detail_url": "https://www.bvp.com/companies/chipagents",
+    "website": "https://chipagents.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:17.380249"
+  },
+  {
+    "name": "Choco",
+    "detail_url": "https://www.bvp.com/companies/choco",
+    "website": "https://www.choco.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:18.880759"
+  },
+  {
+    "name": "Ciena",
+    "detail_url": "https://www.bvp.com/companies/ciena",
+    "website": "https://www.ciena.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:20.329008"
+  },
+  {
+    "name": "Clarity",
+    "detail_url": "https://www.bvp.com/companies/clarity",
+    "website": "https://www.getclarity.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:21.711419"
+  },
+  {
+    "name": "Clarity Money",
+    "detail_url": "https://www.bvp.com/companies/clarity-money",
+    "website": "https://claritymoney.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:23.073560"
+  },
+  {
+    "name": "Claroty",
+    "detail_url": "https://www.bvp.com/companies/claroty",
+    "website": "https://www.claroty.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:24.474503"
+  },
+  {
+    "name": "Clear Ballot",
+    "detail_url": "https://www.bvp.com/companies/clear-ballot",
+    "website": "https://www.clearballot.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:25.868814"
+  },
+  {
+    "name": "ClearCare",
+    "detail_url": "https://www.bvp.com/companies/clearcare",
+    "website": "https://www.clearcareonline.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:27.281987"
+  },
+  {
+    "name": "Clearing",
+    "detail_url": "https://www.bvp.com/companies/clearing",
+    "website": "https://www.clearing.com",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:28.682693"
+  },
+  {
+    "name": "ClickHouse",
+    "detail_url": "https://www.bvp.com/companies/clickhouse",
+    "website": "https://clickhouse.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:30.035860"
+  },
+  {
+    "name": "Clio",
+    "detail_url": "https://www.bvp.com/companies/clio",
+    "website": "https://www.clio.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:31.414927"
+  },
+  {
+    "name": "Cloudinary",
+    "detail_url": "https://www.bvp.com/companies/cloudinary",
+    "website": "https://cloudinary.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:32.856065"
+  },
+  {
+    "name": "CloudLock",
+    "detail_url": "https://www.bvp.com/companies/cloudlock",
+    "website": "https://www.cloudlock.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:34.371509"
+  },
+  {
+    "name": "Coactive AI",
+    "detail_url": "https://www.bvp.com/companies/coactive-ai",
+    "website": "https://coactive.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:35.784274"
+  },
+  {
+    "name": "Coder",
+    "detail_url": "https://www.bvp.com/companies/coder",
+    "website": "https://coder.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:37.168820"
+  },
+  {
+    "name": "Coiled",
+    "detail_url": "https://www.bvp.com/companies/coiled",
+    "website": "https://coiled.io",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:38.557087"
+  },
+  {
+    "name": "Collective Medical",
+    "detail_url": "https://www.bvp.com/companies/collective-medical",
+    "website": "https://www.collectivemedicaltech.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:39.829422"
+  },
+  {
+    "name": "ComboCurve",
+    "detail_url": "https://www.bvp.com/companies/combocurve",
+    "website": "https://combocurve.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:41.200610"
+  },
+  {
+    "name": "Contractbook",
+    "detail_url": "https://www.bvp.com/companies/contractbook",
+    "website": "https://contractbook.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:42.595681"
+  },
+  {
+    "name": "Convertro, Inc.",
+    "detail_url": "https://www.bvp.com/companies/convertro-inc",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:44.193810"
+  },
+  {
+    "name": "CopilotIQ",
+    "detail_url": "https://www.bvp.com/companies/copilotiq",
+    "website": "https://copilotiq.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:45.478774"
+  },
+  {
+    "name": "Cornerstone OnDemand",
+    "detail_url": "https://www.bvp.com/companies/cornerstone-ondemand",
+    "website": "https://www.cornerstoneondemand.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:46.951935"
+  },
+  {
+    "name": "Courier",
+    "detail_url": "https://www.bvp.com/companies/courier",
+    "website": "https://www.courier.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:48.347894"
+  },
+  {
+    "name": "CPower, Inc.",
+    "detail_url": "https://www.bvp.com/companies/cpower-inc",
+    "website": "https://cpowerenergymanagement.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:49.729844"
+  },
+  {
+    "name": "Crash Override",
+    "detail_url": "https://www.bvp.com/companies/crash-override",
+    "website": "https://crashoverride.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:51.154728"
+  },
+  {
+    "name": "Crete Professionals Alliance",
+    "detail_url": "https://www.bvp.com/companies/crete-professionals-alliance",
+    "website": "https://www.cretepa.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:52.560081"
+  },
+  {
+    "name": "CRI",
+    "detail_url": "https://www.bvp.com/companies/cri",
+    "website": "https://www.criadv.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:53.943567"
+  },
+  {
+    "name": "Criteo",
+    "detail_url": "https://www.bvp.com/companies/criteo",
+    "website": "https://www.criteo.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:55.336098"
+  },
+  {
+    "name": "Crosschq",
+    "detail_url": "https://www.bvp.com/companies/crosschq",
+    "website": "https://crosschq.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:56.724671"
+  },
+  {
+    "name": "CTERA",
+    "detail_url": "https://www.bvp.com/companies/ctera",
+    "website": "https://www.ctera.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:58.106173"
+  },
+  {
+    "name": "Curri",
+    "detail_url": "https://www.bvp.com/companies/curri",
+    "website": "https://www.curri.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:04:59.755875"
+  },
+  {
+    "name": "CyberGRX",
+    "detail_url": "https://www.bvp.com/companies/cybergrx",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:01.372587"
+  },
+  {
+    "name": "Cyota, Inc",
+    "detail_url": "https://www.bvp.com/companies/cyota-inc",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:02.942676"
+  },
+  {
+    "name": "Cypress.io",
+    "detail_url": "https://www.bvp.com/companies/cypress-io",
+    "website": "https://www.cypress.io/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:04.350671"
+  },
+  {
+    "name": "Dashbot",
+    "detail_url": "https://www.bvp.com/companies/dashbot",
+    "website": "https://www.dashbot.io/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:05.757209"
+  },
+  {
+    "name": "Dashlane",
+    "detail_url": "https://www.bvp.com/companies/dashlane",
+    "website": "https://www.dashlane.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:07.222181"
+  },
+  {
+    "name": "Databand",
+    "detail_url": "https://www.bvp.com/companies/databand",
+    "website": "https://databand.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:08.609858"
+  },
+  {
+    "name": "Databook",
+    "detail_url": "https://www.bvp.com/companies/databook",
+    "website": "https://trydatabook.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:09.978661"
+  },
+  {
+    "name": "Datafy",
+    "detail_url": "https://www.bvp.com/companies/datafy",
+    "website": "https://www.datafy.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:11.337897"
+  },
+  {
+    "name": "DataHub",
+    "detail_url": "https://www.bvp.com/companies/datahub",
+    "website": "https://datahub.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:12.612942"
+  },
+  {
+    "name": "Datalot",
+    "detail_url": "https://www.bvp.com/companies/datalot",
+    "website": "https://www.datalot.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:13.994770"
+  },
+  {
+    "name": "DeepL",
+    "detail_url": "https://www.bvp.com/companies/deepl",
+    "website": "https://www.deepl.com/en/translator",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:15.348439"
+  },
+  {
+    "name": "DEFCON AI",
+    "detail_url": "https://www.bvp.com/companies/defcon-ai",
+    "website": "https://www.defconai.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:16.724589"
+  },
+  {
+    "name": "Defense.net",
+    "detail_url": "https://www.bvp.com/companies/defense-net",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:18.429784"
+  },
+  {
+    "name": "Demostack",
+    "detail_url": "https://www.bvp.com/companies/demostack",
+    "website": "https://www.demostack.com",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:19.802214"
+  },
+  {
+    "name": "Devo",
+    "detail_url": "https://www.bvp.com/companies/devo",
+    "website": "https://www.devo.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:21.191027"
+  },
+  {
+    "name": "Dinii",
+    "detail_url": "https://www.bvp.com/companies/dinii",
+    "website": "https://dinii.jp/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:22.588739"
+  },
+  {
+    "name": "DISCO",
+    "detail_url": "https://www.bvp.com/companies/disco",
+    "website": "https://www.csdisco.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:23.955834"
+  },
+  {
+    "name": "Discord",
+    "detail_url": "https://www.bvp.com/companies/discord",
+    "website": "https://discord.com/new",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:25.343861"
+  },
+  {
+    "name": "DocuSign",
+    "detail_url": "https://www.bvp.com/companies/docusign",
+    "website": "https://www.docusign.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:26.698954"
+  },
+  {
+    "name": "DocuTAP",
+    "detail_url": "https://www.bvp.com/companies/docutap",
+    "website": "https://www.docutap.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:28.091752"
+  },
+  {
+    "name": "Doppel",
+    "detail_url": "https://www.bvp.com/companies/doppel",
+    "website": "https://www.doppel.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:29.453651"
+  },
+  {
+    "name": "DoubleDutch",
+    "detail_url": "https://www.bvp.com/companies/doubledutch",
+    "website": "https://www.doubledutch.me/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:30.821039"
+  },
+  {
+    "name": "DriveNets",
+    "detail_url": "https://www.bvp.com/companies/drivenets",
+    "website": "https://www.drivenets.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:32.221331"
+  },
+  {
+    "name": "DroneDeploy",
+    "detail_url": "https://www.bvp.com/companies/dronedeploy",
+    "website": "http://www.dronedeploy.com",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:33.665993"
+  },
+  {
+    "name": "Dropcam",
+    "detail_url": "https://www.bvp.com/companies/dropcam",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:35.315711"
+  },
+  {
+    "name": "Dynamic Yield",
+    "detail_url": "https://www.bvp.com/companies/dynamic-yield",
+    "website": "https://www.dynamicyield.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:36.759823"
+  },
+  {
+    "name": "Easebuzz",
+    "detail_url": "https://www.bvp.com/companies/easebuzz",
+    "website": "https://easebuzz.in/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:38.155885"
+  },
+  {
+    "name": "eEye Digital Security",
+    "detail_url": "https://www.bvp.com/companies/eeye-digital-security",
+    "website": "https://www.eye.security/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:39.623458"
+  },
+  {
+    "name": "Electric",
+    "detail_url": "https://www.bvp.com/companies/electric",
+    "website": "https://www.electric.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:41.009646"
+  },
+  {
+    "name": "EliseAI",
+    "detail_url": "https://www.bvp.com/companies/eliseai",
+    "website": "https://www.eliseai.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:42.288176"
+  },
+  {
+    "name": "Eloqua",
+    "detail_url": "https://www.bvp.com/companies/eloqua",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:43.892072"
+  },
+  {
+    "name": "Endgame",
+    "detail_url": "https://www.bvp.com/companies/endgame",
+    "website": "https://www.endgame.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:45.399597"
+  },
+  {
+    "name": "Enjoei",
+    "detail_url": "https://www.bvp.com/companies/enjoei",
+    "website": "https://www.enjoei.com.br/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:46.847217"
+  },
+  {
+    "name": "Entropik",
+    "detail_url": "https://www.bvp.com/companies/entropik",
+    "website": "https://www.entropik.io/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:48.221462"
+  },
+  {
+    "name": "EvenUp",
+    "detail_url": "https://www.bvp.com/companies/evenup",
+    "website": "https://www.evenuplaw.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:49.635370"
+  },
+  {
+    "name": "Everlance",
+    "detail_url": "https://www.bvp.com/companies/everlance",
+    "website": "https://www.everlance.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:51.008928"
+  },
+  {
+    "name": "Eye Security",
+    "detail_url": "https://www.bvp.com/companies/eye-security",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:52.590642"
+  },
+  {
+    "name": "Fabric Technologies",
+    "detail_url": "https://www.bvp.com/companies/fabric-technologies",
+    "website": "https://meetfabric.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:53.962560"
+  },
+  {
+    "name": "Fal.ai",
+    "detail_url": "https://www.bvp.com/companies/fal-ai",
+    "website": "https://fal.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:55.245567"
+  },
+  {
+    "name": "Fandom",
+    "detail_url": "https://www.bvp.com/companies/fandom",
+    "website": "https://www.fandom.com/home",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:56.630771"
+  },
+  {
+    "name": "Farther",
+    "detail_url": "https://www.bvp.com/companies/farther-1",
+    "website": "https://www.farther.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:58.198569"
+  },
+  {
+    "name": "Fern",
+    "detail_url": "https://www.bvp.com/companies/fern",
+    "website": "https://www.buildwithfern.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:05:59.576827"
+  },
+  {
+    "name": "Fieldguide",
+    "detail_url": "https://www.bvp.com/companies/fieldguide",
+    "website": "https://www.fieldguide.io/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:00.980115"
+  },
+  {
+    "name": "Finmark",
+    "detail_url": "https://www.bvp.com/companies/finmark",
+    "website": "https://finmark.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:02.394865"
+  },
+  {
+    "name": "Firebolt",
+    "detail_url": "https://www.bvp.com/companies/firebolt",
+    "website": "https://www.firebolt.io/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:03.852851"
+  },
+  {
+    "name": "Fiverr",
+    "detail_url": "https://www.bvp.com/companies/fiverr",
+    "website": "https://www.fiverr.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:05.321083"
+  },
+  {
+    "name": "Flarion Technologies",
+    "detail_url": "https://www.bvp.com/companies/flarion-technologies",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:06.937271"
+  },
+  {
+    "name": "Flex Pharma, Inc.",
+    "detail_url": "https://www.bvp.com/companies/flex-pharma-inc",
+    "website": "https://www.flex-pharma.com",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:08.400563"
+  },
+  {
+    "name": "Fold",
+    "detail_url": "https://www.bvp.com/companies/fold",
+    "website": "https://foldapp.com",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:09.806676"
+  },
+  {
+    "name": "Folx Health",
+    "detail_url": "https://www.bvp.com/companies/folx-health",
+    "website": "https://folxhealth.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:11.237643"
+  },
+  {
+    "name": "Foraged",
+    "detail_url": "https://www.bvp.com/companies/foraged",
+    "website": "https://foraged.market/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:12.638619"
+  },
+  {
+    "name": "ForeVR",
+    "detail_url": "https://www.bvp.com/companies/forevr",
+    "website": "https://www.forevrgames.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:14.103484"
+  },
+  {
+    "name": "Formally",
+    "detail_url": "https://www.bvp.com/companies/formally",
+    "website": "https://formally.com/home",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:15.607194"
+  },
+  {
+    "name": "Forter",
+    "detail_url": "https://www.bvp.com/companies/forter",
+    "website": "https://www.forter.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:17.010668"
+  },
+  {
+    "name": "Fractyl Health",
+    "detail_url": "https://www.bvp.com/companies/fractyl",
+    "website": "https://www.fractyl.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:18.476518"
+  },
+  {
+    "name": "Fulcrum",
+    "detail_url": "https://www.bvp.com/companies/fulcrum",
+    "website": "https://fulcrumpro.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:19.870495"
+  },
+  {
+    "name": "Fuze",
+    "detail_url": "https://www.bvp.com/companies/fuze",
+    "website": "https://www.fuze.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:21.315190"
+  },
+  {
+    "name": "Gainsight",
+    "detail_url": "https://www.bvp.com/companies/gainsight",
+    "website": "https://www.gainsight.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:22.770712"
+  },
+  {
+    "name": "Gamefam",
+    "detail_url": "https://www.bvp.com/companies/gamefam",
+    "website": "https://gamefam.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:24.167978"
+  },
+  {
+    "name": "Gankster",
+    "detail_url": "https://www.bvp.com/companies/gankster",
+    "website": "https://gankster.gg/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:25.530930"
+  },
+  {
+    "name": "Gerson Lehrman Group (GLG)",
+    "detail_url": "https://www.bvp.com/companies/gehrson-lehman-group-glg",
+    "website": "https://glg.it/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:26.907600"
+  },
+  {
+    "name": "GetAccept",
+    "detail_url": "https://www.bvp.com/companies/getaccept",
+    "website": "https://www.getaccept.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:28.337394"
+  },
+  {
+    "name": "GetInsured",
+    "detail_url": "https://www.bvp.com/companies/getinsured",
+    "website": "https://www.getinsured.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:29.717056"
+  },
+  {
+    "name": "GigFinesse",
+    "detail_url": "https://www.bvp.com/companies/gigfinesse",
+    "website": "https://www.gigfinesse.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:31.124300"
+  },
+  {
+    "name": "Glint",
+    "detail_url": "https://www.bvp.com/companies/glint",
+    "website": "https://www.glintinc.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:32.522264"
+  },
+  {
+    "name": "GlossGenius",
+    "detail_url": "https://www.bvp.com/companies/glossgenius",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:34.163977"
+  },
+  {
+    "name": "Good Glamm Group",
+    "detail_url": "https://www.bvp.com/companies/myglamm",
+    "website": "https://www.goodglamm.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:35.702694"
+  },
+  {
+    "name": "GoodShip",
+    "detail_url": "https://www.bvp.com/companies/goodship",
+    "website": "https://www.goodship.io/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:37.156082"
+  },
+  {
+    "name": "Gracenote",
+    "detail_url": "https://www.bvp.com/companies/gracenote",
+    "website": "http://www.gracenote.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:38.555195"
+  },
+  {
+    "name": "Graph AI",
+    "detail_url": "https://www.bvp.com/companies/graph-ai",
+    "website": "https://graphsafety.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:39.959263"
+  },
+  {
+    "name": "Groups",
+    "detail_url": "https://www.bvp.com/companies/groups",
+    "website": "https://www.joingroups.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:41.361686"
+  },
+  {
+    "name": "GTS Central Europe",
+    "detail_url": "https://www.bvp.com/companies/gts-central-europe",
+    "website": "https://www.gts.ro/ce",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:42.751580"
+  },
+  {
+    "name": "Guild",
+    "detail_url": "https://www.bvp.com/companies/guild-education",
+    "website": "http://www.guildeducation.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:44.297919"
+  },
+  {
+    "name": "Habana Labs",
+    "detail_url": "https://www.bvp.com/companies/habana-labs",
+    "website": "https://www.habana.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:45.674951"
+  },
+  {
+    "name": "Halter",
+    "detail_url": "https://www.bvp.com/companies/halter",
+    "website": "https://halterhq.com/home",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:47.058307"
+  },
+  {
+    "name": "HashiCorp",
+    "detail_url": "https://www.bvp.com/companies/hashicorp",
+    "website": "https://www.hashicorp.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:48.561184"
+  },
+  {
+    "name": "Hatch",
+    "detail_url": "https://www.bvp.com/companies/hatch",
+    "website": "https://www.usehatchapp.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:50.177699"
+  },
+  {
+    "name": "Headspace",
+    "detail_url": "https://www.bvp.com/companies/headspace",
+    "website": "https://www.headspace.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:51.569685"
+  },
+  {
+    "name": "Hibob",
+    "detail_url": "https://www.bvp.com/companies/hibob",
+    "website": "https://www.hibob.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:52.957650"
+  },
+  {
+    "name": "Hinge Health",
+    "detail_url": "https://www.bvp.com/companies/hinge-health",
+    "website": "https://www.hingehealth.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:54.345809"
+  },
+  {
+    "name": "HockeyStack",
+    "detail_url": "https://www.bvp.com/companies/hockeystack",
+    "website": "https://www.hockeystack.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:55.635452"
+  },
+  {
+    "name": "HomeFirst",
+    "detail_url": "https://www.bvp.com/companies/home-first-finance-company",
+    "website": "https://www.homefirstindia.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:57.052130"
+  },
+  {
+    "name": "House Rx",
+    "detail_url": "https://www.bvp.com/companies/house-rx",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:06:58.672627"
+  },
+  {
+    "name": "Hungama",
+    "detail_url": "https://www.bvp.com/companies/hungama",
+    "website": "https://www.hungama.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:00.065026"
+  },
+  {
+    "name": "Hunters",
+    "detail_url": "https://www.bvp.com/companies/hunters",
+    "website": "https://www.hunters.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:01.568514"
+  },
+  {
+    "name": "Hyperscience",
+    "detail_url": "https://www.bvp.com/companies/hyperscience",
+    "website": "http://hyperscience.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:03.198422"
+  },
+  {
+    "name": "IAG Research, Inc.",
+    "detail_url": "https://www.bvp.com/companies/iag-research-inc",
+    "website": "https://www.iag.com.au/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:04.597108"
+  },
+  {
+    "name": "Illusive Networks",
+    "detail_url": "https://www.bvp.com/companies/illusive-networks",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:06.318251"
+  },
+  {
+    "name": "Imply",
+    "detail_url": "https://www.bvp.com/companies/imply",
+    "website": "https://imply.io",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:07.769606"
+  },
+  {
+    "name": "Impossible Aerospace",
+    "detail_url": "https://www.bvp.com/companies/impossible-aerospace",
+    "website": "https://impossible.aero/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:09.163561"
+  },
+  {
+    "name": "Incognia",
+    "detail_url": "https://www.bvp.com/companies/incognia",
+    "website": "https://www.incognia.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:10.641176"
+  },
+  {
+    "name": "Indian Energy Exchange",
+    "detail_url": "https://www.bvp.com/companies/indian-energy-exchange",
+    "website": "http://www.iexindia.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:11.977550"
+  },
+  {
+    "name": "Innoviti",
+    "detail_url": "https://www.bvp.com/companies/innoviti",
+    "website": "https://innoviti.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:13.365022"
+  },
+  {
+    "name": "InRisk",
+    "detail_url": "https://www.bvp.com/companies/inrisk",
+    "website": "https://inrisk.insure/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:14.793492"
+  },
+  {
+    "name": "Insmed",
+    "detail_url": "https://www.bvp.com/companies/insmed",
+    "website": "https://www.insmed.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:16.297870"
+  },
+  {
+    "name": "Instructure",
+    "detail_url": "https://www.bvp.com/companies/instructure",
+    "website": "https://www.instructure.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:17.830896"
+  },
+  {
+    "name": "Intacct",
+    "detail_url": "https://www.bvp.com/companies/intacct",
+    "website": "https://www.sageintacct.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:19.299463"
+  },
+  {
+    "name": "Intego",
+    "detail_url": "https://www.bvp.com/companies/intego",
+    "website": "https://www.intego.com/?sr=1",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:20.699863"
+  },
+  {
+    "name": "Intercom",
+    "detail_url": "https://www.bvp.com/companies/intercom",
+    "website": "https://www.intercom.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:22.171794"
+  },
+  {
+    "name": "Intucell",
+    "detail_url": "https://www.bvp.com/companies/intucell",
+    "website": "http://www.intucellsystems.com",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:23.477305"
+  },
+  {
+    "name": "Iris Automation",
+    "detail_url": "https://www.bvp.com/companies/iris-automation",
+    "website": "https://www.irisonboard.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:24.968282"
+  },
+  {
+    "name": "iSIGHT Security",
+    "detail_url": "https://www.bvp.com/companies/isight-security",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:26.558885"
+  },
+  {
+    "name": "Jasper",
+    "detail_url": "https://www.bvp.com/companies/jasper",
+    "website": "https://www.jasper.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:27.947178"
+  },
+  {
+    "name": "Jingle",
+    "detail_url": "https://www.bvp.com/companies/jingle",
+    "website": "https://www.jingle-app.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:29.385276"
+  },
+  {
+    "name": "K2 Integrity",
+    "detail_url": "https://www.bvp.com/companies/k2-integrity",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:31.011578"
+  },
+  {
+    "name": "Kandou",
+    "detail_url": "https://www.bvp.com/companies/kandou",
+    "website": "https://www.kandou.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:32.478233"
+  },
+  {
+    "name": "Kenna Security",
+    "detail_url": "https://www.bvp.com/companies/kenna-security",
+    "website": "https://www.kennasecurity.com",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:33.947977"
+  },
+  {
+    "name": "Kindred",
+    "detail_url": "https://www.bvp.com/companies/kindred",
+    "website": "https://livekindred.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:35.343855"
+  },
+  {
+    "name": "Klook",
+    "detail_url": "https://www.bvp.com/companies/klook",
+    "website": "https://www.klook.com/en-IN/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:36.756755"
+  },
+  {
+    "name": "Knewton",
+    "detail_url": "https://www.bvp.com/companies/knewton",
+    "website": "https://www.knewton.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:38.133577"
+  },
+  {
+    "name": "Kroll Bond Rating Agency",
+    "detail_url": "https://www.bvp.com/companies/kroll-bond-rating-agency",
+    "website": "http://www.kbra.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:39.514795"
+  },
+  {
+    "name": "Kymera Therapeutics",
+    "detail_url": "https://www.bvp.com/companies/kymera-therapeutics",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:41.162358"
+  },
+  {
+    "name": "LaunchDarkly",
+    "detail_url": "https://www.bvp.com/companies/launchdarkly",
+    "website": "https://launchdarkly.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:42.571539"
+  },
+  {
+    "name": "Leaba Semiconductor",
+    "detail_url": "https://www.bvp.com/companies/leaba-semiconductor",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:44.205450"
+  },
+  {
+    "name": "Leaner Technologies",
+    "detail_url": "https://www.bvp.com/companies/leaner-technologies",
+    "website": "https://leaner.co.jp/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:45.625896"
+  },
+  {
+    "name": "Leena AI",
+    "detail_url": "https://www.bvp.com/companies/leena-ai",
+    "website": "https://leena.ai",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:47.017161"
+  },
+  {
+    "name": "Legit Security",
+    "detail_url": "https://www.bvp.com/companies/legit-security",
+    "website": "https://www.legitsecurity.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:48.577654"
+  },
+  {
+    "name": "Lentra",
+    "detail_url": "https://www.bvp.com/companies/lentra",
+    "website": "https://www.lentra.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:49.980528"
+  },
+  {
+    "name": "Liazon",
+    "detail_url": "https://www.bvp.com/companies/liazon",
+    "website": "https://liazon.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:51.382449"
+  },
+  {
+    "name": "Life360",
+    "detail_url": "https://www.bvp.com/companies/life360",
+    "website": "https://www.life360.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:52.892223"
+  },
+  {
+    "name": "LifeLock",
+    "detail_url": "https://www.bvp.com/companies/lifelock",
+    "website": "https://www.lifelock.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:54.286976"
+  },
+  {
+    "name": "LinkedIn",
+    "detail_url": "https://www.bvp.com/companies/linkedin",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:55.876846"
+  },
+  {
+    "name": "Lithic",
+    "detail_url": "https://www.bvp.com/companies/lithic",
+    "website": "https://lithic.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:57.285078"
+  },
+  {
+    "name": "Litify",
+    "detail_url": "https://www.bvp.com/companies/litify",
+    "website": "https://www.litify.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:07:58.678611"
+  },
+  {
+    "name": "LiveAuctioneers",
+    "detail_url": "https://www.bvp.com/companies/liveauctioneers",
+    "website": "https://www.liveauctioneers.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:00.083684"
+  },
+  {
+    "name": "Livspace",
+    "detail_url": "https://www.bvp.com/companies/livspace",
+    "website": "https://www.livspace.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:01.524825"
+  },
+  {
+    "name": "LogicNow",
+    "detail_url": "https://www.bvp.com/companies/logicnow",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:03.205599"
+  },
+  {
+    "name": "Lumachain",
+    "detail_url": "https://www.bvp.com/companies/lumachain",
+    "website": "https://lumachain.io/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:04.643730"
+  },
+  {
+    "name": "Lumere",
+    "detail_url": "https://www.bvp.com/companies/lumere",
+    "website": "https://lumere.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:06.108111"
+  },
+  {
+    "name": "Luxury Presence",
+    "detail_url": "https://www.bvp.com/companies/luxury-presence",
+    "website": "https://www.luxurypresence.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:07.509934"
+  },
+  {
+    "name": "Main Street Hub",
+    "detail_url": "https://www.bvp.com/companies/main-street-hub",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:09.124558"
+  },
+  {
+    "name": "MaintainX",
+    "detail_url": "https://www.bvp.com/companies/maintainx",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:10.747221"
+  },
+  {
+    "name": "Makersplace",
+    "detail_url": "https://www.bvp.com/companies/makersplace",
+    "website": "https://makersplace.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:12.225864"
+  },
+  {
+    "name": "Mambu",
+    "detail_url": "https://www.bvp.com/companies/mambu",
+    "website": "https://www.mambu.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:13.649040"
+  },
+  {
+    "name": "Manta",
+    "detail_url": "https://www.bvp.com/companies/manta",
+    "website": "https://getmanta.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:15.117950"
+  },
+  {
+    "name": "Manychat",
+    "detail_url": "https://www.bvp.com/companies/manychat",
+    "website": "https://manychat.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:16.559022"
+  },
+  {
+    "name": "Matrimony.com",
+    "detail_url": "https://www.bvp.com/companies/matrimony-com",
+    "website": "https://www.matrimony.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:17.971618"
+  },
+  {
+    "name": "MealPal",
+    "detail_url": "https://www.bvp.com/companies/mealpal",
+    "website": "https://mealpal.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:19.366317"
+  },
+  {
+    "name": "Medi Assist",
+    "detail_url": "https://www.bvp.com/companies/medibuddy",
+    "website": "https://www.medibuddy.in/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:20.808870"
+  },
+  {
+    "name": "MediBuddy (fka DocsApp)",
+    "detail_url": "https://www.bvp.com/companies/medibuddy-1",
+    "website": "https://www.medibuddy.in/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:22.293424"
+  },
+  {
+    "name": "MediSage",
+    "detail_url": "https://www.bvp.com/companies/medisage",
+    "website": "https://mymedisage.com/home",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:23.694756"
+  },
+  {
+    "name": "Melio Payments",
+    "detail_url": "https://www.bvp.com/companies/melio-payments",
+    "website": "https://www.meliopayments.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:25.114528"
+  },
+  {
+    "name": "Metalogix",
+    "detail_url": "https://www.bvp.com/companies/metalogix",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:26.761524"
+  },
+  {
+    "name": "Millennial Media",
+    "detail_url": "https://www.bvp.com/companies/millennial-media",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:28.442079"
+  },
+  {
+    "name": "Milo",
+    "detail_url": "https://www.bvp.com/companies/milo",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:30.077253"
+  },
+  {
+    "name": "Mindbody",
+    "detail_url": "https://www.bvp.com/companies/mindbody",
+    "website": "https://www.mindbodyonline.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:31.520163"
+  },
+  {
+    "name": "Miter",
+    "detail_url": "https://www.bvp.com/companies/miter",
+    "website": "https://www.miter.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:32.966986"
+  },
+  {
+    "name": "Modelcode",
+    "detail_url": "https://www.bvp.com/companies/modelcode",
+    "website": "https://modelcode.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:34.387196"
+  },
+  {
+    "name": "Moonvalley",
+    "detail_url": "https://www.bvp.com/companies/moonvalley",
+    "website": "https://www.moonvalley.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:35.799293"
+  },
+  {
+    "name": "Motilal Oswal",
+    "detail_url": "https://www.bvp.com/companies/motilal-oswal",
+    "website": "https://www.motilaloswal.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:37.214622"
+  },
+  {
+    "name": "MoveInSync",
+    "detail_url": "https://www.bvp.com/companies/moveinsync",
+    "website": "https://moveinsync.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:38.668191"
+  },
+  {
+    "name": "Mural Health",
+    "detail_url": "https://www.bvp.com/companies/mural-health",
+    "website": "https://www.muralhealth.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:40.070851"
+  },
+  {
+    "name": "MyHeritage",
+    "detail_url": "https://www.bvp.com/companies/myheritage",
+    "website": "https://www.myheritage.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:41.495017"
+  },
+  {
+    "name": "NALA",
+    "detail_url": "https://www.bvp.com/companies/nala",
+    "website": "https://www.nala.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:42.889867"
+  },
+  {
+    "name": "nCino",
+    "detail_url": "https://www.bvp.com/companies/ncino",
+    "website": "https://www.ncino.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:44.277580"
+  },
+  {
+    "name": "NephroPlus",
+    "detail_url": "https://www.bvp.com/companies/nephroplus",
+    "website": "https://www.nephroplus.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:45.700614"
+  },
+  {
+    "name": "Netdata",
+    "detail_url": "https://www.bvp.com/companies/netdata",
+    "website": "https://www.netdata.cloud/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:47.096721"
+  },
+  {
+    "name": "Netlify",
+    "detail_url": "https://www.bvp.com/companies/netlify",
+    "website": "https://www.netlify.com/?utm_source=google&utm_medium=paid_search&utm_campaign=12755510784&adgroup=118788138897&utm_term=netlify&utm_content=kwd-371509120223&creative=516906172749&device=c&matchtype=e&location=9032056&gclid=Cj0KCQiAys2MBhDOARIsAFf1D1f5-9elcNOueVbCxgBZ2F0frLkUAO57-SqVz09lxUlspe3MxRwCllUaAniqEALw_wcB",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:48.512232"
+  },
+  {
+    "name": "Netography",
+    "detail_url": "https://www.bvp.com/companies/netography",
+    "website": "https://netography.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:49.923839"
+  },
+  {
+    "name": "Netsmart Technologies",
+    "detail_url": "https://www.bvp.com/companies/netsmart-technologies",
+    "website": "https://www.ntst.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:51.359020"
+  },
+  {
+    "name": "NeueHealth",
+    "detail_url": "https://www.bvp.com/companies/neuehealth",
+    "website": "https://www.neuehealth.com",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:52.835508"
+  },
+  {
+    "name": "Newfront Insurance",
+    "detail_url": "https://www.bvp.com/companies/newfront-insurance",
+    "website": "https://www.newfront.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:54.262893"
+  },
+  {
+    "name": "NewVoiceMedia",
+    "detail_url": "https://www.bvp.com/companies/newvoicemedia",
+    "website": "https://www.newvoicemedia.com/en-us",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:55.662157"
+  },
+  {
+    "name": "Nido Biosciences",
+    "detail_url": "https://www.bvp.com/companies/nido-biosciences",
+    "website": "https://www.nidobio.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:57.082244"
+  },
+  {
+    "name": "Nilus",
+    "detail_url": "https://www.bvp.com/companies/nilus",
+    "website": "https://www.nilus.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:58.381001"
+  },
+  {
+    "name": "Noded AI",
+    "detail_url": "https://www.bvp.com/companies/noded-ai",
+    "website": "https://noded.so/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:08:59.861849"
+  },
+  {
+    "name": "Nominum",
+    "detail_url": "https://www.bvp.com/companies/nominum",
+    "website": "https://www.akamai.com/us/en/products/network-operator/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:01.309238"
+  },
+  {
+    "name": "Nova Benefits",
+    "detail_url": "https://www.bvp.com/companies/nova-benefits",
+    "website": "https://novabenefits.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:02.785533"
+  },
+  {
+    "name": "npm",
+    "detail_url": "https://www.bvp.com/companies/npm",
+    "website": "https://www.npmjs.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:04.229839"
+  },
+  {
+    "name": "NYDIG",
+    "detail_url": "https://www.bvp.com/companies/nydig",
+    "website": "https://nydig.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:05.662522"
+  },
+  {
+    "name": "Nym",
+    "detail_url": "https://www.bvp.com/companies/nym",
+    "website": "https://nym.health/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:07.066180"
+  },
+  {
+    "name": "Okera",
+    "detail_url": "https://www.bvp.com/companies/okera",
+    "website": "https://www.okera.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:08.723981"
+  },
+  {
+    "name": "Ola",
+    "detail_url": "https://www.bvp.com/companies/ola",
+    "website": "https://olacabs.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:10.193402"
+  },
+  {
+    "name": "OLX",
+    "detail_url": "https://www.bvp.com/companies/olx",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:11.805164"
+  },
+  {
+    "name": "OMGPOP",
+    "detail_url": "https://www.bvp.com/companies/omgpop",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:13.416295"
+  },
+  {
+    "name": "OMsignal",
+    "detail_url": "https://www.bvp.com/companies/omsignal",
+    "website": "https://www.omsignal.com",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:14.839821"
+  },
+  {
+    "name": "Onaroll",
+    "detail_url": "https://www.bvp.com/companies/onaroll",
+    "website": "https://www.onaroll.co/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:16.222120"
+  },
+  {
+    "name": "OnXMaps",
+    "detail_url": "https://www.bvp.com/companies/onxmaps",
+    "website": "https://www.onxmaps.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:17.625791"
+  },
+  {
+    "name": "Oper",
+    "detail_url": "https://www.bvp.com/companies/oper",
+    "website": "https://www.opercredits.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:19.144081"
+  },
+  {
+    "name": "Optibus",
+    "detail_url": "https://www.bvp.com/companies/optibus",
+    "website": "https://www.optibus.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:20.602231"
+  },
+  {
+    "name": "Optimal Dynamics",
+    "detail_url": "https://www.bvp.com/companies/optimal-dynamics",
+    "website": "https://www.optimaldynamics.com",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:22.161005"
+  },
+  {
+    "name": "Oshi Health",
+    "detail_url": "https://www.bvp.com/companies/oshi-health",
+    "website": "https://oshihealth.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:23.568864"
+  },
+  {
+    "name": "Otonomo",
+    "detail_url": "https://www.bvp.com/companies/otonomo",
+    "website": "https://otonomo.io/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:24.951020"
+  },
+  {
+    "name": "OvaScience",
+    "detail_url": "https://www.bvp.com/companies/ovascience",
+    "website": "https://en.wikipedia.org/wiki/OvaScience",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:26.380554"
+  },
+  {
+    "name": "PagerDuty",
+    "detail_url": "https://www.bvp.com/companies/pagerduty",
+    "website": "https://www.pagerduty.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:27.773810"
+  },
+  {
+    "name": "Pana",
+    "detail_url": "https://www.bvp.com/companies/pana",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:29.593479"
+  },
+  {
+    "name": "Papaya Global",
+    "detail_url": "https://www.bvp.com/companies/papaya-global",
+    "website": "https://papayaglobal.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:30.991367"
+  },
+  {
+    "name": "Papaya Pay",
+    "detail_url": "https://www.bvp.com/companies/papaya-pay",
+    "website": "https://papayapay.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:32.475330"
+  },
+  {
+    "name": "Parallels",
+    "detail_url": "https://www.bvp.com/companies/parallels",
+    "website": "https://www.parallels.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:33.883683"
+  },
+  {
+    "name": "Pave",
+    "detail_url": "https://www.bvp.com/companies/pave",
+    "website": "https://www.pave.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:35.282207"
+  },
+  {
+    "name": "Pepper Content",
+    "detail_url": "https://www.bvp.com/companies/pepper-content",
+    "website": "https://www.peppercontent.io/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:36.726737"
+  },
+  {
+    "name": "Peptone",
+    "detail_url": "https://www.bvp.com/companies/peptone",
+    "website": "https://peptone.io/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:38.173809"
+  },
+  {
+    "name": "Perfios",
+    "detail_url": "https://www.bvp.com/companies/perfios",
+    "website": "https://www.perfios.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:39.591026"
+  },
+  {
+    "name": "Periscope",
+    "detail_url": "https://www.bvp.com/companies/periscope",
+    "website": "https://www.pscp.tv/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:40.968778"
+  },
+  {
+    "name": "Periscope Data",
+    "detail_url": "https://www.bvp.com/companies/periscope-data",
+    "website": "https://www.periscopedata.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:42.337455"
+  },
+  {
+    "name": "Perplexity",
+    "detail_url": "https://www.bvp.com/companies/perplexity",
+    "website": "https://www.perplexity.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:43.736982"
+  },
+  {
+    "name": "Pharmeasy",
+    "detail_url": "https://www.bvp.com/companies/pharmeasy",
+    "website": "https://www.pharmeasy.in/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:45.194447"
+  },
+  {
+    "name": "PhishMe",
+    "detail_url": "https://www.bvp.com/companies/phishme",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:46.858587"
+  },
+  {
+    "name": "Piazza",
+    "detail_url": "https://www.bvp.com/companies/piazza",
+    "website": "https://www.piazza.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:48.263515"
+  },
+  {
+    "name": "Pinterest",
+    "detail_url": "https://www.bvp.com/companies/pinterest",
+    "website": "https://www.pinterest.com",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:49.592611"
+  },
+  {
+    "name": "Pipedrive",
+    "detail_url": "https://www.bvp.com/companies/pipedrive",
+    "website": "https://www.pipedrive.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:51.172446"
+  },
+  {
+    "name": "Playdom",
+    "detail_url": "https://www.bvp.com/companies/playdom",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:52.805865"
+  },
+  {
+    "name": "Plenful",
+    "detail_url": "https://www.bvp.com/companies/plenful",
+    "website": "https://www.plenful.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:54.223699"
+  },
+  {
+    "name": "Plobal Apps",
+    "detail_url": "https://www.bvp.com/companies/plobal-apps",
+    "website": "https://www.plobalapps.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:55.665758"
+  },
+  {
+    "name": "Port",
+    "detail_url": "https://www.bvp.com/companies/port",
+    "website": "https://www.getport.io/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:56.937016"
+  },
+  {
+    "name": "Portainer",
+    "detail_url": "https://www.bvp.com/companies/portainer",
+    "website": "https://www.portainer.io/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:09:58.521422"
+  },
+  {
+    "name": "Postini",
+    "detail_url": "https://www.bvp.com/companies/postini",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:00.160273"
+  },
+  {
+    "name": "Prefect",
+    "detail_url": "https://www.bvp.com/companies/prefect",
+    "website": "https://www.prefect.io",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:01.563896"
+  },
+  {
+    "name": "Preql",
+    "detail_url": "https://www.bvp.com/companies/preql",
+    "website": "https://www.preql.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:02.971397"
+  },
+  {
+    "name": "Procore",
+    "detail_url": "https://www.bvp.com/companies/procore",
+    "website": "https://www.procore.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:04.460972"
+  },
+  {
+    "name": "productboard",
+    "detail_url": "https://www.bvp.com/companies/productboard",
+    "website": "https://www.productboard.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:05.886396"
+  },
+  {
+    "name": "Prospera",
+    "detail_url": "https://www.bvp.com/companies/prospera",
+    "website": "https://www.prospera.ag/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:07.353971"
+  },
+  {
+    "name": "Protectt AI",
+    "detail_url": "https://www.bvp.com/companies/protectt-ai",
+    "website": "https://www.protectt.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:08.755007"
+  },
+  {
+    "name": "Provi",
+    "detail_url": "https://www.bvp.com/companies/provi",
+    "website": "https://www.provi.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:10.157962"
+  },
+  {
+    "name": "Pure Networks",
+    "detail_url": "https://www.bvp.com/companies/pure-networks",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:11.764454"
+  },
+  {
+    "name": "Qogita",
+    "detail_url": "https://www.bvp.com/companies/qogita",
+    "website": "https://www.qogita.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:13.270605"
+  },
+  {
+    "name": "Qualys",
+    "detail_url": "https://www.bvp.com/companies/qualys",
+    "website": "https://www.qualys.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:14.672909"
+  },
+  {
+    "name": "Quantopian",
+    "detail_url": "https://www.bvp.com/companies/quantopian",
+    "website": "https://www.quantopian.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:16.058771"
+  },
+  {
+    "name": "Quidsi (fka Diapers.com)",
+    "detail_url": "https://www.bvp.com/companies/quidsi-fka-diapers-com",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:17.649896"
+  },
+  {
+    "name": "Qventus",
+    "detail_url": "https://www.bvp.com/companies/qventus",
+    "website": "https://www.qventus.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:19.113512"
+  },
+  {
+    "name": "Qwak",
+    "detail_url": "https://www.bvp.com/companies/qwak",
+    "website": "https://www.qwak.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:20.633532"
+  },
+  {
+    "name": "Raft",
+    "detail_url": "https://www.bvp.com/companies/raft",
+    "website": "https://www.raft.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:22.123834"
+  },
+  {
+    "name": "Rainforest QA",
+    "detail_url": "https://www.bvp.com/companies/rainforest-qa",
+    "website": "https://www.rainforestqa.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:23.537699"
+  },
+  {
+    "name": "Ravello Systems",
+    "detail_url": "https://www.bvp.com/companies/ravello-systems",
+    "website": "https://cloud.oracle.com/en_US/ravello",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:24.964791"
+  },
+  {
+    "name": "Recall AI",
+    "detail_url": "https://www.bvp.com/companies/recall-ai",
+    "website": "https://www.recall.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:26.402026"
+  },
+  {
+    "name": "Recurrency",
+    "detail_url": "https://www.bvp.com/companies/recurrency",
+    "website": "https://www.recurrency.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:27.850883"
+  },
+  {
+    "name": "Relevance AI",
+    "detail_url": "https://www.bvp.com/companies/relevance-ai",
+    "website": "https://relevanceai.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:29.229080"
+  },
+  {
+    "name": "Render",
+    "detail_url": "https://www.bvp.com/companies/render",
+    "website": "https://render.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:30.639855"
+  },
+  {
+    "name": "Renoviso",
+    "detail_url": "https://www.bvp.com/companies/renoviso",
+    "website": "https://renoviso.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:32.035876"
+  },
+  {
+    "name": "Reputation",
+    "detail_url": "https://www.bvp.com/companies/reputation-com",
+    "website": "https://www.reputation.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:33.508750"
+  },
+  {
+    "name": "Restaurant365",
+    "detail_url": "https://www.bvp.com/companies/restaurant365",
+    "website": "https://restaurant365.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:34.894179"
+  },
+  {
+    "name": "Retail Solutions",
+    "detail_url": "https://www.bvp.com/companies/retail-solutions",
+    "website": "https://www.retailsolutions.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:36.305551"
+  },
+  {
+    "name": "Rev",
+    "detail_url": "https://www.bvp.com/companies/rev",
+    "website": "https://www.rev.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:37.715378"
+  },
+  {
+    "name": "RevenueBase",
+    "detail_url": "https://www.bvp.com/companies/revenuebase",
+    "website": "https://revenuebase.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:39.115461"
+  },
+  {
+    "name": "Rewind",
+    "detail_url": "https://www.bvp.com/companies/rewind",
+    "website": "https://rewind.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:40.518260"
+  },
+  {
+    "name": "Rigetti Computing",
+    "detail_url": "https://www.bvp.com/companies/rigetti-computing",
+    "website": "http://www.rigetti.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:41.944831"
+  },
+  {
+    "name": "Rimsys",
+    "detail_url": "https://www.bvp.com/companies/rimsys",
+    "website": "https://www.rimsys.io/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:43.371999"
+  },
+  {
+    "name": "Rocket Lab",
+    "detail_url": "https://www.bvp.com/companies/rocket-lab",
+    "website": "https://www.rocketlabusa.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:44.870504"
+  },
+  {
+    "name": "Rohirrim",
+    "detail_url": "https://www.bvp.com/companies/rohirrim",
+    "website": "https://rohirrim.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:46.255020"
+  },
+  {
+    "name": "Rosebud",
+    "detail_url": "https://www.bvp.com/companies/rosebud",
+    "website": "https://www.rosebud.app/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:47.677126"
+  },
+  {
+    "name": "Rupa Health",
+    "detail_url": "https://www.bvp.com/companies/rupa-health",
+    "website": "https://www.rupahealth.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:49.490992"
+  },
+  {
+    "name": "Rupifi",
+    "detail_url": "https://www.bvp.com/companies/rupifi",
+    "website": "https://www.rupifi.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:50.904392"
+  },
+  {
+    "name": "Salto",
+    "detail_url": "https://www.bvp.com/companies/salto",
+    "website": "https://salto.io/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:52.328947"
+  },
+  {
+    "name": "Scopely",
+    "detail_url": "https://www.bvp.com/companies/scopely",
+    "website": "https://www.scopely.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:53.860327"
+  },
+  {
+    "name": "ScyllaDB",
+    "detail_url": "https://www.bvp.com/companies/scylladb",
+    "website": "https://www.scylladb.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:55.300648"
+  },
+  {
+    "name": "Scytale",
+    "detail_url": "https://www.bvp.com/companies/scytale",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:57.114731"
+  },
+  {
+    "name": "Seam AI",
+    "detail_url": "https://www.bvp.com/companies/seam-ai",
+    "website": "https://www.getseam.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:58.529345"
+  },
+  {
+    "name": "Second Measure",
+    "detail_url": "https://www.bvp.com/companies/second-measure",
+    "website": "https://secondmeasure.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:10:59.920951"
+  },
+  {
+    "name": "Sedona Systems",
+    "detail_url": "https://www.bvp.com/companies/sedona-systems",
+    "website": "https://sedonasys.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:01.343602"
+  },
+  {
+    "name": "Seekho",
+    "detail_url": "https://www.bvp.com/companies/seekho",
+    "website": "https://seekho.in/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:02.723505"
+  },
+  {
+    "name": "Seismic Therapeutic",
+    "detail_url": "https://www.bvp.com/companies/seismic-therapeutic",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:04.441921"
+  },
+  {
+    "name": "SendGrid",
+    "detail_url": "https://www.bvp.com/companies/sendgrid",
+    "website": "https://www.sendgrid.com",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:05.926906"
+  },
+  {
+    "name": "Sentra",
+    "detail_url": "https://www.bvp.com/companies/sentra",
+    "website": "https://www.sentra.io/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:07.338887"
+  },
+  {
+    "name": "ServiceTitan",
+    "detail_url": "https://www.bvp.com/companies/servicetitan",
+    "website": "https://www.servicetitan.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:08.737810"
+  },
+  {
+    "name": "Sett AI",
+    "detail_url": "https://www.bvp.com/companies/sett-ai",
+    "website": "https://www.sett.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:10.117601"
+  },
+  {
+    "name": "Shift Technology",
+    "detail_url": "https://www.bvp.com/companies/shift-technology",
+    "website": "http://www.shift-technology.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:11.508312"
+  },
+  {
+    "name": "Shippo",
+    "detail_url": "https://www.bvp.com/companies/shippo",
+    "website": "https://goshippo.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:12.934245"
+  },
+  {
+    "name": "Shopify",
+    "detail_url": "https://www.bvp.com/companies/shopify",
+    "website": "https://www.shopify.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:14.376927"
+  },
+  {
+    "name": "Shopmonkey",
+    "detail_url": "https://www.bvp.com/companies/shopmonkey",
+    "website": "https://www.shopmonkey.io/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:15.747087"
+  },
+  {
+    "name": "ShopMy",
+    "detail_url": "https://www.bvp.com/companies/shopmy",
+    "website": "https://shopmy.us/home",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:17.148860"
+  },
+  {
+    "name": "Shriram City",
+    "detail_url": "https://www.bvp.com/companies/shriram-city-union-finance",
+    "website": "https://www.shriramcity.in/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:18.657786"
+  },
+  {
+    "name": "Sign In Enterprise",
+    "detail_url": "https://www.bvp.com/companies/sign-in-enterprise",
+    "website": "https://signinenterprise.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:20.027340"
+  },
+  {
+    "name": "Sila Nanotechnologies",
+    "detail_url": "https://www.bvp.com/companies/sila-nanotechnologies",
+    "website": "https://silanano.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:21.437924"
+  },
+  {
+    "name": "SilverSky",
+    "detail_url": "https://www.bvp.com/companies/silversky",
+    "website": "https://www.baesystems.com/en/cybersecurity/home",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:22.806019"
+  },
+  {
+    "name": "Sirtris Pharmaceuticals",
+    "detail_url": "https://www.bvp.com/companies/sirtris-pharmaceuticals",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:24.520331"
+  },
+  {
+    "name": "Sisense",
+    "detail_url": "https://www.bvp.com/companies/sisense",
+    "website": "https://www.sisense.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:25.977723"
+  },
+  {
+    "name": "SiteAdvisor, Inc.",
+    "detail_url": "https://www.bvp.com/companies/siteadvisor-inc",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:27.624921"
+  },
+  {
+    "name": "Sixfold AI",
+    "detail_url": "https://www.bvp.com/companies/sixfold-ai",
+    "website": "https://www.sixfold.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:29.001319"
+  },
+  {
+    "name": "Skippr",
+    "detail_url": "https://www.bvp.com/companies/skippr",
+    "website": "https://skippr.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:30.525126"
+  },
+  {
+    "name": "Skype",
+    "detail_url": "https://www.bvp.com/companies/skype",
+    "website": "https://www.skype.com/en/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:32.185310"
+  },
+  {
+    "name": "SmarterDx",
+    "detail_url": "https://www.bvp.com/companies/smarterdx",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:33.832012"
+  },
+  {
+    "name": "Smashfly",
+    "detail_url": "https://www.bvp.com/companies/smashfly",
+    "website": "https://www.smashfly.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:35.251586"
+  },
+  {
+    "name": "Smule",
+    "detail_url": "https://www.bvp.com/companies/smule",
+    "website": "https://www.smule.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:36.705947"
+  },
+  {
+    "name": "SnapDeal",
+    "detail_url": "https://www.bvp.com/companies/snapdeal",
+    "website": "https://www.snapdeal.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:38.095708"
+  },
+  {
+    "name": "Social Tables",
+    "detail_url": "https://www.bvp.com/companies/social-tables",
+    "website": "https://www.socialtables.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:39.527753"
+  },
+  {
+    "name": "Solomon",
+    "detail_url": "https://www.bvp.com/companies/solomon",
+    "website": "https://solomontax.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:40.912156"
+  },
+  {
+    "name": "Soluto",
+    "detail_url": "https://www.bvp.com/companies/soluto",
+    "website": "https://www.asurion.com/soluto-service/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:42.280144"
+  },
+  {
+    "name": "Sorare",
+    "detail_url": "https://www.bvp.com/companies/sorare",
+    "website": "https://sorare.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:43.705663"
+  },
+  {
+    "name": "Soufflé Therapeutics",
+    "detail_url": "https://www.bvp.com/companies/souffle-therapeutics",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:45.297860"
+  },
+  {
+    "name": "Spire",
+    "detail_url": "https://www.bvp.com/companies/spire-global",
+    "website": "https://www.spire.com/en",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:46.678476"
+  },
+  {
+    "name": "Spruce",
+    "detail_url": "https://www.bvp.com/companies/spruce",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:48.358475"
+  },
+  {
+    "name": "Staircase",
+    "detail_url": "https://www.bvp.com/companies/staircase",
+    "website": "https://www.staircase.co/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:49.757869"
+  },
+  {
+    "name": "Statespace",
+    "detail_url": "https://www.bvp.com/companies/statespace",
+    "website": "https://statespace.gg",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:51.145562"
+  },
+  {
+    "name": "Storwize",
+    "detail_url": "https://www.bvp.com/companies/storwize",
+    "website": "https://www.ibm.com/it-infrastructure/storage/storwize",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:52.624424"
+  },
+  {
+    "name": "Streamloots",
+    "detail_url": "https://www.bvp.com/companies/streamloots",
+    "website": "https://www.streamloots.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:54.034752"
+  },
+  {
+    "name": "Strella",
+    "detail_url": "https://www.bvp.com/companies/strella",
+    "website": "https://www.strella.io/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:55.401489"
+  },
+  {
+    "name": "Stromedix",
+    "detail_url": "https://www.bvp.com/companies/stromedix",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:56.985254"
+  },
+  {
+    "name": "StubHub",
+    "detail_url": "https://www.bvp.com/companies/viagogo",
+    "website": "https://www.stubhub.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:58.452156"
+  },
+  {
+    "name": "StuffThatWorks",
+    "detail_url": "https://www.bvp.com/companies/stuffthatworks",
+    "website": "https://www.stuffthatworks.health/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:11:59.831430"
+  },
+  {
+    "name": "Subtle Medical",
+    "detail_url": "https://www.bvp.com/companies/subtle-medical",
+    "website": "https://www.subtlemedical.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:01.294758"
+  },
+  {
+    "name": "Supermaven",
+    "detail_url": "https://www.bvp.com/companies/supermaven",
+    "website": "https://supermaven.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:02.795738"
+  },
+  {
+    "name": "Sweep",
+    "detail_url": "https://www.bvp.com/companies/sweep",
+    "website": "https://www.sweep.io/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:04.235038"
+  },
+  {
+    "name": "Swiggy",
+    "detail_url": "https://www.bvp.com/companies/swiggy",
+    "website": "https://www.swiggy.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:05.659323"
+  },
+  {
+    "name": "Syndio",
+    "detail_url": "https://www.bvp.com/companies/syndio",
+    "website": "https://synd.io/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:07.023540"
+  },
+  {
+    "name": "Tackle.io",
+    "detail_url": "https://www.bvp.com/companies/tackle-io",
+    "website": "https://tackle.io",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:08.632456"
+  },
+  {
+    "name": "TaxiForSure",
+    "detail_url": "https://www.bvp.com/companies/taxiforsure",
+    "website": "https://www.olacabs.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:10.029224"
+  },
+  {
+    "name": "Teachable",
+    "detail_url": "https://www.bvp.com/companies/teachable",
+    "website": "https://teachable.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:11.424538"
+  },
+  {
+    "name": "Team8",
+    "detail_url": "https://www.bvp.com/companies/team8",
+    "website": "https://www.team8.vc/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:12.818644"
+  },
+  {
+    "name": "TeamViewer",
+    "detail_url": "https://www.bvp.com/companies/teamviewer",
+    "website": "https://www.teamviewer.com/en-us/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:14.229474"
+  },
+  {
+    "name": "Teleport",
+    "detail_url": "https://www.bvp.com/companies/teleport",
+    "website": "https://goteleport.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:15.693869"
+  },
+  {
+    "name": "Teleradiology Solutions",
+    "detail_url": "https://www.bvp.com/companies/teleradiology-solutions",
+    "website": "https://telradsol.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:17.107837"
+  },
+  {
+    "name": "Teller Finance",
+    "detail_url": "https://www.bvp.com/companies/teller-finance",
+    "website": "https://www.teller.finance/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:18.537831"
+  },
+  {
+    "name": "TensorZero",
+    "detail_url": "https://www.bvp.com/companies/tensorzero",
+    "website": "https://www.tensorzero.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:19.947735"
+  },
+  {
+    "name": "Terra Bella (fka Skybox Imaging)",
+    "detail_url": "https://www.bvp.com/companies/terra-bella-fka-skybox-imaging",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:21.565545"
+  },
+  {
+    "name": "The Exploration Company",
+    "detail_url": "https://www.bvp.com/companies/the-exploration-company",
+    "website": "https://www.exploration.space/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:22.973872"
+  },
+  {
+    "name": "ThreatTrack Security",
+    "detail_url": "https://www.bvp.com/companies/threattrack-security",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:24.609308"
+  },
+  {
+    "name": "Thunes",
+    "detail_url": "https://www.bvp.com/companies/thunes",
+    "website": "https://www.thunes.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:25.984716"
+  },
+  {
+    "name": "Tile",
+    "detail_url": "https://www.bvp.com/companies/tile",
+    "website": "https://www.thetileapp.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:27.289430"
+  },
+  {
+    "name": "Toast",
+    "detail_url": "https://www.bvp.com/companies/toast",
+    "website": "https://pos.toasttab.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:28.672038"
+  },
+  {
+    "name": "Torch Dental",
+    "detail_url": "https://www.bvp.com/companies/torch-dental",
+    "website": "https://www.torchdental.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:30.145937"
+  },
+  {
+    "name": "Torq",
+    "detail_url": "https://www.bvp.com/companies/stackpulse",
+    "website": "https://torq.io",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:31.529118"
+  },
+  {
+    "name": "Toss",
+    "detail_url": "https://www.bvp.com/companies/toss",
+    "website": "https://toss.im/en/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:32.906219"
+  },
+  {
+    "name": "Traffix",
+    "detail_url": "https://www.bvp.com/companies/traffix",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:34.535478"
+  },
+  {
+    "name": "Transbnk",
+    "detail_url": "https://www.bvp.com/companies/transbnk",
+    "website": "https://transbnk.co.in/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:36.070816"
+  },
+  {
+    "name": "Tripwire",
+    "detail_url": "https://www.bvp.com/companies/tripwire",
+    "website": "https://www.tripwire.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:37.450998"
+  },
+  {
+    "name": "TRM Labs",
+    "detail_url": "https://www.bvp.com/companies/trm-labs",
+    "website": "https://www.trmlabs.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:38.880905"
+  },
+  {
+    "name": "Truebill",
+    "detail_url": "https://www.bvp.com/companies/truebill",
+    "website": "https://www.truebill.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:40.264020"
+  },
+  {
+    "name": "TScan Therapeutics",
+    "detail_url": "https://www.bvp.com/companies/tscan-therapeutics",
+    "website": "https://www.tscan.com",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:41.649814"
+  },
+  {
+    "name": "TSM",
+    "detail_url": "https://www.bvp.com/companies/team-solomid-tsm",
+    "website": "https://www.tsm.gg/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:43.047877"
+  },
+  {
+    "name": "TurbineOne",
+    "detail_url": "https://www.bvp.com/companies/turbineone",
+    "website": "https://www.turbineone.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:44.452361"
+  },
+  {
+    "name": "Turneo",
+    "detail_url": "https://www.bvp.com/companies/turneo",
+    "website": "https://www.turneo.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:45.823706"
+  },
+  {
+    "name": "Turquoise Health",
+    "detail_url": "https://www.bvp.com/companies/turquoise-health",
+    "website": "https://turquoise.health/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:47.237441"
+  },
+  {
+    "name": "Twilio",
+    "detail_url": "https://www.bvp.com/companies/twilio",
+    "website": "https://www.twilio.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:48.654140"
+  },
+  {
+    "name": "Twitch",
+    "detail_url": "https://www.bvp.com/companies/twitch",
+    "website": "https://www.twitch.tv/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:50.049546"
+  },
+  {
+    "name": "Ualá",
+    "detail_url": "https://www.bvp.com/companies/uala",
+    "website": "https://www.uala-abc.com.mx/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:51.476474"
+  },
+  {
+    "name": "Unframe AI",
+    "detail_url": "https://www.bvp.com/companies/unframe-ai",
+    "website": "https://www.unframe.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:52.764143"
+  },
+  {
+    "name": "United Capital",
+    "detail_url": "https://www.bvp.com/companies/united-capital",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:54.358956"
+  },
+  {
+    "name": "Unito",
+    "detail_url": "https://www.bvp.com/companies/unito",
+    "website": "https://unito.io/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:55.767358"
+  },
+  {
+    "name": "UniUni",
+    "detail_url": "https://www.bvp.com/companies/uniuni",
+    "website": "https://www.uniuni.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:57.150841"
+  },
+  {
+    "name": "Unrivaled Basketball",
+    "detail_url": "https://www.bvp.com/companies/unrivaled-basketball",
+    "website": "https://www.unrivaled.basketball/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:12:58.594975"
+  },
+  {
+    "name": "Upside",
+    "detail_url": "https://www.bvp.com/companies/upside",
+    "website": "https://www.upside.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:00.009121"
+  },
+  {
+    "name": "Upvest",
+    "detail_url": "https://www.bvp.com/companies/upvest",
+    "website": "https://upvest.co/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:01.403422"
+  },
+  {
+    "name": "Urban Company",
+    "detail_url": "https://www.bvp.com/companies/urbanclap",
+    "website": "https://www.urbancompany.com/ ",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:02.687471"
+  },
+  {
+    "name": "US Health Partners, LLC",
+    "detail_url": "https://www.bvp.com/companies/us-health-partners-llc",
+    "website": "https://www.ushphealth.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:04.132105"
+  },
+  {
+    "name": "Valence",
+    "detail_url": "https://www.bvp.com/companies/valence",
+    "website": "https://www.valence.co/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:05.407293"
+  },
+  {
+    "name": "Vapi",
+    "detail_url": "https://www.bvp.com/companies/vapi",
+    "website": "https://vapi.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:06.791828"
+  },
+  {
+    "name": "Vayyar",
+    "detail_url": "https://www.bvp.com/companies/vayyar",
+    "website": "https://vayyar.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:08.196435"
+  },
+  {
+    "name": "Velo3D",
+    "detail_url": "https://www.bvp.com/companies/velo3d",
+    "website": "https://www.velo3d.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:09.605890"
+  },
+  {
+    "name": "VendorPM",
+    "detail_url": "https://www.bvp.com/companies/vendorpm",
+    "website": "https://vendorpm.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:11.022345"
+  },
+  {
+    "name": "Verastem",
+    "detail_url": "https://www.bvp.com/companies/verastem",
+    "website": "https://www.verastem.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:12.670647"
+  },
+  {
+    "name": "Verata Health",
+    "detail_url": "https://www.bvp.com/companies/verata-health",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:14.260709"
+  },
+  {
+    "name": "Verato",
+    "detail_url": "https://www.bvp.com/companies/verato",
+    "website": "https://verato.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:15.668877"
+  },
+  {
+    "name": "VeriSign",
+    "detail_url": "https://www.bvp.com/companies/verisign",
+    "website": "https://www.verisign.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:17.084121"
+  },
+  {
+    "name": "Verodin",
+    "detail_url": "https://www.bvp.com/companies/verodin",
+    "website": "https://www.verodin.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:18.486199"
+  },
+  {
+    "name": "Vertice",
+    "detail_url": "https://www.bvp.com/companies/vertice",
+    "website": "https://www.vertice.one/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:19.988567"
+  },
+  {
+    "name": "Vetic",
+    "detail_url": "https://www.bvp.com/companies/vetic",
+    "website": "https://vetic.in/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:21.366117"
+  },
+  {
+    "name": "Vidyard",
+    "detail_url": "https://www.bvp.com/companies/vidyard",
+    "website": "https://www.vidyard.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:22.746646"
+  },
+  {
+    "name": "View The Space (Fmr Hightower)",
+    "detail_url": "https://www.bvp.com/companies/view-the-space-fmr-hightower",
+    "website": "https://www.vts.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:24.144439"
+  },
+  {
+    "name": "Virtru",
+    "detail_url": "https://www.bvp.com/companies/virtru",
+    "website": "https://www.virtru.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:25.781506"
+  },
+  {
+    "name": "Visor",
+    "detail_url": "https://www.bvp.com/companies/visor",
+    "website": "https://www.visor.us/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:27.161616"
+  },
+  {
+    "name": "Vlocity",
+    "detail_url": "https://www.bvp.com/companies/vlocity",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:28.748460"
+  },
+  {
+    "name": "Voxel51",
+    "detail_url": "https://www.bvp.com/companies/voxel51",
+    "website": "https://voxel51.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:30.129956"
+  },
+  {
+    "name": "Wandera",
+    "detail_url": "https://www.bvp.com/companies/wandera",
+    "website": "https://www.wandera.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:31.544237"
+  },
+  {
+    "name": "Watershed",
+    "detail_url": "https://www.bvp.com/companies/watershed",
+    "website": "https://www.watershed.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:33.140764"
+  },
+  {
+    "name": "Weave",
+    "detail_url": "https://www.bvp.com/companies/weave",
+    "website": "https://www.getweave.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:34.562739"
+  },
+  {
+    "name": "Welltok",
+    "detail_url": "https://www.bvp.com/companies/welltok",
+    "website": "https://www.welltok.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:35.987658"
+  },
+  {
+    "name": "Wildlife Studios",
+    "detail_url": "https://www.bvp.com/companies/topfreegames",
+    "website": "https://www.wildlifestudios.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:37.354374"
+  },
+  {
+    "name": "Winc",
+    "detail_url": "https://www.bvp.com/companies/winc",
+    "website": "https://www.winc.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:38.753030"
+  },
+  {
+    "name": "Windfall Bio",
+    "detail_url": "https://www.bvp.com/companies/windfall-bio",
+    "website": "https://www.windfall.bio/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:40.214231"
+  },
+  {
+    "name": "WiredScore",
+    "detail_url": "https://www.bvp.com/companies/wiredscore",
+    "website": "https://wiredscore.com/en/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:41.659027"
+  },
+  {
+    "name": "Wix",
+    "detail_url": "https://www.bvp.com/companies/wix",
+    "website": "https://services.dataexchange.fiscloudservices.com/LogOn",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:43.328518"
+  },
+  {
+    "name": "Wonderful",
+    "detail_url": "https://www.bvp.com/companies/wonderful",
+    "website": "https://www.wonderful.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:44.734714"
+  },
+  {
+    "name": "Wrapbook",
+    "detail_url": "https://www.bvp.com/companies/wrapbook",
+    "website": "https://www.wrapbook.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:46.288584"
+  },
+  {
+    "name": "Wukong Education",
+    "detail_url": "https://www.bvp.com/companies/wukong-education",
+    "website": "https://www.wukongsch.com/en",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:47.737401"
+  },
+  {
+    "name": "Xanadu",
+    "detail_url": "https://www.bvp.com/companies/xanadu",
+    "website": "https://www.xanadu.ai/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:49.161228"
+  },
+  {
+    "name": "Xtime",
+    "detail_url": "https://www.bvp.com/companies/xtime",
+    "website": "https://xtime.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:50.615080"
+  },
+  {
+    "name": "Yelp",
+    "detail_url": "https://www.bvp.com/companies/yelp",
+    "website": "https://www.yelp.com",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:52.074096"
+  },
+  {
+    "name": "Yodle",
+    "detail_url": "https://www.bvp.com/companies/yodle",
+    "website": "http://www.yodle.com",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:53.456893"
+  },
+  {
+    "name": "Yotpo",
+    "detail_url": "https://www.bvp.com/companies/yotpo",
+    "website": "https://www.yotpo.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:54.828724"
+  },
+  {
+    "name": "Zapier",
+    "detail_url": "https://www.bvp.com/companies/zapier",
+    "website": "https://www.zapier.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:56.210534"
+  },
+  {
+    "name": "Zenskar",
+    "detail_url": "https://www.bvp.com/companies/zenskar",
+    "website": "https://zenskar.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:57.667263"
+  },
+  {
+    "name": "Zoomin",
+    "detail_url": "https://www.bvp.com/companies/zoomin",
+    "website": "https://www.zoominsoftware.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:13:59.053511"
+  },
+  {
+    "name": "Zoosk",
+    "detail_url": "https://www.bvp.com/companies/zoosk",
+    "website": "https://www.zoosk.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:14:00.432575"
+  },
+  {
+    "name": "Zopa",
+    "detail_url": "https://www.bvp.com/companies/zopa",
+    "website": "https://www.zopa.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:14:01.722142"
+  },
+  {
+    "name": "Zopper",
+    "detail_url": "https://www.bvp.com/companies/zopper",
+    "website": "https://www.zopper.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:14:03.077450"
+  },
+  {
+    "name": "Zylo",
+    "detail_url": "https://www.bvp.com/companies/zylo",
+    "website": "https://zylo.com/",
+    "raw_status": "Current",
+    "source_url": "https://www.bvp.com/companies#portfolio",
+    "last_scraped": "2025-10-28 12:14:04.501366"
+  }
+]

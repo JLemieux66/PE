@@ -5,6 +5,7 @@ import type { Investment } from '../types/company'
 interface CompanyTableProps {
   investments: Investment[]
   loading?: boolean
+  onCompanyClick?: (companyId: number) => void
 }
 
 type SortField = 'company_name' | 'pe_firm_name' | 'status' | 'industry_category' | 'headquarters' | 'employee_count' | 'revenue_range'
@@ -12,7 +13,53 @@ type SortDirection = 'asc' | 'desc'
 
 const ITEMS_PER_PAGE = 100
 
-export default function CompanyTable({ investments, loading }: CompanyTableProps) {
+// Helper function to extract domain from URL
+const extractDomain = (url: string | null | undefined): string | null => {
+  if (!url) return null
+  try {
+    const domain = url.replace(/^https?:\/\//, '').replace(/^www\./, '').split('/')[0]
+    return domain
+  } catch {
+    return null
+  }
+}
+
+// Helper function to get company initials
+const getInitials = (name: string): string => {
+  return name
+    .split(' ')
+    .map(word => word[0])
+    .join('')
+    .toUpperCase()
+    .slice(0, 2)
+}
+
+// Company logo component
+const CompanyLogo = ({ website, name }: { website: string | null | undefined; name: string }) => {
+  const [logoError, setLogoError] = useState(false)
+  const domain = extractDomain(website)
+  const logoUrl = domain ? `https://logo.clearbit.com/${domain}` : null
+
+  if (logoUrl && !logoError) {
+    return (
+      <img
+        src={logoUrl}
+        alt={`${name} logo`}
+        onError={() => setLogoError(true)}
+        className="w-6 h-6 object-contain rounded flex-shrink-0"
+      />
+    )
+  }
+
+  // Fallback to initials
+  return (
+    <div className="w-6 h-6 bg-gradient-to-br from-blue-500 to-indigo-600 rounded flex items-center justify-center text-white font-bold text-xs flex-shrink-0">
+      {getInitials(name)}
+    </div>
+  )
+}
+
+export default function CompanyTable({ investments, loading, onCompanyClick }: CompanyTableProps) {
   const [sortField, setSortField] = useState<SortField>('company_name')
   const [sortDirection, setSortDirection] = useState<SortDirection>('asc')
   const [currentPage, setCurrentPage] = useState(1)
@@ -128,10 +175,14 @@ export default function CompanyTable({ investments, loading }: CompanyTableProps
           </thead>
           <tbody className="bg-white divide-y divide-gray-200">
             {paginatedInvestments.map((investment, index) => (
-              <tr key={`${investment.company_name}-${index}`} className="hover:bg-gray-50 transition-colors">
+              <tr 
+                key={`${investment.company_name}-${index}`} 
+                className="hover:bg-gray-50 transition-colors cursor-pointer"
+                onClick={() => onCompanyClick?.(investment.company_id)}
+              >
                 <td className="px-3 py-3">
-                  <div className="flex items-center">
-                    <Building2 className="w-4 h-4 text-gray-400 mr-2 flex-shrink-0" />
+                  <div className="flex items-center gap-2">
+                    <CompanyLogo website={investment.website} name={investment.company_name} />
                     <span className="font-medium text-gray-900 text-sm break-words">{investment.company_name}</span>
                   </div>
                 </td>

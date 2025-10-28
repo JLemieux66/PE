@@ -1,0 +1,734 @@
+{
+  "pe_firm": "Vista Equity Partners",
+  "extraction_date": "2025-10-22",
+  "total_companies": 145,
+  "companies": [
+    {
+      "name": "Accelya",
+      "slug": "accelya",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/accelya"
+    },
+    {
+      "name": "Accruent",
+      "slug": "accruent",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/accruent"
+    },
+    {
+      "name": "Acquia",
+      "slug": "acquia",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/acquia"
+    },
+    {
+      "name": "Active Network",
+      "slug": "activenetwork",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/activenetwork"
+    },
+    {
+      "name": "Acumatica",
+      "slug": "acumatica",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/acumatica"
+    },
+    {
+      "name": "Aderant",
+      "slug": "aderant",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/aderant"
+    },
+    {
+      "name": "Advicent Solutions",
+      "slug": "advicentsolutions",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/advicentsolutions"
+    },
+    {
+      "name": "AgData",
+      "slug": "agdata",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/agdata"
+    },
+    {
+      "name": "Alegeus",
+      "slug": "alegeus",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/alegeus"
+    },
+    {
+      "name": "Alertmedia",
+      "slug": "alertmedia",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/alertmedia"
+    },
+    {
+      "name": "Allocate Software",
+      "slug": "allocatesoftware",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/allocatesoftware"
+    },
+    {
+      "name": "Allvue Systems",
+      "slug": "allvuesystems",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/allvuesystems"
+    },
+    {
+      "name": "Amtech",
+      "slug": "amtech",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/amtech"
+    },
+    {
+      "name": "Applause",
+      "slug": "applause",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/applause"
+    },
+    {
+      "name": "Applied Systems",
+      "slug": "appliedsystems",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/appliedsystems"
+    },
+    {
+      "name": "Apptio",
+      "slug": "apptio",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/apptio"
+    },
+    {
+      "name": "Aptean",
+      "slug": "aptean",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/aptean"
+    },
+    {
+      "name": "Arcos",
+      "slug": "arcos",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/arcos"
+    },
+    {
+      "name": "Aspect",
+      "slug": "aspect",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/aspect"
+    },
+    {
+      "name": "Aspira",
+      "slug": "aspira",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/aspira"
+    },
+    {
+      "name": "Assent Compliance",
+      "slug": "assentcompliance",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/assentcompliance"
+    },
+    {
+      "name": "Avalara",
+      "slug": "avalara",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/avalara"
+    },
+    {
+      "name": "Benchmark Gensuite",
+      "slug": "benchmarkgensuite",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/benchmarkgensuite"
+    },
+    {
+      "name": "BetterCloud",
+      "slug": "bettercloud",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/bettercloud"
+    },
+    {
+      "name": "BigMachines",
+      "slug": "bigmachines",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/bigmachines"
+    },
+    {
+      "name": "BigTime Software",
+      "slug": "bigtimesoftware",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/bigtimesoftware"
+    },
+    {
+      "name": "BlueConic",
+      "slug": "blueconic",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/blueconic"
+    },
+    {
+      "name": "Bonterra",
+      "slug": "bonterra",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/bonterra"
+    },
+    {
+      "name": "Brainware",
+      "slug": "brainware",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/brainware"
+    },
+    {
+      "name": "Bullhorn",
+      "slug": "bullhorn",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/bullhorn"
+    },
+    {
+      "name": "CentralSquare",
+      "slug": "centralsquare",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/centralsquare"
+    },
+    {
+      "name": "Cloud Software Group",
+      "slug": "cloudsoftwaregroup",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/cloudsoftwaregroup"
+    },
+    {
+      "name": "Comply",
+      "slug": "comply",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/comply"
+    },
+    {
+      "name": "CriticalStart",
+      "slug": "criticalstart",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/criticalstart"
+    },
+    {
+      "name": "Cvent",
+      "slug": "cvent",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/cvent"
+    },
+    {
+      "name": "Datto",
+      "slug": "datto",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/datto"
+    },
+    {
+      "name": "Dispatch",
+      "slug": "dispatch",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/dispatch"
+    },
+    {
+      "name": "Duck Creek Technologies",
+      "slug": "duckcreektechnologies",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/duckcreektechnologies"
+    },
+    {
+      "name": "EAB",
+      "slug": "eab",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/eab"
+    },
+    {
+      "name": "Eagleview",
+      "slug": "eagleview",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/eagleview"
+    },
+    {
+      "name": "Ellucian",
+      "slug": "ellucian",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/ellucian"
+    },
+    {
+      "name": "Energy Exemplar",
+      "slug": "energyexemplar",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/energyexemplar"
+    },
+    {
+      "name": "ESO Solutions",
+      "slug": "esosolutions",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/esosolutions"
+    },
+    {
+      "name": "Finastra",
+      "slug": "finastra",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/finastra"
+    },
+    {
+      "name": "Flash",
+      "slug": "flash",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/flash"
+    },
+    {
+      "name": "Forcepoint",
+      "slug": "forcepoint",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/forcepoint"
+    },
+    {
+      "name": "Fusion Risk Management",
+      "slug": "fusionriskmanagement",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/fusionriskmanagement"
+    },
+    {
+      "name": "Gainsight",
+      "slug": "gainsight",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/gainsight"
+    },
+    {
+      "name": "Gatekeeper",
+      "slug": "gatekeeper",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/gatekeeper"
+    },
+    {
+      "name": "Gnosis Freight",
+      "slug": "gnosisfreight",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/gnosisfreight"
+    },
+    {
+      "name": "Granicus",
+      "slug": "granicus",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/granicus"
+    },
+    {
+      "name": "Greenway Health",
+      "slug": "greenwayhealth",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/greenwayhealth"
+    },
+    {
+      "name": "iCIMS",
+      "slug": "icims",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/icims"
+    },
+    {
+      "name": "Infoblox",
+      "slug": "infoblox",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/infoblox"
+    },
+    {
+      "name": "Innovapptive",
+      "slug": "innovapptive",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/innovapptive"
+    },
+    {
+      "name": "Integral Ad Science",
+      "slug": "integraladscience",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/integraladscience"
+    },
+    {
+      "name": "Invoice Cloud",
+      "slug": "invoicecloud",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/invoicecloud"
+    },
+    {
+      "name": "Jaggaer",
+      "slug": "jaggaer",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/jaggaer"
+    },
+    {
+      "name": "Jamf",
+      "slug": "jamf",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/jamf"
+    },
+    {
+      "name": "JIO",
+      "slug": "jio",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/jio"
+    },
+    {
+      "name": "Khoros",
+      "slug": "khoros",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/khoros"
+    },
+    {
+      "name": "Kibo",
+      "slug": "kibo",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/kibo"
+    },
+    {
+      "name": "Klarna",
+      "slug": "klarna",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/klarna"
+    },
+    {
+      "name": "KnowBe4",
+      "slug": "knowbe4",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/knowbe4"
+    },
+    {
+      "name": "Lifeloop",
+      "slug": "lifeloop",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/lifeloop"
+    },
+    {
+      "name": "LogicMonitor",
+      "slug": "logicmonitor",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/logicmonitor"
+    },
+    {
+      "name": "Lone Wolf",
+      "slug": "lonewolf",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/lonewolf"
+    },
+    {
+      "name": "Lucid",
+      "slug": "lucid",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/lucid"
+    },
+    {
+      "name": "mabl",
+      "slug": "mabl",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/mabl"
+    },
+    {
+      "name": "Main Street Hub",
+      "slug": "mainstreethub",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/mainstreethub"
+    },
+    {
+      "name": "Marketo",
+      "slug": "marketo",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/marketo"
+    },
+    {
+      "name": "Mediaocean",
+      "slug": "mediaocean",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/mediaocean"
+    },
+    {
+      "name": "MedTrainer",
+      "slug": "medtrainer",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/medtrainer"
+    },
+    {
+      "name": "Menlo Security",
+      "slug": "menlosecurity",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/menlosecurity"
+    },
+    {
+      "name": "MicroEdge",
+      "slug": "microedge",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/microedge"
+    },
+    {
+      "name": "Mitratech",
+      "slug": "mitratech",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/mitratech"
+    },
+    {
+      "name": "Modeln",
+      "slug": "modeln",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/modeln"
+    },
+    {
+      "name": "MRI Software",
+      "slug": "mrisoftware",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/mrisoftware"
+    },
+    {
+      "name": "Nasuni",
+      "slug": "nasuni",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/nasuni"
+    },
+    {
+      "name": "Navex",
+      "slug": "navex",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/navex"
+    },
+    {
+      "name": "Naviga",
+      "slug": "naviga",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/naviga"
+    },
+    {
+      "name": "Numerator",
+      "slug": "numerator",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/numerator"
+    },
+    {
+      "name": "OfficeSpace",
+      "slug": "officespace",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/officespace"
+    },
+    {
+      "name": "Olive AI",
+      "slug": "oliveai",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/oliveai"
+    },
+    {
+      "name": "One Advanced",
+      "slug": "oneadvanced",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/oneadvanced"
+    },
+    {
+      "name": "P2 Energy Solutions",
+      "slug": "p2energysolutions",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/p2energysolutions"
+    },
+    {
+      "name": "Ping Identity",
+      "slug": "pingidentity",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/pingidentity"
+    },
+    {
+      "name": "Pipedrive",
+      "slug": "pipedrive",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/pipedrive"
+    },
+    {
+      "name": "PlanSource",
+      "slug": "plansource",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/plansource"
+    },
+    {
+      "name": "Playlist",
+      "slug": "playlist",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/playlist"
+    },
+    {
+      "name": "Pluralsight",
+      "slug": "pluralsight",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/pluralsight"
+    },
+    {
+      "name": "Poppulo",
+      "slug": "poppulo",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/poppulo"
+    },
+    {
+      "name": "Portside",
+      "slug": "portside",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/portside"
+    },
+    {
+      "name": "Power Factors",
+      "slug": "powerfactors",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/powerfactors"
+    },
+    {
+      "name": "PowerSchool",
+      "slug": "powerschool",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/powerschool"
+    },
+    {
+      "name": "Quickbase",
+      "slug": "quickbase",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/quickbase"
+    },
+    {
+      "name": "RadarFirst",
+      "slug": "radarfirst",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/radarfirst"
+    },
+    {
+      "name": "RDC",
+      "slug": "rdc",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/rdc"
+    },
+    {
+      "name": "Redwood Software",
+      "slug": "redwoodsoftware",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/redwoodsoftware"
+    },
+    {
+      "name": "Relias Learning",
+      "slug": "reliaslearningllc",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/reliaslearningllc"
+    },
+    {
+      "name": "Resilinc",
+      "slug": "resilinc",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/resilinc"
+    },
+    {
+      "name": "Return Path",
+      "slug": "returnpath",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/returnpath"
+    },
+    {
+      "name": "Reynolds and Reynolds",
+      "slug": "reynoldsandreynolds",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/reynoldsandreynolds"
+    },
+    {
+      "name": "RiskExec",
+      "slug": "riskexec",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/riskexec"
+    },
+    {
+      "name": "RollKall",
+      "slug": "rollkall",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/rollkall"
+    },
+    {
+      "name": "SalesLoft",
+      "slug": "salesloft",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/salesloft"
+    },
+    {
+      "name": "Schoox",
+      "slug": "schoox",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/schoox"
+    },
+    {
+      "name": "SecureLink",
+      "slug": "securelink",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/securelink"
+    },
+    {
+      "name": "Securonix",
+      "slug": "securonix",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/securonix"
+    },
+    {
+      "name": "SER",
+      "slug": "ser",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/ser"
+    },
+    {
+      "name": "SimplePractice",
+      "slug": "simplepractice",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/simplepractice"
+    },
+    {
+      "name": "SirsiDynix",
+      "slug": "sirsidynix",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/sirsidynix"
+    },
+    {
+      "name": "SmartBear",
+      "slug": "smartbear",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/smartbear"
+    },
+    {
+      "name": "Smartsheet",
+      "slug": "smartsheet",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/smartsheet"
+    },
+    {
+      "name": "Solera",
+      "slug": "solera",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/solera"
+    },
+    {
+      "name": "Sonatype",
+      "slug": "sonatype",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/sonatype"
+    },
+    {
+      "name": "SourceNet Solutions",
+      "slug": "sourcenetsolutions",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/sourcenetsolutions"
+    },
+    {
+      "name": "Sovos Compliance",
+      "slug": "sovoscompliance",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/sovoscompliance"
+    },
+    {
+      "name": "SRC Software",
+      "slug": "srcsoftware",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/srcsoftware"
+    },
+    {
+      "name": "StarRez",
+      "slug": "starrez",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/starrez"
+    },
+    {
+      "name": "Stats Perform",
+      "slug": "statsperform",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/statsperform"
+    },
+    {
+      "name": "SumTotal Systems",
+      "slug": "sumtotalsystems",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/sumtotalsystems"
+    },
+    {
+      "name": "Sunquest Information Systems",
+      "slug": "sunquestinformationsystems",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/sunquestinformationsystems"
+    },
+    {
+      "name": "Surgical Information Systems",
+      "slug": "surgicalinformationsystems",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/surgicalinformationsystems"
+    },
+    {
+      "name": "TigerConnect",
+      "slug": "tigerconnect",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/tigerconnect"
+    },
+    {
+      "name": "Tomia",
+      "slug": "tomia",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/tomia"
+    },
+    {
+      "name": "Transfirst",
+      "slug": "transfirst",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/transfirst"
+    },
+    {
+      "name": "TRG Screen",
+      "slug": "trgscreen",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/trgscreen"
+    },
+    {
+      "name": "Tribute Technology",
+      "slug": "tributetechnology",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/tributetechnology"
+    },
+    {
+      "name": "Trintech",
+      "slug": "trintech",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/trintech"
+    },
+    {
+      "name": "TripleLift",
+      "slug": "triplelift",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/triplelift"
+    },
+    {
+      "name": "Tripleseat",
+      "slug": "tripleseat",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/tripleseat"
+    },
+    {
+      "name": "Upserve",
+      "slug": "upserve",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/upserve"
+    },
+    {
+      "name": "Upside",
+      "slug": "upside",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/upside"
+    },
+    {
+      "name": "Vena Solutions",
+      "slug": "venasolutions",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/venasolutions"
+    },
+    {
+      "name": "Ventyx",
+      "slug": "ventyx",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/ventyx"
+    },
+    {
+      "name": "Vertafore",
+      "slug": "vertafore",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/vertafore"
+    },
+    {
+      "name": "Vivid Seats",
+      "slug": "vividseats",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/vividseats"
+    },
+    {
+      "name": "Websense",
+      "slug": "websense",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/websense"
+    },
+    {
+      "name": "WorkTango",
+      "slug": "worktango",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/worktango"
+    },
+    {
+      "name": "Wrike",
+      "slug": "wrike",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/wrike"
+    },
+    {
+      "name": "Xactly",
+      "slug": "xactly",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/xactly"
+    },
+    {
+      "name": "Zapproved",
+      "slug": "zapproved",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/zapproved"
+    },
+    {
+      "name": "Zego",
+      "slug": "zego",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/zego"
+    },
+    {
+      "name": "Zywave",
+      "slug": "zywave",
+      "url": "https://www.vistaequitypartners.com/companies/portfolio/zywave"
+    }
+  ],
+  "extraction_method": "Playwright with cleaned company names",
+  "source_url": "https://www.vistaequitypartners.com/companies/portfolio/"
+}

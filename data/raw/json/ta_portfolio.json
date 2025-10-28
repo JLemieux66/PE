@@ -1,0 +1,129 @@
+{
+  "pe_firm": "TA Associates",
+  "extraction_date": "2025-10-22 14:03:41",
+  "total_companies": 15,
+  "current_portfolio": 0,
+  "exited_portfolio": 15,
+  "extraction_time_seconds": 24.8,
+  "sectors": [
+    "Business Services",
+    "Consumer",
+    "Financial Services",
+    "Healthcare",
+    "Technology"
+  ],
+  "companies": [
+    {
+      "name": "Skip Navigation",
+      "status": "exited",
+      "exit_info": "Madison Dearborn, Providence Equity, WCAS",
+      "website": "https://url.us.m.mimecastprotect.com/s/BcDACZ60P0CDLj0nuzfxuBB4ms?domain=taassociates.altareturn.com",
+      "sector": "Business Services"
+    },
+    {
+      "name": "Meet the Team",
+      "status": "exited",
+      "exit_info": "Madison Dearborn, Providence Equity, WCAS",
+      "website": "",
+      "sector": "Business Services"
+    },
+    {
+      "name": "Loading...",
+      "status": "exited",
+      "exit_info": "Madison Dearborn, Providence Equity, WCAS",
+      "website": "",
+      "sector": "Business Services"
+    },
+    {
+      "name": "Skip Navigation",
+      "status": "exited",
+      "exit_info": "Takeaway.com N.V. (AMS: TKWY)",
+      "website": "https://url.us.m.mimecastprotect.com/s/BcDACZ60P0CDLj0nuzfxuBB4ms?domain=taassociates.altareturn.com",
+      "sector": "Consumer"
+    },
+    {
+      "name": "Meet the Team",
+      "status": "exited",
+      "exit_info": "Takeaway.com N.V. (AMS: TKWY)",
+      "website": "",
+      "sector": "Consumer"
+    },
+    {
+      "name": "Loading...",
+      "status": "exited",
+      "exit_info": "Takeaway.com N.V. (AMS: TKWY)",
+      "website": "",
+      "sector": "Consumer"
+    },
+    {
+      "name": "Skip Navigation",
+      "status": "exited",
+      "exit_info": "Piper Jaffray",
+      "website": "https://url.us.m.mimecastprotect.com/s/BcDACZ60P0CDLj0nuzfxuBB4ms?domain=taassociates.altareturn.com",
+      "sector": "Financial Services"
+    },
+    {
+      "name": "Meet the Team",
+      "status": "exited",
+      "exit_info": "Piper Jaffray",
+      "website": "",
+      "sector": "Financial Services"
+    },
+    {
+      "name": "Loading...",
+      "status": "exited",
+      "exit_info": "Piper Jaffray",
+      "website": "",
+      "sector": "Financial Services"
+    },
+    {
+      "name": "Skip Navigation",
+      "status": "exited",
+      "exit_info": "Danaher Corporation (NYSE: DHR)",
+      "website": "https://url.us.m.mimecastprotect.com/s/BcDACZ60P0CDLj0nuzfxuBB4ms?domain=taassociates.altareturn.com",
+      "sector": "Healthcare"
+    },
+    {
+      "name": "Meet the Team",
+      "status": "exited",
+      "exit_info": "Danaher Corporation (NYSE: DHR)",
+      "website": "",
+      "sector": "Healthcare"
+    },
+    {
+      "name": "Loading...",
+      "status": "exited",
+      "exit_info": "Danaher Corporation (NYSE: DHR)",
+      "website": "",
+      "sector": "Healthcare"
+    },
+    {
+      "name": "Skip Navigation",
+      "status": "exited",
+      "exit_info": "Takeaway.com N.V. (AMS: TKWY)",
+      "website": "https://url.us.m.mimecastprotect.com/s/BcDACZ60P0CDLj0nuzfxuBB4ms?domain=taassociates.altareturn.com",
+      "sector": "Technology"
+    },
+    {
+      "name": "Meet the Team",
+      "status": "exited",
+      "exit_info": "Takeaway.com N.V. (AMS: TKWY)",
+      "website": "",
+      "sector": "Technology"
+    },
+    {
+      "name": "Loading...",
+      "status": "exited",
+      "exit_info": "Takeaway.com N.V. (AMS: TKWY)",
+      "website": "",
+      "sector": "Technology"
+    }
+  ],
+  "sector_breakdown": {
+    "Business Services": 3,
+    "Consumer": 3,
+    "Financial Services": 3,
+    "Healthcare": 3,
+    "Technology": 3
+  }
+}

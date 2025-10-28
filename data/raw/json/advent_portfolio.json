@@ -1,0 +1,3883 @@
+[
+  {
+    "name": "LayerZero",
+    "website": "https://www.layerzero.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Felix",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "HEALTHCARE",
+      "CONSUMER HEALTH AND PHARMA"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Sauer Brands",
+    "website": "https://sauers.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Fisher Investments",
+    "website": "https://www.fisherinvestments.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Siesa",
+    "website": "https://www.siesa.com",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Nuvei",
+    "website": "https://www.nuvei.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Volue",
+    "website": "https://www.volue.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Svatantra",
+    "website": "http://www.svatantramicrofin.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "SYSPRO",
+    "website": "https://eu.syspro.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Apollo 24/7",
+    "website": "https://www.apollo247.com/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Prometheus Group",
+    "website": "https://www.prometheusgroup.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Seek Pet Food",
+    "website": "http://www.seekpet.net/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Inspira",
+    "website": "https://www.redeinspiraeducadores.com.br/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Globus Events",
+    "website": "https://www.globusevents.com/en/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "myPOS",
+    "website": "http://www.mypos.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Skala",
+    "website": "https://www.skala.com.br",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "ZIMMERMANN",
+    "website": "https://www.zimmermann.com",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Merama",
+    "website": "https://www.merama.io/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY",
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Parfums de Marly – INITIO",
+    "website": "http://www.parfums-de-marly.com",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Simtra BioPharma Solutions",
+    "website": "https://biopharmasolutions.baxter.com/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Suven Pharmaceuticals",
+    "website": "https://suvenpharm.com/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Aareal Bank",
+    "website": "https://www.aareal-bank.com/en/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Maxar Technologies",
+    "website": "https://www.maxar.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Envalior",
+    "website": "https://envalior.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "LBS Hygiene",
+    "website": "https://www.lbshygiene.com.my/en/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Kreditbee",
+    "website": "https://www.kreditbee.in/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Tredence",
+    "website": "https://www.tredence.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "YES Bank",
+    "website": "https://www.yesbank.in/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Seedtag",
+    "website": "https://www.seedtag.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Neoris",
+    "website": "https://www.neoris.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "GHL Hoteles",
+    "website": "https://en.ghlhoteles.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Ultra Electronics",
+    "website": "https://www.ultra.group/gb",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "IRCA",
+    "website": "https://www.irca.eu/en",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "MangoPay",
+    "website": "https://www.mangopay.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY",
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Coralogix",
+    "website": "https://coralogix.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Imperial Dade",
+    "website": "https://imperialdade.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Wagas",
+    "website": "http://www.wagas.com.cn/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Eureka Forbes",
+    "website": "https://www.eurekaforbes.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Medius",
+    "website": "https://www.medius.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY",
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "SonarSource",
+    "website": "https://www.sonarsource.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Caldic (formerly GTM Holdings)",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "CertiK",
+    "website": "http://www.certik.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "McAfee",
+    "website": "https://www.mcafee.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Tigre",
+    "website": "http://www.tigre.com.br/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "BigPanda",
+    "website": "https://www.bigpanda.io/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Encora",
+    "website": "https://www.encora.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY",
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "GS Capsule",
+    "website": "http://www.gscapsule.com/en/index.html",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Orveon",
+    "website": "https://www.orveonglobal.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Thredd (formerly Global Processing Services)",
+    "website": "http://www.thredd.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Iodine Software",
+    "website": "https://iodinesoftware.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY",
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Planet",
+    "website": "https://www.planetpayment.com/en/home/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY",
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Pacvue (formerly Assembly)",
+    "website": "https://www.pacvue.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "EBANX",
+    "website": "https://business.ebanx.com/en/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY",
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Salt Security",
+    "website": "https://salt.security/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Shift Technology",
+    "website": "https://www.shift-technology.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "BigID",
+    "website": "https://www.bigid.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Cyware",
+    "website": "https://cyware.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "HYPR",
+    "website": "https://www.hypr.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "NIQ",
+    "website": "https://nielseniq.com/global/en/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Wiz",
+    "website": "https://www.wiz.io/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Xplor Technologies (New company as a result of the merger between Clearent and Transaction Services Group)",
+    "website": "https://www.xplortechnologies.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY",
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Nubank",
+    "website": "https://nubank.com.br/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "RxBenefits",
+    "website": "https://www.rxbenefits.com/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Sophos Solutions",
+    "website": "https://www.sophossolutions.com/en/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Zenoti",
+    "website": "http://zenoti.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY",
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Evri (formerly Hermes UK)",
+    "website": "https://www.evri.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Aareon Group GmbH",
+    "website": "https://www.aareon.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Avolta",
+    "website": "https://www.avoltaworld.com/en",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Cohance Lifesciences (formerly RA Chem Pharma Limited)",
+    "website": "https://cohance.com/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Grupo CRM",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Tekion",
+    "website": "https://www.tekion.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Forescout Technologies",
+    "website": "http://www.forescout.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Thrasio",
+    "website": "https://www.thras.io/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "TK Elevator (formerly thyssenkrupp Elevator)",
+    "website": "http://www.tkelevator.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Conservice, LLC",
+    "website": "https://www.conservice.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Aditya Birla Capital",
+    "website": "https://www.adityabirlacapital.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Bharat Serums and Vaccines (BSV)",
+    "website": "https://bsvgroup.com/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Cobham",
+    "website": "https://www.cobham.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "DFM Foods",
+    "website": "http://dfmfoods.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Olaplex",
+    "website": "http://www.olaplex.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "CI&T",
+    "website": "https://ciandt.com/us/en-us/home",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Transaction Services Group (now Xplor Technologies post-merger with Clearent)",
+    "website": "https://www.xplortechnologies.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY",
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Donte Group (formerly Vitaldent)",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "ICE Pharma",
+    "website": "https://www.icepharma.com/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Definitive Healthcare",
+    "website": "https://www.definitivehc.com/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Röhm",
+    "website": "https://www.roehm.com/en/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "AccentCare",
+    "website": "http://www.accentcare.com/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Aimbridge Hospitality",
+    "website": "http://www.aimbridgehospitality.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Prisma Medios de Pagos S.A.",
+    "website": "https://www.prismamediosdepago.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY",
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "BioDuro",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "INNIO (formerly GE Distributed Power)",
+    "website": "https://www.innio.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Manjushree Technopack Limited",
+    "website": "http://manjushreeindia.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Zentiva",
+    "website": "https://www.zentiva.com/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Grupo BIG (formerly Walmart Brazil Group)",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Deutsche Fachpflege Gruppe, (“DFG”)",
+    "website": "https://www.deutschefachpflege.de/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Laird Limited",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Circet Groupe",
+    "website": "https://www.circet.fr/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Clearent (now Xplor Technologies post-merger with Transaction Service Group)",
+    "website": "https://www.xplortechnologies.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES",
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Easynvest (now NuInvest)",
+    "website": "https://www.easynvest.com.br/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Enjoy S.A.",
+    "website": "https://www.enjoy.cl/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Williams Lea Tag Group",
+    "website": "https://www.wlt.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Grupo Farmaceutico Somar",
+    "website": "http://gruposomar.com/en/somar-pharmaceutical-group/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Modenik (formerly Dixcy-Enamor)",
+    "website": "https://modenik.in/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Faerch",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "First Watch",
+    "website": "https://www.firstwatch.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "YDUQS (formerly Estácio Participações)",
+    "website": "https://www.yduqs.com.br/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Concardis GmbH",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Canvia (formerly GMD)",
+    "website": "http://www.canvia.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "InPost (formerly known as Integer.pl S.A.)",
+    "website": "https://integer.pl/en",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "CCC Intelligent Solutions",
+    "website": "http://www.cccis.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "V.Group Limited",
+    "website": "http://www.vgrouplimited.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Rubix",
+    "website": "https://www.rubix-group.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Sovos Brands",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Ansira Holdings, Inc.",
+    "website": "http://ansira.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "ASK Investment Managers Private Limited",
+    "website": "http://www.askfinancials.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Culligan International Group",
+    "website": "http://www.culligan.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Syneos Health, Inc. (formerly INC Research Holdings, Inc.)",
+    "website": "http://www.inventivhealth.com/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "AI Dream",
+    "website": "http://www.kingkoil.com.cn/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Fort Dearborn",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Peruquímicos S.A.C.",
+    "website": "https://www.peruquimicos.com.pe",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Fortbras Group",
+    "website": "http://www.fortbras.com.br/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Quala",
+    "website": "https://quala.us.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "VIAKEM",
+    "website": "http://www.viakem.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "ATI Physical Therapy Holdings, LLC",
+    "website": "http://www.atipt.com/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "QuEST Global Services",
+    "website": "https://www.quest-global.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Nexi",
+    "website": "https://www.nexi.it/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY",
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Fleury S.A.",
+    "website": "http://ri.fleury.com.br/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "LifeMiles B.V.",
+    "website": "https://www.lifemiles.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES",
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Addiko Bank (formerly Hypo Group Alpe Adria)",
+    "website": "https://www.addiko.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Ammeraal Beltech Holding B.V.",
+    "website": "http://www.ammeraalbeltech.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Crompton Greaves Consumer Electricals Limited",
+    "website": "http://www.crompton.co.in/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Grupo Financiero Mifel",
+    "website": "http://www.mifel.com.mx/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Faculdade da Serra Gaucha Group (FSG)",
+    "website": "http://www.fsg.br/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Genoa Healthcare",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Allied",
+    "website": "http://www.alliedbrasil.com.br/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Cataratas do Iguaçu",
+    "website": "http://www.grupocataratas.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Distribution International",
+    "website": "http://www.distributioninternational.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Noosa Yoghurt",
+    "website": "http://www.noosayoghurt.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Corialis",
+    "website": "http://www.corialis.be/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "lululemon athletica",
+    "website": "http://www.lululemon.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "The Learning Lab",
+    "website": "http://www.thelearninglab.com.sg/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "RGL Reservoir Management",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Nets",
+    "website": "http://www.nets.eu/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY",
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Certinia (formerly FinancialForce)",
+    "website": "https://certinia.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Unit4",
+    "website": "http://www.unit4.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Alianza Fiduciaria",
+    "website": "http://www.alianza.com.co/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Dudalina – Restoque",
+    "website": "http://www.dudalina.com.br/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Ocensa",
+    "website": "http://www.ocensa.com.co/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "IFS (formerly P2 Energy Solutions)",
+    "website": "https://www.ifs.com/industries/energy-utilities-and-resources",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "The Coffee Bean & Tea Leaf",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "allnex",
+    "website": "http://www.allnex.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Mediq",
+    "website": "https://www.mediq.com/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Douglas Holding",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "KMD",
+    "website": "http://www.kmd.dk/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "NCS Multistage",
+    "website": "http://www.ncsmultistage.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "EKO Holding",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "InverCap Holdings",
+    "website": "http://www.invercap.com.mx/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Serta Simmons Bedding",
+    "website": "https://sertasimmons.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Cotiviti",
+    "website": "http://www.connolly.com/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Party City Holdings",
+    "website": "http://www.partycity.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "TransUnion",
+    "website": "http://www.transunion.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY",
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "CARE Hospitals",
+    "website": "http://www.carehospitals.com/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "MAXAM",
+    "website": "http://www.maxam.net/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Grupo Biotoscana",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "IDEMIA",
+    "website": "https://www.idemia.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Morsco",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "American Heart of Poland",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Laboratorio LKM",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Mondo Minerals",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Bojangles",
+    "website": "http://www.bojangles.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Terminal de Contêineres de Paranaguá (TCP)",
+    "website": "http://www.tcp.com.br/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "TES Vsetin",
+    "website": "http://www.tes.cz/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "PPF – Partner in Pet Food",
+    "website": "http://www.ppfeurope.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Isida",
+    "website": "http://isida.ua/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Towergate",
+    "website": "http://www.towergate.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Tinsa",
+    "website": "http://www.tinsa.es/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Worldpay",
+    "website": "http://www.worldpay.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES",
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "BOS Solutions",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "ABC Supply",
+    "website": "http://www.abcsupply.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "DFS Furniture",
+    "website": "http://www.dfs.co.uk/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Skillsoft",
+    "website": "http://www.skillsoft.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Regina Maria (formerly Centrul Medical Unirea)",
+    "website": "http://www.reginamaria.ro/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "WSiP – Wydawnictwa Szkolne i Pedagogiczne",
+    "website": "http://www.wsip.pl/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "GFKL",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Devin",
+    "website": "http://www.devin-bg.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Charlotte Russe",
+    "website": "http://www.charlotterusse.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "MEDIAN",
+    "website": "http://www.median-kliniken.de/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Kroton Educacional",
+    "website": "http://www.kroton.com.br/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Vantiv",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY",
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Cetip",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Monte de México",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Monext",
+    "website": "http://www.monext.fr/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY",
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Quero-Quero",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Bradco Supply",
+    "website": "http://www.abcsupply.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Craegmoor",
+    "website": "http://www.craegmoor.co.uk/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Gérard Darel",
+    "website": "http://www.gerarddarel.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "The Priory Group",
+    "website": "http://www.priorygroup.com/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Airport Shoppes",
+    "website": "http://www.internationalmealcompany.com.br/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Hudson Group",
+    "website": "http://www.hudsongroup.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Labormed",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Latin American Airport Holdings",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Casa Reha",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Synventive Molding Solutions",
+    "website": "https://www.synventive.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Domestic & General",
+    "website": "http://www.domgen.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "KAI Group",
+    "website": "https://www.kai.bg/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Viena",
+    "website": "https://ri.internationalmealcompany.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "CAMS – Computer Age Management Services",
+    "website": "http://www.camsonline.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Gayosso",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Equiniti",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Takko",
+    "website": "https://www.takko.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Sophis",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Ceramica",
+    "website": "http://www.ceramica-iasi.ro/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Stokomani",
+    "website": "https://www.stokomani.fr/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Grupo RA",
+    "website": "http://www.internationalmealcompany.com.br/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "H.C. Starck",
+    "website": "http://www.hcstarck.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Oxea",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Pronto!",
+    "website": "http://www.pronto.com.uy/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Grupo La Mansión",
+    "website": "http://www.internationalmealcompany.com.br/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "International Meal Company",
+    "website": "http://www.internationalmealcompany.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Venere",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Roma Plastik",
+    "website": "http://www.romaplastik.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Ultimo Group",
+    "website": "https://www.ultimo.pl/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "BondDesk Group",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "RWE Solutions",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Hune (formerly Euroloc)",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Nuevo Banco Comercial",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Milano",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Dufry South America (formerly Brasif)",
+    "website": "http://www.dufry.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Axtone",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Aircom International",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "CCS",
+    "website": "http://www.ccs.cz/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Herlitz",
+    "website": "http://www.herlitz.de/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Hipotecaria Casa Mexicana",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Moeller",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "AMAIT – Administradora Mexiquense del Aeropuerto Internacional de Toluca",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Boart Longyear",
+    "website": "http://www.boartlongyear.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Deutek",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Gruppo Argenta",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Making Memories",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Fat Face",
+    "website": "http://www.fatface.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "HT Troplast",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "National Bankruptcy Services",
+    "website": "http://www.nbsdefaultservices.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Proservvi Banco de Serviços",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "AVIP",
+    "website": "http://www.avipitalia.it/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Intercity",
+    "website": "http://intercityrentacar.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Shoes For Crews",
+    "website": "http://www.shoesforcrews.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "BTC – Bulgarian Telecommunications Company",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Delft Instruments",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Sportfive",
+    "website": "http://www.sportfive.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Long Term Care Group",
+    "website": "http://www.ltcg.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "J. Malucelli Seguradora",
+    "website": "http://www.jmalucelliseguradora.com.br/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Dufry",
+    "website": "http://www.dufry.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "OCA – Organizacion Coordinadora Argentina",
+    "website": "http://www.oca.com.ar/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Parques Reunidos",
+    "website": "http://www.parquesreunidos.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Radio 538",
+    "website": "http://www.538.nl/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Keystone Automotive Operations",
+    "website": "http://www.keystoneautomotive.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Bolix",
+    "website": "http://www.bolix.pl/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Aspen Technology",
+    "website": "http://www.aspentech.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Operadora Comercial Aeroportuaria",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Raet",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Terapia",
+    "website": "https://www.terapia.ro/bioechivalenta/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Financial Dynamics",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Danubius",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Aviagen",
+    "website": "http://www.aviagen.com/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Unmas",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "American Radiology Services",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "ILVA",
+    "website": "http://www.ilva.dk/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Hildebrando",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Atmosfera",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "MACH",
+    "website": "http://www.mach.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Aerocomidas",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Viatris",
+    "website": "http://www.viatris.com/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "GFI Group",
+    "website": "http://www.gfigroup.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Poundland",
+    "website": "http://www.poundland.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Interactive Technology Holdings",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "IFC Medios",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Zone Vision",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Fada Pharma",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Materis",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Datek Online Holdings",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Italtel",
+    "website": "http://www.italtel.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "MBF Cards",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "The Island ECN",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Atrium Telecomunicações",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "DolEx Dollar Express",
+    "website": "https://www.dolex.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "NetLogistiK",
+    "website": "http://www.netlogistik.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Vinnolit",
+    "website": "http://www.vinnolit.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Avisium",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Globopolis",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "ScoreBoard",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Radio Kolor",
+    "website": "http://radiokolor.pl/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Recommend",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Resort Sports Network (now Outside Television)",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Slovanet",
+    "website": "http://www.slovanet.net/sk/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "BCS",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Cybercity",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "DTI Networks",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Speedy-Tech Electronics",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Tropon",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Latin America Soccer Investments",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Hogart",
+    "website": "http://www.hogart.pl/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Cesky Mobil",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "CISA – Consultoría Internacional Casa de Cambio (now CI Banco)",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "HLF Group",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Vestolit",
+    "website": "http://www.vestolit.de/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Westco Jeans",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Alcala Farma",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Loxam",
+    "website": "http://www.loxam.fr/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Euromedia",
+    "website": "http://www.eum.ro/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "MC International",
+    "website": "http://www.mci.fr/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Advanced Radio Telecom",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Tertio Telecoms",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Alexander Mann Solutions",
+    "website": "http://www.alexandermannsolutions.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Graffigna",
+    "website": "http://www.graffignawines.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Inmobilaria Fumisa",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Microsiga (now TOTVS)",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Dollar Express",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Eurozet",
+    "website": "http://www.eurozet.pl/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Jazztel",
+    "website": "http://www.jazztel.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Li & Fung Distribution",
+    "website": "http://www.lifung.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "CVC",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "GESA – Grupo Embotelladores del Sureste SA",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Euro United",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Arabela",
+    "website": "http://www.arabela.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "CyberTron Telekom",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Elender Informatikai",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Moulin International Holdings",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "RedPrairie",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Universal Assistance",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Aeroplazas de México",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Brewery Holdings",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Mobifon (Connex)",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "HMV",
+    "website": "http://www.hmv.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Slag Recycling",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Panta Electronics",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "WNP Communications",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Americus Dental Labs",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Ciraden (formerly MainStreet Dental Management)",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Contact East",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Elior",
+    "website": "http://www.elior.fr/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Cordena Call Management",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Managed Healthcare Associates",
+    "website": "http://www.mhainc.com/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "National PetCare Centers",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Pemco International",
+    "website": "http://www.pemco-intl.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Synergon Information Systems",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Thomson Directories",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "CSU CardSystem",
+    "website": "http://www.csu.com.br/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Long Distance International",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "MARR",
+    "website": "http://www.marr.it/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Lande Wellpappen",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "P.T. Sarana Kencana Indah Sejati",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Wyncom",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Internet Securities Inc. (d.b.a. ISI Emerging Markets)",
+    "website": "http://www.securities.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Trinity Pharmaceuticals",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Human Group (formerly Alta Gestion)",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Brilliant Manufacturing",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Homemaker Industries",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Aeroboutiques (Latinoamericana Duty Free)",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Hajdu Bet",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Lionbridge Technologies",
+    "website": "http://www.lionbridge.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Subscriber Computing",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "OK International",
+    "website": "http://www.okinternational.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "CountryBanc",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Star Foods",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Csabai Konzervgyar",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Inframetrics",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Tecnologistica",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Ching Kuang Chemical Company",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Kirkland’s",
+    "website": "http://www.kirklands.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Eunet International",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "New Look",
+    "website": "http://www.newlook.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Tweeter Home Entertainment Group",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Lightbridge",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "@Entertainment",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Euronet",
+    "website": "http://www.euronetworldwide.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Eversholt",
+    "website": "http://www.eversholtrail.co.uk/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Physicians’ Online",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Progressive System Technologies",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "BIP Group",
+    "website": "http://www.bip.co.uk/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "NetEdge Systems",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "DWA – Deutsche Waggonbau AG",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "3i – Implant Innovations Inc.",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Colofon",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Lumen Electronics",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "LeCroy",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Hua Yang Printing",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Rite Industries",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Miracle Garden Care",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Original San Francisco Toymakers",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Telik",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Maurice",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "CCT Telecom Holdings (now CCT Fortis)",
+    "website": "http://www.cct-fortis.com/",
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Creative Multimedia",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Esat Telecom",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Vision Express",
+    "website": "http://www.visionexpress.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Wireless (merger of Multipoint Networks and Wireless)",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "P.T. Intinusa Selareksa",
+    "website": "http://intinusa.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Warsaw Distribution Center",
+    "website": "http://warsawdistributioncenter.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Esaote Biomedica",
+    "website": "http://www.esaote.com/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Thonburi Hospital",
+    "website": "http://www.thonburihospital.com/",
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "MJ Media Werbe",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "P.T. Swasthi Parama Mulya",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "PCs Compleat",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Transcend Therapeutics",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "MAT Technologies",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Dowald-Rollen Beteiligungs",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Subic Shipyard & Engineering",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Interlink Computer Sciences",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Thüringer Behälterglas",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Nurture",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Zindart Industrial Company",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Primacom",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Tradebe",
+    "website": "http://www.tradebe.com/",
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "McDonnell Information Systems (now Northgate Information Solutions)",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Cable Management Ireland",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Inspec Group",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Verblendziegelwerk Malliß",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Tegee Chemie Bremen",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "INDUSTRIAL"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Terminales Quimicos",
+    "website": "http://www.vopakterquimsa.com/",
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Gaymer Group Europe",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Pi Holdings",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Scandinavian Broadcasting Systems",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Nelson Hurst",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "BUSINESS & FINANCIAL SERVICES"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Devro Holdings",
+    "website": "http://www.devro.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Greenacre",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "TIASA – Tecnología Informática Avanzada SA",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "TECHNOLOGY"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Naj-Oleari",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Parmalat",
+    "website": "http://www.parmalat.com/",
+    "description": null,
+    "sectors": [
+      "CONSUMER"
+    ],
+    "pe_firm": "Advent International"
+  },
+  {
+    "name": "Independent Care",
+    "website": null,
+    "description": null,
+    "sectors": [
+      "HEALTHCARE"
+    ],
+    "pe_firm": "Advent International"
+  }
+]

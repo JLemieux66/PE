@@ -1,0 +1,60 @@
+{
+  "pe_firm": "Vista Equity Partners",
+  "extraction_date": "2025-10-22",
+  "total_companies": 145,
+  "scraped_count": 5,
+  "companies": [
+    {
+      "name": "Accelya",
+      "slug": "accelya",
+      "status": "unknown",
+      "industry": "",
+      "headquarters": "",
+      "website": "",
+      "description": "",
+      "vista_url": "https://www.vistaequitypartners.com/companies/portfolio/accelya"
+    },
+    {
+      "name": "Accruent",
+      "slug": "accruent",
+      "status": "unknown",
+      "industry": "",
+      "headquarters": "",
+      "website": "",
+      "description": "",
+      "vista_url": "https://www.vistaequitypartners.com/companies/portfolio/accruent"
+    },
+    {
+      "name": "Acquia",
+      "slug": "acquia",
+      "status": "unknown",
+      "industry": "",
+      "headquarters": "",
+      "website": "",
+      "description": "",
+      "vista_url": "https://www.vistaequitypartners.com/companies/portfolio/acquia"
+    },
+    {
+      "name": "Active Network",
+      "slug": "activenetwork",
+      "status": "unknown",
+      "industry": "",
+      "headquarters": "",
+      "website": "",
+      "description": "",
+      "vista_url": "https://www.vistaequitypartners.com/companies/portfolio/activenetwork"
+    },
+    {
+      "name": "Acumatica",
+      "slug": "acumatica",
+      "status": "unknown",
+      "industry": "",
+      "headquarters": "",
+      "website": "",
+      "description": "",
+      "vista_url": "https://www.vistaequitypartners.com/companies/portfolio/acumatica"
+    }
+  ],
+  "extraction_method": "Playwright web scraping of company websites",
+  "notes": "Sample of first 5 companies. Modify batch_size to scrape more."
+}

@@ -1,0 +1,1167 @@
+[
+  {
+    "name": "Blackstone Donegal Holdings LP",
+    "industry": "",
+    "source": "table_39"
+  },
+  {
+    "name": "Material Holdings, LLC",
+    "industry": "",
+    "source": "table_39"
+  },
+  {
+    "name": "Material+ Holding Company, LLC",
+    "industry": "",
+    "source": "table_39"
+  },
+  {
+    "name": "Auto Components",
+    "industry": "Technology",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Dellner Couplers Group, AB (5)(6)(8) E + 5.43% 7.41% 6/20/2024 6/18/2029 EUR 1,000 $ 1,062 $ 1,184 0.02 %",
+    "industry": "Technology",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Biotechnology",
+    "industry": "Technology",
+    "source": "text_parsing"
+  },
+  {
+    "name": "DCG Acquisition Corp. (4)(7)(10) SOFR + 4.50% 8.80% 6/13/2024 6/13/2031 39,068 38,690 38,594 0.61",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Commercial Services & Supplies",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "First Lien Debt - non-controlled/non-affiliated (continued)",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Commercial Services & Supplies (continued)",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "RailPros Parent, LLC (4)(5)(7)(10) SOFR + 4.50% 8.82% 5/22/2025 5/24/2032 402 397 397 0.01",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "TEI Intermediate, LLC (4)(10) SOFR + 4.75% 9.05% 12/13/2024 12/15/2031 25,799 25,561 25,670 0.41",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "TEI Intermediate, LLC (4)(5)(7)(10) SOFR + 4.75% 9.03% 12/13/2024 12/15/2031 495 425 437 0.01",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Construction & Engineering",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Consor Intermediate II, LLC (4)(5)(7)(10) SOFR + 4.50% 8.80% 5/10/2024 5/10/2031 $ 6,008 $ 5,946 $ 5,992 0.10 %",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Home Service TopCo IV, Inc. (4)(5)(11) SOFR + 4.50% 8.92% 2/28/2025 12/31/2027 2,906 2,893 2,906 0.05",
+    "industry": "Retail",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Consumer Staples Distribution & Retail",
+    "industry": "Retail",
+    "source": "text_parsing"
+  },
+  {
+    "name": "NDC Acquisition Corp. (4)(7)(11) SOFR + 5.00% 9.33% 3/9/2021 3/9/2028 13,558 13,429 13,558 0.22",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "PT Intermediate Holdings III, 9.30% (incl.",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Diversified Consumer Services",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "DTA Intermediate II, Ltd. (4)(11) SOFR + 5.50% 9.80% 3/27/2024 3/27/2030 42,538 41,867 41,900 0.67",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "DTA Intermediate II, Ltd. (4)(7)(11) SOFR + 5.25% 9.51% 3/27/2024 3/27/2030 5,354 4,989 4,902 0.08",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Essential Services Holding",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Seahawk Bidco, LLC (4)(7)(11) SOFR + 4.75% 9.07% 12/18/2024 12/19/2031 45,146 44,717 44,850 0.71",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Diversified Telecommunication Services",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Electric Utilities",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Qualus Power Services Corp. (4)(11) SOFR + 5.00% 9.33% 3/26/2021 3/26/2027 32,591 32,365 32,591 0.52",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Qualus Power Services Corp. (4)(11) SOFR + 5.00% 9.33% 7/27/2023 3/26/2027 35,256 34,832 35,256 0.56",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Qualus Power Services Corp. (4)(7)(11) SOFR + 5.00% 9.29% 5/9/2024 3/26/2027 70,748 69,375 70,579 1.12",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Electronic Equipment, Instruments & Components",
+    "industry": "Energy",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Albireo Energy, LLC (4)(5)(11) SOFR + 6.00% 10.40% 12/23/2020 12/23/2026 $ 76,938 $ 76,558 $ 74,630 1.19 %",
+    "industry": "Energy",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Albireo Energy, LLC (4)(5)(11) SOFR + 6.00% 10.36% 12/23/2020 12/23/2026 23,093 23,003 22,400 0.36",
+    "industry": "Energy",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Albireo Energy, LLC (4)(5)(11) SOFR + 6.00% 10.38% 12/23/2020 12/23/2026 6,230 6,212 6,043 0.10",
+    "industry": "Energy",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Purchaser, LLC",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Energy Equipment & Services",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "LPW Group Holdings, Inc. (4)(7)(11) SOFR + 6.00% 10.42% 3/15/2024 3/15/2031 26,594 25,947 26,594 0.42",
+    "industry": "Financial",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Capital, LLC",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "DM Intermediate Parent,",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Ground Transportation",
+    "industry": "Transportation",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Zeus, LLC (4)(7)(10) SOFR + 5.50% 9.80% 2/28/2024 2/28/2031 26,585 26,209 25,702 0.41",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Health Care Providers & Services",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "ACI Group Holdings, Inc. (4)(5)(7)(10) SOFR + 5.50% 9.93% 7/7/2023 8/2/2027 2,545 2,464 1,909 0.03",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "ADCS Clinics Intermediate",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Holdings, LLC",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Health Care Providers & Services (continued)",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Navigator Acquiror, Inc. (4)(7)(9) SOFR + 5.50% 7/16/2021 7/16/2030 261,258 260,319 231,097 3.68",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "PPV Intermediate Holdings,",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "SpecialtyCare, Inc. (4)(5)(7)(8) SOFR + 4.00% 8.44% 6/18/2021 6/18/2026 580 574 580 0.01",
+    "industry": "Healthcare",
+    "source": "text_parsing"
+  },
+  {
+    "name": "SpecialtyCare, Inc. (4)(5)(11) SOFR + 5.75% 10.29% 6/18/2021 6/18/2028 102 101 101 0.00",
+    "industry": "Healthcare",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Stepping Stones Healthcare",
+    "industry": "Healthcare",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Services, LLC",
+    "industry": "Healthcare",
+    "source": "text_parsing"
+  },
+  {
+    "name": "UMP Holdings, LLC (4)(5)(10) SOFR + 5.75% 10.03% 7/15/2022 7/15/2028 1,081 1,071 1,073 0.02",
+    "industry": "Healthcare",
+    "source": "text_parsing"
+  },
+  {
+    "name": "UMP Holdings, LLC (4)(5)(10) SOFR + 5.75% 10.03% 7/15/2022 7/15/2028 1,480 1,467 1,469 0.02",
+    "industry": "Healthcare",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Unified Women's Healthcare,",
+    "industry": "Healthcare",
+    "source": "text_parsing"
+  },
+  {
+    "name": "WHCG Purchaser III, Inc. (4)(5)(10)(17) 10.00% 10.00% PIK 8/2/2024 6/30/2030 16,955 6,354 7,121 0.11",
+    "industry": "Technology",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Health Care Technology",
+    "industry": "Technology",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Caerus US 1, Inc. (4)(6)(10) SOFR + 5.00% 9.30% 3/27/2024 5/25/2029 49,500 49,500 49,500 0.79",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Caerus US 1, Inc. (4)(5)(6)(7)(10) SOFR + 5.00% 9.32% 5/25/2022 5/25/2029 249 234 249 0.00",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Color Intermediate, LLC (4)(10) SOFR + 4.75% 9.15% 7/2/2024 10/1/2029 19,858 19,553 19,858 0.32",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "CT Technologies Intermediate",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Holdings, Inc.",
+    "industry": "Technology",
+    "source": "text_parsing"
+  },
+  {
+    "name": "GI Ranger Intermediate, LLC (4)(7)(10) SOFR + 5.75% 10.18% 10/29/2021 10/29/2028 16,218 16,066 16,218 0.26",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Health Care Technology (continued)",
+    "industry": "Technology",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Patriot Growth Insurance",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "SG Acquisition, Inc. (4)(7)(10) SOFR + 4.75% 9.03% 4/3/2024 4/3/2030 130,811 129,816 130,811 2.08",
+    "industry": "Financial",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Shelf Bidco, Ltd. (4)(6)(10)(18) SOFR + 5.18% 9.46% 10/17/2024 10/17/2031 149,131 148,459 149,131 2.37",
+    "industry": "Financial",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Interactive Media & Services",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Speedster Bidco, GmbH (6)(9) SOFR + 3.25% 7.55% 10/17/2024 12/10/2031 2,823 2,762 2,843 0.05",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "IT Services",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "IT Services (continued)",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Razor Holdco, LLC (4)(10) SOFR + 5.75% 10.18% 10/25/2021 10/25/2027 18,885 18,739 18,885 0.30",
+    "industry": "Technology",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Red River Technology, LLC (4)(11) SOFR + 6.00% 10.43% 5/26/2021 5/26/2027 78,740 78,304 70,276 1.12",
+    "industry": "Technology",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Redwood Services Group,",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Life Sciences Tools & Services",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Cielo Bidco, Ltd. (4)(5)(6)(8) SOFR + 4.75% 9.05% 6/30/2025 3/31/2032 76 75 75 0.00",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Cielo Bidco, Ltd. (4)(5)(6)(7)(8) SOFR + 4.75% 9.05% 6/30/2025 3/31/2032 36 35 35 0.00",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "MHE Intermediate Holdings,",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Kattegat Project Bidco, AB (4)(5)(6)(7)(8) E + 5.50% 7.48% 3/20/2024 4/7/2031 EUR 29,819 31,612 35,029 0.56",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Gusto Sing Bidco Pte, Ltd. (4)(5)(6)(7)(10) BB + 4.75% 8.61% 11/15/2024 11/15/2031 AUD 1,000 638 653 0.01",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Professional Services",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Professional Services (continued)",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "King Bidco S.P.E.C. (4)(5)(6)(7)(8) E + 5.25% 7.25% 6/26/2025 6/26/2032 EUR 175 200 201 0.00",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Legacy Intermediate, LLC (4)(5)(10) SOFR + 5.75% 10.23% 2/25/2022 2/25/2028 6,663 6,605 6,663 0.11",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Legacy Intermediate, LLC (4)(5)(10) SOFR + 5.75% 10.16% 12/22/2023 2/25/2028 1,287 1,270 1,287 0.02",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "West Monroe Partners, LLC (4)(10) SOFR + 4.75% 9.07% 11/9/2021 11/8/2028 14,521 14,387 14,376 0.23",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "West Monroe Partners, LLC (4)(5)(7)(10) SOFR + 4.75% 9.07% 12/18/2024 11/8/2028 592 588 587 0.01",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "YA Intermediate Holdings",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Real Estate Management & Development",
+    "industry": "Real Estate",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Auctane, Inc. (4)(5)(10) SOFR + 5.75% 10.14% 12/14/2021 10/5/2028 3,273 3,242 3,216 0.05",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "AuditBoard, Inc. (4)(7)(10) SOFR + 4.75% 9.35% 7/12/2024 7/12/2031 9,270 9,156 9,220 0.15",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Azurite Intermediate",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Banyan Software Holdings,",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Bayshore Intermediate #2,",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Software (continued)",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Connatix Buyer, Inc. (4)(5)(7)(10) SOFR + 5.50% 10.03% 7/14/2021 7/14/2027 2,390 2,353 2,308 0.04",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Connatix Buyer, Inc. (4)(5)(7)(10) SOFR + 5.50% 9.97% 10/9/2024 7/14/2027 1,305 1,264 1,273 0.02",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Coupa Software, Inc. (4)(5)(6)(7)(10) SOFR + 5.25% 9.53% 2/27/2023 2/27/2030 1,818 1,784 1,816 0.03",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Granicus, Inc. (4)(5)(7)(10) P + 4.25% 11.75% 1/17/2024 1/17/2031 343 320 339 0.01",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Graphpad Software, LLC (4)(10) SOFR + 4.75% 9.05% 6/28/2024 6/28/2031 23,964 23,810 23,964 0.38",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Graphpad Software, LLC (4)(5)(7)(10) SOFR + 4.75% 9.05% 6/28/2024 6/28/2031 599 546 588 0.01",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "GS Acquisitionco, Inc. (4)(5)(7)(10) SOFR + 5.25% 9.55% 3/26/2024 5/25/2028 1,130 1,112 1,104 0.02",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "GS Acquisitionco, Inc. (4)(5)(11) SOFR + 5.25% 9.55% 3/26/2024 5/25/2028 5,303 5,288 5,277 0.08",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Homecare Software Solutions, 9.87% (incl.",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "LLC 2.93% PIK)",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Mandolin Technology",
+    "industry": "Technology",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Intermediate Holdings, Inc.",
+    "industry": "Technology",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Monk Holding, Co. (4)(10)(18) SOFR + 5.50% 9.90% 12/1/2021 12/1/2027 4,730 4,684 4,730 0.08",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Monk Holding, Co. (4)(5)(7)(10) SOFR + 5.50% 9.90% 12/1/2021 12/1/2027 985 979 985 0.02",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "MRI Software, LLC (11) SOFR + 4.75% 9.05% 9/22/2020 2/10/2027 6,690 6,691 6,665 0.11",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "MRI Software, LLC (11) SOFR + 4.75% 9.05% 2/10/2020 2/10/2027 90,203 89,969 89,864 1.43",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "MRI Software, LLC (4)(5)(7)(11) SOFR + 4.75% 9.05% 2/10/2020 2/10/2027 409 383 207 0.00",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Zorro Bidco, Ltd. (4)(5)(6)(8) ST + 4.40% 6.60% 2/6/2025 8/13/2031 SEK 43,390 3,947 4,540 0.07",
+    "industry": "Retail",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Specialty Retail",
+    "industry": "Technology",
+    "source": "text_parsing"
+  },
+  {
+    "name": "CustomInk, LLC (4)(11)(18) SOFR + 5.98% 10.36% 5/3/2019 5/3/2028 175,836 175,469 175,836 2.80",
+    "industry": "Technology",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Technology Hardware, Storage & Peripherals",
+    "industry": "Technology",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Transportation Infrastructure",
+    "industry": "Transportation",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Sam Holding Co, Inc. (4)(5)(7)(11) P + 4.50% 12.00% 9/24/2021 3/24/2027 2,600 2,562 2,600 0.04",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Sam Holding Co, Inc. (4)(5)(7)(11) SOFR + 5.50% 9.88% 9/5/2024 9/24/2027 9,964 9,882 9,845 0.16",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "TRP Infrastructure Services,",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Wireless Telecommunication Services",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "First Lien Debt - non-controlled/affiliated",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Second Lien Debt",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Second Lien Debt - non-controlled/non-affiliated",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Jayhawk Buyer, LLC (4)(11) SOFR + 8.75% 13.13% 5/26/2021 10/15/2027 $ 5,183 5,146 4,820 0.08",
+    "industry": "Technology",
+    "source": "text_parsing"
+  },
+  {
+    "name": "SQ ABS Issuer, LLC (4)(5)(6)(8) 9.65% 9.65% 10/11/2024 10/20/2039 3,602 3,553 3,584 0.06",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Speedster Bidco, GmbH (4)(6)(8) CA + 5.50% 8.18% 12/10/2024 2/13/2032 CAD 50,654 35,513 36,826 0.59",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Victory Buyer, LLC (4)(9) SOFR + 7.00% 11.44% 11/19/2021 11/19/2029 9,619 9,565 9,427 0.15",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Thevelia US, LLC (4)(5)(6)(9) SOFR + 5.00% 9.30% 6/17/2022 6/17/2032 4,920 4,829 4,920 0.08",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "CB Nike Holdco, LLC (4)(11) SOFR + 7.35% 11.68% PIK 11/25/2024 11/26/2029 37,757 37,099 37,002 0.59",
+    "industry": "Technology",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Unsecured Debt",
+    "industry": "Technology",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Unsecured Debt - non-controlled/non-affiliated",
+    "industry": "Technology",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Company, LLC",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Class A Common Units",
+    "industry": "Technology",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Common Stock",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "LP - Class A Common Units",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Equity - non-controlled/non-affiliated (continued)",
+    "industry": "Financial",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Holdings, L.P. - Class A-2 (4) 9/10/2021 539 539 270 0.00",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Holdings Parent, LP - Series (4) 8.00% 11/1/2024 310,331 310 329 0.01",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "A Preferred Units",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Preferred Shares",
+    "industry": "Technology",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Preferred Units",
+    "industry": "Transportation",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Acumatica Holdings, Inc Term Loan 7/11/2032 11,497 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Acumatica Holdings, Inc Revolver 7/11/2032 1,916 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "ADCS Clinics Intermediate Holdings, LLC Revolver 5/7/2026 1,189 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Axsome Therapeutics, Inc. Delayed Draw Term Loan 5/31/2026 8,805 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Axsome Therapeutics, Inc. Delayed Draw Term Loan 5/31/2027 8,805 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Azurite Intermediate Holdings, Inc. Revolver 3/19/2031 4,104 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Bamboo US BidCo, LLC Delayed Draw Term Loan 11/20/2026 132 —",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Bamboo US BidCo, LLC Revolver 9/29/2029 142 —",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Banyan Software Holdings, LLC Revolver 1/2/2031 859 —",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Banyan Software Holdings, LLC Delayed Draw Term Loan 12/20/2026 1,986 —",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Banyan Software Holdings, LLC Delayed Draw Term Loan 1/2/2027 1,771 (9)",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Bayshore Intermediate #2, LP Revolver 10/1/2027 8,116 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Connatix Buyer, Inc. Revolver 7/14/2027 3,042 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Connatix Buyer, Inc. Delayed Draw Term Loan 4/9/2026 848 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Consor Intermediate II, LLC Delayed Draw Term Loan 5/10/2026 3,218 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Consor Intermediate II, LLC Revolver 5/10/2031 213 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Continental Buyer, Inc. Delayed Draw Term Loan 8/14/2027 10,729 —",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Continental Buyer, Inc. Revolver 4/2/2031 4,350 (22)",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Coupa Software, Inc. Delayed Draw Term Loan 6/3/2027 164 (2)",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Coupa Software, Inc. Revolver 2/27/2029 126 —",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Crewline Buyer, Inc. Revolver 11/8/2030 6,438 (31)",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Crumbl Enterprises, LLC Revolver 4/30/2032 101 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "CT Technologies Intermediate Holdings, Inc. Delayed Draw Term Loan 8/30/2026 973 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "CT Technologies Intermediate Holdings, Inc. Revolver 8/30/2031 2,433 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Denali Bidco, Ltd. Delayed Draw Term Loan 4/17/2026 300 (3)",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Divisions Holding Corp. Revolver 4/17/2032 140 (1)",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "DM Intermediate Parent, LLC Revolver 9/30/2030 5,206 (78)",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "DM Intermediate Parent, LLC Delayed Draw Term Loan 9/30/2026 7,809 (59)",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Doit International, Ltd. Revolver 11/26/2029 5,803 (87)",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Dropbox, Inc. Delayed Draw Term Loan 12/10/2026 88,235 (441)",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "DTA Intermediate II, Ltd. Delayed Draw Term Loan 3/27/2026 14,000 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "DTA Intermediate II, Ltd. Revolver 3/27/2030 10,769 (162)",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Emergency Power Holdings, LLC Delayed Draw Term Loan 8/17/2025 13,589 (136)",
+    "industry": "Technology",
+    "source": "text_parsing"
+  },
+  {
+    "name": "ENV Bidco, AB Delayed Draw Term Loan 12/13/2027 302 (4)",
+    "industry": "Technology",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Essential Services Holding Corp. Delayed Draw Term Loan 6/17/2026 2,297 (11)",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Essential Services Holding Corp. Revolver 6/17/2030 1,264 —",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Gatekeeper Systems, Inc. Delayed Draw Term Loan 8/27/2026 7,218 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Gatekeeper Systems, Inc. Revolver 8/28/2030 1,588 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "GI Ranger Intermediate, LLC Revolver 10/29/2027 1,200 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Granicus, Inc. Revolver 1/17/2031 2,105 —",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Granicus, Inc. Delayed Draw Term Loan 8/2/2026 817 (4)",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Graphpad Software, LLC Revolver 6/28/2031 2,264 (11)",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Graphpad Software, LLC Delayed Draw Term Loan 6/28/2026 5,433 —",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Magic Bidco, Inc. Delayed Draw Term Loan 7/1/2026 7,098 —",
+    "industry": "Technology",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Magic Bidco, Inc. Revolver 7/1/2030 955 —",
+    "industry": "Technology",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Mandolin Technology Intermediate Holdings, Inc. Revolver 4/30/2028 1,004 —",
+    "industry": "Technology",
+    "source": "text_parsing"
+  },
+  {
+    "name": "MB2 Dental Solutions, LLC Revolver 2/13/2031 1,382 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Mercury Bidco Globe, Limited Delayed Draw Term Loan 1/18/2026 8,003 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "MHE Intermediate Holdings, LLC Revolver 7/21/2027 161 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "MRH Trowe Beteiligungsgesellschaft mbH Delayed Draw Term Loan 5/15/2028 131 —",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "MRH Trowe Beteiligungsgesellschaft mbH Revolver 11/15/2031 35 —",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "MRI Software, LLC Revolver 2/10/2027 6,953 —",
+    "industry": "Software",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Park Place Technologies, LLC Delayed Draw Term Loan 9/1/2025 8,502 —",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Park Place Technologies, LLC Revolver 3/25/2030 9,417 —",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Patriot Growth Insurance Services, LLC Delayed Draw Term Loan 11/17/2025 679 —",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Patriot Growth Insurance Services, LLC Revolver 10/16/2028 469 (9)",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "PKF O'Connor Davies Advisory, LLC Revolver 11/15/2031 141 (1)",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Point Broadband Acquisition, LLC Delayed Draw Term Loan 5/29/2026 36,397 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "PPV Intermediate Holdings, LLC Revolver 8/31/2029 159 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "PPV Intermediate Holdings, LLC Delayed Draw Term Loan 8/7/2026 187 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Progress Residential PM Holdings, LLC Delayed Draw Term Loan 8/8/2025 16,623 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Progress Residential PM Holdings, LLC Delayed Draw Term Loan 8/8/2025 333 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "PT Intermediate Holdings III, LLC Delayed Draw Term Loan 4/9/2026 4,338 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "QBS Parent, Inc. Revolver 11/7/2031 1,908 (10)",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "QBS Parent, Inc. Delayed Draw Term Loan 6/3/2027 3,472 —",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Qualus Power Services Corp. Delayed Draw Term Loan 5/9/2026 12,093 —",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Qualus Power Services Corp. Delayed Draw Term Loan 10/25/2026 33,748 (169)",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "RailPros Parent, LLC Revolver 5/24/2032 62 —",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Red Fox CD Acquisition Corp. Delayed Draw Term Loan 11/21/2026 21,879 —",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Redwood Services Group, LLC Delayed Draw Term Loan 8/15/2025 3,929 —",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Redwood Services Group, LLC Delayed Draw Term Loan 1/3/2027 16,680 —",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Seahawk Bidco, LLC Revolver 12/19/2030 3,753 (34)",
+    "industry": "Financial",
+    "source": "text_parsing"
+  },
+  {
+    "name": "SG Acquisition, Inc. Revolver 4/3/2030 8,301 —",
+    "industry": "Financial",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Spectrum Safety Solutions Purchaser, LLC Revolver 7/1/2030 13,135 —",
+    "industry": "Healthcare",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Speedster Bidco, GmbH Revolver 5/13/2031 1,801 (8)",
+    "industry": "Healthcare",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Stepping Stones Healthcare Services, LLC Revolver 12/30/2026 371 —",
+    "industry": "Healthcare",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Stepping Stones Healthcare Services, LLC Delayed Draw Term Loan 4/24/2026 540 —",
+    "industry": "Healthcare",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Tango Bidco, SAS Delayed Draw Term Loan 10/17/2027 962 (7)",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Tango Bidco, SAS Delayed Draw Term Loan 10/17/2027 1,580 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "TEI Intermediate, LLC Revolver 12/13/2031 3,013 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "TEI Intermediate, LLC Delayed Draw Term Loan 12/13/2026 8,256 (41)",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Trinity Partners Holdings, LLC Delayed Draw Term Loan 6/30/2027 1,433 —",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Triple Lift, Inc. Revolver 5/5/2028 7,697 (308)",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "TRP Infrastructure Services, LLC Delayed Draw Term Loan 12/2/2026 1,346 —",
+    "industry": "Services",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Turing Holdco, Inc. Delayed Draw Term Loan 8/3/2028 28,117 —",
+    "industry": "Healthcare",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Turing Holdco, Inc. Delayed Draw Term Loan 8/3/2028 20,901 —",
+    "industry": "Healthcare",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Unified Women's Healthcare, LP Revolver 6/18/2029 241 —",
+    "industry": "Healthcare",
+    "source": "text_parsing"
+  },
+  {
+    "name": "Unified Women's Healthcare, LP Delayed Draw Term Loan 10/25/2026 14,190 —",
+    "industry": "Healthcare",
+    "source": "text_parsing"
+  },
+  {
+    "name": "World Insurance Associates, LLC Revolver 4/3/2030 4,473 (66)",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "WPEngine, Inc. Revolver 8/14/2029 6,667 (200)",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "YA Intermediate Holdings II, LLC Delayed Draw Term Loan 10/1/2026 2,937 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  },
+  {
+    "name": "YA Intermediate Holdings II, LLC Revolver 10/1/2031 1,262 —",
+    "industry": "Media",
+    "source": "text_parsing"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "firms": [
+    {
+      "pe_firm": "Vista Equity Partners",
+      "portfolio_companies": [],
+      "total_count": 0,
+      "data_quality": "low",
+      "notes": "The provided content does not include specific information about active portfolio companies. The data is limited to general information about the firm and its strategies, with no detailed list of current investments."
+    }
+  ],
+  "total_firms": 1,
+  "total_companies": 0
+}

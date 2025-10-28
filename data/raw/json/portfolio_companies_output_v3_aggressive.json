@@ -1,0 +1,70 @@
+{
+  "firms": [
+    {
+      "pe_firm": "Vista Equity Partners",
+      "portfolio_companies": [
+        {
+          "name": "Cvent",
+          "industry": "Event Management Software",
+          "description": "Cvent is a leading provider of event management software and solutions.",
+          "status": "active",
+          "confidence": "high"
+        },
+        {
+          "name": "EAB",
+          "industry": "Education Technology",
+          "description": "EAB provides best-practice research, technology, and services for education institutions.",
+          "status": "active",
+          "confidence": "high"
+        },
+        {
+          "name": "Innovapptive",
+          "industry": "Enterprise Mobility Software",
+          "description": "Innovapptive offers enterprise mobility solutions to improve operational efficiency.",
+          "status": "active",
+          "confidence": "high"
+        },
+        {
+          "name": "SmartBear",
+          "industry": "Software Development Tools",
+          "description": "SmartBear provides tools for software development, testing, and monitoring.",
+          "status": "active",
+          "confidence": "high"
+        },
+        {
+          "name": "Solera",
+          "industry": "Automotive Software",
+          "description": "Solera is a global leader in data and software for automotive, home ownership, and digital identity management.",
+          "status": "active",
+          "confidence": "high"
+        },
+        {
+          "name": "Trintech",
+          "industry": "Financial Software",
+          "description": "Trintech provides financial software solutions for the Record to Report process.",
+          "status": "active",
+          "confidence": "high"
+        },
+        {
+          "name": "Zego",
+          "industry": "Property Management Software",
+          "description": "Zego offers property management software solutions, including payment processing and resident engagement.",
+          "status": "active",
+          "confidence": "high"
+        },
+        {
+          "name": "Zywave",
+          "industry": "Insurance Software",
+          "description": "Zywave provides software solutions for insurance brokers and financial planners.",
+          "status": "active",
+          "confidence": "high"
+        }
+      ],
+      "total_count": 8,
+      "data_quality": "high",
+      "notes": "The companies listed are confirmed as portfolio companies of Vista Equity Partners based on available information."
+    }
+  ],
+  "total_firms": 1,
+  "total_companies": 8
+}

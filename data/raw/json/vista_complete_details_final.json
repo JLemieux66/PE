@@ -1,0 +1,66 @@
+{
+  "pe_firm": "Vista Equity Partners",
+  "extraction_date": "2025-10-22 12:33:31",
+  "total_companies": 5,
+  "extraction_time_seconds": 65.768731,
+  "companies": [
+    {
+      "slug": "accelya",
+      "name": "Company Profile",
+      "status": "active",
+      "industry": "Portfolio Company \n\t\t\t\t\t\t\t\t\t\t\t\tStatus \n\t\t\t\t\t\t\t\t\t\t\t\tIndustry \n\t\t\t\t\t\t\t\t\t\t\t\tHeadquarters \n\t\t\t\t\t\t\t\t\t\t\t\tFund",
+      "headquarters": "FUND",
+      "fund": "Portfolio Company \n\t\t\t\t\t\t\t\t\t\t\t\tStatus \n\t\t\t\t\t\t\t\t\t\t\t\tIndustry \n\t\t\t\t\t\t\t\t\t\t\t\tHeadquarters \n\t\t\t\t\t\t\t\t\t\t\t\tFund",
+      "website": "http://www.accelya.com/",
+      "description": "Technology products and services for the global airline industry."
+    },
+    {
+      "slug": "accruent",
+      "name": "Company Profile",
+      "status": "active",
+      "industry": "Portfolio Company \n\t\t\t\t\t\t\t\t\t\t\t\tStatus \n\t\t\t\t\t\t\t\t\t\t\t\tIndustry \n\t\t\t\t\t\t\t\t\t\t\t\tHeadquarters \n\t\t\t\t\t\t\t\t\t\t\t\tFund",
+      "headquarters": "FUND",
+      "fund": "Portfolio Company \n\t\t\t\t\t\t\t\t\t\t\t\tStatus \n\t\t\t\t\t\t\t\t\t\t\t\tIndustry \n\t\t\t\t\t\t\t\t\t\t\t\tHeadquarters \n\t\t\t\t\t\t\t\t\t\t\t\tFund",
+      "website": "http://www.accelya.com/",
+      "description": "Technology products and services for the global airline industry."
+    },
+    {
+      "slug": "acquia",
+      "name": "Company Profile",
+      "status": "active",
+      "industry": "Portfolio Company \n\t\t\t\t\t\t\t\t\t\t\t\tStatus \n\t\t\t\t\t\t\t\t\t\t\t\tIndustry \n\t\t\t\t\t\t\t\t\t\t\t\tHeadquarters \n\t\t\t\t\t\t\t\t\t\t\t\tFund",
+      "headquarters": "FUND",
+      "fund": "Portfolio Company \n\t\t\t\t\t\t\t\t\t\t\t\tStatus \n\t\t\t\t\t\t\t\t\t\t\t\tIndustry \n\t\t\t\t\t\t\t\t\t\t\t\tHeadquarters \n\t\t\t\t\t\t\t\t\t\t\t\tFund",
+      "website": "http://www.accelya.com/",
+      "description": "Technology products and services for the global airline industry."
+    },
+    {
+      "slug": "activenetwork",
+      "name": "Company Profile",
+      "status": "active",
+      "industry": "Portfolio Company \n\t\t\t\t\t\t\t\t\t\t\t\tStatus \n\t\t\t\t\t\t\t\t\t\t\t\tIndustry \n\t\t\t\t\t\t\t\t\t\t\t\tHeadquarters \n\t\t\t\t\t\t\t\t\t\t\t\tFund",
+      "headquarters": "FUND",
+      "fund": "Portfolio Company \n\t\t\t\t\t\t\t\t\t\t\t\tStatus \n\t\t\t\t\t\t\t\t\t\t\t\tIndustry \n\t\t\t\t\t\t\t\t\t\t\t\tHeadquarters \n\t\t\t\t\t\t\t\t\t\t\t\tFund",
+      "website": "http://www.accelya.com/",
+      "description": "Technology products and services for the global airline industry."
+    },
+    {
+      "slug": "acumatica",
+      "name": "Company Profile",
+      "status": "active",
+      "industry": "Portfolio Company \n\t\t\t\t\t\t\t\t\t\t\t\tStatus \n\t\t\t\t\t\t\t\t\t\t\t\tIndustry \n\t\t\t\t\t\t\t\t\t\t\t\tHeadquarters \n\t\t\t\t\t\t\t\t\t\t\t\tFund",
+      "headquarters": "FUND",
+      "fund": "Portfolio Company \n\t\t\t\t\t\t\t\t\t\t\t\tStatus \n\t\t\t\t\t\t\t\t\t\t\t\tIndustry \n\t\t\t\t\t\t\t\t\t\t\t\tHeadquarters \n\t\t\t\t\t\t\t\t\t\t\t\tFund",
+      "website": "http://www.accelya.com/",
+      "description": "Technology products and services for the global airline industry."
+    }
+  ],
+  "coverage_stats": {
+    "status": "5/5",
+    "industry": "5/5",
+    "headquarters": "5/5",
+    "fund": "5/5",
+    "website": "5/5",
+    "description": "5/5"
+  }
+}

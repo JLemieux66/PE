@@ -1,0 +1,230 @@
+{
+  "pe_firm": "Vista Equity Partners",
+  "extraction_date": "2025-10-22",
+  "total_companies": 145,
+  "detailed_companies_count": 20,
+  "companies": [
+    {
+      "name": "",
+      "slug": "accelya",
+      "status": "unknown",
+      "industry": "",
+      "headquarters": "",
+      "fund": "",
+      "website": "",
+      "description": "",
+      "vista_url": "https://www.vistaequitypartners.com/companies/portfolio/accelya"
+    },
+    {
+      "name": "Accruent",
+      "slug": "accruent",
+      "status": "active",
+      "industry": "Facilities Management Software",
+      "headquarters": "Austin, TX",
+      "fund": "Vista Foundation Fund I",
+      "website": "",
+      "description": "Accruent is a provider of software and technology solutions for facilities management, including property management, maintenance and asset management, emergency preparedness, and incident management.",
+      "vista_url": "https://www.vistaequitypartners.com/companies/portfolio/accruent"
+    },
+    {
+      "name": "",
+      "slug": "acquia",
+      "status": "unknown",
+      "industry": "",
+      "headquarters": "",
+      "fund": "",
+      "website": "",
+      "description": "",
+      "vista_url": "https://www.vistaequitypartners.com/companies/portfolio/acquia"
+    },
+    {
+      "name": "Active Network, LLC",
+      "slug": "activenetwork",
+      "status": "exited",
+      "industry": "Activity and participant management solutions",
+      "headquarters": "Dallas, TX",
+      "fund": "",
+      "website": "",
+      "description": "Active Network, LLC is a leading provider of activity and participant management solutions for event and activity organizers. The company’s ActiveWorks SaaS platform helps organizers automate the registration and administration process, and manage participant and activity information.",
+      "vista_url": "https://www.vistaequitypartners.com/companies/portfolio/activenetwork"
+    },
+    {
+      "name": "",
+      "slug": "acumatica",
+      "status": "unknown",
+      "industry": "",
+      "headquarters": "",
+      "fund": "",
+      "website": "",
+      "description": "",
+      "vista_url": "https://www.vistaequitypartners.com/companies/portfolio/acumatica"
+    },
+    {
+      "name": "Aderant",
+      "slug": "aderant",
+      "status": "active",
+      "industry": "Legal Technology",
+      "headquarters": "Atlanta, GA",
+      "fund": "Vista Equity Partners Fund III",
+      "website": "",
+      "description": "Aderant provides solutions used by over 100,000 professionals globally, primarily in the legal industry, with additional users in accounting and consulting.",
+      "vista_url": "https://www.vistaequitypartners.com/companies/portfolio/aderant"
+    },
+    {
+      "name": "",
+      "slug": "advicentsolutions",
+      "status": "unknown",
+      "industry": "",
+      "headquarters": "",
+      "fund": "",
+      "website": "",
+      "description": "",
+      "vista_url": "https://www.vistaequitypartners.com/companies/portfolio/advicentsolutions"
+    },
+    {
+      "name": "Agdata",
+      "slug": "agdata",
+      "status": "exited",
+      "industry": "",
+      "headquarters": "",
+      "fund": "",
+      "website": "",
+      "description": "",
+      "vista_url": "https://www.vistaequitypartners.com/companies/portfolio/agdata"
+    },
+    {
+      "name": "Alegeus",
+      "slug": "alegeus",
+      "status": "active",
+      "industry": "Consumer-directed healthcare software solutions",
+      "headquarters": "Boston, MA",
+      "fund": "",
+      "website": "",
+      "description": "Alegeus is a SaaS platform for the management of consumer-directed healthcare benefit accounts including FSAs, HSAs, HRAs, wellness incentives, dependent care and commuter accounts. The Company’s platform helps consumers maximize savings and optimize spending for their healthcare accounts through debit cards.",
+      "vista_url": "https://www.vistaequitypartners.com/companies/portfolio/alegeus"
+    },
+    {
+      "name": "",
+      "slug": "alertmedia",
+      "status": "unknown",
+      "industry": "",
+      "headquarters": "",
+      "fund": "",
+      "website": "",
+      "description": "",
+      "vista_url": "https://www.vistaequitypartners.com/companies/portfolio/alertmedia"
+    },
+    {
+      "name": "Allocate Software",
+      "slug": "allocatesoftware",
+      "status": "exited",
+      "industry": "HR and Finance Process Management Software",
+      "headquarters": "",
+      "fund": "Vista Foundation Fund III",
+      "website": "",
+      "description": "Allocate Software is a provider of HR and finance process management software, focusing on healthcare, public sector, and commercial customers in the UK.",
+      "vista_url": "https://www.vistaequitypartners.com/companies/portfolio/allocatesoftware"
+    },
+    {
+      "name": "",
+      "slug": "allvuesystems",
+      "status": "unknown",
+      "industry": "",
+      "headquarters": "",
+      "fund": "",
+      "website": "",
+      "description": "",
+      "vista_url": "https://www.vistaequitypartners.com/companies/portfolio/allvuesystems"
+    },
+    {
+      "name": "Amtech Software",
+      "slug": "amtech",
+      "status": "active",
+      "industry": "Packaging and Labeling Software",
+      "headquarters": "Fort Washington, PA",
+      "fund": "",
+      "website": "https://www.amtechsoftware.com/",
+      "description": "Amtech is a leading provider of software solutions for manufacturers in the packaging and labeling industries. The platform supports core functions across the entire order-to-cash lifecycle.",
+      "vista_url": "https://www.vistaequitypartners.com/companies/portfolio/amtech"
+    },
+    {
+      "name": "Amtech Software",
+      "slug": "applause",
+      "status": "active",
+      "industry": "Operations and plant management software for packaging and labeling manufacturers",
+      "headquarters": "Fort Washington, PA",
+      "fund": "",
+      "website": "https://www.amtechsoftware.com/",
+      "description": "Amtech is a leading provider of software solutions for manufacturers in the packaging and labeling industries. The platform supports core functions across the entire order-to-cash lifecycle.",
+      "vista_url": "https://www.vistaequitypartners.com/companies/portfolio/applause"
+    },
+    {
+      "name": "Applied Systems",
+      "slug": "appliedsystems",
+      "status": "exited",
+      "industry": "Insurance Software",
+      "headquarters": "",
+      "fund": "",
+      "website": "",
+      "description": "Applied Systems is a provider of software solutions for the insurance industry, offering tools to streamline operations and improve customer service.",
+      "vista_url": "https://www.vistaequitypartners.com/companies/portfolio/appliedsystems"
+    },
+    {
+      "name": "Apptio",
+      "slug": "apptio",
+      "status": "exited",
+      "industry": "Technology Business Management Solutions",
+      "headquarters": "Bellevue, WA",
+      "fund": "",
+      "website": "http://www.apptio.com",
+      "description": "Leading provider of technology business management solutions for large enterprises, mid-market customers and the public sector. Apptio develops SaaS solutions that enable businesses to assess an",
+      "vista_url": "https://www.vistaequitypartners.com/companies/portfolio/apptio"
+    },
+    {
+      "name": "Aptean, Inc.",
+      "slug": "aptean",
+      "status": "exited",
+      "industry": "Industry-specific software applications",
+      "headquarters": "Alpharetta, GA",
+      "fund": "",
+      "website": "http://www.aptean.com",
+      "description": "Aptean, Inc. is a leading global provider of mission critical, vertical-market enterprise resourcing planning software designed to enhance processes and help businesses manage their resources, supply chain, employees and customer relationships.",
+      "vista_url": "https://www.vistaequitypartners.com/companies/portfolio/aptean"
+    },
+    {
+      "name": "ARCOS",
+      "slug": "arcos",
+      "status": "active",
+      "industry": "SaaS solutions for utility and critical infrastructure resource management",
+      "headquarters": "Columbus, OH",
+      "fund": "",
+      "website": "",
+      "description": "ARCOS is a leading provider of SaaS solutions for managing resources, ensuring accurate, compliant shift scheduling and automatically planning for all types of events. The ARCOS solution reports on the up-to-the-minute location and status of equipment and crews via mobile technology for utilities.",
+      "vista_url": "https://www.vistaequitypartners.com/companies/portfolio/arcos"
+    },
+    {
+      "name": "Amtech Software",
+      "slug": "aspect",
+      "status": "active",
+      "industry": "Operations and plant management software for packaging and labeling manufacturers",
+      "headquarters": "Fort Washington, PA",
+      "fund": "",
+      "website": "https://www.amtechsoftware.com/",
+      "description": "Amtech is a leading provider of software solutions for manufacturers in the packaging and labeling industries. The platform supports core functions across the entire order-to-cash lifecycle.",
+      "vista_url": "https://www.vistaequitypartners.com/companies/portfolio/aspect"
+    },
+    {
+      "name": "Aspira",
+      "slug": "aspira",
+      "status": "exited",
+      "industry": "Cloud-based reservation and licensing technologies",
+      "headquarters": "Dallas, TX",
+      "fund": "",
+      "website": "",
+      "description": "Aspira is a leading provider of cloud-based reservation and licensing technologies to public and private campgrounds as well as federal, state, provincial and government park and conservation agencies, conveniently connecting them with outdoor adventure seekers from around the world.",
+      "vista_url": "https://www.vistaequitypartners.com/companies/portfolio/aspira"
+    }
+  ],
+  "extraction_method": "AI extraction from Pinecone vector database",
+  "notes": "Sample of first 20 companies. Modify script to process all 145."
+}

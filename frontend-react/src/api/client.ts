@@ -25,6 +25,11 @@ export const fetchCompanies = async (filters: CompanyFilters = {}): Promise<Comp
   return data
 }
 
+export const fetchCompanyById = async (id: string): Promise<Company> => {
+  const { data } = await api.get<Company>(`/companies/${id}`)
+  return data
+}
+
 export const fetchIndustries = async (): Promise<string[]> => {
   const companies = await fetchCompanies({ limit: 10000 })
   const industries = new Set(companies.map(company => company.industry_category).filter((ind): ind is string => Boolean(ind)))

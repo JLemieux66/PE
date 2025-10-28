@@ -1,0 +1,734 @@
+{
+  "pe_firm": "Vista Equity Partners",
+  "extraction_date": "2025-10-22",
+  "total_companies": 145,
+  "companies": [
+    {
+      "name": "accelya",
+      "slug": "accelya",
+      "source": "data-attribute"
+    },
+    {
+      "name": "accruent",
+      "slug": "accruent",
+      "source": "data-attribute"
+    },
+    {
+      "name": "acquia",
+      "slug": "acquia",
+      "source": "data-attribute"
+    },
+    {
+      "name": "activenetwork",
+      "slug": "activenetwork",
+      "source": "data-attribute"
+    },
+    {
+      "name": "acumatica",
+      "slug": "acumatica",
+      "source": "data-attribute"
+    },
+    {
+      "name": "aderant",
+      "slug": "aderant",
+      "source": "data-attribute"
+    },
+    {
+      "name": "advicentsolutions",
+      "slug": "advicentsolutions",
+      "source": "data-attribute"
+    },
+    {
+      "name": "agdata",
+      "slug": "agdata",
+      "source": "data-attribute"
+    },
+    {
+      "name": "alegeus",
+      "slug": "alegeus",
+      "source": "data-attribute"
+    },
+    {
+      "name": "alertmedia",
+      "slug": "alertmedia",
+      "source": "data-attribute"
+    },
+    {
+      "name": "allocatesoftware",
+      "slug": "allocatesoftware",
+      "source": "data-attribute"
+    },
+    {
+      "name": "allvuesystems",
+      "slug": "allvuesystems",
+      "source": "data-attribute"
+    },
+    {
+      "name": "amtech",
+      "slug": "amtech",
+      "source": "data-attribute"
+    },
+    {
+      "name": "applause",
+      "slug": "applause",
+      "source": "data-attribute"
+    },
+    {
+      "name": "appliedsystems",
+      "slug": "appliedsystems",
+      "source": "data-attribute"
+    },
+    {
+      "name": "apptio",
+      "slug": "apptio",
+      "source": "data-attribute"
+    },
+    {
+      "name": "aptean",
+      "slug": "aptean",
+      "source": "data-attribute"
+    },
+    {
+      "name": "arcos",
+      "slug": "arcos",
+      "source": "data-attribute"
+    },
+    {
+      "name": "aspect",
+      "slug": "aspect",
+      "source": "data-attribute"
+    },
+    {
+      "name": "aspira",
+      "slug": "aspira",
+      "source": "data-attribute"
+    },
+    {
+      "name": "assentcompliance",
+      "slug": "assentcompliance",
+      "source": "data-attribute"
+    },
+    {
+      "name": "avalara",
+      "slug": "avalara",
+      "source": "data-attribute"
+    },
+    {
+      "name": "benchmarkgensuite",
+      "slug": "benchmarkgensuite",
+      "source": "data-attribute"
+    },
+    {
+      "name": "bettercloud",
+      "slug": "bettercloud",
+      "source": "data-attribute"
+    },
+    {
+      "name": "bigmachines",
+      "slug": "bigmachines",
+      "source": "data-attribute"
+    },
+    {
+      "name": "bigtimesoftware",
+      "slug": "bigtimesoftware",
+      "source": "data-attribute"
+    },
+    {
+      "name": "blueconic",
+      "slug": "blueconic",
+      "source": "data-attribute"
+    },
+    {
+      "name": "bonterra",
+      "slug": "bonterra",
+      "source": "data-attribute"
+    },
+    {
+      "name": "brainware",
+      "slug": "brainware",
+      "source": "data-attribute"
+    },
+    {
+      "name": "bullhorn",
+      "slug": "bullhorn",
+      "source": "data-attribute"
+    },
+    {
+      "name": "centralsquare",
+      "slug": "centralsquare",
+      "source": "data-attribute"
+    },
+    {
+      "name": "cloudsoftwaregroup",
+      "slug": "cloudsoftwaregroup",
+      "source": "data-attribute"
+    },
+    {
+      "name": "comply",
+      "slug": "comply",
+      "source": "data-attribute"
+    },
+    {
+      "name": "criticalstart",
+      "slug": "criticalstart",
+      "source": "data-attribute"
+    },
+    {
+      "name": "cvent",
+      "slug": "cvent",
+      "source": "data-attribute"
+    },
+    {
+      "name": "datto",
+      "slug": "datto",
+      "source": "data-attribute"
+    },
+    {
+      "name": "dispatch",
+      "slug": "dispatch",
+      "source": "data-attribute"
+    },
+    {
+      "name": "duckcreektechnologies",
+      "slug": "duckcreektechnologies",
+      "source": "data-attribute"
+    },
+    {
+      "name": "eab",
+      "slug": "eab",
+      "source": "data-attribute"
+    },
+    {
+      "name": "eagleview",
+      "slug": "eagleview",
+      "source": "data-attribute"
+    },
+    {
+      "name": "ellucian",
+      "slug": "ellucian",
+      "source": "data-attribute"
+    },
+    {
+      "name": "energyexemplar",
+      "slug": "energyexemplar",
+      "source": "data-attribute"
+    },
+    {
+      "name": "esosolutions",
+      "slug": "esosolutions",
+      "source": "data-attribute"
+    },
+    {
+      "name": "finastra",
+      "slug": "finastra",
+      "source": "data-attribute"
+    },
+    {
+      "name": "flash",
+      "slug": "flash",
+      "source": "data-attribute"
+    },
+    {
+      "name": "forcepoint",
+      "slug": "forcepoint",
+      "source": "data-attribute"
+    },
+    {
+      "name": "fusionriskmanagement",
+      "slug": "fusionriskmanagement",
+      "source": "data-attribute"
+    },
+    {
+      "name": "gainsight",
+      "slug": "gainsight",
+      "source": "data-attribute"
+    },
+    {
+      "name": "gatekeeper",
+      "slug": "gatekeeper",
+      "source": "data-attribute"
+    },
+    {
+      "name": "gnosisfreight",
+      "slug": "gnosisfreight",
+      "source": "data-attribute"
+    },
+    {
+      "name": "granicus",
+      "slug": "granicus",
+      "source": "data-attribute"
+    },
+    {
+      "name": "greenwayhealth",
+      "slug": "greenwayhealth",
+      "source": "data-attribute"
+    },
+    {
+      "name": "icims",
+      "slug": "icims",
+      "source": "data-attribute"
+    },
+    {
+      "name": "infoblox",
+      "slug": "infoblox",
+      "source": "data-attribute"
+    },
+    {
+      "name": "innovapptive",
+      "slug": "innovapptive",
+      "source": "data-attribute"
+    },
+    {
+      "name": "integraladscience",
+      "slug": "integraladscience",
+      "source": "data-attribute"
+    },
+    {
+      "name": "invoicecloud",
+      "slug": "invoicecloud",
+      "source": "data-attribute"
+    },
+    {
+      "name": "jaggaer",
+      "slug": "jaggaer",
+      "source": "data-attribute"
+    },
+    {
+      "name": "jamf",
+      "slug": "jamf",
+      "source": "data-attribute"
+    },
+    {
+      "name": "jio",
+      "slug": "jio",
+      "source": "data-attribute"
+    },
+    {
+      "name": "khoros",
+      "slug": "khoros",
+      "source": "data-attribute"
+    },
+    {
+      "name": "kibo",
+      "slug": "kibo",
+      "source": "data-attribute"
+    },
+    {
+      "name": "klarna",
+      "slug": "klarna",
+      "source": "data-attribute"
+    },
+    {
+      "name": "knowbe4",
+      "slug": "knowbe4",
+      "source": "data-attribute"
+    },
+    {
+      "name": "lifeloop",
+      "slug": "lifeloop",
+      "source": "data-attribute"
+    },
+    {
+      "name": "logicmonitor",
+      "slug": "logicmonitor",
+      "source": "data-attribute"
+    },
+    {
+      "name": "lonewolf",
+      "slug": "lonewolf",
+      "source": "data-attribute"
+    },
+    {
+      "name": "lucid",
+      "slug": "lucid",
+      "source": "data-attribute"
+    },
+    {
+      "name": "mabl",
+      "slug": "mabl",
+      "source": "data-attribute"
+    },
+    {
+      "name": "mainstreethub",
+      "slug": "mainstreethub",
+      "source": "data-attribute"
+    },
+    {
+      "name": "marketo",
+      "slug": "marketo",
+      "source": "data-attribute"
+    },
+    {
+      "name": "mediaocean",
+      "slug": "mediaocean",
+      "source": "data-attribute"
+    },
+    {
+      "name": "medtrainer",
+      "slug": "medtrainer",
+      "source": "data-attribute"
+    },
+    {
+      "name": "menlosecurity",
+      "slug": "menlosecurity",
+      "source": "data-attribute"
+    },
+    {
+      "name": "microedge",
+      "slug": "microedge",
+      "source": "data-attribute"
+    },
+    {
+      "name": "mitratech",
+      "slug": "mitratech",
+      "source": "data-attribute"
+    },
+    {
+      "name": "modeln",
+      "slug": "modeln",
+      "source": "data-attribute"
+    },
+    {
+      "name": "mrisoftware",
+      "slug": "mrisoftware",
+      "source": "data-attribute"
+    },
+    {
+      "name": "nasuni",
+      "slug": "nasuni",
+      "source": "data-attribute"
+    },
+    {
+      "name": "navex",
+      "slug": "navex",
+      "source": "data-attribute"
+    },
+    {
+      "name": "naviga",
+      "slug": "naviga",
+      "source": "data-attribute"
+    },
+    {
+      "name": "numerator",
+      "slug": "numerator",
+      "source": "data-attribute"
+    },
+    {
+      "name": "officespace",
+      "slug": "officespace",
+      "source": "data-attribute"
+    },
+    {
+      "name": "oliveai",
+      "slug": "oliveai",
+      "source": "data-attribute"
+    },
+    {
+      "name": "oneadvanced",
+      "slug": "oneadvanced",
+      "source": "data-attribute"
+    },
+    {
+      "name": "p2energysolutions",
+      "slug": "p2energysolutions",
+      "source": "data-attribute"
+    },
+    {
+      "name": "pingidentity",
+      "slug": "pingidentity",
+      "source": "data-attribute"
+    },
+    {
+      "name": "pipedrive",
+      "slug": "pipedrive",
+      "source": "data-attribute"
+    },
+    {
+      "name": "plansource",
+      "slug": "plansource",
+      "source": "data-attribute"
+    },
+    {
+      "name": "playlist",
+      "slug": "playlist",
+      "source": "data-attribute"
+    },
+    {
+      "name": "pluralsight",
+      "slug": "pluralsight",
+      "source": "data-attribute"
+    },
+    {
+      "name": "poppulo",
+      "slug": "poppulo",
+      "source": "data-attribute"
+    },
+    {
+      "name": "portside",
+      "slug": "portside",
+      "source": "data-attribute"
+    },
+    {
+      "name": "powerfactors",
+      "slug": "powerfactors",
+      "source": "data-attribute"
+    },
+    {
+      "name": "powerschool",
+      "slug": "powerschool",
+      "source": "data-attribute"
+    },
+    {
+      "name": "quickbase",
+      "slug": "quickbase",
+      "source": "data-attribute"
+    },
+    {
+      "name": "radarfirst",
+      "slug": "radarfirst",
+      "source": "data-attribute"
+    },
+    {
+      "name": "rdc",
+      "slug": "rdc",
+      "source": "data-attribute"
+    },
+    {
+      "name": "redwoodsoftware",
+      "slug": "redwoodsoftware",
+      "source": "data-attribute"
+    },
+    {
+      "name": "reliaslearningllc",
+      "slug": "reliaslearningllc",
+      "source": "data-attribute"
+    },
+    {
+      "name": "resilinc",
+      "slug": "resilinc",
+      "source": "data-attribute"
+    },
+    {
+      "name": "returnpath",
+      "slug": "returnpath",
+      "source": "data-attribute"
+    },
+    {
+      "name": "reynoldsandreynolds",
+      "slug": "reynoldsandreynolds",
+      "source": "data-attribute"
+    },
+    {
+      "name": "riskexec",
+      "slug": "riskexec",
+      "source": "data-attribute"
+    },
+    {
+      "name": "rollkall",
+      "slug": "rollkall",
+      "source": "data-attribute"
+    },
+    {
+      "name": "salesloft",
+      "slug": "salesloft",
+      "source": "data-attribute"
+    },
+    {
+      "name": "schoox",
+      "slug": "schoox",
+      "source": "data-attribute"
+    },
+    {
+      "name": "securelink",
+      "slug": "securelink",
+      "source": "data-attribute"
+    },
+    {
+      "name": "securonix",
+      "slug": "securonix",
+      "source": "data-attribute"
+    },
+    {
+      "name": "ser",
+      "slug": "ser",
+      "source": "data-attribute"
+    },
+    {
+      "name": "simplepractice",
+      "slug": "simplepractice",
+      "source": "data-attribute"
+    },
+    {
+      "name": "sirsidynix",
+      "slug": "sirsidynix",
+      "source": "data-attribute"
+    },
+    {
+      "name": "smartbear",
+      "slug": "smartbear",
+      "source": "data-attribute"
+    },
+    {
+      "name": "smartsheet",
+      "slug": "smartsheet",
+      "source": "data-attribute"
+    },
+    {
+      "name": "solera",
+      "slug": "solera",
+      "source": "data-attribute"
+    },
+    {
+      "name": "sonatype",
+      "slug": "sonatype",
+      "source": "data-attribute"
+    },
+    {
+      "name": "sourcenetsolutions",
+      "slug": "sourcenetsolutions",
+      "source": "data-attribute"
+    },
+    {
+      "name": "sovoscompliance",
+      "slug": "sovoscompliance",
+      "source": "data-attribute"
+    },
+    {
+      "name": "srcsoftware",
+      "slug": "srcsoftware",
+      "source": "data-attribute"
+    },
+    {
+      "name": "starrez",
+      "slug": "starrez",
+      "source": "data-attribute"
+    },
+    {
+      "name": "statsperform",
+      "slug": "statsperform",
+      "source": "data-attribute"
+    },
+    {
+      "name": "sumtotalsystems",
+      "slug": "sumtotalsystems",
+      "source": "data-attribute"
+    },
+    {
+      "name": "sunquestinformationsystems",
+      "slug": "sunquestinformationsystems",
+      "source": "data-attribute"
+    },
+    {
+      "name": "surgicalinformationsystems",
+      "slug": "surgicalinformationsystems",
+      "source": "data-attribute"
+    },
+    {
+      "name": "tigerconnect",
+      "slug": "tigerconnect",
+      "source": "data-attribute"
+    },
+    {
+      "name": "tomia",
+      "slug": "tomia",
+      "source": "data-attribute"
+    },
+    {
+      "name": "transfirst",
+      "slug": "transfirst",
+      "source": "data-attribute"
+    },
+    {
+      "name": "trgscreen",
+      "slug": "trgscreen",
+      "source": "data-attribute"
+    },
+    {
+      "name": "tributetechnology",
+      "slug": "tributetechnology",
+      "source": "data-attribute"
+    },
+    {
+      "name": "trintech",
+      "slug": "trintech",
+      "source": "data-attribute"
+    },
+    {
+      "name": "triplelift",
+      "slug": "triplelift",
+      "source": "data-attribute"
+    },
+    {
+      "name": "tripleseat",
+      "slug": "tripleseat",
+      "source": "data-attribute"
+    },
+    {
+      "name": "upserve",
+      "slug": "upserve",
+      "source": "data-attribute"
+    },
+    {
+      "name": "upside",
+      "slug": "upside",
+      "source": "data-attribute"
+    },
+    {
+      "name": "venasolutions",
+      "slug": "venasolutions",
+      "source": "data-attribute"
+    },
+    {
+      "name": "ventyx",
+      "slug": "ventyx",
+      "source": "data-attribute"
+    },
+    {
+      "name": "vertafore",
+      "slug": "vertafore",
+      "source": "data-attribute"
+    },
+    {
+      "name": "vividseats",
+      "slug": "vividseats",
+      "source": "data-attribute"
+    },
+    {
+      "name": "websense",
+      "slug": "websense",
+      "source": "data-attribute"
+    },
+    {
+      "name": "worktango",
+      "slug": "worktango",
+      "source": "data-attribute"
+    },
+    {
+      "name": "wrike",
+      "slug": "wrike",
+      "source": "data-attribute"
+    },
+    {
+      "name": "xactly",
+      "slug": "xactly",
+      "source": "data-attribute"
+    },
+    {
+      "name": "zapproved",
+      "slug": "zapproved",
+      "source": "data-attribute"
+    },
+    {
+      "name": "zego",
+      "slug": "zego",
+      "source": "data-attribute"
+    },
+    {
+      "name": "zywave",
+      "slug": "zywave",
+      "source": "data-attribute"
+    }
+  ],
+  "extraction_method": "Playwright link element extraction",
+  "source_url": "https://www.vistaequitypartners.com/companies/portfolio/"
+}

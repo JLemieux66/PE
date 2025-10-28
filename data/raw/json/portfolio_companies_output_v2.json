@@ -1,0 +1,94 @@
+{
+  "firms": [
+    {
+      "pe_firm": "Blackstone",
+      "portfolio_companies": [],
+      "total_count": 0,
+      "data_quality": "low",
+      "notes": "The provided content does not contain specific names of portfolio companies. It only mentions the total number of portfolio companies and general investment themes."
+    },
+    {
+      "pe_firm": "KKR",
+      "portfolio_companies": [],
+      "total_count": 0,
+      "data_quality": "low",
+      "notes": "The provided content did not contain specific names of portfolio companies. The content was mostly about KKR's investment capabilities and services."
+    },
+    {
+      "pe_firm": "Vista Equity Partners",
+      "portfolio_companies": [
+        {
+          "name": "Amtech Software",
+          "industry": "Enterprise Software",
+          "description": "Provider of enterprise software for the packaging industry, focusing on ERP, MES, and automation solutions.",
+          "status": "active"
+        },
+        {
+          "name": "Securonix",
+          "industry": "Security",
+          "description": "Leader in threat intelligence, recently acquired ThreatQuotient.",
+          "status": "active"
+        },
+        {
+          "name": "Acumatica",
+          "industry": "Cloud ERP Solutions",
+          "description": "Provider of cloud ERP solutions for small and mid-sized businesses.",
+          "status": "active"
+        },
+        {
+          "name": "RollKall",
+          "industry": "Public Safety Software",
+          "description": "Provider of extra-duty management software for public safety agencies.",
+          "status": "active"
+        },
+        {
+          "name": "Mews",
+          "industry": "Hospitality Software",
+          "description": "Provider of property management software for the hospitality industry.",
+          "status": "active"
+        },
+        {
+          "name": "FLYR",
+          "industry": "Travel Technology",
+          "description": "Company focused on rebuilding the foundation of travel technology.",
+          "status": "active"
+        },
+        {
+          "name": "aPriori",
+          "industry": "Manufacturing Insights",
+          "description": "Provider of a manufacturing insights platform.",
+          "status": "active"
+        },
+        {
+          "name": "VideoAmp",
+          "industry": "Advertising Technology",
+          "description": "Provider of advertising measurement and optimization solutions.",
+          "status": "active"
+        },
+        {
+          "name": "RapidAI",
+          "industry": "Healthcare Technology",
+          "description": "Provider of advanced imaging solutions for stroke care.",
+          "status": "active"
+        },
+        {
+          "name": "Fivetran",
+          "industry": "Data Integration",
+          "description": "Provider of automated data integration solutions.",
+          "status": "active"
+        },
+        {
+          "name": "Arcadia",
+          "industry": "Energy Technology",
+          "description": "Provider of technology solutions for the energy sector.",
+          "status": "active"
+        }
+      ],
+      "total_count": 11,
+      "data_quality": "high",
+      "notes": "The extraction focused on current and active investments as mentioned in press releases and investment announcements."
+    }
+  ],
+  "total_firms": 3,
+  "total_companies": 11
+}

@@ -8,12 +8,13 @@ import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
-from src.models.database_models_v2 import (
-    get_session, PEFirm, Company, CompanyPEInvestment
-)
 from src.utils.logger import log_info, log_success, log_error, log_warning, log_header
+from src.scrapers.website_extractor import extract_company_website
 from datetime import datetime
 import re
+import json
+
+OUTPUT_FILE = "data/raw/json/bain_portfolio.json"
 
 
 async def scrape_bain_portfolio():
@@ -246,105 +247,24 @@ async def scrape_bain_portfolio():
     return all_companies
 
 
-def save_to_database(companies):
-    """Save companies to database v2"""
-    log_info(f"💾 Saving {len(companies)} companies to database...")
+def save_to_json(companies):
+    """Save companies to JSON file"""
+    log_info(f"💾 Saving {len(companies)} companies to {OUTPUT_FILE}...")
     
-    session = get_session()
-    stats = {
-        'new_companies': 0,
-        'updated_companies': 0,
-        'total': 0
-    }
+    output_path = Path(OUTPUT_FILE)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
     
-    try:
-        # Get or create PE firm
-        pe_firm = session.query(PEFirm).filter_by(name="Bain Capital Private Equity").first()
-        if not pe_firm:
-            pe_firm = PEFirm(
-                name="Bain Capital Private Equity"
-            )
-            session.add(pe_firm)
-            session.commit()
-            log_success("✅ Created PE firm: Bain Capital Private Equity")
-        
-        # Process each company
-        for company_data in companies:
-            try:
-                # Check if company exists
-                company = session.query(Company).filter_by(
-                    name=company_data['name']
-                ).first()
-                
-                if not company:
-                    # Create new company
-                    company = Company(
-                        name=company_data['name'],
-                        description=company_data.get('description'),
-                        website=company_data.get('website')
-                    )
-                    session.add(company)
-                    session.flush()  # Get the company ID
-                    stats['new_companies'] += 1
-                else:
-                    # Update existing company if we have new data
-                    if company_data.get('description') and not company.description:
-                        company.description = company_data['description']
-                    if company_data.get('website') and not company.website:
-                        company.website = company_data['website']
-                    stats['updated_companies'] += 1
-                
-                # Check if investment relationship already exists
-                investment = session.query(CompanyPEInvestment).filter_by(
-                    company_id=company.id,
-                    pe_firm_id=pe_firm.id
-                ).first()
-                
-                if not investment:
-                    # Create new investment relationship
-                    investment = CompanyPEInvestment(
-                        company_id=company.id,
-                        pe_firm_id=pe_firm.id,
-                        raw_status=company_data.get('raw_status', 'Current'),
-                        investment_year=company_data.get('investment_year'),
-                        sector_page=company_data.get('sector_page'),
-                        source_url=company_data.get('source_url'),
-                        last_scraped=company_data.get('last_scraped')
-                    )
-                    session.add(investment)
-                else:
-                    # Update existing investment
-                    if company_data.get('raw_status'):
-                        investment.raw_status = company_data['raw_status']
-                    if company_data.get('sector_page'):
-                        investment.sector_page = company_data['sector_page']
-                    investment.last_scraped = company_data.get('last_scraped')
-                
-                stats['total'] += 1
-                session.commit()
-                
-            except Exception as e:
-                log_error(f"   ✗ Error saving {company_data.get('name', 'unknown')}: {str(e)}")
-                session.rollback()
-                continue
-        
-        log_info("\n📊 Database Summary:")
-        log_info(f"   New companies: {stats['new_companies']}")
-        log_info(f"   Updated companies: {stats['updated_companies']}")
-        log_info(f"   Total companies: {stats['total']}")
-        log_success("✅ Scraping and saving complete!")
-        
-    except Exception as e:
-        log_error(f"❌ Database error: {str(e)}")
-        session.rollback()
-    finally:
-        session.close()
+    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+        json.dump(companies, f, indent=2, ensure_ascii=False, default=str)
+    
+    log_success(f"✅ Saved successfully to {OUTPUT_FILE}")
+    log_info(f"   📊 Total companies: {len(companies)}")
 
 
 async def main():
     companies = await scrape_bain_portfolio()
     if companies:
-        save_to_database(companies)
+        save_to_json(companies)
     else:
         log_warning("⚠️ No companies found to save")
 
