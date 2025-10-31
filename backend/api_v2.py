@@ -417,16 +417,23 @@ def get_companies(
             headquarters = ", ".join(hq_parts) if hq_parts else None
             
             # WORKAROUND: Get crunchbase_url via raw SQL if model cache issue on Railway
-            crunchbase_url = getattr(company, 'crunchbase_url', None)
-            if crunchbase_url is None and hasattr(company, 'id'):
+            crunchbase_url = None
+            try:
+                # Try direct attribute access first
+                crunchbase_url = company.crunchbase_url
+            except AttributeError:
+                # Model cache issue - use raw SQL fallback
                 try:
+                    from sqlalchemy import text
                     cb_result = session.execute(
-                        f"SELECT crunchbase_url FROM companies WHERE id = {company.id}"
+                        text("SELECT crunchbase_url FROM companies WHERE id = :id"),
+                        {"id": company.id}
                     ).fetchone()
                     if cb_result:
                         crunchbase_url = cb_result[0]
-                except:
-                    pass
+                except Exception as e:
+                    print(f"[ERROR] Failed to get crunchbase_url for company {company.id}: {e}")
+                    crunchbase_url = None
             
             result.append(CompanyResponse(
                 id=company.id,
