@@ -487,7 +487,24 @@ def get_company(company_id: int):
         if company.country:
             hq_parts.append(company.country)
         headquarters = ", ".join(hq_parts) if hq_parts else None
-        
+
+        # Get crunchbase_url with fallback
+        crunchbase_url = None
+        try:
+            crunchbase_url = company.crunchbase_url
+        except AttributeError:
+            # Fallback if attribute access fails
+            try:
+                from sqlalchemy import text
+                cb_result = session.execute(
+                    text("SELECT crunchbase_url FROM companies WHERE id = :id"),
+                    {"id": company.id}
+                ).fetchone()
+                if cb_result:
+                    crunchbase_url = cb_result[0]
+            except Exception as e:
+                print(f"[ERROR] Failed to get crunchbase_url for company {company.id}: {e}")
+
         return CompanyResponse(
             id=company.id,
             name=company.name,
@@ -498,6 +515,7 @@ def get_company(company_id: int):
             headquarters=headquarters,
             website=company.website,
             linkedin_url=company.linkedin_url,
+            crunchbase_url=crunchbase_url,
             description=company.description,
             revenue_range=decode_revenue_range(company.revenue_range),
             employee_count=decode_employee_count(company.employee_count),
