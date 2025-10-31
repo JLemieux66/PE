@@ -53,6 +53,7 @@ class Company(Base):
     description = Column(Text)
     website = Column(String(500), index=True)
     linkedin_url = Column(String(500))
+    crunchbase_url = Column(String(500))  # Crunchbase profile URL (2025-10-31)
     
     # Crunchbase enrichment fields
     revenue_range = Column(String(50), index=True)
