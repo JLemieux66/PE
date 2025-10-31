@@ -27,6 +27,7 @@ export interface Company {
   headquarters?: string
   website?: string
   linkedin_url?: string
+  crunchbase_url?: string
   description?: string
   revenue_range?: string
   predicted_revenue?: number
