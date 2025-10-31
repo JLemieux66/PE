@@ -525,22 +525,27 @@ async def update_company(company_id: int, company_update: CompanyUpdate):
         
         print(f"[DEBUG] Update data received: {update_data}")
         
+        # Allowed fields that can be updated
+        allowed_fields = {
+            'name', 'website', 'linkedin_url', 'crunchbase_url', 'description',
+            'city', 'state_region', 'country', 'industry_category', 
+            'revenue_range', 'employee_count', 'is_public', 'ipo_exchange', 'ipo_date'
+        }
+        
         for field, value in update_data.items():
             print(f"[DEBUG] Processing field '{field}' with value '{value}'")
-            print(f"[DEBUG] hasattr(company, '{field}'): {hasattr(company, field)}")
             
             # Handle special mappings
             if field == "ipo_exchange":
-                # Map stock_exchange to ipo_exchange
                 setattr(company, "ipo_exchange", value)
                 updated_fields.append(field)
                 print(f"[DEBUG] Updated ipo_exchange")
-            elif hasattr(company, field):
+            elif field in allowed_fields and hasattr(company, field):
                 setattr(company, field, value)
                 updated_fields.append(field)
                 print(f"[DEBUG] Updated {field}")
             else:
-                print(f"[DEBUG] Field '{field}' not found on company model")
+                print(f"[DEBUG] Field '{field}' not allowed or not found on company model (hasattr: {hasattr(company, field)})")
         
         session.commit()
         session.refresh(company)
