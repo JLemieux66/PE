@@ -540,12 +540,16 @@ async def update_company(company_id: int, company_update: CompanyUpdate):
                 setattr(company, "ipo_exchange", value)
                 updated_fields.append(field)
                 print(f"[DEBUG] Updated ipo_exchange")
-            elif field in allowed_fields and hasattr(company, field):
-                setattr(company, field, value)
-                updated_fields.append(field)
-                print(f"[DEBUG] Updated {field}")
+            elif field in allowed_fields:
+                # Trust allowed_fields whitelist, bypass hasattr() which fails on Railway
+                try:
+                    setattr(company, field, value)
+                    updated_fields.append(field)
+                    print(f"[DEBUG] Updated {field} to '{value}'")
+                except AttributeError as e:
+                    print(f"[DEBUG] Failed to set {field}: {e}")
             else:
-                print(f"[DEBUG] Field '{field}' not allowed or not found on company model (hasattr: {hasattr(company, field)})")
+                print(f"[DEBUG] Field '{field}' not in allowed_fields")
         
         session.commit()
         session.refresh(company)
