@@ -33,13 +33,22 @@ export default function CompanyEditModal({ company, onClose }: CompanyEditModalP
     linkedin_url: company.linkedin_url || '',
     crunchbase_url: company.crunchbase_url || '',
     description: company.description || '',
+    city: company.headquarters?.split(',')[0]?.trim() || '',
     industry_category: company.industry_category || '',
+    revenue_range: company.revenue_range || '',
+    employee_count: company.employee_count || '',
     is_public: company.is_public || false,
-    stock_exchange: company.stock_exchange || '',
+    ipo_exchange: company.stock_exchange || '',
   });
 
   const updateMutation = useMutation({
     mutationFn: async (data: any) => {
+      console.log('Sending PUT request:', {
+        url: `${API_BASE_URL}/companies/${company.id}`,
+        adminKey: ADMIN_API_KEY ? 'Present' : 'Missing',
+        data
+      });
+      
       const response = await fetch(`${API_BASE_URL}/companies/${company.id}`, {
         method: 'PUT',
         headers: {
@@ -49,8 +58,11 @@ export default function CompanyEditModal({ company, onClose }: CompanyEditModalP
         body: JSON.stringify(data),
       });
 
+      console.log('Response status:', response.status);
+      
       if (!response.ok) {
         const error = await response.json();
+        console.error('Error response:', error);
         throw new Error(error.detail || 'Failed to update company');
       }
 
@@ -166,6 +178,21 @@ export default function CompanyEditModal({ company, onClose }: CompanyEditModalP
             />
           </div>
 
+          {/* City */}
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">
+              City (Headquarters)
+            </label>
+            <input
+              type="text"
+              name="city"
+              value={formData.city}
+              onChange={handleChange}
+              placeholder="e.g., San Francisco"
+              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+          </div>
+
           {/* Industry Category */}
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
@@ -197,6 +224,53 @@ export default function CompanyEditModal({ company, onClose }: CompanyEditModalP
               <option value="Government & Public Sector">Government & Public Sector</option>
               <option value="Agriculture & Food">Agriculture & Food</option>
               <option value="Other">Other</option>
+            </select>
+          </div>
+
+          {/* Revenue Range */}
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">
+              Revenue Range
+            </label>
+            <select
+              name="revenue_range"
+              value={formData.revenue_range}
+              onChange={handleChange}
+              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+              <option value="">Select Revenue Range</option>
+              <option value="Less than $1M">Less than $1M</option>
+              <option value="$1M - $10M">$1M - $10M</option>
+              <option value="$10M - $50M">$10M - $50M</option>
+              <option value="$50M - $100M">$50M - $100M</option>
+              <option value="$100M - $500M">$100M - $500M</option>
+              <option value="$500M - $1B">$500M - $1B</option>
+              <option value="$1B - $10B">$1B - $10B</option>
+              <option value="$10B+">$10B+</option>
+            </select>
+          </div>
+
+          {/* Employee Count */}
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">
+              Employee Count
+            </label>
+            <select
+              name="employee_count"
+              value={formData.employee_count}
+              onChange={handleChange}
+              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+              <option value="">Select Employee Count</option>
+              <option value="1-10">1-10</option>
+              <option value="11-50">11-50</option>
+              <option value="51-100">51-100</option>
+              <option value="101-250">101-250</option>
+              <option value="251-500">251-500</option>
+              <option value="501-1,000">501-1,000</option>
+              <option value="1,001-5,000">1,001-5,000</option>
+              <option value="5,001-10,000">5,001-10,000</option>
+              <option value="10,001+">10,001+</option>
             </select>
           </div>
 
@@ -237,8 +311,8 @@ export default function CompanyEditModal({ company, onClose }: CompanyEditModalP
               </label>
               <input
                 type="text"
-                name="stock_exchange"
-                value={formData.stock_exchange}
+                name="ipo_exchange"
+                value={formData.ipo_exchange}
                 onChange={handleChange}
                 placeholder="e.g., NYSE, NASDAQ"
                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"

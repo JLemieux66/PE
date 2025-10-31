@@ -519,9 +519,17 @@ async def update_company(company_id: int, company_update: CompanyUpdate):
         
         # Update fields that were provided
         update_data = company_update.dict(exclude_unset=True)
+        updated_fields = []
+        
         for field, value in update_data.items():
-            if hasattr(company, field):
+            # Handle special mappings
+            if field == "ipo_exchange":
+                # Map stock_exchange to ipo_exchange
+                setattr(company, "ipo_exchange", value)
+                updated_fields.append(field)
+            elif hasattr(company, field):
                 setattr(company, field, value)
+                updated_fields.append(field)
         
         session.commit()
         session.refresh(company)
@@ -529,7 +537,7 @@ async def update_company(company_id: int, company_update: CompanyUpdate):
         return {
             "message": "Company updated successfully",
             "company_id": company_id,
-            "updated_fields": list(update_data.keys())
+            "updated_fields": updated_fields
         }
     except HTTPException:
         raise
