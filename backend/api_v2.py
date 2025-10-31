@@ -1,6 +1,7 @@
 """
 FastAPI Backend for PE Portfolio Companies V2
 REST API endpoints using v2 database schema
+Updated: Added admin edit endpoints (PUT/DELETE)
 """
 from fastapi import FastAPI, Query, HTTPException, Header, Depends
 from fastapi.middleware.cors import CORSMiddleware
