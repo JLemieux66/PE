@@ -8,8 +8,10 @@ interface CompanyModalProps {
   onClose: () => void
 }
 
-// Check if admin mode is enabled
-const isAdmin = !!import.meta.env.VITE_ADMIN_API_KEY
+// Check if admin is logged in
+const isAdminLoggedIn = () => {
+  return !!localStorage.getItem('admin_token')
+}
 
 // Helper function to extract domain from URL
 const extractDomain = (url: string | null | undefined): string | null => {
@@ -173,7 +175,7 @@ export default function CompanyModal({ companyId, onClose }: CompanyModalProps) 
             )}
             
             {/* Admin Edit Button */}
-            {isAdmin && (
+            {isAdminLoggedIn() && (
               <button
                 onClick={() => setShowEditModal(true)}
                 className="px-4 py-2 bg-gray-600 text-white rounded-lg hover:bg-gray-700 flex items-center text-sm"

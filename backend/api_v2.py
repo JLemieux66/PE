@@ -1,7 +1,7 @@
 """
 FastAPI Backend for PE Portfolio Companies V2
 REST API endpoints using v2 database schema
-Updated: Added admin edit endpoints (PUT/DELETE)
+Updated: Added admin edit endpoints (PUT/DELETE) and authentication
 """
 from fastapi import FastAPI, Query, HTTPException, Header, Depends
 from fastapi.middleware.cors import CORSMiddleware
@@ -9,6 +9,7 @@ from typing import Optional, List
 from pydantic import BaseModel
 from src.models.database_models_v2 import get_session, PEFirm, Company, CompanyPEInvestment
 from src.enrichment.crunchbase_helpers import decode_revenue_range, decode_employee_count
+from backend.auth import authenticate_admin, create_access_token, verify_admin_token
 import os
 
 # Reverse mappings for filtering (both full ranges and partial values)
@@ -133,6 +134,16 @@ class StatsResponse(BaseModel):
     enrichment_rate: float
 
 
+# Authentication Models
+class LoginRequest(BaseModel):
+    email: str
+    password: str
+
+class LoginResponse(BaseModel):
+    access_token: str
+    token_type: str
+    email: str
+
 @app.get("/")
 def read_root():
     """API root endpoint"""
@@ -143,9 +154,33 @@ def read_root():
             "companies": "/api/companies",
             "investments": "/api/investments",
             "pe_firms": "/api/pe-firms",
-            "stats": "/api/stats"
+            "stats": "/api/stats",
+            "auth": "/api/auth/login"
         }
     }
+
+@app.post("/api/auth/login", response_model=LoginResponse)
+def login(credentials: LoginRequest):
+    """
+    Login endpoint for admin authentication
+    Returns JWT token on successful login
+    """
+    user = authenticate_admin(credentials.email, credentials.password)
+
+    if not user:
+        raise HTTPException(
+            status_code=401,
+            detail="Invalid email or password"
+        )
+
+    # Create access token
+    access_token = create_access_token(data={"sub": user["email"], "role": user["role"]})
+
+    return LoginResponse(
+        access_token=access_token,
+        token_type="bearer",
+        email=user["email"]
+    )
 
 
 @app.get("/api/stats", response_model=StatsResponse)
@@ -531,11 +566,28 @@ def get_company(company_id: int):
 # Admin authentication
 ADMIN_API_KEY = os.getenv("ADMIN_API_KEY", "your-secret-admin-key-here")
 
-def verify_admin(x_admin_key: Optional[str] = Header(None)):
-    """Verify admin API key"""
-    if not x_admin_key or x_admin_key != ADMIN_API_KEY:
-        raise HTTPException(status_code=403, detail="Admin access required")
-    return True
+def verify_admin(
+    x_admin_key: Optional[str] = Header(None),
+    authorization: Optional[str] = Header(None)
+):
+    """
+    Verify admin access via either:
+    1. JWT token (Authorization: Bearer <token>) - NEW
+    2. API key (X-Admin-Key: <key>) - LEGACY support
+    """
+    # Try JWT token first (preferred method)
+    if authorization:
+        try:
+            payload = verify_admin_token(authorization)
+            return payload
+        except HTTPException:
+            pass  # Fall through to API key check
+
+    # Fall back to API key (legacy)
+    if x_admin_key and x_admin_key == ADMIN_API_KEY:
+        return True
+
+    raise HTTPException(status_code=403, detail="Admin access required")
 
 
 # Pydantic models for updates

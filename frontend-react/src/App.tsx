@@ -1,10 +1,11 @@
-import { useState } from 'react'
-import { Building2, TrendingUp, Users, Briefcase, Grid3X3, List, Download } from 'lucide-react'
+import { useState, useEffect } from 'react'
+import { Building2, TrendingUp, Users, Briefcase, Grid3X3, List, Download, LogIn, LogOut } from 'lucide-react'
 import { useStats, usePEFirms, useCompanies, useIndustries } from './hooks/useCompanies'
 import StatCard from './components/StatCard'
 import CompanyList from './components/CompanyList'
 import CompanyTable from './components/CompanyTable'
 import CompanyModal from './components/CompanyModal'
+import LoginModal from './components/LoginModal'
 import Filters from './components/Filters'
 import { exportToCSV } from './utils/csvExport'
 import type { CompanyFilters, Investment } from './types/company'
@@ -13,6 +14,9 @@ function App() {
   const [filters, setFilters] = useState<CompanyFilters>({})
   const [viewMode, setViewMode] = useState<'cards' | 'table'>('table')
   const [selectedCompanyId, setSelectedCompanyId] = useState<number | null>(null)
+  const [showLoginModal, setShowLoginModal] = useState(false)
+  const [isAdmin, setIsAdmin] = useState(false)
+  const [adminEmail, setAdminEmail] = useState<string | null>(null)
   const { data: stats, isLoading: statsLoading } = useStats()
   const { data: peFirms } = usePEFirms()
   const { data: industries } = useIndustries()
@@ -35,6 +39,16 @@ function App() {
     industry_category: company.industry_category,
   })) || []
 
+  // Check for existing admin session on mount
+  useEffect(() => {
+    const token = localStorage.getItem('admin_token')
+    const email = localStorage.getItem('admin_email')
+    if (token && email) {
+      setIsAdmin(true)
+      setAdminEmail(email)
+    }
+  }, [])
+
   const handleFilterChange = (newFilters: CompanyFilters) => {
     setFilters(newFilters)
   }
@@ -43,6 +57,18 @@ function App() {
     if (investments && investments.length > 0) {
       exportToCSV(investments, 'pe-portfolio')
     }
+  }
+
+  const handleLoginSuccess = (_token: string, email: string) => {
+    setIsAdmin(true)
+    setAdminEmail(email)
+  }
+
+  const handleLogout = () => {
+    localStorage.removeItem('admin_token')
+    localStorage.removeItem('admin_email')
+    setIsAdmin(false)
+    setAdminEmail(null)
   }
 
   return (
@@ -55,8 +81,30 @@ function App() {
               <Briefcase className="w-8 h-8 text-blue-600" />
               <h1 className="text-2xl font-bold text-gray-900">PE Portfolio Dashboard</h1>
             </div>
-            <div className="text-sm text-gray-500">
-              {stats && `${stats.total_companies.toLocaleString()} Companies · ${stats.total_pe_firms} Firms`}
+            <div className="flex items-center gap-4">
+              <div className="text-sm text-gray-500">
+                {stats && `${stats.total_companies.toLocaleString()} Companies · ${stats.total_pe_firms} Firms`}
+              </div>
+              {isAdmin ? (
+                <div className="flex items-center gap-3">
+                  <span className="text-sm text-gray-600">{adminEmail}</span>
+                  <button
+                    onClick={handleLogout}
+                    className="flex items-center gap-2 px-3 py-1.5 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition-colors text-sm"
+                  >
+                    <LogOut className="w-4 h-4" />
+                    Logout
+                  </button>
+                </div>
+              ) : (
+                <button
+                  onClick={() => setShowLoginModal(true)}
+                  className="flex items-center gap-2 px-3 py-1.5 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm"
+                >
+                  <LogIn className="w-4 h-4" />
+                  Admin Login
+                </button>
+              )}
             </div>
           </div>
         </div>
@@ -177,6 +225,14 @@ function App() {
         <CompanyModal
           companyId={selectedCompanyId}
           onClose={() => setSelectedCompanyId(null)}
+        />
+      )}
+
+      {/* Login Modal */}
+      {showLoginModal && (
+        <LoginModal
+          onClose={() => setShowLoginModal(false)}
+          onLoginSuccess={handleLoginSuccess}
         />
       )}
     </div>

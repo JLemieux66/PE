@@ -26,7 +26,7 @@ const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://peportco-prod
 
 export default function CompanyEditModal({ company, onClose }: CompanyEditModalProps) {
   const queryClient = useQueryClient();
-  
+
   const [formData, setFormData] = useState({
     name: company.name || '',
     website: company.website || '',
@@ -43,18 +43,29 @@ export default function CompanyEditModal({ company, onClose }: CompanyEditModalP
 
   const updateMutation = useMutation({
     mutationFn: async (data: any) => {
+      // Get auth token from localStorage (preferred) or fall back to API key
+      const token = localStorage.getItem('admin_token');
+      const headers: HeadersInit = {
+        'Content-Type': 'application/json',
+      };
+
+      if (token) {
+        // Use JWT token (new method)
+        headers['Authorization'] = `Bearer ${token}`;
+      } else if (ADMIN_API_KEY) {
+        // Fall back to API key (legacy method)
+        headers['X-Admin-Key'] = ADMIN_API_KEY;
+      }
+
       console.log('Sending PUT request:', {
         url: `${API_BASE_URL}/companies/${company.id}`,
-        adminKey: ADMIN_API_KEY ? 'Present' : 'Missing',
+        authMethod: token ? 'JWT Token' : 'API Key',
         data
       });
-      
+
       const response = await fetch(`${API_BASE_URL}/companies/${company.id}`, {
         method: 'PUT',
-        headers: {
-          'Content-Type': 'application/json',
-          'X-Admin-Key': ADMIN_API_KEY,
-        },
+        headers,
         body: JSON.stringify(data),
       });
 
@@ -88,16 +99,30 @@ export default function CompanyEditModal({ company, onClose }: CompanyEditModalP
       return result;
     },
     onSuccess: async () => {
-      // Invalidate and refetch queries
-      await Promise.all([
-        queryClient.invalidateQueries({ queryKey: ['companies'] }),
-        queryClient.invalidateQueries({ queryKey: ['company', company.id] }),
-        queryClient.refetchQueries({ queryKey: ['companies'] }),
-        queryClient.refetchQueries({ queryKey: ['company', company.id] })
-      ]);
+      console.log('Mutation succeeded, invalidating queries...');
+      
+      // Invalidate and force refetch all company queries
+      await queryClient.invalidateQueries({ 
+        queryKey: ['companies'],
+        exact: false,
+        refetchType: 'active'  // Force refetch active queries immediately
+      });
+      
+      console.log('Queries invalidated, refetching...');
+      
+      // Also force refetch to ensure fresh data
+      await queryClient.refetchQueries({
+        queryKey: ['companies'],
+        exact: false,
+        type: 'active'
+      });
+      
+      console.log('Refetch complete');
       
       // Close modal after data is refreshed
-      onClose();
+      setTimeout(() => {
+        onClose();
+      }, 300);
     },
   });
 
