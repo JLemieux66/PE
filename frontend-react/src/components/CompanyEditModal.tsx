@@ -59,18 +59,44 @@ export default function CompanyEditModal({ company, onClose }: CompanyEditModalP
       });
 
       console.log('Response status:', response.status);
+      console.log('Response headers:', response.headers);
       
       if (!response.ok) {
-        const error = await response.json();
-        console.error('Error response:', error);
+        const errorText = await response.text();
+        console.error('Error response text:', errorText);
+        let error;
+        try {
+          error = JSON.parse(errorText);
+        } catch {
+          error = { detail: errorText };
+        }
         throw new Error(error.detail || 'Failed to update company');
       }
 
-      return response.json();
+      const responseText = await response.text();
+      console.log('Response text:', responseText);
+      
+      let result;
+      try {
+        result = JSON.parse(responseText);
+        console.log('Update result:', result);
+      } catch (e) {
+        console.error('Failed to parse response:', e);
+        throw new Error('Invalid response from server');
+      }
+      
+      return result;
     },
-    onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ['companies'] });
-      queryClient.invalidateQueries({ queryKey: ['company', company.id] });
+    onSuccess: async () => {
+      // Invalidate and refetch queries
+      await Promise.all([
+        queryClient.invalidateQueries({ queryKey: ['companies'] }),
+        queryClient.invalidateQueries({ queryKey: ['company', company.id] }),
+        queryClient.refetchQueries({ queryKey: ['companies'] }),
+        queryClient.refetchQueries({ queryKey: ['company', company.id] })
+      ]);
+      
+      // Close modal after data is refreshed
       onClose();
     },
   });
@@ -80,10 +106,41 @@ export default function CompanyEditModal({ company, onClose }: CompanyEditModalP
     
     // Only send fields that changed
     const updates: any = {};
+    
+    // Map form fields to company fields for comparison
+    const fieldMap: Record<string, { companyKey: string; getValue: (c: Company) => any }> = {
+      name: { companyKey: 'name', getValue: (c) => c.name || '' },
+      website: { companyKey: 'website', getValue: (c) => c.website || '' },
+      linkedin_url: { companyKey: 'linkedin_url', getValue: (c) => c.linkedin_url || '' },
+      crunchbase_url: { companyKey: 'crunchbase_url', getValue: (c) => c.crunchbase_url || '' },
+      description: { companyKey: 'description', getValue: (c) => c.description || '' },
+      city: { companyKey: 'headquarters', getValue: (c) => c.headquarters?.split(',')[0]?.trim() || '' },
+      industry_category: { companyKey: 'industry_category', getValue: (c) => c.industry_category || '' },
+      revenue_range: { companyKey: 'revenue_range', getValue: (c) => c.revenue_range || '' },
+      employee_count: { companyKey: 'employee_count', getValue: (c) => c.employee_count || '' },
+      is_public: { companyKey: 'is_public', getValue: (c) => c.is_public || false },
+      ipo_exchange: { companyKey: 'stock_exchange', getValue: (c) => c.stock_exchange || '' },
+    };
+    
     Object.keys(formData).forEach((key) => {
       const typedKey = key as keyof typeof formData;
-      if (formData[typedKey] !== (company as any)[typedKey]) {
-        updates[key] = formData[typedKey];
+      const mapping = fieldMap[key];
+      if (mapping) {
+        const originalValue = mapping.getValue(company);
+        const newValue = formData[typedKey];
+        
+        // Debug logging
+        if (key === 'crunchbase_url') {
+          console.log('Crunchbase URL comparison:', {
+            original: originalValue,
+            new: newValue,
+            different: newValue !== originalValue
+          });
+        }
+        
+        if (newValue !== originalValue) {
+          updates[key] = newValue;
+        }
       }
     });
 

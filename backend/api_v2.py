@@ -523,15 +523,24 @@ async def update_company(company_id: int, company_update: CompanyUpdate):
         update_data = company_update.dict(exclude_unset=True)
         updated_fields = []
         
+        print(f"[DEBUG] Update data received: {update_data}")
+        
         for field, value in update_data.items():
+            print(f"[DEBUG] Processing field '{field}' with value '{value}'")
+            print(f"[DEBUG] hasattr(company, '{field}'): {hasattr(company, field)}")
+            
             # Handle special mappings
             if field == "ipo_exchange":
                 # Map stock_exchange to ipo_exchange
                 setattr(company, "ipo_exchange", value)
                 updated_fields.append(field)
+                print(f"[DEBUG] Updated ipo_exchange")
             elif hasattr(company, field):
                 setattr(company, field, value)
                 updated_fields.append(field)
+                print(f"[DEBUG] Updated {field}")
+            else:
+                print(f"[DEBUG] Field '{field}' not found on company model")
         
         session.commit()
         session.refresh(company)
