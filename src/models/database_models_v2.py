@@ -262,6 +262,10 @@ def init_database():
 def get_session():
     """Get database session"""
     engine = create_database_engine()
+    
+    # Force metadata refresh from database to pick up new columns (Railway cache fix)
+    Base.metadata.reflect(bind=engine, extend_existing=True)
+    
     Session = sessionmaker(bind=engine)
     return Session()
 
