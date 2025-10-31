@@ -4,6 +4,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import './index.css'
 import App from './App.tsx'
 
+// Updated: Force cache refresh for Insight Partners data
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
