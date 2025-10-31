@@ -53,15 +53,6 @@ app = FastAPI(
     version="2.0.0"
 )
 
-# Force metadata refresh on startup to pick up new database columns
-@app.on_event("startup")
-async def startup_event():
-    """Refresh SQLAlchemy metadata from database on startup"""
-    from src.models.database_models_v2 import Base, create_database_engine
-    engine = create_database_engine()
-    Base.metadata.reflect(bind=engine, extend_existing=True, only=["companies"])
-    print("[STARTUP] Refreshed metadata for 'companies' table from database")
-
 # Enable CORS for frontend access
 app.add_middleware(
     CORSMiddleware,
@@ -274,6 +265,18 @@ def get_investments(
                 hq_parts.append(inv.company.country)
             headquarters = ", ".join(hq_parts) if hq_parts else None
             
+            # WORKAROUND: Get crunchbase_url via raw SQL if model cache issue on Railway
+            crunchbase_url = getattr(inv.company, 'crunchbase_url', None)
+            if crunchbase_url is None:
+                try:
+                    cb_result = session.execute(
+                        f"SELECT crunchbase_url FROM companies WHERE id = {inv.company.id}"
+                    ).fetchone()
+                    if cb_result:
+                        crunchbase_url = cb_result[0]
+                except:
+                    pass
+            
             result.append(InvestmentResponse(
                 company_id=inv.company.id,
                 company_name=inv.company.name,
@@ -290,7 +293,7 @@ def get_investments(
                 headquarters=headquarters,
                 website=inv.company.website,
                 linkedin_url=inv.company.linkedin_url,
-                crunchbase_url=inv.company.crunchbase_url
+                crunchbase_url=crunchbase_url
             ))
         
         return result
@@ -413,6 +416,18 @@ def get_companies(
                 hq_parts.append(company.country)
             headquarters = ", ".join(hq_parts) if hq_parts else None
             
+            # WORKAROUND: Get crunchbase_url via raw SQL if model cache issue on Railway
+            crunchbase_url = getattr(company, 'crunchbase_url', None)
+            if crunchbase_url is None and hasattr(company, 'id'):
+                try:
+                    cb_result = session.execute(
+                        f"SELECT crunchbase_url FROM companies WHERE id = {company.id}"
+                    ).fetchone()
+                    if cb_result:
+                        crunchbase_url = cb_result[0]
+                except:
+                    pass
+            
             result.append(CompanyResponse(
                 id=company.id,
                 name=company.name,
@@ -423,7 +438,7 @@ def get_companies(
                 headquarters=headquarters,
                 website=company.website,
                 linkedin_url=company.linkedin_url,
-                crunchbase_url=company.crunchbase_url,
+                crunchbase_url=crunchbase_url,
                 description=company.description,
                 revenue_range=decode_revenue_range(company.revenue_range),
                 employee_count=decode_employee_count(company.employee_count),
