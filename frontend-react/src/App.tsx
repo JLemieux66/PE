@@ -29,6 +29,7 @@ function App() {
     headquarters: company.headquarters,
     website: company.website,
     linkedin_url: company.linkedin_url,
+    crunchbase_url: company.crunchbase_url,
     revenue_range: company.revenue_range,
     employee_count: company.employee_count,
     industry_category: company.industry_category,
