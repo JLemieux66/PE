@@ -53,6 +53,15 @@ app = FastAPI(
     version="2.0.0"
 )
 
+# Force metadata refresh on startup to pick up new database columns
+@app.on_event("startup")
+async def startup_event():
+    """Refresh SQLAlchemy metadata from database on startup"""
+    from src.models.database_models_v2 import Base, create_database_engine
+    engine = create_database_engine()
+    Base.metadata.reflect(bind=engine, extend_existing=True, only=["companies"])
+    print("[STARTUP] Refreshed metadata for 'companies' table from database")
+
 # Enable CORS for frontend access
 app.add_middleware(
     CORSMiddleware,
