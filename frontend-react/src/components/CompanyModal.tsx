@@ -1,11 +1,15 @@
 import { useQuery } from '@tanstack/react-query'
 import { fetchCompanyById } from '../api/client'
 import { useState } from 'react'
+import CompanyEditModal from './CompanyEditModal'
 
 interface CompanyModalProps {
   companyId: number
   onClose: () => void
 }
+
+// Check if admin mode is enabled
+const isAdmin = !!import.meta.env.VITE_ADMIN_API_KEY
 
 // Helper function to extract domain from URL
 const extractDomain = (url: string | null | undefined): string | null => {
@@ -30,6 +34,7 @@ const getInitials = (name: string): string => {
 
 export default function CompanyModal({ companyId, onClose }: CompanyModalProps) {
   const [logoError, setLogoError] = useState(false)
+  const [showEditModal, setShowEditModal] = useState(false)
   
   const { data: company, isLoading, error } = useQuery({
     queryKey: ['company', companyId],
@@ -152,6 +157,33 @@ export default function CompanyModal({ companyId, onClose }: CompanyModalProps) 
                 LinkedIn
               </a>
             )}
+            
+            {company.crunchbase_url && (
+              <a
+                href={company.crunchbase_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 bg-[#0288D1] text-white rounded-lg hover:bg-[#0277BD] flex items-center text-sm"
+              >
+                <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M21.6 0H2.4A2.41 2.41 0 000 2.4v19.2A2.41 2.41 0 002.4 24h19.2a2.41 2.41 0 002.4-2.4V2.4A2.41 2.41 0 0021.6 0zM7.045 14.465A2.11 2.11 0 004.8 12.84V9.6a2.11 2.11 0 012.115-2.115h5.985a.705.705 0 110 1.41H7.044a.705.705 0 00-.704.705v3.24a.705.705 0 00.704.704H9.72a.705.705 0 110 1.41H7.045v-.49zm12.24 0a2.11 2.11 0 01-2.115 1.625h-5.985a.705.705 0 110-1.41h5.985a.705.705 0 00.705-.704V9.736a.705.705 0 00-.705-.704h-2.67a.705.705 0 110-1.41h2.67a2.11 2.11 0 012.115 2.115v3.24c0 .35-.055.69-.165 1.01l.165-.49z"/>
+                </svg>
+                Crunchbase
+              </a>
+            )}
+            
+            {/* Admin Edit Button */}
+            {isAdmin && (
+              <button
+                onClick={() => setShowEditModal(true)}
+                className="px-4 py-2 bg-gray-600 text-white rounded-lg hover:bg-gray-700 flex items-center text-sm"
+              >
+                <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                </svg>
+                Edit Company
+              </button>
+            )}
           </div>
 
           {/* Description */}
@@ -249,6 +281,14 @@ export default function CompanyModal({ companyId, onClose }: CompanyModalProps) 
           </button>
         </div>
       </div>
+      
+      {/* Edit Modal - Opens on top of company modal */}
+      {showEditModal && (
+        <CompanyEditModal
+          company={company}
+          onClose={() => setShowEditModal(false)}
+        />
+      )}
     </div>
   )
 }
