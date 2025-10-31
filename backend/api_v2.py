@@ -2,12 +2,13 @@
 FastAPI Backend for PE Portfolio Companies V2
 REST API endpoints using v2 database schema
 """
-from fastapi import FastAPI, Query, HTTPException
+from fastapi import FastAPI, Query, HTTPException, Header, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from typing import Optional, List
 from pydantic import BaseModel
 from src.models.database_models_v2 import get_session, PEFirm, Company, CompanyPEInvestment
 from src.enrichment.crunchbase_helpers import decode_revenue_range, decode_employee_count
+import os
 
 # Reverse mappings for filtering (both full ranges and partial values)
 REVENUE_RANGE_CODES = {
@@ -71,6 +72,7 @@ class CompanyResponse(BaseModel):
     headquarters: Optional[str] = None
     website: Optional[str] = None
     linkedin_url: Optional[str] = None
+    crunchbase_url: Optional[str] = None
     description: Optional[str] = None
     # Enrichment data
     revenue_range: Optional[str] = None
@@ -103,6 +105,7 @@ class InvestmentResponse(BaseModel):
     headquarters: Optional[str] = None
     website: Optional[str] = None
     linkedin_url: Optional[str] = None
+    crunchbase_url: Optional[str] = None
     
     class Config:
         from_attributes = True
@@ -473,6 +476,98 @@ def get_company(company_id: int):
         session.close()
 
 
+# Admin authentication
+ADMIN_API_KEY = os.getenv("ADMIN_API_KEY", "your-secret-admin-key-here")
+
+def verify_admin(x_admin_key: Optional[str] = Header(None)):
+    """Verify admin API key"""
+    if not x_admin_key or x_admin_key != ADMIN_API_KEY:
+        raise HTTPException(status_code=403, detail="Admin access required")
+    return True
+
+
+# Pydantic models for updates
+class CompanyUpdate(BaseModel):
+    name: Optional[str] = None
+    website: Optional[str] = None
+    linkedin_url: Optional[str] = None
+    crunchbase_url: Optional[str] = None
+    description: Optional[str] = None
+    city: Optional[str] = None
+    state_region: Optional[str] = None
+    country: Optional[str] = None
+    industry_category: Optional[str] = None
+    revenue_range: Optional[str] = None  # Crunchbase code
+    employee_count: Optional[str] = None  # Crunchbase code
+    is_public: Optional[bool] = None
+    ipo_exchange: Optional[str] = None
+    ipo_date: Optional[str] = None
+
+
+@app.put("/api/companies/{company_id}", dependencies=[Depends(verify_admin)])
+async def update_company(company_id: int, company_update: CompanyUpdate):
+    """
+    Update company details (Admin only)
+    Requires X-Admin-Key header for authentication
+    """
+    session = get_session()
+    try:
+        company = session.query(Company).filter(Company.id == company_id).first()
+        if not company:
+            raise HTTPException(status_code=404, detail="Company not found")
+        
+        # Update fields that were provided
+        update_data = company_update.dict(exclude_unset=True)
+        for field, value in update_data.items():
+            if hasattr(company, field):
+                setattr(company, field, value)
+        
+        session.commit()
+        session.refresh(company)
+        
+        return {
+            "message": "Company updated successfully",
+            "company_id": company_id,
+            "updated_fields": list(update_data.keys())
+        }
+    except HTTPException:
+        raise
+    except Exception as e:
+        session.rollback()
+        raise HTTPException(status_code=500, detail=f"Error updating company: {str(e)}")
+    finally:
+        session.close()
+
+
+@app.delete("/api/companies/{company_id}", dependencies=[Depends(verify_admin)])
+async def delete_company(company_id: int):
+    """
+    Delete a company (Admin only)
+    Requires X-Admin-Key header for authentication
+    """
+    session = get_session()
+    try:
+        company = session.query(Company).filter(Company.id == company_id).first()
+        if not company:
+            raise HTTPException(status_code=404, detail="Company not found")
+        
+        company_name = company.name
+        session.delete(company)
+        session.commit()
+        
+        return {
+            "message": f"Company '{company_name}' deleted successfully",
+            "company_id": company_id
+        }
+    except HTTPException:
+        raise
+    except Exception as e:
+        session.rollback()
+        raise HTTPException(status_code=500, detail=f"Error deleting company: {str(e)}")
+    finally:
+        session.close()
+
+
 @app.get("/")
 async def root():
     """API root endpoint"""
@@ -484,6 +579,10 @@ async def root():
             "investments": "/api/investments",
             "pe_firms": "/api/pe-firms",
             "stats": "/api/stats"
+        },
+        "admin_endpoints": {
+            "update_company": "PUT /api/companies/{id} (requires X-Admin-Key header)",
+            "delete_company": "DELETE /api/companies/{id} (requires X-Admin-Key header)"
         }
     }
 
