@@ -280,7 +280,8 @@ def get_investments(
                 industry_category=inv.company.industry_category,
                 headquarters=headquarters,
                 website=inv.company.website,
-                linkedin_url=inv.company.linkedin_url
+                linkedin_url=inv.company.linkedin_url,
+                crunchbase_url=inv.company.crunchbase_url
             ))
         
         return result
@@ -413,6 +414,7 @@ def get_companies(
                 headquarters=headquarters,
                 website=company.website,
                 linkedin_url=company.linkedin_url,
+                crunchbase_url=company.crunchbase_url,
                 description=company.description,
                 revenue_range=decode_revenue_range(company.revenue_range),
                 employee_count=decode_employee_count(company.employee_count),
